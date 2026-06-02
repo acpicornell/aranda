@@ -1,0 +1,88 @@
+{
+  "source_page": "page-086.jpg",
+  "pueblo_n": 26,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1180
+  },
+  "extracted": {
+    "raw_n": 26,
+    "name_modern": "MANACOR",
+    "name_1768": "Manacor",
+    "cod_mun_ine": "07033",
+    "cl_mapa": "07052",
+    "rah_page": 24,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "S. Jayme Apostol",
+    "total_animes": 5121,
+    "by_age": {
+      "0-7": {
+        "sol_var": 524,
+        "sol_hem": 570,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "7-16": {
+        "sol_var": 497,
+        "sol_hem": 493,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "16-25": {
+        "sol_var": 225,
+        "sol_hem": 176,
+        "cas_var": 28,
+        "cas_hem": 26
+      },
+      "25-40": {
+        "sol_var": 75,
+        "sol_hem": 70,
+        "cas_var": 295,
+        "cas_hem": 292
+      },
+      "40-50": {
+        "sol_var": 50,
+        "sol_hem": 72,
+        "cas_var": 413,
+        "cas_hem": 405
+      },
+      "50+": {
+        "sol_var": 85,
+        "sol_hem": 238,
+        "cas_var": 287,
+        "cas_hem": 300
+      }
+    },
+    "totals_row": {
+      "var": 2479,
+      "hem": 2642,
+      "global": 5121
+    },
+    "exentos": {
+      "hidalguia": 66,
+      "real_servic": 2,
+      "real_hacien": 1,
+      "cruzada": 1,
+      "inquisicion": null
+    },
+    "eclesiasticos": "1 Rector, y 2 Vicarios Beneficiados y otro Vicario Beneficiado en otra Parroquia, 16 Beneficiados más, 5 Sacedores titulares, 2 Sacristanes y 2 Monacillos. Data de la Relación 30 de Enero de 1769",
+    "conventos_religiosos": "De Dominicos con 12 Individuos Sacerdotes, 8 Legos y 2 muchachos para Sacristía = 3 Términos de Menores: 1 con 2 Demandadores de limosna, etc.",
+    "hospicios_expositos": "",
+    "juzgados": "Curato en la Gobernación con un Bayle, 4 Regidores por ella y los Sufraganeos = un Subdelegado de Intendencia, 1 Rector de Bulas: una Vicaría con un Familiar",
+    "estudios": "",
+    "administraciones_rentas": "1 de Rentas Reales y 1 de Tabaco, y un Estanquero = Un Salitre estanco; un Maestro y 4 Peones empleados en el Salitre",
+    "hermitas": "2 Hermitaños de la SSma. Trinidad de Valdemossa",
+    "barrios_aldeas": "Esta y su Vicaría en Manacor y tiene Granja a las S. Lorenzo =",
+    "cura_relacion_date": "1769-01-30",
+    "notes": "2 Llaves de las casas de Manacor y su sufragánea de Naumo. Nota: Un Subdelegado de Maxino y 7 ella vinculados a ella. Ay 5 torres con esta Marina.",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high (user-confirmed 5121; was misread 5521)",
+      "by_age_cells": "high (reconciled, user-corrected)",
+      "text_blocks": "low"
+    }
+  }
+}

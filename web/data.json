@@ -1,0 +1,5095 @@
+{
+ "meta": {
+  "generated_at": "2026-06-02T17:00:08.303482+00:00",
+  "source": "INE (2013) — Censo del Conde de Aranda (1768), edición facsímil. Tomo VI, Obispado de Mallorca (R.A.H.). Manuscrito de 1773.",
+  "diocese": "Mallorca",
+  "expected_total_pueblos": 55,
+  "totals": {
+   "pueblos_extracted": 54,
+   "population_verified": 50,
+   "total_animes": 123102,
+   "biggest": {
+    "name": "Palma",
+    "pop": 12183
+   }
+  }
+ },
+ "pueblos": [
+  {
+   "pueblo_n": 1,
+   "source_page": "page-073.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07001",
+   "cl_mapa": "07020",
+   "rah_page": 1,
+   "name_1768": "Alaró",
+   "name_modern": "ALARO",
+   "name_catalan": "Alaró",
+   "lat": 39.70582,
+   "lon": 2.7892,
+   "obispado": "Mallorca",
+   "provincia": "Mallorca",
+   "parroquia": "San Bartholomé Apostol Matriz",
+   "total_animes": 2266,
+   "demografia": {
+    "var": 1156,
+    "hem": 1110,
+    "global": 2266,
+    "casados": {
+     "var": 446,
+     "hem": 446
+    },
+    "solteros": {
+     "var": 710,
+     "hem": 664
+    },
+    "by_age": {
+     "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 216,
+      "sol_hem": 194
+     },
+     "7-16": {
+      "cas_var": 0,
+      "cas_hem": 3,
+      "sol_var": 249,
+      "sol_hem": 157
+     },
+     "16-25": {
+      "cas_var": 15,
+      "cas_hem": 29,
+      "sol_var": 123,
+      "sol_hem": 118
+     },
+     "25-40": {
+      "cas_var": 179,
+      "cas_hem": 203,
+      "sol_var": 75,
+      "sol_hem": 38
+     },
+     "40-50": {
+      "cas_var": 147,
+      "cas_hem": 93,
+      "sol_var": 6,
+      "sol_hem": 27
+     },
+     "50+": {
+      "cas_var": 105,
+      "cas_hem": 118,
+      "sol_var": 41,
+      "sol_hem": 130
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": 16,
+    "real_hacien": 2,
+    "cruzada": 1,
+    "inquisicion": 1
+   },
+   "text": {
+    "eclesiasticos": "1 Rector, 2 Vicarios, 9 Beneficiados, 3 Ordenados in sacris, 1 ordenado de menores, sacristán y 2 acólitos, 4 campaneros. Dio la relación el Rector en 20 de [mes il·legible] de 1768.",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "Curato cura, Governador, un Bayle y 4 Regidores, etc.; cárcel y casa Lugar de Concell",
+    "estudios": "Subdelegado de la Real Intendencia; otro de Marina; un Alcaide de la S.ta Cruzada; un familiar",
+    "administraciones_rentas": "1 Estanquero de tabaco y otro de sal",
+    "hermitas": null,
+    "barrios_aldeas": "casas y huertas en circuición, vecinos a huérfanos y lugar de Concell"
+   },
+   "cura_relacion_date": "1768",
+   "notes": "2 Plazas: Plaza de Alaró y la de Sufragánea de Concell",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, 2nd pass)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 2,
+   "source_page": "page-074.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07003",
+   "cl_mapa": "07015",
+   "rah_page": 2,
+   "name_1768": "Ciudad de Alcudia",
+   "name_modern": "ALCUDIA",
+   "name_catalan": "Alcúdia",
+   "lat": 39.85298,
+   "lon": 3.12113,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "Sant Jaume el Mayor",
+   "total_animes": 813,
+   "demografia": {
+    "var": 439,
+    "hem": 374,
+    "global": 813,
+    "casados": {
+     "var": 180,
+     "hem": 180
+    },
+    "solteros": {
+     "var": 259,
+     "hem": 194
+    },
+    "by_age": {
+     "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 80,
+      "sol_hem": 50
+     },
+     "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 100,
+      "sol_hem": 80
+     },
+     "16-25": {
+      "cas_var": 20,
+      "cas_hem": 35,
+      "sol_var": 50,
+      "sol_hem": 12
+     },
+     "25-40": {
+      "cas_var": 86,
+      "cas_hem": 80,
+      "sol_var": 5,
+      "sol_hem": 17
+     },
+     "40-50": {
+      "cas_var": 45,
+      "cas_hem": 28,
+      "sol_var": 10,
+      "sol_hem": 20
+     },
+     "50+": {
+      "cas_var": 29,
+      "cas_hem": 37,
+      "sol_var": 14,
+      "sol_hem": 15
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": null,
+    "real_hacien": null,
+    "cruzada": 1,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "1 Rector o Párroco; 6 Beneficiados; 1 Sacristán y 3 Monaguillos de la Iglesia. Dio Rector en fines de 1768.",
+    "conventos_religiosos": "Convento de frailes observantes con extraordinarios y 2 legos y 2 donados; 1 convento de monjas con 1 síndico.",
+    "hospicios_expositos": null,
+    "juzgados": "Está gobernada con un Bayle y 6 regidores; un Cl. Real; 1 Alcalde; un Gobernador de la Plaza; Real en la Capital de Palma; 1 fiscal mayor; un Alguacil de la Plaza.",
+    "estudios": "un Capitán de llaves; un Guarda Almacén; un subdelegado de Marina; 1 Comisario de Cruzada.",
+    "administraciones_rentas": "1 Administrador de la Aduana; 1 administrador en Palma; un Visitador de la renta; vende en la de Pollensa; un estanquero.",
+    "hermitas": "1 Oratorio de Ntra. Sra. de la Victoria con demandadero (esto consta menos de 1 leguas).",
+    "barrios_aldeas": null
+   },
+   "cura_relacion_date": "1768",
+   "notes": "Nota: 1 Comisario de Marina con 82 Marineros matriculados y 5 Soldados Milicianos",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high (reconciled)",
+    "by_age_cells": "high (reconciled, 2nd pass)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 3,
+   "source_page": "page-074.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07004",
+   "cl_mapa": "07044",
+   "rah_page": 3,
+   "name_1768": "Villa de Algayda",
+   "name_modern": "ALGAIDA",
+   "name_catalan": "Algaida",
+   "lat": 39.5594,
+   "lon": 2.89472,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "San Pedro",
+   "total_animes": 2482,
+   "demografia": {
+    "var": 1212,
+    "hem": 1270,
+    "global": 2482,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 229,
+      "sol_hem": 211,
+      "cas_var": 0,
+      "cas_hem": 0
+     },
+     "7-16": {
+      "sol_var": 241,
+      "sol_hem": 221,
+      "cas_var": 0,
+      "cas_hem": 0
+     },
+     "16-25": {
+      "sol_var": 146,
+      "sol_hem": 128,
+      "cas_var": 25,
+      "cas_hem": 50
+     },
+     "25-40": {
+      "sol_var": 51,
+      "sol_hem": 62,
+      "cas_var": 203,
+      "cas_hem": 261
+     },
+     "40-50": {
+      "sol_var": 28,
+      "sol_hem": 52,
+      "cas_var": 140,
+      "cas_hem": 81
+     },
+     "50+": {
+      "sol_var": 54,
+      "sol_hem": 133,
+      "cas_var": 95,
+      "cas_hem": 71
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 13,
+    "real_servic": 25,
+    "real_hacien": null,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "12 Beneficiados incluso el Rector; 1 fiscadores; 1 Vicario; 1 organista.",
+    "conventos_religiosos": "Dio el Rector en fines de 1768.",
+    "hospicios_expositos": "3 Demandantes de limosna.",
+    "juzgados": "Está gobernada con un Bayle y 4 regidores; 2 escribanos de Sala.",
+    "estudios": null,
+    "administraciones_rentas": null,
+    "hermitas": null,
+    "barrios_aldeas": null
+   },
+   "cura_relacion_date": "1768",
+   "notes": "Nota: Hay un Hermano del Cl. Alcalde; un fijo 2 Cavos y 22 soldados milicianos",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high (reconciled)",
+    "by_age_cells": "high (reconciled, user-corrected)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 4,
+   "source_page": "page-075.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07005",
+   "cl_mapa": "07039",
+   "rah_page": 4,
+   "name_1768": "Andraig",
+   "name_modern": "ANDRAIX",
+   "name_catalan": "Andratx",
+   "lat": 39.57624,
+   "lon": 2.4245,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "San Bartholome",
+   "total_animes": 3006,
+   "demografia": {
+    "var": 1856,
+    "hem": 1150,
+    "global": 3006,
+    "casados": {
+     "var": 850,
+     "hem": 850
+    },
+    "solteros": {
+     "var": 606,
+     "hem": 700
+    },
+    "by_age": {
+     "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 170,
+      "sol_hem": 180
+     },
+     "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 115,
+      "sol_hem": 180
+     },
+     "16-25": {
+      "cas_var": 30,
+      "cas_hem": 30,
+      "sol_var": 142,
+      "sol_hem": 103
+     },
+     "25-40": {
+      "cas_var": 400,
+      "cas_hem": 400,
+      "sol_var": 100,
+      "sol_hem": 132
+     },
+     "40-50": {
+      "cas_var": 303,
+      "cas_hem": 303,
+      "sol_var": 68,
+      "sol_hem": 80
+     },
+     "50+": {
+      "cas_var": 117,
+      "cas_hem": 117,
+      "sol_var": 11,
+      "sol_hem": 25
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": null,
+    "real_hacien": null,
+    "cruzada": 1,
+    "inquisicion": 2
+   },
+   "text": {
+    "eclesiasticos": "1 Rector, 1 Beneficiado, sucesores beneficiales 2, sacristanes 2, etc.",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "Regidores della, Baile, Cura = 2 familiares del Sto. Oficio",
+    "estudios": null,
+    "administraciones_rentas": null,
+    "hermitas": null,
+    "barrios_aldeas": null
+   },
+   "cura_relacion_date": "1768-11",
+   "notes": "[al marge] soldados milicianos; 350 matriculados en la Marina.",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "medium",
+    "total_animes": "high (reconciled)",
+    "by_age_cells": "high (reconciled, 2nd pass)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 5,
+   "source_page": "page-075.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07006",
+   "cl_mapa": "07048",
+   "rah_page": 5,
+   "name_1768": "Arta",
+   "name_modern": "ARTA",
+   "name_catalan": "Artà",
+   "lat": 39.69515,
+   "lon": 3.35122,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "Salvador",
+   "total_animes": 2902,
+   "demografia": {
+    "var": 1439,
+    "hem": 1463,
+    "global": null,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 304,
+      "sol_hem": 283,
+      "cas_var": 0,
+      "cas_hem": 0
+     },
+     "7-16": {
+      "sol_var": 212,
+      "sol_hem": 209,
+      "cas_var": 0,
+      "cas_hem": 1
+     },
+     "16-25": {
+      "sol_var": 195,
+      "sol_hem": 226,
+      "cas_var": 24,
+      "cas_hem": 46
+     },
+     "25-40": {
+      "sol_var": 69,
+      "sol_hem": 48,
+      "cas_var": 240,
+      "cas_hem": 295
+     },
+     "40-50": {
+      "sol_var": 44,
+      "sol_hem": 49,
+      "cas_var": 136,
+      "cas_hem": 123
+     },
+     "50+": {
+      "sol_var": 96,
+      "sol_hem": 130,
+      "cas_var": 119,
+      "cas_hem": 53
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": 24,
+    "real_hacien": 1,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "1 Vicario perpetuo, 10 Beneficiados, 2 sacerdotes acogidos, 2 tonsurados, 12 sacristanes. Dio la relación el Vicario en 29 de Nov. de 1768",
+    "conventos_religiosos": "1 Real Convento llamado de San Antonio de Padua con 14 sacerdotes, 6 legos y 2 hermanos",
+    "hospicios_expositos": "Cita el Gobernador General Baile y los Regidores della y su hermandad = un subdelegado de la Cruzada, dicho de Marina que es Regidor de Cruzada y Amortización, Comisario de la Marina",
+    "juzgados": null,
+    "estudios": null,
+    "administraciones_rentas": "1 Empleado en el tabaco",
+    "hermitas": "1 oratorio de San Salvador, común frecuentado",
+    "barrios_aldeas": "Esta Villa Matriz tiene por sufraganeas a Capdepera, Sina y Son Cervera"
+   },
+   "cura_relacion_date": "1768-11-29",
+   "notes": "Nota: hay 7 oratorios",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, user-corrected)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 6,
+   "source_page": "page-076.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07007",
+   "cl_mapa": "07029",
+   "rah_page": 6,
+   "name_1768": "Banalbufar",
+   "name_modern": "BAÑALBUFAR",
+   "name_catalan": "Banyalbufar",
+   "lat": 39.68695,
+   "lon": 2.51369,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "Nuestra Señora de Bañalbufar (Sufraganea)",
+   "total_animes": 387,
+   "demografia": {
+    "var": 188,
+    "hem": 199,
+    "global": null,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 30,
+      "sol_hem": 23,
+      "cas_var": 0,
+      "cas_hem": 0
+     },
+     "7-16": {
+      "sol_var": 39,
+      "sol_hem": 47,
+      "cas_var": 0,
+      "cas_hem": 0
+     },
+     "16-25": {
+      "sol_var": 21,
+      "sol_hem": 14,
+      "cas_var": 0,
+      "cas_hem": 2
+     },
+     "25-40": {
+      "sol_var": 16,
+      "sol_hem": 10,
+      "cas_var": 13,
+      "cas_hem": 22
+     },
+     "40-50": {
+      "sol_var": 3,
+      "sol_hem": 8,
+      "cas_var": 26,
+      "cas_hem": 24
+     },
+     "50+": {
+      "sol_var": 10,
+      "sol_hem": 28,
+      "cas_var": 30,
+      "cas_hem": 21
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 4,
+    "real_servic": null,
+    "real_hacien": null,
+    "cruzada": 1,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "[clergat parcialment il·legible]; sacristán y 2 monaguillos. Dio la relación el Rector de Esporles en 29 de [mes il·legible] de 1768.",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "1 Subdelegado de Intendencia y otro de Marina. Está bajo la misma justicia que Esporles, y unida en lo espiritual a su parroquia.",
+    "estudios": null,
+    "administraciones_rentas": null,
+    "hermitas": null,
+    "barrios_aldeas": "Sufragánea de Esporles."
+   },
+   "cura_relacion_date": "1768-12-27",
+   "notes": "[nota al marge, en part il·legible]",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, user-corrected)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 7,
+   "source_page": "page-076.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07008",
+   "cl_mapa": "07028",
+   "rah_page": 7,
+   "name_1768": "Binisalen",
+   "name_modern": "BINISALEM",
+   "name_catalan": "Binissalem",
+   "lat": 39.68841,
+   "lon": 2.84318,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "Palma... (Massas?)",
+   "total_animes": 2318,
+   "demografia": {
+    "var": 1131,
+    "hem": 1187,
+    "global": null,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 256,
+      "sol_hem": 211,
+      "cas_var": 0,
+      "cas_hem": 0
+     },
+     "7-16": {
+      "sol_var": 232,
+      "sol_hem": 229,
+      "cas_var": 0,
+      "cas_hem": 0
+     },
+     "16-25": {
+      "sol_var": 106,
+      "sol_hem": 127,
+      "cas_var": 23,
+      "cas_hem": 38
+     },
+     "25-40": {
+      "sol_var": 57,
+      "sol_hem": 44,
+      "cas_var": 155,
+      "cas_hem": 158
+     },
+     "40-50": {
+      "sol_var": 21,
+      "sol_hem": 55,
+      "cas_var": 133,
+      "cas_hem": 116
+     },
+     "50+": {
+      "sol_var": 40,
+      "sol_hem": 102,
+      "cas_var": 108,
+      "cas_hem": 107
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 22,
+    "real_servic": 1,
+    "real_hacien": 1,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "1 Vicario perpetuo; 13 Beneficiados; sacerdotes y tonsurados; sacristanes. Dio la relación el Vicario en 18 de [mes il·legible] de 1768.",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "Gobernador, Bayle y 4 Regidores; 1 Subdelegado de Intendencia.",
+    "estudios": null,
+    "administraciones_rentas": "1 estanquero de Tabaco y otro [resta il·legible].",
+    "hermitas": null,
+    "barrios_aldeas": "Llogaret de Binigual."
+   },
+   "cura_relacion_date": "1768-12-18",
+   "notes": "[al marge, il·legible]",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, user-corrected)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 8,
+   "source_page": "page-077.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07009",
+   "cl_mapa": "07013",
+   "rah_page": 3,
+   "name_1768": "Buger",
+   "name_modern": "BUGER",
+   "name_catalan": "Búger",
+   "lat": 39.75837,
+   "lon": 2.98329,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "San Pedro Apostol del Lugar de Buger, Lugar Sufraganeo",
+   "total_animes": 865,
+   "demografia": {
+    "var": 454,
+    "hem": 411,
+    "global": null,
+    "casados": {
+     "var": 167,
+     "hem": 167
+    },
+    "solteros": {
+     "var": 287,
+     "hem": 244
+    },
+    "by_age": {
+     "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 114,
+      "sol_hem": 71
+     },
+     "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 102,
+      "sol_hem": 61
+     },
+     "16-25": {
+      "cas_var": 20,
+      "cas_hem": 30,
+      "sol_var": 36,
+      "sol_hem": 43
+     },
+     "25-40": {
+      "cas_var": 76,
+      "cas_hem": 68,
+      "sol_var": 20,
+      "sol_hem": 19
+     },
+     "40-50": {
+      "cas_var": 40,
+      "cas_hem": 43,
+      "sol_var": 4,
+      "sol_hem": 12
+     },
+     "50+": {
+      "cas_var": 31,
+      "cas_hem": 26,
+      "sol_var": 11,
+      "sol_hem": 38
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 6,
+    "real_servic": 1,
+    "real_hacien": 1,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "1 Vicario; 1 Cazador; 1 Sacristan; 4 Ayudantes; 2 Campaneros y 2 Monacillos. Dió la relación el Vicario en 19 de Dic.e de 1768",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "Este Lugar esta Governado de la misma Justicia: Ay 1 Receptor de Bulas",
+    "estudios": "1 Maestro",
+    "administraciones_rentas": "1 Estanquero de sal y tabaco",
+    "hermitas": null,
+    "barrios_aldeas": "Esta Villa es anexa a la de Campanet"
+   },
+   "cura_relacion_date": "1768-12-19",
+   "notes": null,
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, 2nd pass)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 9,
+   "source_page": "page-077.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07010",
+   "cl_mapa": "07019",
+   "rah_page": 9,
+   "name_1768": "Buñola",
+   "name_modern": "BUÑOLA",
+   "name_catalan": "Bunyola",
+   "lat": 39.6964,
+   "lon": 2.69909,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "San Mateo",
+   "total_animes": 1325,
+   "demografia": {
+    "var": 660,
+    "hem": 665,
+    "global": null,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 142,
+      "sol_hem": 133,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "7-16": {
+      "sol_var": 127,
+      "sol_hem": 113,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "16-25": {
+      "sol_var": 78,
+      "sol_hem": 94,
+      "cas_var": 14,
+      "cas_hem": 16
+     },
+     "25-40": {
+      "sol_var": 80,
+      "sol_hem": 82,
+      "cas_var": 46,
+      "cas_hem": 54
+     },
+     "40-50": {
+      "sol_var": 5,
+      "sol_hem": 19,
+      "cas_var": 50,
+      "cas_hem": 48
+     },
+     "50+": {
+      "sol_var": 33,
+      "sol_hem": 29,
+      "cas_var": 85,
+      "cas_hem": 77
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": null,
+    "real_hacien": null,
+    "cruzada": 1,
+    "inquisicion": 1
+   },
+   "text": {
+    "eclesiasticos": "1 Vicario; 3 Capellanes; Beneficiados, con una Capellania colativa; 2 Capellanias temporales que sirven. Dió la relación el Vicario en 26 de Dic.e de 1768",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "1 Casa de Juan Bautista y 1 Regidores. Cura mineuzo (vulgo) y fiscal; 1 Procurador; 1 Receptor de Bulas; once Sirvientes",
+    "estudios": null,
+    "administraciones_rentas": "1 Estanco de Tabaco",
+    "hermitas": null,
+    "barrios_aldeas": null
+   },
+   "cura_relacion_date": "1768-12-26",
+   "notes": "Nota: Ay 1 Cura con su Christiano",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, user-corrected)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 10,
+   "source_page": "page-078.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07011",
+   "cl_mapa": "07042",
+   "rah_page": 10,
+   "name_1768": "Calvia",
+   "name_modern": "CALVIA",
+   "name_catalan": "Calvià",
+   "lat": 39.56356,
+   "lon": 2.50514,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "San Juan Bautista",
+   "total_animes": 1204,
+   "demografia": {
+    "var": 578,
+    "hem": 626,
+    "global": null,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 109,
+      "sol_hem": 141,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "7-16": {
+      "sol_var": 96,
+      "sol_hem": 79,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "16-25": {
+      "sol_var": 84,
+      "sol_hem": 86,
+      "cas_var": 6,
+      "cas_hem": 20
+     },
+     "25-40": {
+      "sol_var": 46,
+      "sol_hem": 27,
+      "cas_var": 60,
+      "cas_hem": 99
+     },
+     "40-50": {
+      "sol_var": 6,
+      "sol_hem": 15,
+      "cas_var": 56,
+      "cas_hem": 44
+     },
+     "50+": {
+      "sol_var": 22,
+      "sol_hem": 63,
+      "cas_var": 93,
+      "cas_hem": 52
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 8,
+    "real_servic": null,
+    "real_hacien": null,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "1 Rector, un Vicario; 1 Beneficiado simple; 2 sacristanes. Dada la relación por el Rector en 19 de Nov. de 1768",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "Escribanía. Está gobernada de un Bayle y 4 Regidores; un Mayor de Bula; un Juzgado del Real, Intendencia consistorial",
+    "estudios": null,
+    "administraciones_rentas": null,
+    "hermitas": null,
+    "barrios_aldeas": null
+   },
+   "cura_relacion_date": "1768-11-19",
+   "notes": "Nota: Un Soldado del Real de Marina con los Marineros que actualmente no son [...]",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "medium",
+    "by_age_cells": "low",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 11,
+   "source_page": "page-078.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07012",
+   "cl_mapa": "07012",
+   "rah_page": 11,
+   "name_1768": "Campanet",
+   "name_modern": "CAMPANET",
+   "name_catalan": "Campanet",
+   "lat": 39.77508,
+   "lon": 2.96533,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "San Miguel Arcángel, con Cura de Almas",
+   "total_animes": 1488,
+   "demografia": {
+    "var": 752,
+    "hem": 736,
+    "global": null,
+    "casados": {
+     "var": 294,
+     "hem": 294
+    },
+    "solteros": {
+     "var": 458,
+     "hem": 442
+    },
+    "by_age": {
+     "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 139,
+      "sol_hem": 115
+     },
+     "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 158,
+      "sol_hem": 150
+     },
+     "16-25": {
+      "cas_var": 13,
+      "cas_hem": 42,
+      "sol_var": 96,
+      "sol_hem": 60
+     },
+     "25-40": {
+      "cas_var": 129,
+      "cas_hem": 139,
+      "sol_var": 34,
+      "sol_hem": 24
+     },
+     "40-50": {
+      "cas_var": 56,
+      "cas_hem": 54,
+      "sol_var": 3,
+      "sol_hem": 19
+     },
+     "50+": {
+      "cas_var": 96,
+      "cas_hem": 59,
+      "sol_var": 28,
+      "sol_hem": 74
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 13,
+    "real_servic": null,
+    "real_hacien": null,
+    "cruzada": 1,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "1 Rector y 1 Beneficiado; un Vicario; 3 titulares y otros 2 Beneficiados más; 2 entre Curato Catedral y Vicario en la Parroquia de Selva; 1 Organista con su Ayudante. Mandados. Sirven con 4 Asistentes. Dada la relación por el Rector en 19 de Dic. de 1768",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "1 Subdelegado de la Real Intendencia que es también Receptor de Bulas",
+    "estudios": "2 escuelas y 2 Doctores en Leyes (que gozan del fuero militar)",
+    "administraciones_rentas": "1 Exacción de Rentas de Caña de Almagales de la Puebla; 3 Administradores; 1 de Sal, tabaco y Pólvora",
+    "hermitas": null,
+    "barrios_aldeas": "Sufragania de Buger"
+   },
+   "cura_relacion_date": "1768-12-19",
+   "notes": "Nota: 2 Matriculados de Marina, ninguno de cuyos individuos... no han puesto en su respectiva casilla sino los 13 de Marina",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "medium",
+    "by_age_cells": "high (reconciled, 2nd pass)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 12,
+   "source_page": "page-079.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07013",
+   "cl_mapa": "07056",
+   "rah_page": 12,
+   "name_1768": "Campos",
+   "name_modern": "CAMPOS DEL PUERTO",
+   "name_catalan": "Campos",
+   "lat": 39.43089,
+   "lon": 3.01968,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "Julian i Llarens",
+   "total_animes": 2152,
+   "demografia": {
+    "var": 1042,
+    "hem": 1110,
+    "global": 2152,
+    "casados": {
+     "var": 386,
+     "hem": 386
+    },
+    "solteros": {
+     "var": 656,
+     "hem": 724
+    },
+    "by_age": {
+     "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 164,
+      "sol_hem": 140
+     },
+     "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 227,
+      "sol_hem": 222
+     },
+     "16-25": {
+      "cas_var": 38,
+      "cas_hem": 71,
+      "sol_var": 139,
+      "sol_hem": 131
+     },
+     "25-40": {
+      "cas_var": 165,
+      "cas_hem": 192,
+      "sol_var": 60,
+      "sol_hem": 56
+     },
+     "40-50": {
+      "cas_var": 91,
+      "cas_hem": 67,
+      "sol_var": 14,
+      "sol_hem": 41
+     },
+     "50+": {
+      "cas_var": 92,
+      "cas_hem": 56,
+      "sol_var": 52,
+      "sol_hem": 134
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 3,
+    "real_servic": 1,
+    "real_hacien": 2,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "1 Rector y 2 capones; 11 Beneficiados; 2 tonsurados; 12 hacedores titulares...",
+    "conventos_religiosos": "Sala con 5 sacerdotes; un Corista; 5 legos y 2 criados",
+    "hospicios_expositos": null,
+    "juzgados": "Su Gobernador con Bayle y 4 Regidores; un Subdelegado de Intendencia y otro de Marina; 1 familiar del Santo Oficio.",
+    "estudios": null,
+    "administraciones_rentas": "un Admin.or de tabaco, otro de Aguardiente y otro de la sal",
+    "hermitas": "Santuarios: 2 Hermitas u oratorios... un Donato; sin Patron... San Damian predominante...",
+    "barrios_aldeas": null
+   },
+   "cura_relacion_date": "1768",
+   "notes": "Nota. Independencia = 2 Cura y 20 Soldado de Milicianos. 8 torres y Guardas de la Costa.",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, 2nd pass)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 13,
+   "source_page": "page-079.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07014",
+   "cl_mapa": "07055",
+   "rah_page": 13,
+   "name_1768": "Cap de Pera",
+   "name_modern": "CAPDEPERA",
+   "name_catalan": "Capdepera",
+   "lat": 39.70206,
+   "lon": 3.43166,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "Bart.me Apostol Sufragania",
+   "total_animes": 888,
+   "demografia": {
+    "var": null,
+    "hem": null,
+    "global": 888,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 92,
+      "sol_hem": 87,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "7-16": {
+      "sol_var": 103,
+      "sol_hem": 104,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "16-25": {
+      "sol_var": 32,
+      "sol_hem": 23,
+      "cas_var": 9,
+      "cas_hem": 21
+     },
+     "25-40": {
+      "sol_var": 6,
+      "sol_hem": 9,
+      "cas_var": 97,
+      "cas_hem": 102
+     },
+     "40-50": {
+      "sol_var": 3,
+      "sol_hem": 7,
+      "cas_var": 43,
+      "cas_hem": 38
+     },
+     "50+": {
+      "sol_var": 13,
+      "sol_hem": 42,
+      "cas_var": 34,
+      "cas_hem": 23
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": 8,
+    "real_hacien": null,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "1 Vicario temporal, un sacerdote titular; y 1 sacerdote casado. Dio la relación el Vicario en 28 de Nov.e de 1768",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "Esta ó es la misma Justicia y Governador y un Ayudante; un Regidor y Jurado",
+    "estudios": null,
+    "administraciones_rentas": null,
+    "hermitas": null,
+    "barrios_aldeas": "Esta No es sufragania de la de Pera"
+   },
+   "cura_relacion_date": "1768-11-28",
+   "notes": "Nota. Hay subdelegado de Crusada. Tiene tres torres en ella; 77 toneros y 8 Milicianos los quales viven dentro de un Castillo que aquí en el pueblo y se llaman con el Gov.or Vecinos",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "low",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 14,
+   "source_page": "page-080.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07016",
+   "cl_mapa": "07027",
+   "rah_page": 15,
+   "name_1768": "Concell",
+   "name_modern": "CONSELL",
+   "name_catalan": "Consell",
+   "lat": 39.66854,
+   "lon": 2.81323,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "La Visitación de Nuestra Señora, sufragánea",
+   "total_animes": 502,
+   "demografia": {
+    "var": 252,
+    "hem": 250,
+    "global": null,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 40,
+      "sol_hem": 45,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "7-16": {
+      "sol_var": 55,
+      "sol_hem": 45,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "16-25": {
+      "sol_var": 16,
+      "sol_hem": 30,
+      "cas_var": null,
+      "cas_hem": 4
+     },
+     "25-40": {
+      "sol_var": 20,
+      "sol_hem": 9,
+      "cas_var": 22,
+      "cas_hem": 42
+     },
+     "40-50": {
+      "sol_var": 20,
+      "sol_hem": 11,
+      "cas_var": 43,
+      "cas_hem": 21
+     },
+     "50+": {
+      "sol_var": 12,
+      "sol_hem": 21,
+      "cas_var": 24,
+      "cas_hem": 22
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": 4,
+    "real_hacien": 2,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "Un Vicario y 2 facedores: el Vicario juma otro, 2 facedores son fameros; 1 facusan y 2 Acomos",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "Este Lugar con Governador y su Justicia",
+    "estudios": null,
+    "administraciones_rentas": "Un Estanquero de Tabaco y uno de Papel",
+    "hermitas": null,
+    "barrios_aldeas": "Como sufragánea de Alaró"
+   },
+   "cura_relacion_date": null,
+   "notes": null,
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "low",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 15,
+   "source_page": "page-080.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07017",
+   "cl_mapa": "07034",
+   "rah_page": 16,
+   "name_1768": "Custitx",
+   "name_modern": "COSTITX",
+   "name_catalan": "Costitx",
+   "lat": 39.65776,
+   "lon": 2.94999,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "Santa María, sufragánea",
+   "total_animes": 1061,
+   "demografia": {
+    "var": 504,
+    "hem": 557,
+    "global": null,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 92,
+      "sol_hem": 94,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "7-16": {
+      "sol_var": 85,
+      "sol_hem": 96,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "16-25": {
+      "sol_var": 62,
+      "sol_hem": 61,
+      "cas_var": 9,
+      "cas_hem": 9
+     },
+     "25-40": {
+      "sol_var": 14,
+      "sol_hem": 32,
+      "cas_var": 116,
+      "cas_hem": 100
+     },
+     "40-50": {
+      "sol_var": 31,
+      "sol_hem": 39,
+      "cas_var": 29,
+      "cas_hem": 57
+     },
+     "50+": {
+      "sol_var": 34,
+      "sol_hem": 49,
+      "cas_var": 32,
+      "cas_hem": 20
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": 10,
+    "real_hacien": null,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "Un Vicario y otros 2 facedores con titular, no facusan. Dió la relación el mismo recino de Sancellas en 15 de Enero de 1763",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "Este con Governador del Lugar y la misma Justicia",
+    "estudios": null,
+    "administraciones_rentas": null,
+    "hermitas": null,
+    "barrios_aldeas": "Como sufragánea de la villa de Sancellas"
+   },
+   "cura_relacion_date": "1763-01-15",
+   "notes": null,
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "medium",
+    "by_age_cells": "low",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 16,
+   "source_page": "page-081.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07019",
+   "cl_mapa": "07009",
+   "rah_page": 52,
+   "name_1768": "Villa de S.n Pedro de Escorca y de Nuestra S.ra de Lluch",
+   "name_modern": "ESCORCA",
+   "name_catalan": "Escorca",
+   "lat": 39.82174,
+   "lon": 2.88414,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": null,
+   "total_animes": 162,
+   "demografia": {
+    "var": null,
+    "hem": null,
+    "global": 162,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": null,
+      "sol_hem": null,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "7-16": {
+      "sol_var": 16,
+      "sol_hem": 17,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "16-25": {
+      "sol_var": 12,
+      "sol_hem": 6,
+      "cas_var": 2,
+      "cas_hem": 3
+     },
+     "25-40": {
+      "sol_var": 19,
+      "sol_hem": 11,
+      "cas_var": 8,
+      "cas_hem": 11
+     },
+     "40-50": {
+      "sol_var": 10,
+      "sol_hem": 4,
+      "cas_var": 3,
+      "cas_hem": 5
+     },
+     "50+": {
+      "sol_var": 2,
+      "sol_hem": 1,
+      "cas_var": 19,
+      "cas_hem": 13
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 1,
+    "real_servic": null,
+    "real_hacien": null,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "Colegio de Nuestra Señora de Lluc, con organista y colegiales [resta il·legible].",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "Bayle; un Subdelegado de Intendencia y otro de Marina; 1 familiar del Santo Oficio; 1 alcaide de la Cruzada [resta il·legible].",
+    "estudios": null,
+    "administraciones_rentas": null,
+    "hermitas": null,
+    "barrios_aldeas": "[il·legible]"
+   },
+   "cura_relacion_date": null,
+   "notes": "[al marge, il·legible]",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "medium",
+    "total_animes": "medium",
+    "by_age_cells": "low",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 17,
+   "source_page": "page-081.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07020",
+   "cl_mapa": "07030",
+   "rah_page": 17,
+   "name_1768": "Villa de Esporlas",
+   "name_modern": "ESPORLAS",
+   "name_catalan": "Esporles",
+   "lat": 39.66884,
+   "lon": 2.57762,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "S.n Pedro Martir",
+   "total_animes": 2064,
+   "demografia": {
+    "var": 1035,
+    "hem": 1029,
+    "global": null,
+    "casados": {
+     "var": 386,
+     "hem": 386
+    },
+    "solteros": {
+     "var": 649,
+     "hem": 643
+    },
+    "by_age": {
+     "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 202,
+      "sol_hem": 181
+     },
+     "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 177,
+      "sol_hem": 154
+     },
+     "16-25": {
+      "cas_var": 6,
+      "cas_hem": 14,
+      "sol_var": 138,
+      "sol_hem": 138
+     },
+     "25-40": {
+      "cas_var": 166,
+      "cas_hem": 213,
+      "sol_var": 74,
+      "sol_hem": 54
+     },
+     "40-50": {
+      "cas_var": 87,
+      "cas_hem": 84,
+      "sol_var": 17,
+      "sol_hem": 35
+     },
+     "50+": {
+      "cas_var": 127,
+      "cas_hem": 75,
+      "sol_var": 41,
+      "sol_hem": 81
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": 23,
+    "real_hacien": null,
+    "cruzada": 1,
+    "inquisicion": 1
+   },
+   "text": {
+    "eclesiasticos": "1 Rector; sacerdotes; 1 Vicaría y 2 demandaderos. Dio la relación el Rector de Esporles en [mes il·legible] de 1768 [resta il·legible].",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "Gobernada con un Bayle y 4 Regidores; un Bayle Real; un Subdelegado de Intendencia; alguacil [resta il·legible].",
+    "estudios": null,
+    "administraciones_rentas": null,
+    "hermitas": null,
+    "barrios_aldeas": "Tiene por sufragánea a Banyalbufar."
+   },
+   "cura_relacion_date": "1768-12-29",
+   "notes": "[al marge, il·legible]",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, 2nd pass)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 18,
+   "source_page": "page-082.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07021",
+   "cl_mapa": "07040",
+   "rah_page": 18,
+   "name_1768": "Estellenchs",
+   "name_modern": "ESTALLENCHS",
+   "name_catalan": "Estellencs",
+   "lat": 39.65327,
+   "lon": 2.48178,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "San Juan Bautista de Espureñes",
+   "total_animes": 474,
+   "demografia": {
+    "var": 242,
+    "hem": 232,
+    "global": null,
+    "casados": {
+     "var": 95,
+     "hem": 95
+    },
+    "solteros": {
+     "var": 147,
+     "hem": 137
+    },
+    "by_age": {
+     "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 34,
+      "sol_hem": 29
+     },
+     "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 40,
+      "sol_hem": 33
+     },
+     "16-25": {
+      "cas_var": 3,
+      "cas_hem": 15,
+      "sol_var": 26,
+      "sol_hem": 33
+     },
+     "25-40": {
+      "cas_var": 31,
+      "cas_hem": 28,
+      "sol_var": 34,
+      "sol_hem": 27
+     },
+     "40-50": {
+      "cas_var": 24,
+      "cas_hem": 18,
+      "sol_var": 5,
+      "sol_hem": 5
+     },
+     "50+": {
+      "cas_var": 37,
+      "cas_hem": 34,
+      "sol_var": 8,
+      "sol_hem": 10
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": 5,
+    "real_hacien": null,
+    "cruzada": 1,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "Vicario, y un Clerigo Sacristan y Confesor: 1 Sacristan y 1 Monecillo. Dio la relación el Vicario en 3 de Mayo de 1769",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "Este Lugar para su Govierno tiene en lo civil una Justicia: un Delegado de la Intendencia, y otro de Marina un Receptor de Bulas",
+    "estudios": null,
+    "administraciones_rentas": "2 Estanqueros de Tabaco y Sal",
+    "hermitas": null,
+    "barrios_aldeas": "Esta Villa es anexa a la de Puigpuñent"
+   },
+   "cura_relacion_date": "1769-05-03",
+   "notes": "Nota: Ay 2 matriculados en la Marina",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, 2nd pass)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 19,
+   "source_page": "page-082.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07022",
+   "cl_mapa": "07057",
+   "rah_page": 19,
+   "name_1768": "Felanitx",
+   "name_modern": "FELANITX",
+   "name_catalan": "Felanitx",
+   "lat": 39.46933,
+   "lon": 3.1485,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "San Miguel",
+   "total_animes": 6855,
+   "demografia": {
+    "var": 3528,
+    "hem": 3327,
+    "global": null,
+    "casados": {
+     "var": 1120,
+     "hem": 1120
+    },
+    "solteros": {
+     "var": 2408,
+     "hem": 2207
+    },
+    "by_age": {
+     "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 664,
+      "sol_hem": 598
+     },
+     "7-16": {
+      "cas_var": 0,
+      "cas_hem": 1,
+      "sol_var": 662,
+      "sol_hem": 561
+     },
+     "16-25": {
+      "cas_var": 53,
+      "cas_hem": 98,
+      "sol_var": 300,
+      "sol_hem": 265
+     },
+     "25-40": {
+      "cas_var": 376,
+      "cas_hem": 394,
+      "sol_var": 251,
+      "sol_hem": 207
+     },
+     "40-50": {
+      "cas_var": 286,
+      "cas_hem": 296,
+      "sol_var": 287,
+      "sol_hem": 154
+     },
+     "50+": {
+      "cas_var": 405,
+      "cas_hem": 331,
+      "sol_var": 284,
+      "sol_hem": 382
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": 132,
+    "real_hacien": 10,
+    "cruzada": 1,
+    "inquisicion": 3
+   },
+   "text": {
+    "eclesiasticos": "1 Rector Parroco; 19 Sacerdotes; 3 Beneficiados tonsurados. Otro estudia, y también Sacerdotes Beneficiados expecto Resido en ella: otro 2 Vacantes: 1 Sacerdote y 1 Subdiacono con Capellania Colativa: 12 Clerigos titulares: 2 Sacristanes: 6 Eclesiásticos. Dio la relación el Rector en 19 de Mayo de 1769",
+    "conventos_religiosos": "1 convento de Agustinos con 19 Individuos: 13 Sacerdotes y 6 legos: un termino de los Capuchinos",
+    "hospicios_expositos": "2 Demandaderas",
+    "juzgados": "Esta se gobierna por un Bayle y 4 Regidores: con su Delegado de la Intendencia: un Diputado de Marina: 4 Casa Guarda: 3 familiares de Inquisición",
+    "estudios": null,
+    "administraciones_rentas": null,
+    "hermitas": null,
+    "barrios_aldeas": null
+   },
+   "cura_relacion_date": "1769-05-19",
+   "notes": "Nota: Un Comisario de Marina y un habilitado con 72 Matriculados en Marina y 2 tornay. El Milicianos de el Regimiento de Dragones de Almansa que son los 61 milicianos componen 152",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, 2nd pass)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 20,
+   "source_page": "page-083.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07025",
+   "cl_mapa": "07018",
+   "rah_page": 20,
+   "name_1768": "Fornaluig",
+   "name_modern": "FORNALUTX",
+   "name_catalan": "Fornalutx",
+   "lat": 39.78252,
+   "lon": 2.74176,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "La Virgen Maria en su Nacimiento (sufragánea)",
+   "total_animes": 978,
+   "demografia": {
+    "var": 494,
+    "hem": 484,
+    "global": null,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 73,
+      "sol_hem": 58,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "7-16": {
+      "sol_var": 111,
+      "sol_hem": 101,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "16-25": {
+      "sol_var": 65,
+      "sol_hem": 75,
+      "cas_var": 8,
+      "cas_hem": 21
+     },
+     "25-40": {
+      "sol_var": 50,
+      "sol_hem": 27,
+      "cas_var": 55,
+      "cas_hem": 74
+     },
+     "40-50": {
+      "sol_var": 6,
+      "sol_hem": 17,
+      "cas_var": 46,
+      "cas_hem": 40
+     },
+     "50+": {
+      "sol_var": 20,
+      "sol_hem": 37,
+      "cas_var": 60,
+      "cas_hem": 34
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": null,
+    "real_hacien": 8,
+    "cruzada": null,
+    "inquisicion": 1
+   },
+   "text": {
+    "eclesiasticos": "1 Vicario, 3 Sacerdotes tonsurados, 2 Sacristanes, 2 Monacillos, Dala zela, y el Recetor. Resoluen en 20 de Abril de 1768",
+    "conventos_religiosos": null,
+    "hospicios_expositos": "Hospitales 4: 2 Demandadores",
+    "juzgados": "Este Lugar esta Gobernado por la misma Justicia: un Mayor de Bulas",
+    "estudios": null,
+    "administraciones_rentas": null,
+    "hermitas": null,
+    "barrios_aldeas": "Barrios ó Aldeas 28: Esta como sufragánea Villa de (Fornaluig) Dijo de Soller"
+   },
+   "cura_relacion_date": "1768-04-20",
+   "notes": null,
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "medium",
+    "total_animes": "high",
+    "by_age_cells": "medium",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 21,
+   "source_page": "page-083.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": true,
+   "cod_mun_ine": "07027",
+   "cl_mapa": "07022",
+   "rah_page": 21,
+   "name_1768": "Inca",
+   "name_modern": "INCA",
+   "name_catalan": "Inca",
+   "lat": 39.72129,
+   "lon": 2.9101,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "Santa Maria Mayor",
+   "total_animes": 2786,
+   "demografia": {
+    "var": 1344,
+    "hem": 1442,
+    "global": null,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 270,
+      "sol_hem": 258,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "7-16": {
+      "sol_var": 122,
+      "sol_hem": 127,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "16-25": {
+      "sol_var": 102,
+      "sol_hem": 112,
+      "cas_var": 69,
+      "cas_hem": 120
+     },
+     "25-40": {
+      "sol_var": 139,
+      "sol_hem": 183,
+      "cas_var": 322,
+      "cas_hem": 321
+     },
+     "40-50": {
+      "sol_var": 46,
+      "sol_hem": 86,
+      "cas_var": 109,
+      "cas_hem": 89
+     },
+     "50+": {
+      "sol_var": 65,
+      "sol_hem": 67,
+      "cas_var": 100,
+      "cas_hem": 69
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": null,
+    "real_hacien": 2,
+    "cruzada": null,
+    "inquisicion": 1
+   },
+   "text": {
+    "eclesiasticos": "1 Párroco ó Patrico, 15 hace ves Beneficiados, Encargados tonsurados y Sacristanes y 2 acemilillas. Dala zela del Recetor en 2 de Enero de 1769",
+    "conventos_religiosos": "3 Dominicos con 6 Sacerdotes Sacerdotes Lego; 3 Franciscanos uno Abservantes de 1ª Religión con 13 de Lego; otro Lugar 3 Domin: 3 Custos jurisdiciones",
+    "hospicios_expositos": "3 de Geronimo con 25 Individuos de Coro; 3 Legos; y 2 Demán Cirados. Hospitales 4: 2 Demandadores en el Lugar Pío [ERROR EN CIFRAS]",
+    "juzgados": "Esta esta Gobernado por un Bayle Real, y 3 Regidores= Un subdelegado de la Hacienda; tambien lo es de Marina y Regidor: un Comisario de Hacienda asimismo tiempo es el Bayle Real",
+    "estudios": null,
+    "administraciones_rentas": "Un Administrador y un Granguero de tabaco",
+    "hermitas": "Santuarios 10: Oratorio público de Santa Maria Magdalena del Puig con un Donado",
+    "barrios_aldeas": null
+   },
+   "cura_relacion_date": "1769-01-02",
+   "notes": "Nota: Un oficial the Reglares; un Sargento; 2 Cabos y 22 Soldados",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "cells user-verified; manuscript totals inconsistent (+10 dones)",
+    "text_blocks": "low"
+   },
+   "sum_check": "mismatch(Σ=2776 vs total=2786)"
+  },
+  {
+   "pueblo_n": 22,
+   "source_page": "page-084.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07029",
+   "cl_mapa": "07021",
+   "rah_page": 22,
+   "name_1768": "Lloseta y Ayamans",
+   "name_modern": "LLOSETA",
+   "name_catalan": "Lloseta",
+   "lat": 39.71733,
+   "lon": 2.86415,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "Maria de Lloseta, Sufraganea",
+   "total_animes": 608,
+   "demografia": {
+    "var": 305,
+    "hem": 303,
+    "global": 608,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 59,
+      "sol_hem": 56,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "7-16": {
+      "sol_var": 68,
+      "sol_hem": 60,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "16-25": {
+      "sol_var": 36,
+      "sol_hem": 35,
+      "cas_var": 4,
+      "cas_hem": 23
+     },
+     "25-40": {
+      "sol_var": 12,
+      "sol_hem": 8,
+      "cas_var": 35,
+      "cas_hem": 42
+     },
+     "40-50": {
+      "sol_var": 2,
+      "sol_hem": 10,
+      "cas_var": 33,
+      "cas_hem": 28
+     },
+     "50+": {
+      "sol_var": 18,
+      "sol_hem": 23,
+      "cas_var": 38,
+      "cas_hem": 18
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 6,
+    "real_servic": 1,
+    "real_hacien": 1,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "1 Vicario; sacristanes y 1 demandadero. Dio la relación el Vicario en 18 de [mes il·legible] de 1768.",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "Está governado en este lugar con un Bayle y 4 Regidores",
+    "estudios": null,
+    "administraciones_rentas": "1 Estanquero, y un Receptor de la Bula",
+    "hermitas": null,
+    "barrios_aldeas": "Está sufraganea de la Iglesia de Binisalem"
+   },
+   "cura_relacion_date": "1768",
+   "notes": null,
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "low",
+    "total_animes": "high (reconciled)",
+    "by_age_cells": "high (reconciled, user-corrected)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 23,
+   "source_page": "page-084.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07030",
+   "cl_mapa": "07045",
+   "rah_page": 14,
+   "name_1768": "Castell Llubi",
+   "name_modern": "LLUBI",
+   "name_catalan": "Llubí",
+   "lat": 39.70039,
+   "lon": 3.00364,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "Felix, Sufraganea",
+   "total_animes": 1195,
+   "demografia": {
+    "var": 572,
+    "hem": 623,
+    "global": null,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 119,
+      "sol_hem": 126,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "7-16": {
+      "sol_var": 110,
+      "sol_hem": 99,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "16-25": {
+      "sol_var": 71,
+      "sol_hem": 45,
+      "cas_var": 2,
+      "cas_hem": 19
+     },
+     "25-40": {
+      "sol_var": 19,
+      "sol_hem": 32,
+      "cas_var": 126,
+      "cas_hem": 155
+     },
+     "40-50": {
+      "sol_var": 4,
+      "sol_hem": 26,
+      "cas_var": 75,
+      "cas_hem": 36
+     },
+     "50+": {
+      "sol_var": 16,
+      "sol_hem": 62,
+      "cas_var": 30,
+      "cas_hem": 23
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 10,
+    "real_servic": 2,
+    "real_hacien": 1,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "Vicario; 1 sacerdote que sirve una Capellania fundada en esta Iglesia; 3 sacerdotes tonsurados; 1 sacristan y 2 ordenados",
+    "conventos_religiosos": "Demandadero de Nuestra Señora de la Merced y Casa de la Misericordia",
+    "hospicios_expositos": null,
+    "juzgados": "1 Subdelegado de Intendencia; Bayle y 2 Regidores; lugar sufragáneo [resta il·legible].",
+    "estudios": null,
+    "administraciones_rentas": "1 Estanquero de Tabaco y otro de Sal",
+    "hermitas": null,
+    "barrios_aldeas": null
+   },
+   "cura_relacion_date": null,
+   "notes": null,
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "low",
+    "total_animes": "high",
+    "by_age_cells": "medium",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 24,
+   "source_page": "page-085.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07031",
+   "cl_mapa": "07049",
+   "rah_page": 23,
+   "name_1768": "Villa de Lluchmajor",
+   "name_modern": "LLUCHMAYOR",
+   "name_catalan": "Llucmajor",
+   "lat": 39.49101,
+   "lon": 2.89161,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "San Miguel",
+   "total_animes": 6633,
+   "demografia": {
+    "var": 3238,
+    "hem": 3395,
+    "global": null,
+    "casados": {
+     "var": 1243,
+     "hem": 1243
+    },
+    "solteros": {
+     "var": 1995,
+     "hem": 2152
+    },
+    "by_age": {
+     "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 813,
+      "sol_hem": 727
+     },
+     "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 566,
+      "sol_hem": 595
+     },
+     "16-25": {
+      "cas_var": 144,
+      "cas_hem": 146,
+      "sol_var": 309,
+      "sol_hem": 332
+     },
+     "25-40": {
+      "cas_var": 458,
+      "cas_hem": 533,
+      "sol_var": 220,
+      "sol_hem": 94
+     },
+     "40-50": {
+      "cas_var": 290,
+      "cas_hem": 242,
+      "sol_var": 38,
+      "sol_hem": 50
+     },
+     "50+": {
+      "cas_var": 351,
+      "cas_hem": 322,
+      "sol_var": 49,
+      "sol_hem": 354
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": null,
+    "real_hacien": 3,
+    "cruzada": 1,
+    "inquisicion": 1
+   },
+   "text": {
+    "eclesiasticos": "22 Beneficiados fundados, con Parroquia y los residentes; 19 Sacerdotes, 1 Diácono y 1 Subdiácono [fragment il·legible]. Dio la relación en 7 de Enero de 1769.",
+    "conventos_religiosos": "1 Convento de San Francisco con 16 individuos sacerdotes; 2 Curas de obediencia; 2 lectores en latín; 1 predicador; 1 síndico.",
+    "hospicios_expositos": null,
+    "juzgados": "Su Gobernador con Batlle y 4 Regidores; 1 Subdelegado de Intendencia; 1 Procurador Común con sus oficios, escribanos y alguacil.",
+    "estudios": null,
+    "administraciones_rentas": "2 administradores (mayor y menor) de Tabacos; y uno del Real Aguardiente.",
+    "hermitas": "Santuario de Nuestra Señora de Gracia con un Donado que sirve de sacristán.",
+    "barrios_aldeas": null
+   },
+   "cura_relacion_date": null,
+   "notes": "[anotacions al marge, en gran part il·legibles]",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "medium",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, 2nd pass)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 25,
+   "source_page": "page-085.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07035",
+   "cl_mapa": "07037",
+   "rah_page": 26,
+   "name_1768": "Lugar de Maria",
+   "name_modern": "MAIA DE LA SALUD",
+   "name_catalan": "Maria de la Salut",
+   "lat": 39.66598,
+   "lon": 3.07549,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "La Virgen Maria de la Salud",
+   "total_animes": 756,
+   "demografia": {
+    "var": 358,
+    "hem": 398,
+    "global": null,
+    "casados": {
+     "var": 152,
+     "hem": 152
+    },
+    "solteros": {
+     "var": 206,
+     "hem": 246
+    },
+    "by_age": {
+     "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 85,
+      "sol_hem": 72
+     },
+     "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 68,
+      "sol_hem": 86
+     },
+     "16-25": {
+      "cas_var": 2,
+      "cas_hem": 1,
+      "sol_var": 39,
+      "sol_hem": 27
+     },
+     "25-40": {
+      "cas_var": 80,
+      "cas_hem": 83,
+      "sol_var": 4,
+      "sol_hem": 7
+     },
+     "40-50": {
+      "cas_var": 26,
+      "cas_hem": 26,
+      "sol_var": 2,
+      "sol_hem": 14
+     },
+     "50+": {
+      "cas_var": 44,
+      "cas_hem": 42,
+      "sol_var": 8,
+      "sol_hem": 40
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": null,
+    "real_hacien": 3,
+    "cruzada": 1,
+    "inquisicion": 1
+   },
+   "text": {
+    "eclesiasticos": "3 Presbíteros titulares; 1 Vicario perpetuo; 1 Beneficiado; 1 Monaguillo. Dio la relación el Rector en 13 de [mes il·legible] de 1768.",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "este Lugar esta Governado por una misma Justicia, en Sancervilla y Bula",
+    "estudios": null,
+    "administraciones_rentas": "Estanquero de Tabaco",
+    "hermitas": null,
+    "barrios_aldeas": "Este Pueblo es anexo sufraganea del de... Maria"
+   },
+   "cura_relacion_date": "1768-10-13",
+   "notes": null,
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "medium",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, 2nd pass)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 26,
+   "source_page": "page-086.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07033",
+   "cl_mapa": "07052",
+   "rah_page": 24,
+   "name_1768": "Manacor",
+   "name_modern": "MANACOR",
+   "name_catalan": "Manacor",
+   "lat": 39.56913,
+   "lon": 3.20775,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "S. Jayme Apostol",
+   "total_animes": 5121,
+   "demografia": {
+    "var": 2479,
+    "hem": 2642,
+    "global": 5121,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 524,
+      "sol_hem": 570,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "7-16": {
+      "sol_var": 497,
+      "sol_hem": 493,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "16-25": {
+      "sol_var": 225,
+      "sol_hem": 176,
+      "cas_var": 28,
+      "cas_hem": 26
+     },
+     "25-40": {
+      "sol_var": 75,
+      "sol_hem": 70,
+      "cas_var": 295,
+      "cas_hem": 292
+     },
+     "40-50": {
+      "sol_var": 50,
+      "sol_hem": 72,
+      "cas_var": 413,
+      "cas_hem": 405
+     },
+     "50+": {
+      "sol_var": 85,
+      "sol_hem": 238,
+      "cas_var": 287,
+      "cas_hem": 300
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 66,
+    "real_servic": 2,
+    "real_hacien": 1,
+    "cruzada": 1,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "1 Rector, y 2 Vicarios Beneficiados y otro Vicario Beneficiado en otra Parroquia, 16 Beneficiados más, 5 Sacedores titulares, 2 Sacristanes y 2 Monacillos. Data de la Relación 30 de Enero de 1769",
+    "conventos_religiosos": "De Dominicos con 12 Individuos Sacerdotes, 8 Legos y 2 muchachos para Sacristía = 3 Términos de Menores: 1 con 2 Demandadores de limosna, etc.",
+    "hospicios_expositos": null,
+    "juzgados": "Curato en la Gobernación con un Bayle, 4 Regidores por ella y los Sufraganeos = un Subdelegado de Intendencia, 1 Rector de Bulas: una Vicaría con un Familiar",
+    "estudios": null,
+    "administraciones_rentas": "1 de Rentas Reales y 1 de Tabaco, y un Estanquero = Un Salitre estanco; un Maestro y 4 Peones empleados en el Salitre",
+    "hermitas": "2 Hermitaños de la SSma. Trinidad de Valdemossa",
+    "barrios_aldeas": "Esta y su Vicaría en Manacor y tiene Granja a las S. Lorenzo ="
+   },
+   "cura_relacion_date": "1769-01-30",
+   "notes": "2 Llaves de las casas de Manacor y su sufragánea de Naumo. Nota: Un Subdelegado de Maxino y 7 ella vinculados a ella. Ay 5 torres con esta Marina.",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high (user-confirmed 5121; was misread 5521)",
+    "by_age_cells": "high (reconciled, user-corrected)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 27,
+   "source_page": "page-087.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07036",
+   "cl_mapa": "07031",
+   "rah_page": 27,
+   "name_1768": "Marratxi",
+   "name_modern": "MARRATXI",
+   "name_catalan": "Marratxí",
+   "lat": 39.62183,
+   "lon": 2.75019,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "San Marçal",
+   "total_animes": 965,
+   "demografia": {
+    "var": null,
+    "hem": null,
+    "global": 965,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 83,
+      "sol_hem": 85,
+      "cas_var": 0,
+      "cas_hem": 0
+     },
+     "7-16": {
+      "sol_var": 72,
+      "sol_hem": 78,
+      "cas_var": 0,
+      "cas_hem": 0
+     },
+     "16-25": {
+      "sol_var": 62,
+      "sol_hem": 67,
+      "cas_var": 1,
+      "cas_hem": 3
+     },
+     "25-40": {
+      "sol_var": 61,
+      "sol_hem": 53,
+      "cas_var": 57,
+      "cas_hem": 50
+     },
+     "40-50": {
+      "sol_var": 28,
+      "sol_hem": 25,
+      "cas_var": 55,
+      "cas_hem": 58
+     },
+     "50+": {
+      "sol_var": 22,
+      "sol_hem": 25,
+      "cas_var": 39,
+      "cas_hem": 41
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 8,
+    "real_servic": null,
+    "real_hacien": 2,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "Un Rector ó Párroco: un Vicario: un Acólito: 1 Sacristán casado y otro soltero. Dio la relación el Cura Recor en 21 de febrero de 1769.",
+    "conventos_religiosos": null,
+    "hospicios_expositos": "3 Demandadores",
+    "juzgados": "1 Subdelegado de Intendencia: un Negociado de Cruzada = Esta esta Gobernada por un Bayle y 4 Regidores y 1 Mostazaf de Villa",
+    "estudios": null,
+    "administraciones_rentas": "2 Empleados en el tabaco",
+    "hermitas": null,
+    "barrios_aldeas": null
+   },
+   "cura_relacion_date": "1769-02-21",
+   "notes": null,
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "medium",
+    "total_animes": "high",
+    "by_age_cells": "medium",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 28,
+   "source_page": "page-087.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07038",
+   "cl_mapa": "07045",
+   "rah_page": 28,
+   "name_1768": "Montuyri",
+   "name_modern": "MONTUIRI",
+   "name_catalan": "Montuïri",
+   "lat": 39.56729,
+   "lon": 2.98224,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "Nuestra Señora de la Asunción",
+   "total_animes": 1632,
+   "demografia": {
+    "var": 793,
+    "hem": 839,
+    "global": null,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 142,
+      "sol_hem": 144,
+      "cas_var": 0,
+      "cas_hem": 0
+     },
+     "7-16": {
+      "sol_var": 171,
+      "sol_hem": 162,
+      "cas_var": 0,
+      "cas_hem": 0
+     },
+     "16-25": {
+      "sol_var": 105,
+      "sol_hem": 82,
+      "cas_var": 33,
+      "cas_hem": 44
+     },
+     "25-40": {
+      "sol_var": 24,
+      "sol_hem": 36,
+      "cas_var": 130,
+      "cas_hem": 143
+     },
+     "40-50": {
+      "sol_var": 15,
+      "sol_hem": 29,
+      "cas_var": 70,
+      "cas_hem": 66
+     },
+     "50+": {
+      "sol_var": 34,
+      "sol_hem": 84,
+      "cas_var": 69,
+      "cas_hem": 49
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 19,
+    "real_servic": null,
+    "real_hacien": 2,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "El Rector: 12 Beneficios Simples: 5 Acólitos titulares y los 2 Vicarios: un Sacristán y 2 Escolanos",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "1 Subdelegado de Intendencia: Esta esta Gobernada por un Bayle y 7 Regidores = 2 Escribanos: uno de la Real Casa Real: otro de la Universidad o Villa.",
+    "estudios": null,
+    "administraciones_rentas": "2 Estanqueros de Tabaco y Sal",
+    "hermitas": null,
+    "barrios_aldeas": null
+   },
+   "cura_relacion_date": null,
+   "notes": "Santuarios 10: Oratorio de San Miguel: aiudante San Custodio",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "medium",
+    "total_animes": "high",
+    "by_age_cells": "medium",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 29,
+   "source_page": "page-088.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07039",
+   "cl_mapa": "07024",
+   "rah_page": 29,
+   "name_1768": "Villa de Muro",
+   "name_modern": "MURO",
+   "name_catalan": "Muro",
+   "lat": 39.7367,
+   "lon": 3.05767,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "Juan Martir",
+   "total_animes": 2509,
+   "demografia": {
+    "var": 1242,
+    "hem": 1267,
+    "global": null,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 327,
+      "sol_hem": 269,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "7-16": {
+      "sol_var": 175,
+      "sol_hem": 189,
+      "cas_var": null,
+      "cas_hem": 20
+     },
+     "16-25": {
+      "sol_var": 113,
+      "sol_hem": 117,
+      "cas_var": 94,
+      "cas_hem": 122
+     },
+     "25-40": {
+      "sol_var": 46,
+      "sol_hem": 66,
+      "cas_var": 180,
+      "cas_hem": 202
+     },
+     "40-50": {
+      "sol_var": 51,
+      "sol_hem": 42,
+      "cas_var": 129,
+      "cas_hem": 80
+     },
+     "50+": {
+      "sol_var": 62,
+      "sol_hem": 116,
+      "cas_var": 65,
+      "cas_hem": 44
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 32,
+    "real_servic": 2,
+    "real_hacien": 1,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "1 Rector, 1 Vicario, 22 Beneficiados, 1 otro Capellán de las fábricas del Rey. Dio la relación el Cura el 16 de enero de 1769.",
+    "conventos_religiosos": "1 de S. Francisco de Paula con 7 sacerdotes, un Curita, Diácono y 6 legos. 1 de S. Bernardo (?)",
+    "hospicios_expositos": "Hospitales y casas de Misericordia, Niños Huérfanos y casa.",
+    "juzgados": "1 Subdelegado de Encomienda; un Regidor de Mulas = 1 Salla Gobernada (?); otro Gran Bayle y 4 regidores de Muro y de Castell Llubí",
+    "estudios": null,
+    "administraciones_rentas": null,
+    "hermitas": null,
+    "barrios_aldeas": "Cura que es de Muro y viene de Sufragánea aldea de Castell Llubí"
+   },
+   "cura_relacion_date": "1769-01-16",
+   "notes": "2 Planos: 1 de Muro y su Sufragánea de Castell Llubí. Nota: además de los 32 de servicio hay 20 matriculados en la Marina, los quales le hacen el actual servicio de la Campaña; y el Subdelegado también de Marina.",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "medium",
+    "by_age_cells": "low",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 30,
+   "source_page": "page-088.jpg",
+   "is_aggregate": true,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07040",
+   "cl_mapa": "07043",
+   "rah_page": 30,
+   "name_1768": "Palma. Resumen de las Parroquias",
+   "name_modern": "PALMA",
+   "name_catalan": "Palma",
+   "lat": 39.56933,
+   "lon": 2.65016,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "Resumen: Asunción, San Jaime, San Miguel, San Nicolás, Santa Cruz, Santa Eulalia",
+   "total_animes": 30144,
+   "demografia": {
+    "var": 13953,
+    "hem": 16191,
+    "global": 30144,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 2459,
+      "sol_hem": 2253,
+      "cas_var": 0,
+      "cas_hem": 0
+     },
+     "7-16": {
+      "sol_var": 2652,
+      "sol_hem": 2557,
+      "cas_var": 0,
+      "cas_hem": 5
+     },
+     "16-25": {
+      "sol_var": 1662,
+      "sol_hem": 1585,
+      "cas_var": 408,
+      "cas_hem": 875
+     },
+     "25-40": {
+      "sol_var": 726,
+      "sol_hem": 1419,
+      "cas_var": 2192,
+      "cas_hem": 2624
+     },
+     "40-50": {
+      "sol_var": 351,
+      "sol_hem": 889,
+      "cas_var": 1463,
+      "cas_hem": 1135
+     },
+     "50+": {
+      "sol_var": 610,
+      "sol_hem": 1995,
+      "cas_var": 1430,
+      "cas_hem": 854
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 0,
+    "real_servic": 1745,
+    "real_hacien": 72,
+    "cruzada": 4,
+    "inquisicion": 47
+   },
+   "text": {
+    "eclesiasticos": null,
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": null,
+    "estudios": null,
+    "administraciones_rentas": null,
+    "hermitas": null,
+    "barrios_aldeas": "Consta de: 1 Parroquia de la Asunción (R.A.H. 30), 2 San Jaime (35), 3 San Miguel (34), 4 San Nicolás (33), 5 Santa Cruz (32), 6 Santa Eulalia (31)"
+   },
+   "cura_relacion_date": null,
+   "notes": null,
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "high",
+    "text_blocks": "high"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 31,
+   "source_page": "page-089.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07040",
+   "cl_mapa": "07043",
+   "rah_page": 30,
+   "name_1768": "Palma",
+   "name_modern": "PALMA",
+   "name_catalan": "Palma",
+   "lat": 39.56933,
+   "lon": 2.65016,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "Nuestra Señora de la Asunción",
+   "total_animes": 866,
+   "demografia": {
+    "var": 364,
+    "hem": 502,
+    "global": 866,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 56,
+      "sol_hem": 62,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "7-16": {
+      "sol_var": 51,
+      "sol_hem": 58,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "16-25": {
+      "sol_var": 71,
+      "sol_hem": 70,
+      "cas_var": 6,
+      "cas_hem": 23
+     },
+     "25-40": {
+      "sol_var": 34,
+      "sol_hem": 68,
+      "cas_var": 50,
+      "cas_hem": 62
+     },
+     "40-50": {
+      "sol_var": 12,
+      "sol_hem": 42,
+      "cas_var": 36,
+      "cas_hem": 18
+     },
+     "50+": {
+      "sol_var": 19,
+      "sol_hem": 81,
+      "cas_var": 29,
+      "cas_hem": 18
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": null,
+    "real_hacien": null,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "Iglesia Catedral (la Seu): dignidades, canónigos, beneficiados y sacerdotes; 2 sacristanes [resta il·legible].",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": null,
+    "estudios": null,
+    "administraciones_rentas": null,
+    "hermitas": null,
+    "barrios_aldeas": null
+   },
+   "cura_relacion_date": null,
+   "notes": "Nota: Con la Parroquia de S. Nicolás se halla unida... el Conde de Domingo... Aunque en otra Isla... le repute acontado... Nota: Se hallan en esta Parroquia el Comandante General, Regente: 30 vocales y Fiscal de la Real Audiencia, Comisario ordenador, Sargento mayor de Milicias: 2 Tenientes, y 1 Soldado de las Reales Milicias... con sus familias, y se han comprendido en los totales. Nota: Haviendose mandado por el Conde de Aranda... varias notas relativas... totales: 1635 / 1070 / 775 / 100. Total 3580 del cuerpo general.",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high (user-confirmed 866)",
+    "by_age_cells": "high (reconciled, user-corrected)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 32,
+   "source_page": "page-090.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07040",
+   "cl_mapa": "07043",
+   "rah_page": 35,
+   "name_1768": "Jayme",
+   "name_modern": "PALMA",
+   "name_catalan": "Palma",
+   "lat": 39.56933,
+   "lon": 2.65016,
+   "obispado": "Mallorca",
+   "provincia": "Mallorca",
+   "parroquia": "San Jaime",
+   "total_animes": 3916,
+   "demografia": {
+    "var": 1840,
+    "hem": 2076,
+    "global": null,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 535,
+      "sol_hem": 339,
+      "cas_var": 0,
+      "cas_hem": 0
+     },
+     "7-16": {
+      "sol_var": 266,
+      "sol_hem": 290,
+      "cas_var": 0,
+      "cas_hem": 1
+     },
+     "16-25": {
+      "sol_var": 159,
+      "sol_hem": 199,
+      "cas_var": 80,
+      "cas_hem": 106
+     },
+     "25-40": {
+      "sol_var": 100,
+      "sol_hem": 185,
+      "cas_var": 250,
+      "cas_hem": 302
+     },
+     "40-50": {
+      "sol_var": 46,
+      "sol_hem": 135,
+      "cas_var": 176,
+      "cas_hem": 126
+     },
+     "50+": {
+      "sol_var": 83,
+      "sol_hem": 277,
+      "cas_var": 145,
+      "cas_hem": 116
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 85,
+    "real_servic": 18,
+    "real_hacien": null,
+    "cruzada": null,
+    "inquisicion": 1
+   },
+   "text": {
+    "eclesiasticos": "1 Rector y 1 Beneficiado; entre los Reales ay 2 Vicarios; otros 2 tonsurados; y 1 sacristan; 1 Acolito; tiene y 2 Donadillos; 22 Clerigos seculares sirvieron en esta Parroquia. Data Relacion el cura Rector en 23 de Marzo de 1768",
+    "conventos_religiosos": null,
+    "hospicios_expositos": "Hospicio General en que viven 4 Capellanes; 32 frailes de Servicio; y 76 expositos de a un solo seno; también casas 2 sacerdotes y donados; una casa de misericordia en que viven 118 pobres exentos en 2 demandadores; consorcia de la sociedad en que viven 26 cirujanos con 2 sacerdotes y demandadores",
+    "juzgados": "1 oydor de la Real Audiencia; 1 familiar del Santo Oficio",
+    "estudios": null,
+    "administraciones_rentas": "18 empleados en rentas y oficinas",
+    "hermitas": null,
+    "barrios_aldeas": null
+   },
+   "cura_relacion_date": "1768-03-23",
+   "notes": "6 Cavalleros; 3 ecclesiasticos llamados de San Juan y de Calatrava. Ay 52 Maestranzas. Suena la Marina y con 33 soldados nacionales; 85 de servicio",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, user-corrected)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 33,
+   "source_page": "page-090.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07040",
+   "cl_mapa": "07043",
+   "rah_page": 34,
+   "name_1768": "Miguel",
+   "name_modern": "PALMA",
+   "name_catalan": "Palma",
+   "lat": 39.56933,
+   "lon": 2.65016,
+   "obispado": "Mallorca",
+   "provincia": "Mallorca",
+   "parroquia": "San Miguel",
+   "total_animes": 3346,
+   "demografia": {
+    "var": null,
+    "hem": null,
+    "global": 3346,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 296,
+      "sol_hem": 241,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "7-16": {
+      "sol_var": 297,
+      "sol_hem": 317,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "16-25": {
+      "sol_var": 139,
+      "sol_hem": 134,
+      "cas_var": 82,
+      "cas_hem": 137
+     },
+     "25-40": {
+      "sol_var": 41,
+      "sol_hem": 96,
+      "cas_var": 292,
+      "cas_hem": 363
+     },
+     "40-50": {
+      "sol_var": 22,
+      "sol_hem": 93,
+      "cas_var": 199,
+      "cas_hem": 137
+     },
+     "50+": {
+      "sol_var": 91,
+      "sol_hem": 155,
+      "cas_var": 144,
+      "cas_hem": 70
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 129,
+    "real_servic": 18,
+    "real_hacien": null,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "Hallan fundado en esta Parroquia 28 Beneficios; entre 1 cura della el Rector; 22 Curas; 2 Tonsurados; 2 Vicarios fueron Beneficiados, eran titulares; 14 sacerdotes titulares. Dio la Relacion el cura Rector en 16 de Marzo de 1768",
+    "conventos_religiosos": "Los Carmelitas con 58 individuos; 36 sacerdotes; 8 frailes legos; otros de oficio; los Trinitarios; Novicios y legos; otro de San Antonio; Clara de Padres",
+    "hospicios_expositos": "1 Hospital llamado del Rey con un Capellan y 2 familias que sirven en el; que se compone de no sacerdotes",
+    "juzgados": "1 escribano un Cura y 2 ministros oficiales del tribunal de la Inquisicion",
+    "estudios": null,
+    "administraciones_rentas": null,
+    "hermitas": "1 oratorio en el qual se celebra el Santisimo Sacramento; otra de la Domingo y tiene el Rosario",
+    "barrios_aldeas": null
+   },
+   "cura_relacion_date": "1768-03-16",
+   "notes": "2 capitulares de la Real Audiencia del señor que de las libres 3 oficiales y 139 vecinos suenan los 18 quedan puestos en la Capilla. Ay tambien algunos. 123 de Marina 97 Marineros",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "low",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 34,
+   "source_page": "page-091.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07040",
+   "cl_mapa": "07043",
+   "rah_page": 33,
+   "name_1768": "Nicolas",
+   "name_modern": "PALMA",
+   "name_catalan": "Palma",
+   "lat": 39.56933,
+   "lon": 2.65016,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "San Nicolás",
+   "total_animes": 3319,
+   "demografia": {
+    "var": 1485,
+    "hem": 1834,
+    "global": null,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 250,
+      "sol_hem": 238,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "7-16": {
+      "sol_var": 278,
+      "sol_hem": 265,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "16-25": {
+      "sol_var": 206,
+      "sol_hem": 210,
+      "cas_var": 18,
+      "cas_hem": 67
+     },
+     "25-40": {
+      "sol_var": 96,
+      "sol_hem": 170,
+      "cas_var": 208,
+      "cas_hem": 241
+     },
+     "40-50": {
+      "sol_var": 25,
+      "sol_hem": 112,
+      "cas_var": 146,
+      "cas_hem": 134
+     },
+     "50+": {
+      "sol_var": 65,
+      "sol_hem": 274,
+      "cas_var": 193,
+      "cas_hem": 123
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 117,
+    "real_servic": 7,
+    "real_hacien": null,
+    "cruzada": null,
+    "inquisicion": 10
+   },
+   "text": {
+    "eclesiasticos": "1 Beneficiado y el Recor Parroco; 1 Vicario; 1 Cura; 1 Sacristan; 1 Ayudante; 2 Monacillos. Da la relacion el cura Nicolas, 16 de Mayo de 1768.",
+    "conventos_religiosos": "Conventos de Dominicos y otras ordenes religiosas mencionadas en la relacion",
+    "hospicios_expositos": "Casa de Expositos",
+    "juzgados": "Tribunal de la Inquisicion; Real Audiencia Episcopal; Casas de Caballeros",
+    "estudios": null,
+    "administraciones_rentas": "2 Oficiales de la Real Comandancia, y otro de la Thesoreria; de la Sal; otro de la Casa de Correos",
+    "hermitas": null,
+    "barrios_aldeas": null
+   },
+   "cura_relacion_date": "1768-05-16",
+   "notes": "(1) Nota... (2) Un Sindico Capuchino... Otra Cueva...",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "medium",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, user-corrected)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 35,
+   "source_page": "page-091.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07040",
+   "cl_mapa": "07043",
+   "rah_page": 32,
+   "name_1768": "Cruz",
+   "name_modern": "PALMA",
+   "name_catalan": "Palma",
+   "lat": 39.56933,
+   "lon": 2.65016,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "Santa Cruz",
+   "total_animes": 6514,
+   "demografia": {
+    "var": 3013,
+    "hem": 3501,
+    "global": null,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 502,
+      "sol_hem": 525,
+      "cas_var": 0,
+      "cas_hem": 0
+     },
+     "7-16": {
+      "sol_var": 560,
+      "sol_hem": 601,
+      "cas_var": 0,
+      "cas_hem": 3
+     },
+     "16-25": {
+      "sol_var": 339,
+      "sol_hem": 312,
+      "cas_var": 119,
+      "cas_hem": 250
+     },
+     "25-40": {
+      "sol_var": 149,
+      "sol_hem": 258,
+      "cas_var": 661,
+      "cas_hem": 708
+     },
+     "40-50": {
+      "sol_var": 54,
+      "sol_hem": 178,
+      "cas_var": 284,
+      "cas_hem": 220
+     },
+     "50+": {
+      "sol_var": 91,
+      "sol_hem": 309,
+      "cas_var": 254,
+      "cas_hem": 137
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 984,
+    "real_servic": 21,
+    "real_hacien": 4,
+    "cruzada": 6,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "1 Recor y 30 Beneficiados; uno de ellos no esta ordenado de orden sacro; 1 Vicario; 1 Sacristan; 1 Cura; 1 Ayudante; 18 Personas eclesiasticas. Da la relacion el Recor, en 20 de Marzo de 1768.",
+    "conventos_religiosos": "Convento de Nuestra Señora del Carmen; uno de Capuchinos con 53 individuos; otro de Trinitarios con 19 individuos; otro de Mínimos con 14 individuos",
+    "hospicios_expositos": null,
+    "juzgados": null,
+    "estudios": null,
+    "administraciones_rentas": "Empleados en la Real Aduana de la mar; tienen tabaco; de la sal; otro en la Comanduria",
+    "hermitas": null,
+    "barrios_aldeas": null
+   },
+   "cura_relacion_date": "1768-03-20",
+   "notes": "Nota: hay 946 cuarteles... 6 oficiales de la Plana Mayor... 5 Caballeros del Habito de San... otra Cueva...",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "medium",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, user-corrected)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 36,
+   "source_page": "page-092.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07040",
+   "cl_mapa": "07043",
+   "rah_page": 31,
+   "name_1768": "Ciudad de Palma",
+   "name_modern": "PALMA",
+   "name_catalan": "Palma",
+   "lat": 39.56933,
+   "lon": 2.65016,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "Santa Eulalia",
+   "total_animes": 12183,
+   "demografia": {
+    "var": 5648,
+    "hem": 6535,
+    "global": null,
+    "casados": {
+     "var": 2121,
+     "hem": 2121
+    },
+    "solteros": {
+     "var": 3527,
+     "hem": 4414
+    },
+    "by_age": {
+     "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 820,
+      "sol_hem": 848
+     },
+     "7-16": {
+      "cas_var": 0,
+      "cas_hem": 1,
+      "sol_var": 1200,
+      "sol_hem": 1026
+     },
+     "16-25": {
+      "cas_var": 103,
+      "cas_hem": 292,
+      "sol_var": 748,
+      "sol_hem": 660
+     },
+     "25-40": {
+      "cas_var": 731,
+      "cas_hem": 948,
+      "sol_var": 306,
+      "sol_hem": 642
+     },
+     "40-50": {
+      "cas_var": 622,
+      "cas_hem": 500,
+      "sol_var": 192,
+      "sol_hem": 339
+     },
+     "50+": {
+      "cas_var": 665,
+      "cas_hem": 380,
+      "sol_var": 261,
+      "sol_hem": 899
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 400,
+    "real_servic": 8,
+    "real_hacien": null,
+    "cruzada": 30,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "Se hallan sirviendo en este Pueblo el Beneficio, y el Cura: 3 Vicarios diarios, 2 sacristanes, 3 acolitos...",
+    "conventos_religiosos": "Convento de Sto Domingo; Convento de S. Francisco; varios conventos de religiosos con numerosos individuos",
+    "hospicios_expositos": "Casa de Expósitos; Casa de Misericordia",
+    "juzgados": "Audiencia; oficiales del Real Acuerdo; oficios judiciales, Cancilleria, Real Audiencia y tribunales",
+    "estudios": "Universidad; colegios con cathedras",
+    "administraciones_rentas": "Administración de Rentas y Estancos; administradores del Real Aviso",
+    "hermitas": "Hermitas con oratorios públicos donde se celebran los días festivos",
+    "barrios_aldeas": null
+   },
+   "cura_relacion_date": null,
+   "notes": "Nota: En el nuevo Cuño nuevo... Otra... En la Administración con limpieza... Otra... Nota... Los Criados de los Cavalleros van todos con tanto al total de las Almas. Otra: No se incluyen en la lista del Colegio o Casa de Montesión que fue de los Regulares de la Compañia de Jesus.",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "medium",
+    "by_age_cells": "high (reconciled, 2nd pass)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 37,
+   "source_page": "page-093.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07041",
+   "cl_mapa": "07047",
+   "rah_page": 36,
+   "name_1768": "Petra",
+   "name_modern": "PETRA",
+   "name_catalan": "Petra",
+   "lat": 39.61666,
+   "lon": 3.11316,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "San Pedro, titular Santa María",
+   "total_animes": 1959,
+   "demografia": {
+    "var": 947,
+    "hem": 1012,
+    "global": null,
+    "casados": {
+     "var": 396,
+     "hem": 396
+    },
+    "solteros": {
+     "var": 551,
+     "hem": 616
+    },
+    "by_age": {
+     "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 162,
+      "sol_hem": 198
+     },
+     "7-16": {
+      "cas_var": 0,
+      "cas_hem": 3,
+      "sol_var": 205,
+      "sol_hem": 171
+     },
+     "16-25": {
+      "cas_var": 14,
+      "cas_hem": 75,
+      "sol_var": 88,
+      "sol_hem": 76
+     },
+     "25-40": {
+      "cas_var": 144,
+      "cas_hem": 193,
+      "sol_var": 49,
+      "sol_hem": 30
+     },
+     "40-50": {
+      "cas_var": 156,
+      "cas_hem": 67,
+      "sol_var": 19,
+      "sol_hem": 33
+     },
+     "50+": {
+      "cas_var": 82,
+      "cas_hem": 58,
+      "sol_var": 28,
+      "sol_hem": 108
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 21,
+    "real_servic": 1,
+    "real_hacien": 1,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "1 Cura, 1 Vicario: 53 Beneficiados: 4 sacerdotes titulares: 1 sacristán y 2 sacristanes 2ª. Dio relación el Vicario en 12 de enero de 1769",
+    "conventos_religiosos": "1 de San Francisco con 12 individuos sacerdotes: un convento de los Padres Mínimos: 2 legos ó donados. Niños Inglesos: un síndico sacerdote",
+    "hospicios_expositos": null,
+    "juzgados": "1 Subdelegado de Providencia: un Rector de Bulas",
+    "estudios": "1 maestro",
+    "administraciones_rentas": "1 estanquero de tabaco",
+    "hermitas": "1 Oratorio público de Ntra. Sra. de Bon-any",
+    "barrios_aldeas": "Esta villa es matriz y tiene 1 aneja la de Villafranca"
+   },
+   "cura_relacion_date": "1769-01-12",
+   "notes": "2 Planas ó la 1ª de Petra que está pegada y aneja de Villafranca",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, 2nd pass)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 38,
+   "source_page": "page-094.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07042",
+   "cl_mapa": "07008",
+   "rah_page": 37,
+   "name_1768": "Pollensa",
+   "name_modern": "POLLENSA",
+   "name_catalan": "Pollença",
+   "lat": 39.87838,
+   "lon": 3.01464,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "La Virgen de los Angeles",
+   "total_animes": 4340,
+   "demografia": {
+    "var": 2114,
+    "hem": 2226,
+    "global": null,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 490,
+      "sol_hem": 470,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "7-16": {
+      "sol_var": 275,
+      "sol_hem": 289,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "16-25": {
+      "sol_var": 247,
+      "sol_hem": 230,
+      "cas_var": 28,
+      "cas_hem": 49
+     },
+     "25-40": {
+      "sol_var": 146,
+      "sol_hem": 210,
+      "cas_var": 244,
+      "cas_hem": 305
+     },
+     "40-50": {
+      "sol_var": 136,
+      "sol_hem": 102,
+      "cas_var": 245,
+      "cas_hem": 211
+     },
+     "50+": {
+      "sol_var": 129,
+      "sol_hem": 234,
+      "cas_var": 174,
+      "cas_hem": 126
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 33,
+    "real_servic": 3,
+    "real_hacien": 1,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "Cura Párroco, Cura Unida a la Religión de San Juan cuio Prior es el Obispo de Malta y otro Prior con la agregación; hay 18 Beneficiados y 29 Sacerdotes, Vicario: Sacristán y Ayudantes ó tenientes. Dio la relación dicho Vicario Prior en 26 de febrero de 1769",
+    "conventos_religiosos": "1 con 14 individuos, los 9 Sacerdotes y los 5 legos, del orden de Santo Domingo; 4 criados",
+    "hospicios_expositos": "3 Demandaderas",
+    "juzgados": "Cura está governada por un Bayle y 4 regidores; en ella un Abogado, un Reverendo, un Inspector de Cruzada, un Familiar del Santo Oficio",
+    "estudios": null,
+    "administraciones_rentas": "1 Empleado en el tabaco",
+    "hermitas": "Santuarios: 1 oratorio público llamado Nuestra Señora del Refugio, con un Donado. Hermitas: 1 ermita en el Desierto del Predio Ternellas con dos hermitaños de Nuestra Señora de la Misericordia, una de ellos Sacerdote",
+    "barrios_aldeas": null
+   },
+   "cura_relacion_date": "1769-02-26",
+   "notes": "Nota: Hay 1º Governador de el Castillo que con su familia vive en Palma, y en el hay un Ayudante que reside allí con la tropa. Otra: hay un Quartel y Dragones en cuia guarnición el número se varía según las circunstancias. Hay lo tercero un Subdelegado de Marina y 32 marineros matriculados en ella.",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, user-corrected; 0-7 row recovered)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 39,
+   "source_page": "page-095.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": true,
+   "cod_mun_ine": "07043",
+   "cl_mapa": "07050",
+   "rah_page": 38,
+   "name_1768": "Porreras",
+   "name_modern": "PORRERAS",
+   "name_catalan": "Porreres",
+   "lat": 39.51688,
+   "lon": 3.02237,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "Ntra. Sra. de Consolación",
+   "total_animes": 2987,
+   "demografia": {
+    "var": 1476,
+    "hem": 1511,
+    "global": null,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 270,
+      "sol_hem": 237
+     },
+     "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 238,
+      "sol_hem": 286
+     },
+     "16-25": {
+      "cas_var": 22,
+      "cas_hem": 47,
+      "sol_var": 203,
+      "sol_hem": 155
+     },
+     "25-40": {
+      "cas_var": 190,
+      "cas_hem": 258,
+      "sol_var": 115,
+      "sol_hem": 76
+     },
+     "40-50": {
+      "cas_var": 181,
+      "cas_hem": 115,
+      "sol_var": 76,
+      "sol_hem": 67
+     },
+     "50+": {
+      "cas_var": 195,
+      "cas_hem": 128,
+      "sol_var": 66,
+      "sol_hem": 202
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": 29,
+    "real_hacien": 4,
+    "cruzada": 1,
+    "inquisicion": 1
+   },
+   "text": {
+    "eclesiasticos": "1 Vicar ó Párroco: 10 Beneficiados: 12 sucedores acogidos: 16 tonsurados: un sacristán; un copulares: 2 Monacillos. Dió la relación el Vicar en 20 de Octubre de 1768",
+    "conventos_religiosos": "1 Convento de Observantes Menores",
+    "hospicios_expositos": "2 Demandaderos",
+    "juzgados": "Está ed Governada por un Bayle, 3 regidores, un subdelegado de Marina; un religioso de Cruzada, un familiar del Sto. Oficio",
+    "estudios": null,
+    "administraciones_rentas": "4 Empleados en la renta del Aguardiente",
+    "hermitas": null,
+    "barrios_aldeas": null
+   },
+   "cura_relacion_date": "1768-10-20",
+   "notes": "Nota: Un subdelegado de Marina",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "cells re-read (user-corrected); manuscript internally inconsistent — INE «ERROR EN CIFRAS» stamp",
+    "text_blocks": "low"
+   },
+   "sum_check": "mismatch(Σ=3127 vs total=2987)"
+  },
+  {
+   "pueblo_n": 40,
+   "source_page": "page-095.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07044",
+   "cl_mapa": "07004",
+   "rah_page": 39,
+   "name_1768": "La Puebla",
+   "name_modern": "PUEBLA, LA",
+   "name_catalan": "sa Pobla",
+   "lat": 39.76978,
+   "lon": 3.02478,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "San Antonio",
+   "total_animes": 2194,
+   "demografia": {
+    "var": 1089,
+    "hem": 1105,
+    "global": null,
+    "casados": {
+     "var": 442,
+     "hem": 442
+    },
+    "solteros": {
+     "var": 647,
+     "hem": 663
+    },
+    "by_age": {
+     "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 264,
+      "sol_hem": 217
+     },
+     "7-16": {
+      "cas_var": 0,
+      "cas_hem": 1,
+      "sol_var": 218,
+      "sol_hem": 192
+     },
+     "16-25": {
+      "cas_var": 28,
+      "cas_hem": 62,
+      "sol_var": 97,
+      "sol_hem": 67
+     },
+     "25-40": {
+      "cas_var": 252,
+      "cas_hem": 270,
+      "sol_var": 40,
+      "sol_hem": 28
+     },
+     "40-50": {
+      "cas_var": 98,
+      "cas_hem": 77,
+      "sol_var": 7,
+      "sol_hem": 64
+     },
+     "50+": {
+      "cas_var": 64,
+      "cas_hem": 32,
+      "sol_var": 21,
+      "sol_hem": 95
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": 21,
+    "real_hacien": null,
+    "cruzada": 1,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "1 Cura, 1 Vicario: 1 Clérigo acogido con las obligaciones de Confesar, Agonizar, Asistir al Coro y demás Ministerios Especiales: 2 Clérigos tonsurados: 1 Diácono retor de habitación: 1 sacristán y 4 Monacillos",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "Está ed esta Governada por un Bayle, 4 regidores: Un subdelegado de Intendencia; otro de Marina y un Comisario de Cruzada",
+    "estudios": null,
+    "administraciones_rentas": null,
+    "hermitas": "Distante de esta 2 leguas de la qual se halla un Oratorio público que fue sufragania suya y de ella retoreado y un sacristán",
+    "barrios_aldeas": null
+   },
+   "cura_relacion_date": null,
+   "notes": null,
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, 2nd pass)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 41,
+   "source_page": "page-096.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07045",
+   "cl_mapa": "07045",
+   "rah_page": 40,
+   "name_1768": "Puigpuñent",
+   "name_modern": "PUIGPUÑENT",
+   "name_catalan": "Puigpunyent",
+   "lat": 39.62351,
+   "lon": 2.52718,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "Nra. Sra. Olla Asumpcion de Maria",
+   "total_animes": 851,
+   "demografia": {
+    "var": 416,
+    "hem": 435,
+    "global": null,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 61,
+      "sol_hem": 63,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "7-16": {
+      "sol_var": 88,
+      "sol_hem": 114,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "16-25": {
+      "sol_var": 62,
+      "sol_hem": 60,
+      "cas_var": 8,
+      "cas_hem": 18
+     },
+     "25-40": {
+      "sol_var": 42,
+      "sol_hem": 38,
+      "cas_var": 60,
+      "cas_hem": 50
+     },
+     "40-50": {
+      "sol_var": 11,
+      "sol_hem": 20,
+      "cas_var": 24,
+      "cas_hem": 39
+     },
+     "50+": {
+      "sol_var": 26,
+      "sol_hem": 14,
+      "cas_var": 34,
+      "cas_hem": 19
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 5,
+    "real_servic": 2,
+    "real_hacien": 1,
+    "cruzada": 1,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "1 Rector, un Vicario, 1 Clérigo titular, 1 sacristán, y un Monacillo",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "Su Gobernador con un Bayle y 2 Regidores; un Subdelegado de Intendencia; un familiar del Santo Oficio.",
+    "estudios": null,
+    "administraciones_rentas": "2 Estanqueros",
+    "hermitas": "1 Hermitaño de la Concepción y otra de la Sma. Trinidad en las cercanías de Galilea",
+    "barrios_aldeas": "Galilea (Nra. Sra. del Carmen), sirve de sufraganea filia de Estellenchs"
+   },
+   "cura_relacion_date": null,
+   "notes": "2 Planos de las de Puigpuñent y su sufragánea de Estellenchs",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "medium",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 42,
+   "source_page": "page-096.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07049",
+   "cl_mapa": "07046",
+   "rah_page": 47,
+   "name_1768": "Juan",
+   "name_modern": "SAN JUAN",
+   "name_catalan": "Sant Joan",
+   "lat": 39.59629,
+   "lon": 3.03918,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "S. Juan Bauptista",
+   "total_animes": 1471,
+   "demografia": {
+    "var": 713,
+    "hem": 758,
+    "global": null,
+    "casados": {
+     "var": 265,
+     "hem": 265
+    },
+    "solteros": {
+     "var": 448,
+     "hem": 493
+    },
+    "by_age": {
+     "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 138,
+      "sol_hem": 120
+     },
+     "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 124,
+      "sol_hem": 123
+     },
+     "16-25": {
+      "cas_var": 0,
+      "cas_hem": 5,
+      "sol_var": 72,
+      "sol_hem": 80
+     },
+     "25-40": {
+      "cas_var": 121,
+      "cas_hem": 153,
+      "sol_var": 81,
+      "sol_hem": 68
+     },
+     "40-50": {
+      "cas_var": 81,
+      "cas_hem": 50,
+      "sol_var": 12,
+      "sol_hem": 29
+     },
+     "50+": {
+      "cas_var": 63,
+      "cas_hem": 57,
+      "sol_var": 21,
+      "sol_hem": 73
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 15,
+    "real_servic": 1,
+    "real_hacien": 1,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "1 Rector, 6 Beneficiados, 8 sacerdotes titulares, 1 sacristán, organista, 3 Monacillos. Dio la relación el Rector en 5 de Febrero de 1769",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "Su Gobernador con Bayle y 4 Regidores; un Subdelegado de Intendencia.",
+    "estudios": null,
+    "administraciones_rentas": null,
+    "hermitas": "Santuario de Nuestra Señora [dedicació il·legible] con sacristán capellán.",
+    "barrios_aldeas": null
+   },
+   "cura_relacion_date": "1769-02-05",
+   "notes": null,
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "medium",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, 2nd pass)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 43,
+   "source_page": "page-097.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07050",
+   "cl_mapa": "07062",
+   "rah_page": 43,
+   "name_1768": "San Juan Bap.ta de Deya",
+   "name_modern": "SAN JUAN BAUTISTA",
+   "name_catalan": "Sant Joan",
+   "lat": 39.59629,
+   "lon": 3.03918,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "S.ta Juan Bap.ta Sufrag.",
+   "total_animes": 759,
+   "demografia": {
+    "var": 380,
+    "hem": 379,
+    "global": null,
+    "casados": {
+     "var": 142,
+     "hem": 142
+    },
+    "solteros": {
+     "var": 238,
+     "hem": 237
+    },
+    "by_age": {
+     "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 74,
+      "sol_hem": 72
+     },
+     "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 53,
+      "sol_hem": 54
+     },
+     "16-25": {
+      "cas_var": 4,
+      "cas_hem": 7,
+      "sol_var": 51,
+      "sol_hem": 42
+     },
+     "25-40": {
+      "cas_var": 39,
+      "cas_hem": 38,
+      "sol_var": 22,
+      "sol_hem": 18
+     },
+     "40-50": {
+      "cas_var": 48,
+      "cas_hem": 58,
+      "sol_var": 20,
+      "sol_hem": 13
+     },
+     "50+": {
+      "cas_var": 51,
+      "cas_hem": 39,
+      "sol_var": 18,
+      "sol_hem": 38
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": 7,
+    "real_hacien": 2,
+    "cruzada": 1,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "1 Vicario; 3 sacerdotes; Beneficiado; un sacristan y 1 muchacho p.a servicio de Iglesia. Dio la relacion el cura el 21 de [mes] de 1768",
+    "conventos_religiosos": "2 [convento] (ilegible)",
+    "hospicios_expositos": "2 demandadores: de la Gual, p[or] de S.t Antonio",
+    "juzgados": "1 estad.o de Govierno: de S.n Juan y 1 regidores. Sus dis: un decano de las Baldes; un sub-delegado de la Comandencia",
+    "estudios": null,
+    "administraciones_rentas": "1 estanquero de tabaco, y otro de sal",
+    "hermitas": null,
+    "barrios_aldeas": "Esta Iglesia es sufragania en lo espiritual de la Parroq.a de Bardonesa"
+   },
+   "cura_relacion_date": "1768",
+   "notes": null,
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "medium",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, 2nd pass)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 44,
+   "source_page": "page-097.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": true,
+   "cod_mun_ine": "07051",
+   "cl_mapa": "07053",
+   "rah_page": 44,
+   "name_1768": "Lugar de S.n Lorenzo del Cardesran",
+   "name_modern": "SAN LORENZO DEL CARDESSAR",
+   "name_catalan": "Sant Llorenç des Cardassar",
+   "lat": 39.61001,
+   "lon": 3.28388,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "S.n Lorenzo Sufraganea",
+   "total_animes": 357,
+   "demografia": {
+    "var": 178,
+    "hem": 179,
+    "global": 357,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 31,
+      "sol_hem": 22,
+      "cas_var": 0,
+      "cas_hem": 0
+     },
+     "7-16": {
+      "sol_var": 23,
+      "sol_hem": 17,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "16-25": {
+      "sol_var": 13,
+      "sol_hem": 9,
+      "cas_var": 4,
+      "cas_hem": 5
+     },
+     "25-40": {
+      "sol_var": 32,
+      "sol_hem": 42,
+      "cas_var": 27,
+      "cas_hem": 29
+     },
+     "40-50": {
+      "sol_var": 13,
+      "sol_hem": 12,
+      "cas_var": 8,
+      "cas_hem": 7
+     },
+     "50+": {
+      "sol_var": 8,
+      "sol_hem": 6,
+      "cas_var": 4,
+      "cas_hem": 2
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": 4,
+    "real_hacien": 1,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "1 Vicario, 1 sacristan; y 2 Monacillos. Dio la relacion el Vicario. Recibida el 11 de enero de 1769",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": null,
+    "estudios": null,
+    "administraciones_rentas": "1 estanquero de tabaco",
+    "hermitas": null,
+    "barrios_aldeas": "Esta Iglesia es sufraganea de la de Manacor"
+   },
+   "cura_relacion_date": "1769-01-11",
+   "notes": null,
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "medium",
+    "total_animes": "high (reconciled)",
+    "by_age_cells": "low",
+    "text_blocks": "low"
+   },
+   "sum_check": "mismatch(Σ=314 vs total=357)"
+  },
+  {
+   "pueblo_n": 45,
+   "source_page": "page-098.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07047",
+   "cl_mapa": "07033",
+   "rah_page": 41,
+   "name_1768": "Sancelas",
+   "name_modern": "SANCELLAS",
+   "name_catalan": "Sencelles",
+   "lat": 39.64771,
+   "lon": 2.89815,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "S. Pere Apostol Macia",
+   "total_animes": 2002,
+   "demografia": {
+    "var": 964,
+    "hem": 1038,
+    "global": null,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 270,
+      "sol_hem": 277,
+      "cas_var": 0,
+      "cas_hem": 0
+     },
+     "7-16": {
+      "sol_var": 200,
+      "sol_hem": 220,
+      "cas_var": 14,
+      "cas_hem": 15
+     },
+     "16-25": {
+      "sol_var": 54,
+      "sol_hem": 70,
+      "cas_var": 103,
+      "cas_hem": 110
+     },
+     "25-40": {
+      "sol_var": 12,
+      "sol_hem": 15,
+      "cas_var": 98,
+      "cas_hem": 102
+     },
+     "40-50": {
+      "sol_var": 7,
+      "sol_hem": 25,
+      "cas_var": 82,
+      "cas_hem": 74
+     },
+     "50+": {
+      "sol_var": 40,
+      "sol_hem": 50,
+      "cas_var": 84,
+      "cas_hem": 80
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 21,
+    "real_servic": null,
+    "real_hacien": null,
+    "cruzada": 1,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "1 Rector, y 15 Ceos, 1 sacristan y 2 Monasillos pr el servicio dela Iglesia. Dala relacion el Rector en 15 de Enero de 1769",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "Esta Villa es Arrendada y un Bayle, y depende vajo dela: un subdelegado dela Inmediencia y un Receptor dela Bula",
+    "estudios": null,
+    "administraciones_rentas": null,
+    "hermitas": null,
+    "barrios_aldeas": "Esta Villa es Macia, proxima de sufraganea dela de Custios"
+   },
+   "cura_relacion_date": "1769-01-15",
+   "notes": "2 Planu dela de Sancellas y de Custios",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "medium",
+    "total_animes": "high",
+    "by_age_cells": "low",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 46,
+   "source_page": "page-098.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07053",
+   "cl_mapa": "07032",
+   "rah_page": 42,
+   "name_1768": "Sta Eugenia",
+   "name_modern": "SANTA EUGENIA",
+   "name_catalan": "Santa Eugènia",
+   "lat": 39.62253,
+   "lon": 2.83671,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "Sta Eugenia anexos",
+   "total_animes": 864,
+   "demografia": {
+    "var": 423,
+    "hem": 441,
+    "global": null,
+    "casados": {
+     "var": 161,
+     "hem": 161
+    },
+    "solteros": {
+     "var": 262,
+     "hem": 280
+    },
+    "by_age": {
+     "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 91,
+      "sol_hem": 82
+     },
+     "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 76,
+      "sol_hem": 72
+     },
+     "16-25": {
+      "cas_var": 3,
+      "cas_hem": 2,
+      "sol_var": 53,
+      "sol_hem": 65
+     },
+     "25-40": {
+      "cas_var": 64,
+      "cas_hem": 86,
+      "sol_var": 14,
+      "sol_hem": 4
+     },
+     "40-50": {
+      "cas_var": 38,
+      "cas_hem": 38,
+      "sol_var": 6,
+      "sol_hem": 7
+     },
+     "50+": {
+      "cas_var": 56,
+      "cas_hem": 35,
+      "sol_var": 22,
+      "sol_hem": 50
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": 4,
+    "real_hacien": 2,
+    "cruzada": 1,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "1 Vicario, 1 sacerdote secular, otro Ceo acolito, 1 sacristan y tres muchachos pr el servicio dela Iglesia. Da la relacion el Vicario en 26 de Novbre de 1768",
+    "conventos_religiosos": "1 Sindico dela Orden de Mendices",
+    "hospicios_expositos": "1 Demandadero dela Sma Anima",
+    "juzgados": "Este lugar se gova por la propia Justicia: un subdelegado de la Inmediencia y un Receptor dela Bula",
+    "estudios": null,
+    "administraciones_rentas": "1 Estanquero de sal, y otro de Tabaco",
+    "hermitas": null,
+    "barrios_aldeas": null
+   },
+   "cura_relacion_date": "1768-11-26",
+   "notes": "42",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "medium",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, 2nd pass)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 47,
+   "source_page": "page-099.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07055",
+   "cl_mapa": "07038",
+   "rah_page": 45,
+   "name_1768": "Sta Margarita",
+   "name_modern": "SANTA MARGARITA",
+   "name_catalan": "Santa Margalida",
+   "lat": 39.70328,
+   "lon": 3.10342,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "Sta Margarita Macuy",
+   "total_animes": 1723,
+   "demografia": {
+    "var": 846,
+    "hem": 877,
+    "global": null,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 147,
+      "sol_hem": 153,
+      "cas_var": 0,
+      "cas_hem": 0
+     },
+     "7-16": {
+      "sol_var": 152,
+      "sol_hem": 120,
+      "cas_var": 0,
+      "cas_hem": 0
+     },
+     "16-25": {
+      "sol_var": 104,
+      "sol_hem": 72,
+      "cas_var": 35,
+      "cas_hem": 42
+     },
+     "25-40": {
+      "sol_var": 32,
+      "sol_hem": 26,
+      "cas_var": 188,
+      "cas_hem": 200
+     },
+     "40-50": {
+      "sol_var": 15,
+      "sol_hem": 37,
+      "cas_var": 83,
+      "cas_hem": 77
+     },
+     "50+": {
+      "sol_var": 26,
+      "sol_hem": 99,
+      "cas_var": 64,
+      "cas_hem": 51
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": 12,
+    "real_hacien": 5,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "7 tonsurados, beneficiados, vicarios 13: un sacristan y 2 monacillos. Dió la relación en ella. Recibió en 12 de Diciembre 1768",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "Está esta gobernada por Bayle y Regidores; ay Bayle y sus lugares de Murta; un subdelegado de Intendencia",
+    "estudios": null,
+    "administraciones_rentas": "Guardias de tabacos",
+    "hermitas": null,
+    "barrios_aldeas": "Esta villa es Murta y tiene por sufraganea ala de el Lugar de Murta"
+   },
+   "cura_relacion_date": "1768-12-12",
+   "notes": "2 Plazas dichas de Margarita y subdelegano de Murta. Nota: 1 subdelegado de Murta, y 2 Margarita además de ella",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "medium",
+    "total_animes": "high",
+    "by_age_cells": "medium",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 48,
+   "source_page": "page-100.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07056",
+   "cl_mapa": "07034",
+   "rah_page": 25,
+   "name_1768": "Sta Maria del Camino",
+   "name_modern": "SANTA MARIA DEL CAMI",
+   "name_catalan": "Santa Maria del Camí",
+   "lat": 39.64724,
+   "lon": 2.77883,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "Sta Maria del Camino",
+   "total_animes": 1395,
+   "demografia": {
+    "var": 661,
+    "hem": 734,
+    "global": null,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 136,
+      "sol_hem": 135,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "7-16": {
+      "sol_var": 114,
+      "sol_hem": 105,
+      "cas_var": null,
+      "cas_hem": null
+     },
+     "16-25": {
+      "sol_var": 100,
+      "sol_hem": 115,
+      "cas_var": 4,
+      "cas_hem": 28
+     },
+     "25-40": {
+      "sol_var": 30,
+      "sol_hem": 32,
+      "cas_var": 119,
+      "cas_hem": 114
+     },
+     "40-50": {
+      "sol_var": 11,
+      "sol_hem": 35,
+      "cas_var": 63,
+      "cas_hem": 67
+     },
+     "50+": {
+      "sol_var": 19,
+      "sol_hem": 61,
+      "cas_var": 65,
+      "cas_hem": 42
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": 10,
+    "real_hacien": 2,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "1 Rector, y 7 sacerdotes; los q' 2 son Vicarios o Thenientes; afuera: 1 Beneficiado; 2 graduados agregados o acogidos; 2 tonsurados no acogidos; 1 sacristan lego y 1 muchacho p'la sacristia. Dio la relacion en 26 de Nov're 1768",
+    "conventos_religiosos": "1 Andreu Mendicantes: Un convento de Minimos con la advoc'n de Nuestra Señora de la Soledad con sacerdotes; 1 lego un hermano; 2 sirvientes",
+    "hospicios_expositos": "2 Demandadores: del General y de S. Antonio",
+    "juzgados": "Esta esta Gobernada p'un Bayle y 2 regidores; vej de ella y de ella ay 6 o 7 que sirven de Bayle y familiar del S'to Inquisicion",
+    "estudios": null,
+    "administraciones_rentas": "1 Estanquero de Tabaco y otro de la sal",
+    "hermitas": "1 hermita donde residen 2 hermitaños de la SS'ma Trinidad del term'o de Valdemossa, con la advoc'n de Nuestra Señora de la Paz",
+    "barrios_aldeas": "Esta Villa es Marratxi y tiene por sufragania o anexa a la de Sta Eugenia"
+   },
+   "cura_relacion_date": "1768-11-26",
+   "notes": "2 lugares de la villa de Sta Maria y su sufragania de Sta Eugenia",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, user-corrected)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 49,
+   "source_page": "page-100.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07057",
+   "cl_mapa": "07059",
+   "rah_page": 46,
+   "name_1768": "Santany",
+   "name_modern": "SANTANY",
+   "name_catalan": "Santanyí",
+   "lat": 39.35433,
+   "lon": 3.1284,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "Andreu Apostol",
+   "total_animes": 2355,
+   "demografia": {
+    "var": 1177,
+    "hem": 1178,
+    "global": 2355,
+    "casados": {
+     "var": 631,
+     "hem": 631
+    },
+    "solteros": {
+     "var": 526,
+     "hem": 567
+    },
+    "by_age": {
+     "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 145,
+      "sol_hem": 158
+     },
+     "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 202,
+      "sol_hem": 240
+     },
+     "16-25": {
+      "cas_var": 142,
+      "cas_hem": 194,
+      "sol_var": 96,
+      "sol_hem": 62
+     },
+     "25-40": {
+      "cas_var": 256,
+      "cas_hem": 166,
+      "sol_var": 37,
+      "sol_hem": 48
+     },
+     "40-50": {
+      "cas_var": 90,
+      "cas_hem": 95,
+      "sol_var": 26,
+      "sol_hem": 34
+     },
+     "50+": {
+      "cas_var": 143,
+      "cas_hem": 176,
+      "sol_var": 20,
+      "sol_hem": 25
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": null,
+    "real_hacien": null,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "1 Rector o Parroco; 3 Beneficiados con acogida; 6 sacerdotes thonsurados; un seminarista; un sacristan; 2 escolanes. Dio la relacion en 2 de Dic're d 1768",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "Esta es Gobernada p'un Bayle y 2 regidores; un subdelegado de Marina; un cura; 1 escrivano; un sargento de justicia",
+    "estudios": null,
+    "administraciones_rentas": null,
+    "hermitas": null,
+    "barrios_aldeas": null
+   },
+   "cura_relacion_date": "1768-12-02",
+   "notes": "Nota: V'a y su anexa y 16 alquerias. Aqui mismo se hallan empleados en la Mar... criadas en la Tierra... escuelas",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high (reconciled)",
+    "by_age_cells": "high (reconciled, 2nd pass)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 50,
+   "source_page": "page-101.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07058",
+   "cl_mapa": "07011",
+   "rah_page": 48,
+   "name_1768": "Selva",
+   "name_modern": "SELVA",
+   "name_catalan": "Selva",
+   "lat": 39.75457,
+   "lon": 2.90106,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "Lorenzo",
+   "total_animes": 2621,
+   "demografia": {
+    "var": 1298,
+    "hem": 1323,
+    "global": null,
+    "casados": {
+     "var": 486,
+     "hem": 486
+    },
+    "solteros": {
+     "var": 812,
+     "hem": 837
+    },
+    "by_age": {
+     "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 238,
+      "sol_hem": 223
+     },
+     "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 256,
+      "sol_hem": 258
+     },
+     "16-25": {
+      "cas_var": 15,
+      "cas_hem": 58,
+      "sol_var": 185,
+      "sol_hem": 139
+     },
+     "25-40": {
+      "cas_var": 181,
+      "cas_hem": 225,
+      "sol_var": 72,
+      "sol_hem": 45
+     },
+     "40-50": {
+      "cas_var": 127,
+      "cas_hem": 99,
+      "sol_var": 14,
+      "sol_hem": 52
+     },
+     "50+": {
+      "cas_var": 163,
+      "cas_hem": 104,
+      "sol_var": 47,
+      "sol_hem": 120
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": 22,
+    "real_hacien": 5,
+    "cruzada": 2,
+    "inquisicion": 2
+   },
+   "text": {
+    "eclesiasticos": "1 Rector; 13 Beneficiados; 11 Sacerdotes titulares con 2 Vicarios ó Tenientes; 3 Sacristanes y 2 Muchachos sirviendo",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "2 Receptores de Bulas; 2 Familiares del Sto Oficio = Se halla Governada en un Gran Bayle; 4 Regidores",
+    "estudios": null,
+    "administraciones_rentas": "5 Estanqueros de Tabaco en el término de dho lugar",
+    "hermitas": "1 Oratorio ó Hermita de Sta Lucia con un Sacristan sin Salario",
+    "barrios_aldeas": "Santuarios: 2 Oratorios pcos llamados de Mancor y de Biniamar cada uno con su Sacristan con salario"
+   },
+   "cura_relacion_date": null,
+   "notes": null,
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, 2nd pass)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 51,
+   "source_page": "page-101.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07060",
+   "cl_mapa": "07036",
+   "rah_page": 49,
+   "name_1768": "Syneu",
+   "name_modern": "SINEU",
+   "name_catalan": "Sineu",
+   "lat": 39.6441,
+   "lon": 3.01051,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "Ntra Señora de los Angeles",
+   "total_animes": 3282,
+   "demografia": {
+    "var": 1618,
+    "hem": 1664,
+    "global": null,
+    "casados": {
+     "var": 636,
+     "hem": 636
+    },
+    "solteros": {
+     "var": 982,
+     "hem": 1028
+    },
+    "by_age": {
+     "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 276,
+      "sol_hem": 277
+     },
+     "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 347,
+      "sol_hem": 311
+     },
+     "16-25": {
+      "cas_var": 19,
+      "cas_hem": 40,
+      "sol_var": 184,
+      "sol_hem": 157
+     },
+     "25-40": {
+      "cas_var": 251,
+      "cas_hem": 274,
+      "sol_var": 125,
+      "sol_hem": 124
+     },
+     "40-50": {
+      "cas_var": 180,
+      "cas_hem": 156,
+      "sol_var": 18,
+      "sol_hem": 38
+     },
+     "50+": {
+      "cas_var": 186,
+      "cas_hem": 166,
+      "sol_var": 32,
+      "sol_hem": 121
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": 27,
+    "real_hacien": null,
+    "cruzada": 1,
+    "inquisicion": 2
+   },
+   "text": {
+    "eclesiasticos": "1 Rector: un Vicario: 21 Beneficiados; y otros que ay vacantes; 5 Sacerdotes; 8 Tonsurados con 1 uno ordenado in Vicarii: 1 Sacristan y 2 Monacillos. Dató relación 4 de Febrero de 1769",
+    "conventos_religiosos": "1 Convento de religiosos con sacerdotes [dedicació il·legible]; 1 convento de monjas de la Concepción [resta il·legible].",
+    "hospicios_expositos": "1 Convto de Religiosas de la Inma Concepcion con 23 Religiosas: 3 Novicias; y 7 Obedienciarias; 1 Demandadero y un Monacillo",
+    "juzgados": "Gran Bayle y 4 Regidores; 2 receptores de Bulas; 2 familiares del Santo Oficio.",
+    "estudios": null,
+    "administraciones_rentas": null,
+    "hermitas": "Oratorios de Mancor y Biniamar (cada uno con sacristán); ermita de Santa Lucía.",
+    "barrios_aldeas": null
+   },
+   "cura_relacion_date": "1769-02-04",
+   "notes": "[al marge, il·legible]",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, 2nd pass)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 52,
+   "source_page": "page-102.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07061",
+   "cl_mapa": "07017",
+   "rah_page": 50,
+   "name_1768": "Soller",
+   "name_modern": "SOLLER",
+   "name_catalan": "Sóller",
+   "lat": 39.76608,
+   "lon": 2.71502,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "San Bartholome",
+   "total_animes": 4563,
+   "demografia": {
+    "var": 2248,
+    "hem": 2315,
+    "global": null,
+    "casados": {
+     "var": 811,
+     "hem": 811
+    },
+    "solteros": {
+     "var": 1437,
+     "hem": 1504
+    },
+    "by_age": {
+     "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 421,
+      "sol_hem": 451
+     },
+     "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 448,
+      "sol_hem": 386
+     },
+     "16-25": {
+      "cas_var": 14,
+      "cas_hem": 41,
+      "sol_var": 304,
+      "sol_hem": 262
+     },
+     "25-40": {
+      "cas_var": 401,
+      "cas_hem": 464,
+      "sol_var": 159,
+      "sol_hem": 129
+     },
+     "40-50": {
+      "cas_var": 197,
+      "cas_hem": 108,
+      "sol_var": 16,
+      "sol_hem": 97
+     },
+     "50+": {
+      "cas_var": 199,
+      "cas_hem": 198,
+      "sol_var": 89,
+      "sol_hem": 179
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 25,
+    "real_servic": null,
+    "real_hacien": 1,
+    "cruzada": 1,
+    "inquisicion": 1
+   },
+   "text": {
+    "eclesiasticos": "1 Rector: 28 Beneficiados: 6 sacadores titulares: 2 sacristanes: 8 acomodillas. Dio la relación el Rector en 20 de Noviembre de 1768",
+    "conventos_religiosos": "8 Observantes con 16 sacadores: 8 digo 4 Terceros: 2 Criados, un sindico",
+    "hospicios_expositos": "2 Demandaderos de Hospitales",
+    "juzgados": "Gobernada con un teniente de Bayle y 4 Regidores; un Subdelegado de Intendencia; un Comisario de Cruzada [resta il·legible].",
+    "estudios": "Sufragania",
+    "administraciones_rentas": null,
+    "hermitas": "1 oratorio publico llamado de Biniaraix con 1 Beneficiado",
+    "barrios_aldeas": "Esta Villa en Marina, y tiene por Sufragania a la de Fornalutx"
+   },
+   "cura_relacion_date": "1768-11-20",
+   "notes": "2 Planes de mas: Soller y su Sufragania de Fornalutx. Nota: Un Juzgado: 2 de Marina, y 82 Matriculados en ella.",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, 2nd pass)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 53,
+   "source_page": "page-102.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07062",
+   "cl_mapa": "07054",
+   "rah_page": 51,
+   "name_1768": "Son Cervera",
+   "name_modern": "SON SERVERA",
+   "name_catalan": "Son Servera",
+   "lat": 39.62103,
+   "lon": 3.36032,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "San Juan Baptista",
+   "total_animes": 981,
+   "demografia": {
+    "var": 489,
+    "hem": 492,
+    "global": null,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 128,
+      "sol_hem": 112,
+      "cas_var": 0,
+      "cas_hem": 0
+     },
+     "7-16": {
+      "sol_var": 102,
+      "sol_hem": 76,
+      "cas_var": 0,
+      "cas_hem": 0
+     },
+     "16-25": {
+      "sol_var": 20,
+      "sol_hem": 33,
+      "cas_var": 3,
+      "cas_hem": 13
+     },
+     "25-40": {
+      "sol_var": 26,
+      "sol_hem": 16,
+      "cas_var": 79,
+      "cas_hem": 81
+     },
+     "40-50": {
+      "sol_var": 4,
+      "sol_hem": 11,
+      "cas_var": 41,
+      "cas_hem": 50
+     },
+     "50+": {
+      "sol_var": 12,
+      "sol_hem": 47,
+      "cas_var": 74,
+      "cas_hem": 53
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 12,
+    "real_servic": null,
+    "real_hacien": null,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "1 Vicario temporal: 2 sacadores titulares: un sacristan. Dio la relación el Vicario en 20 de Noviembre de 1768",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "Este Lugar se halla Governado por la misma Justicia",
+    "estudios": null,
+    "administraciones_rentas": null,
+    "hermitas": null,
+    "barrios_aldeas": "Esta en Marina..."
+   },
+   "cura_relacion_date": "1768-11-20",
+   "notes": "51",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "high (reconciled, user-corrected)",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 54,
+   "source_page": "page-103.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07063",
+   "cl_mapa": "07025",
+   "rah_page": 53,
+   "name_1768": "Villa de Sn Bartholome de Valldemosa",
+   "name_modern": "VALLDEMOSA",
+   "name_catalan": "Valldemossa",
+   "lat": 39.70909,
+   "lon": 2.6218,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "San Bartholome Martir",
+   "total_animes": 1268,
+   "demografia": {
+    "var": 654,
+    "hem": 614,
+    "global": null,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 120,
+      "sol_hem": 125,
+      "cas_var": 0,
+      "cas_hem": 0
+     },
+     "7-16": {
+      "sol_var": 109,
+      "sol_hem": 84,
+      "cas_var": 0,
+      "cas_hem": 0
+     },
+     "16-25": {
+      "sol_var": 120,
+      "sol_hem": 76,
+      "cas_var": 7,
+      "cas_hem": 16
+     },
+     "25-40": {
+      "sol_var": 25,
+      "sol_hem": 15,
+      "cas_var": 80,
+      "cas_hem": 92
+     },
+     "40-50": {
+      "sol_var": 5,
+      "sol_hem": 11,
+      "cas_var": 74,
+      "cas_hem": 78
+     },
+     "50+": {
+      "sol_var": 27,
+      "sol_hem": 55,
+      "cas_var": 87,
+      "cas_hem": 62
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": null,
+    "real_servic": 8,
+    "real_hacien": 2,
+    "cruzada": 1,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "1 Vicario; sacerdotes; sacristanes. Dio la relación el Vicario en [mes il·legible] de 1768 [resta il·legible].",
+    "conventos_religiosos": "1 Convento de la Cartuja (Cartoixa) de monjes [resta il·legible].",
+    "hospicios_expositos": "2 Demandadores del Hospital General y de Sn Antonio",
+    "juzgados": "Gobernada con Gobernador, Bayle y 4 Regidores; un Subdelegado de Intendencia.",
+    "estudios": null,
+    "administraciones_rentas": "1 Cosaquero de Tabaco; y otro de sal",
+    "hermitas": "Ermita u oratorio de la Santísima Trinidad, con ermitaños.",
+    "barrios_aldeas": "Esta villa es Madriz y tiene por sufraganea a la de Deya"
+   },
+   "cura_relacion_date": "1768",
+   "notes": "[al marge, il·legible]",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "medium",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  },
+  {
+   "pueblo_n": 55,
+   "source_page": "page-104.jpg",
+   "is_aggregate": false,
+   "cifras_stamp": false,
+   "cod_mun_ine": "07065",
+   "cl_mapa": "07051",
+   "rah_page": 54,
+   "name_1768": "Villa de Villafranca",
+   "name_modern": "VILLAFRANCA DE BONANY",
+   "name_catalan": "Vilafranca de Bonany",
+   "lat": 39.56857,
+   "lon": 3.08889,
+   "obispado": "Mallorca",
+   "provincia": null,
+   "parroquia": "Santa Barbara, sufragania",
+   "total_animes": 589,
+   "demografia": {
+    "var": 294,
+    "hem": 295,
+    "global": null,
+    "casados": null,
+    "solteros": null,
+    "by_age": {
+     "0-7": {
+      "sol_var": 70,
+      "sol_hem": 50,
+      "cas_var": 0,
+      "cas_hem": 0
+     },
+     "7-16": {
+      "sol_var": 52,
+      "sol_hem": 55,
+      "cas_var": 0,
+      "cas_hem": 0
+     },
+     "16-25": {
+      "sol_var": 46,
+      "sol_hem": 31,
+      "cas_var": 4,
+      "cas_hem": 21
+     },
+     "25-40": {
+      "sol_var": 13,
+      "sol_hem": 17,
+      "cas_var": 65,
+      "cas_hem": 53
+     },
+     "40-50": {
+      "sol_var": 0,
+      "sol_hem": 9,
+      "cas_var": 9,
+      "cas_hem": 21
+     },
+     "50+": {
+      "sol_var": 4,
+      "sol_hem": 24,
+      "cas_var": 31,
+      "cas_hem": 14
+     }
+    }
+   },
+   "exentos": {
+    "hidalguia": 4,
+    "real_servic": 1,
+    "real_hacien": 1,
+    "cruzada": null,
+    "inquisicion": null
+   },
+   "text": {
+    "eclesiasticos": "1 Vicario y tres sirvientes; un sufraganeo de la Iglesia. El Vicario en 12 de Enero de 1769",
+    "conventos_religiosos": null,
+    "hospicios_expositos": null,
+    "juzgados": "1 Receptor de Bulas",
+    "estudios": null,
+    "administraciones_rentas": "1 Estanquero de Tabaco",
+    "hermitas": null,
+    "barrios_aldeas": "Esta sufraganea y sufragania de la de Petra"
+   },
+   "cura_relacion_date": "1769-01-12",
+   "notes": "Nota: Esta Villa es sufraganea y anejo Espiritual a la de Petra; en lo temporal concierne, en lo a los Criminales, y en lo Civil y Alodial aun a Bayle y Regidores que nombra el Pueblo de la Villa franca",
+   "confidence": {
+    "metadata": "high",
+    "name_1768": "high",
+    "total_animes": "high",
+    "by_age_cells": "low",
+    "text_blocks": "low"
+   },
+   "sum_check": "ok"
+  }
+ ]
+}

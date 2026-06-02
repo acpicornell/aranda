@@ -1,0 +1,97 @@
+{
+  "source_page": "page-085.jpg",
+  "pueblo_n": 24,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1907
+  },
+  "extracted": {
+    "raw_n": 24,
+    "name_modern": "LLUCHMAYOR",
+    "name_1768": "Villa de Lluchmajor",
+    "cod_mun_ine": "07031",
+    "cl_mapa": "07049",
+    "rah_page": 23,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "San Miguel",
+    "total_animes": 6633,
+    "by_age": {
+      "0-7": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 813,
+        "sol_hem": 727
+      },
+      "7-16": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 566,
+        "sol_hem": 595
+      },
+      "16-25": {
+        "cas_var": 144,
+        "cas_hem": 146,
+        "sol_var": 309,
+        "sol_hem": 332
+      },
+      "25-40": {
+        "cas_var": 458,
+        "cas_hem": 533,
+        "sol_var": 220,
+        "sol_hem": 94
+      },
+      "40-50": {
+        "cas_var": 290,
+        "cas_hem": 242,
+        "sol_var": 38,
+        "sol_hem": 50
+      },
+      "50+": {
+        "cas_var": 351,
+        "cas_hem": 322,
+        "sol_var": 49,
+        "sol_hem": 354
+      }
+    },
+    "totals_row": {
+      "var": 3238,
+      "hem": 3395,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": null,
+      "real_hacien": 3,
+      "cruzada": 1,
+      "inquisicion": 1
+    },
+    "eclesiasticos": "22 Beneficiados fundados, con Parroquia y los residentes; 19 Sacerdotes, 1 Diácono y 1 Subdiácono [fragment il·legible]. Dio la relación en 7 de Enero de 1769.",
+    "conventos_religiosos": "1 Convento de San Francisco con 16 individuos sacerdotes; 2 Curas de obediencia; 2 lectores en latín; 1 predicador; 1 síndico.",
+    "hospicios_expositos": "",
+    "juzgados": "Su Gobernador con Batlle y 4 Regidores; 1 Subdelegado de Intendencia; 1 Procurador Común con sus oficios, escribanos y alguacil.",
+    "estudios": "",
+    "administraciones_rentas": "2 administradores (mayor y menor) de Tabacos; y uno del Real Aguardiente.",
+    "hermitas": "Santuario de Nuestra Señora de Gracia con un Donado que sirve de sacristán.",
+    "barrios_aldeas": "",
+    "cura_relacion_date": null,
+    "notes": "[anotacions al marge, en gran part il·legibles]",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "medium",
+      "total_animes": "high",
+      "by_age_cells": "high (reconciled, 2nd pass)",
+      "text_blocks": "low"
+    },
+    "casados_total": {
+      "var": 1243,
+      "hem": 1243
+    },
+    "solteros_total": {
+      "var": 1995,
+      "hem": 2152
+    },
+    "text_revised": true
+  }
+}

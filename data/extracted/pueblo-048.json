@@ -1,0 +1,88 @@
+{
+  "source_page": "page-100.jpg",
+  "pueblo_n": 48,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 2088
+  },
+  "extracted": {
+    "raw_n": 48,
+    "name_modern": "SANTA MARIA DEL CAMI",
+    "name_1768": "Sta Maria del Camino",
+    "cod_mun_ine": "07056",
+    "cl_mapa": "07034",
+    "rah_page": 25,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "Sta Maria del Camino",
+    "total_animes": 1395,
+    "by_age": {
+      "0-7": {
+        "sol_var": 136,
+        "sol_hem": 135,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "7-16": {
+        "sol_var": 114,
+        "sol_hem": 105,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "16-25": {
+        "sol_var": 100,
+        "sol_hem": 115,
+        "cas_var": 4,
+        "cas_hem": 28
+      },
+      "25-40": {
+        "sol_var": 30,
+        "sol_hem": 32,
+        "cas_var": 119,
+        "cas_hem": 114
+      },
+      "40-50": {
+        "sol_var": 11,
+        "sol_hem": 35,
+        "cas_var": 63,
+        "cas_hem": 67
+      },
+      "50+": {
+        "sol_var": 19,
+        "sol_hem": 61,
+        "cas_var": 65,
+        "cas_hem": 42
+      }
+    },
+    "totals_row": {
+      "var": 661,
+      "hem": 734,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": 10,
+      "real_hacien": 2,
+      "cruzada": null,
+      "inquisicion": null
+    },
+    "eclesiasticos": "1 Rector, y 7 sacerdotes; los q' 2 son Vicarios o Thenientes; afuera: 1 Beneficiado; 2 graduados agregados o acogidos; 2 tonsurados no acogidos; 1 sacristan lego y 1 muchacho p'la sacristia. Dio la relacion en 26 de Nov're 1768",
+    "conventos_religiosos": "1 Andreu Mendicantes: Un convento de Minimos con la advoc'n de Nuestra Señora de la Soledad con sacerdotes; 1 lego un hermano; 2 sirvientes",
+    "hospicios_expositos": "2 Demandadores: del General y de S. Antonio",
+    "juzgados": "Esta esta Gobernada p'un Bayle y 2 regidores; vej de ella y de ella ay 6 o 7 que sirven de Bayle y familiar del S'to Inquisicion",
+    "estudios": "",
+    "administraciones_rentas": "1 Estanquero de Tabaco y otro de la sal",
+    "hermitas": "1 hermita donde residen 2 hermitaños de la SS'ma Trinidad del term'o de Valdemossa, con la advoc'n de Nuestra Señora de la Paz",
+    "barrios_aldeas": "Esta Villa es Marratxi y tiene por sufragania o anexa a la de Sta Eugenia",
+    "cura_relacion_date": "1768-11-26",
+    "notes": "2 lugares de la villa de Sta Maria y su sufragania de Sta Eugenia",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "high (reconciled, user-corrected)",
+      "text_blocks": "low"
+    }
+  }
+}

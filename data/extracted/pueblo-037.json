@@ -1,0 +1,96 @@
+{
+  "source_page": "page-093.jpg",
+  "pueblo_n": 37,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 988
+  },
+  "extracted": {
+    "raw_n": 37,
+    "name_modern": "PETRA",
+    "name_1768": "Petra",
+    "cod_mun_ine": "07041",
+    "cl_mapa": "07047",
+    "rah_page": 36,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "San Pedro, titular Santa María",
+    "total_animes": 1959,
+    "by_age": {
+      "0-7": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 162,
+        "sol_hem": 198
+      },
+      "7-16": {
+        "cas_var": 0,
+        "cas_hem": 3,
+        "sol_var": 205,
+        "sol_hem": 171
+      },
+      "16-25": {
+        "cas_var": 14,
+        "cas_hem": 75,
+        "sol_var": 88,
+        "sol_hem": 76
+      },
+      "25-40": {
+        "cas_var": 144,
+        "cas_hem": 193,
+        "sol_var": 49,
+        "sol_hem": 30
+      },
+      "40-50": {
+        "cas_var": 156,
+        "cas_hem": 67,
+        "sol_var": 19,
+        "sol_hem": 33
+      },
+      "50+": {
+        "cas_var": 82,
+        "cas_hem": 58,
+        "sol_var": 28,
+        "sol_hem": 108
+      }
+    },
+    "totals_row": {
+      "var": 947,
+      "hem": 1012,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": 21,
+      "real_servic": 1,
+      "real_hacien": 1,
+      "cruzada": null,
+      "inquisicion": null
+    },
+    "eclesiasticos": "1 Cura, 1 Vicario: 53 Beneficiados: 4 sacerdotes titulares: 1 sacristán y 2 sacristanes 2ª. Dio relación el Vicario en 12 de enero de 1769",
+    "conventos_religiosos": "1 de San Francisco con 12 individuos sacerdotes: un convento de los Padres Mínimos: 2 legos ó donados. Niños Inglesos: un síndico sacerdote",
+    "hospicios_expositos": "",
+    "juzgados": "1 Subdelegado de Providencia: un Rector de Bulas",
+    "estudios": "1 maestro",
+    "administraciones_rentas": "1 estanquero de tabaco",
+    "hermitas": "1 Oratorio público de Ntra. Sra. de Bon-any",
+    "barrios_aldeas": "Esta villa es matriz y tiene 1 aneja la de Villafranca",
+    "cura_relacion_date": "1769-01-12",
+    "notes": "2 Planas ó la 1ª de Petra que está pegada y aneja de Villafranca",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "high (reconciled, 2nd pass)",
+      "text_blocks": "low"
+    },
+    "casados_total": {
+      "var": 396,
+      "hem": 396
+    },
+    "solteros_total": {
+      "var": 551,
+      "hem": 616
+    }
+  }
+}

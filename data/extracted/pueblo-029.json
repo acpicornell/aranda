@@ -1,0 +1,88 @@
+{
+  "source_page": "page-088.jpg",
+  "pueblo_n": 29,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1939
+  },
+  "extracted": {
+    "raw_n": 29,
+    "name_modern": "MURO",
+    "name_1768": "Villa de Muro",
+    "cod_mun_ine": "07039",
+    "cl_mapa": "07024",
+    "rah_page": 29,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "Juan Martir",
+    "total_animes": 2509,
+    "by_age": {
+      "0-7": {
+        "sol_var": 327,
+        "sol_hem": 269,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "7-16": {
+        "sol_var": 175,
+        "sol_hem": 189,
+        "cas_var": null,
+        "cas_hem": 20
+      },
+      "16-25": {
+        "sol_var": 113,
+        "sol_hem": 117,
+        "cas_var": 94,
+        "cas_hem": 122
+      },
+      "25-40": {
+        "sol_var": 46,
+        "sol_hem": 66,
+        "cas_var": 180,
+        "cas_hem": 202
+      },
+      "40-50": {
+        "sol_var": 51,
+        "sol_hem": 42,
+        "cas_var": 129,
+        "cas_hem": 80
+      },
+      "50+": {
+        "sol_var": 62,
+        "sol_hem": 116,
+        "cas_var": 65,
+        "cas_hem": 44
+      }
+    },
+    "totals_row": {
+      "var": 1242,
+      "hem": 1267,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": 32,
+      "real_servic": 2,
+      "real_hacien": 1,
+      "cruzada": null,
+      "inquisicion": null
+    },
+    "eclesiasticos": "1 Rector, 1 Vicario, 22 Beneficiados, 1 otro Capellán de las fábricas del Rey. Dio la relación el Cura el 16 de enero de 1769.",
+    "conventos_religiosos": "1 de S. Francisco de Paula con 7 sacerdotes, un Curita, Diácono y 6 legos. 1 de S. Bernardo (?)",
+    "hospicios_expositos": "Hospitales y casas de Misericordia, Niños Huérfanos y casa.",
+    "juzgados": "1 Subdelegado de Encomienda; un Regidor de Mulas = 1 Salla Gobernada (?); otro Gran Bayle y 4 regidores de Muro y de Castell Llubí",
+    "estudios": "",
+    "administraciones_rentas": "",
+    "hermitas": "",
+    "barrios_aldeas": "Cura que es de Muro y viene de Sufragánea aldea de Castell Llubí",
+    "cura_relacion_date": "1769-01-16",
+    "notes": "2 Planos: 1 de Muro y su Sufragánea de Castell Llubí. Nota: además de los 32 de servicio hay 20 matriculados en la Marina, los quales le hacen el actual servicio de la Campaña; y el Subdelegado también de Marina.",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "medium",
+      "by_age_cells": "low",
+      "text_blocks": "low"
+    }
+  }
+}

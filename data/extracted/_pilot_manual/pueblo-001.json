@@ -1,0 +1,93 @@
+{
+  "source_page": "page-073.jpg",
+  "pueblo_n": 1,
+  "model": "pilot/claude-opus-4-8-vision (manual, free)",
+  "usage": null,
+  "extracted": {
+    "raw_n": 1,
+    "name_modern": "ALARO",
+    "name_1768": "Alaró",
+    "cod_mun_ine": "07001",
+    "cl_mapa": "07020",
+    "rah_page": 1,
+    "obispado": "Mallorca",
+    "provincia": "Mallorca",
+    "parroquia": "San Bartolomé Apóstol",
+    "total_animes": 2266,
+    "by_age": {
+      "0-7": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 216,
+        "sol_hem": 194
+      },
+      "7-16": {
+        "cas_var": 0,
+        "cas_hem": 3,
+        "sol_var": 249,
+        "sol_hem": 157
+      },
+      "16-25": {
+        "cas_var": 15,
+        "cas_hem": 29,
+        "sol_var": 123,
+        "sol_hem": 118
+      },
+      "25-40": {
+        "cas_var": 179,
+        "cas_hem": 203,
+        "sol_var": 75,
+        "sol_hem": 38
+      },
+      "40-50": {
+        "cas_var": 147,
+        "cas_hem": 93,
+        "sol_var": 6,
+        "sol_hem": 27
+      },
+      "50+": {
+        "cas_var": 105,
+        "cas_hem": 118,
+        "sol_var": 41,
+        "sol_hem": 130
+      }
+    },
+    "totals_row": {
+      "var": 1156,
+      "hem": 1110,
+      "global": 2266
+    },
+    "casados_total": {
+      "var": 446,
+      "hem": 446
+    },
+    "solteros_total": {
+      "var": 710,
+      "hem": 664
+    },
+    "exentos": {
+      "hidalguia": 16,
+      "real_servic": 2,
+      "real_hacien": 1,
+      "cruzada": 1,
+      "inquisicion": null
+    },
+    "eclesiasticos": "1 Vicario, 2 Beneficiados, Predicador; 9 Sacerdotes seculares; sacristán y 2 acólitos; 4 campanas. El Vicario en 20 de … de 1768.",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "Gobernador, un Bayle y 4 Regidores; en ella un Lugarteniente de Capitán de Costa.",
+    "estudios": "",
+    "administraciones_rentas": "1 Estanquero de Tabaco y Sal.",
+    "hermitas": "",
+    "barrios_aldeas": "Casas en alquería; sufragánea … del Concejo.",
+    "cura_relacion_date": "1768",
+    "notes": "2 planos … de Alaró … sufragánea del Concejo.",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "high (reconciled to totals)",
+      "text_blocks": "medium"
+    }
+  }
+}

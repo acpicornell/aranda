@@ -1,0 +1,88 @@
+{
+  "source_page": "page-079.jpg",
+  "pueblo_n": 13,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1914
+  },
+  "extracted": {
+    "raw_n": 13,
+    "name_modern": "CAPDEPERA",
+    "name_1768": "Cap de Pera",
+    "cod_mun_ine": "07014",
+    "cl_mapa": "07055",
+    "rah_page": 13,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "Bart.me Apostol Sufragania",
+    "total_animes": 888,
+    "by_age": {
+      "0-7": {
+        "sol_var": 92,
+        "sol_hem": 87,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "7-16": {
+        "sol_var": 103,
+        "sol_hem": 104,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "16-25": {
+        "sol_var": 32,
+        "sol_hem": 23,
+        "cas_var": 9,
+        "cas_hem": 21
+      },
+      "25-40": {
+        "sol_var": 6,
+        "sol_hem": 9,
+        "cas_var": 97,
+        "cas_hem": 102
+      },
+      "40-50": {
+        "sol_var": 3,
+        "sol_hem": 7,
+        "cas_var": 43,
+        "cas_hem": 38
+      },
+      "50+": {
+        "sol_var": 13,
+        "sol_hem": 42,
+        "cas_var": 34,
+        "cas_hem": 23
+      }
+    },
+    "totals_row": {
+      "var": null,
+      "hem": null,
+      "global": 888
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": 8,
+      "real_hacien": null,
+      "cruzada": null,
+      "inquisicion": null
+    },
+    "eclesiasticos": "1 Vicario temporal, un sacerdote titular; y 1 sacerdote casado. Dio la relación el Vicario en 28 de Nov.e de 1768",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "Esta ó es la misma Justicia y Governador y un Ayudante; un Regidor y Jurado",
+    "estudios": "",
+    "administraciones_rentas": "",
+    "hermitas": "",
+    "barrios_aldeas": "Esta No es sufragania de la de Pera",
+    "cura_relacion_date": "1768-11-28",
+    "notes": "Nota. Hay subdelegado de Crusada. Tiene tres torres en ella; 77 toneros y 8 Milicianos los quales viven dentro de un Castillo que aquí en el pueblo y se llaman con el Gov.or Vecinos",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "low",
+      "text_blocks": "low"
+    }
+  }
+}

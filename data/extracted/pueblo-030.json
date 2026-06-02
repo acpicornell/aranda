@@ -1,0 +1,89 @@
+{
+  "source_page": "page-088.jpg",
+  "pueblo_n": 30,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1939
+  },
+  "extracted": {
+    "raw_n": 30,
+    "name_modern": "PALMA",
+    "name_1768": "Palma. Resumen de las Parroquias",
+    "cod_mun_ine": "07040",
+    "cl_mapa": "07043",
+    "rah_page": 30,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "Resumen: Asunción, San Jaime, San Miguel, San Nicolás, Santa Cruz, Santa Eulalia",
+    "total_animes": 30144,
+    "by_age": {
+      "0-7": {
+        "sol_var": 2459,
+        "sol_hem": 2253,
+        "cas_var": 0,
+        "cas_hem": 0
+      },
+      "7-16": {
+        "sol_var": 2652,
+        "sol_hem": 2557,
+        "cas_var": 0,
+        "cas_hem": 5
+      },
+      "16-25": {
+        "sol_var": 1662,
+        "sol_hem": 1585,
+        "cas_var": 408,
+        "cas_hem": 875
+      },
+      "25-40": {
+        "sol_var": 726,
+        "sol_hem": 1419,
+        "cas_var": 2192,
+        "cas_hem": 2624
+      },
+      "40-50": {
+        "sol_var": 351,
+        "sol_hem": 889,
+        "cas_var": 1463,
+        "cas_hem": 1135
+      },
+      "50+": {
+        "sol_var": 610,
+        "sol_hem": 1995,
+        "cas_var": 1430,
+        "cas_hem": 854
+      }
+    },
+    "totals_row": {
+      "var": 13953,
+      "hem": 16191,
+      "global": 30144
+    },
+    "exentos": {
+      "hidalguia": 0,
+      "real_servic": 1745,
+      "real_hacien": 72,
+      "cruzada": 4,
+      "inquisicion": 47
+    },
+    "eclesiasticos": "",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "",
+    "estudios": "",
+    "administraciones_rentas": "",
+    "hermitas": "",
+    "barrios_aldeas": "Consta de: 1 Parroquia de la Asunción (R.A.H. 30), 2 San Jaime (35), 3 San Miguel (34), 4 San Nicolás (33), 5 Santa Cruz (32), 6 Santa Eulalia (31)",
+    "cura_relacion_date": null,
+    "notes": "",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "high",
+      "text_blocks": "high"
+    },
+    "is_resumen": true
+  }
+}

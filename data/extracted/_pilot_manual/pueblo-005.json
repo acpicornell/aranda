@@ -1,0 +1,56 @@
+{
+  "source_page": "page-075.jpg",
+  "pueblo_n": 5,
+  "model": "pilot/claude-opus-4-8-vision (manual, free)",
+  "usage": null,
+  "extracted": {
+    "raw_n": 5,
+    "name_modern": "ARTA",
+    "name_1768": "Artá",
+    "cod_mun_ine": "07006",
+    "cl_mapa": "07048",
+    "rah_page": 5,
+    "obispado": "Mallorca",
+    "provincia": "Mallorca",
+    "parroquia": "San Salvador",
+    "total_animes": 2902,
+    "by_age": null,
+    "totals_row": {
+      "var": 1463,
+      "hem": 1439,
+      "global": 2902
+    },
+    "casados_total": {
+      "var": 512,
+      "hem": 548
+    },
+    "solteros_total": {
+      "var": 951,
+      "hem": 891
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": null,
+      "real_hacien": 24,
+      "cruzada": 1,
+      "inquisicion": null
+    },
+    "eclesiasticos": "1 Vicario perpetuo, Beneficiados; 3 conventuales; 16 sacerdotes seculares; 2 sacristanes. El Cura en 25 de Nov. de 1768.",
+    "conventos_religiosos": "1 Convento de San Antonio de Padua (frailes) con 6 legos y 2 hermanos.",
+    "hospicios_expositos": "",
+    "juzgados": "Bayle Real; Regidores.",
+    "estudios": "",
+    "administraciones_rentas": "1 Estanco de tabaco.",
+    "hermitas": "1 Ermita de San Salvador, como fortaleza.",
+    "barrios_aldeas": "Sufragánea de Capdepera y Son Servera.",
+    "cura_relacion_date": "1768-11-25",
+    "notes": "Villa de Artá.",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "low",
+      "text_blocks": "medium"
+    }
+  }
+}

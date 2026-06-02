@@ -1,0 +1,97 @@
+{
+  "source_page": "page-081.jpg",
+  "pueblo_n": 17,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1719
+  },
+  "extracted": {
+    "raw_n": 17,
+    "name_modern": "ESPORLAS",
+    "name_1768": "Villa de Esporlas",
+    "cod_mun_ine": "07020",
+    "cl_mapa": "07030",
+    "rah_page": 17,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "S.n Pedro Martir",
+    "total_animes": 2064,
+    "by_age": {
+      "0-7": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 202,
+        "sol_hem": 181
+      },
+      "7-16": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 177,
+        "sol_hem": 154
+      },
+      "16-25": {
+        "cas_var": 6,
+        "cas_hem": 14,
+        "sol_var": 138,
+        "sol_hem": 138
+      },
+      "25-40": {
+        "cas_var": 166,
+        "cas_hem": 213,
+        "sol_var": 74,
+        "sol_hem": 54
+      },
+      "40-50": {
+        "cas_var": 87,
+        "cas_hem": 84,
+        "sol_var": 17,
+        "sol_hem": 35
+      },
+      "50+": {
+        "cas_var": 127,
+        "cas_hem": 75,
+        "sol_var": 41,
+        "sol_hem": 81
+      }
+    },
+    "totals_row": {
+      "var": 1035,
+      "hem": 1029,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": 23,
+      "real_hacien": null,
+      "cruzada": 1,
+      "inquisicion": 1
+    },
+    "eclesiasticos": "1 Rector; sacerdotes; 1 Vicaría y 2 demandaderos. Dio la relación el Rector de Esporles en [mes il·legible] de 1768 [resta il·legible].",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "Gobernada con un Bayle y 4 Regidores; un Bayle Real; un Subdelegado de Intendencia; alguacil [resta il·legible].",
+    "estudios": "",
+    "administraciones_rentas": "",
+    "hermitas": "",
+    "barrios_aldeas": "Tiene por sufragánea a Banyalbufar.",
+    "cura_relacion_date": "1768-12-29",
+    "notes": "[al marge, il·legible]",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "high (reconciled, 2nd pass)",
+      "text_blocks": "low"
+    },
+    "casados_total": {
+      "var": 386,
+      "hem": 386
+    },
+    "solteros_total": {
+      "var": 649,
+      "hem": 643
+    },
+    "text_revised": true
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "source_page": "page-077.jpg",
+  "pueblo_n": 8,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1780
+  },
+  "extracted": {
+    "raw_n": 8,
+    "name_modern": "BUGER",
+    "name_1768": "Buger",
+    "cod_mun_ine": "07009",
+    "cl_mapa": "07013",
+    "rah_page": 3,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "San Pedro Apostol del Lugar de Buger, Lugar Sufraganeo",
+    "total_animes": 865,
+    "by_age": {
+      "0-7": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 114,
+        "sol_hem": 71
+      },
+      "7-16": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 102,
+        "sol_hem": 61
+      },
+      "16-25": {
+        "cas_var": 20,
+        "cas_hem": 30,
+        "sol_var": 36,
+        "sol_hem": 43
+      },
+      "25-40": {
+        "cas_var": 76,
+        "cas_hem": 68,
+        "sol_var": 20,
+        "sol_hem": 19
+      },
+      "40-50": {
+        "cas_var": 40,
+        "cas_hem": 43,
+        "sol_var": 4,
+        "sol_hem": 12
+      },
+      "50+": {
+        "cas_var": 31,
+        "cas_hem": 26,
+        "sol_var": 11,
+        "sol_hem": 38
+      }
+    },
+    "totals_row": {
+      "var": 454,
+      "hem": 411,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": 6,
+      "real_servic": 1,
+      "real_hacien": 1,
+      "cruzada": null,
+      "inquisicion": null
+    },
+    "eclesiasticos": "1 Vicario; 1 Cazador; 1 Sacristan; 4 Ayudantes; 2 Campaneros y 2 Monacillos. Dió la relación el Vicario en 19 de Dic.e de 1768",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "Este Lugar esta Governado de la misma Justicia: Ay 1 Receptor de Bulas",
+    "estudios": "1 Maestro",
+    "administraciones_rentas": "1 Estanquero de sal y tabaco",
+    "hermitas": "",
+    "barrios_aldeas": "Esta Villa es anexa a la de Campanet",
+    "cura_relacion_date": "1768-12-19",
+    "notes": "",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "high (reconciled, 2nd pass)",
+      "text_blocks": "low"
+    },
+    "casados_total": {
+      "var": 167,
+      "hem": 167
+    },
+    "solteros_total": {
+      "var": 287,
+      "hem": 244
+    }
+  }
+}

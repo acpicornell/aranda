@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<title>Cens d'Aranda · Balears 1768</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Edició digital de la secció de Mallorca del Cens del Comte d'Aranda (1768), primer cens modern d'Espanya. Facsímil INE 2013, Tomo VI.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Cens d'Aranda · Balears 1768">
+<meta property="og:description" content="La secció de Mallorca del primer cens estadístic modern d'Espanya, poble a poble.">
+<meta property="og:locale" content="ca_ES">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E📜%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="vendor/leaflet.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-content">
+    <h1>Cens d'Aranda · Balears</h1>
+    <p class="subtitle">Censo del Conde de Aranda · Obispado de Mallorca · 1768</p>
+  </div>
+</header>
+
+<nav class="tabs">
+  <button class="tab active" data-tab="inici">Inici</button>
+  <button class="tab"        data-tab="pobles">Pobles</button>
+  <button class="tab"        data-tab="mapa">Mapa</button>
+  <button class="tab"        data-tab="demografia">Demografia</button>
+  <button class="tab"        data-tab="font">Font</button>
+</nav>
+
+<!-- ===== INICI ===== -->
+<section id="tab-inici" class="tab-content active">
+  <div class="home-hero">
+    <h2>Cens d'Aranda · Mallorca 1768</h2>
+    <p class="home-lead">
+      El primer recompte de població d'Espanya fet amb criteris uniformes,
+      organitzat per parròquies. Aquesta web fa cercable la secció de
+      Mallorca, publicada en facsímil per l'INE el 2013.
+    </p>
+    <div class="home-stats" id="home-stats">
+      <div class="home-stat"><span class="num" id="stat-pueblos">…</span><span class="label">pobles i parròquies</span></div>
+      <div class="home-stat"><span class="num" id="stat-pop">…</span><span class="label">ànimes (reconstruït)</span></div>
+      <div class="home-stat"><span class="num">51/54</span><span class="label">taules reconciliades</span></div>
+      <div class="home-stat"><span class="num" id="stat-top">…</span><span class="label" id="stat-top-label">…</span></div>
+    </div>
+  </div>
+
+  <div class="home-prose">
+    <h2>Què és el cens d'Aranda</h2>
+    <p>
+      El 1768, <strong>Pedro Pablo Abarca de Bolea, comte d'Aranda</strong> i
+      president del Consell de Castella sota Carles III, va impulsar el primer
+      recompte de població d'Espanya fet amb criteris uniformes per a tot el
+      territori. A diferència dels recomptes fiscals anteriors —que comptaven
+      <em>veïns</em> (caps de casa)—, l'Aranda <strong>compta persones per
+      primera vegada</strong>, i les classifica per <strong>sis grups d'edat,
+      sexe i estat civil</strong>. Per això se'l considera sovint el
+      <strong>primer cens modern d'Europa</strong>.
+    </p>
+    <p>
+      L'operació es va encarregar als <strong>bisbes</strong>, que a través
+      dels <strong>rectors de parròquia</strong> van omplir, poble a poble, una
+      taula amb la població per edat × sexe × estat civil (casats / solters),
+      més els exempts (hidalguia, Reial Servei, Reial Hisenda, Croada,
+      Inquisició), el clergat, convents, hospitals, jutjats, ermites i les
+      aldees dependents. El total per a tot Espanya es va estimar en uns
+      <strong>9,3 milions d'habitants</strong>. Els historiadors el consideren
+      menys complet que el posterior <strong>cens de Floridablanca (1787)</strong>,
+      però és la primera fotografia demogràfica detallada del país.
+    </p>
+    <p>
+      L'original de 1768–69 es va perdre; la còpia que es conserva és una
+      <strong>transcripció de 1773</strong> guardada a la <strong>Real Academia
+      de la Historia</strong> (Madrid). L'INE en va publicar el facsímil el
+      <strong>2013</strong>, en 11 volums; el <strong>Tomo VI</strong> recull
+      les diòcesis de Màlaga, Mallorca, Mondoñedo, Orihuela i Osma. Aquesta web
+      n'edita la secció de Mallorca.
+    </p>
+
+    <h2>Per què només Mallorca? (Menorca, Eivissa i Formentera)</h2>
+    <p>
+      El cens es va organitzar per <strong>bisbats</strong>, no per illes. El
+      bisbat de Mallorca, restablert per Jaume I el 1232, tenia el 1768
+      jurisdicció sobre tot l'arxipèlag. Tot i això, aquest volum només conté
+      <strong>Mallorca</strong>, i el motiu és doble (segons explica el propi
+      INE al facsímil):
+    </p>
+    <ul>
+      <li><strong>Menorca</strong> havia estat cedida a la Gran Bretanya pel
+      <strong>Tractat d'Utrecht (1708)</strong> i el 1768 era sota domini
+      britànic, fora del bisbat. Per tant, <em>no havia de figurar-hi i no hi
+      figura</em>.</li>
+      <li><strong>Eivissa i Formentera</strong> (les Pitiüses) <em>sí</em> que
+      pertanyien a la diòcesi de Mallorca el 1768 i <strong>s'haurien d'haver
+      inclòs</strong>; el bisbat d'Eivissa no es va crear fins al 1782. La seva
+      absència és, en paraules de l'INE, «<strong>una autèntica omissió</strong>»
+      del cens —no un error dels copistes—, perquè els 54 qüestionaris de
+      parròquia conservats coincideixen exactament amb les 54 parròquies que el
+      resum atribueix a la diòcesi.</li>
+    </ul>
+
+    <h2>La nostra reconstrucció vs el resum oficial</h2>
+    <p>
+      El facsímil inclou un <strong>resum oficial de la diòcesi</strong> (pres
+      de la publicació del cens de Floridablanca): 49 pobles, 54 parròquies i
+      <strong>126.588 ànimes</strong>. Nosaltres hem reconstruït la població
+      sumant <strong>poble a poble</strong> les taules manuscrites:
+    </p>
+    <div class="xcheck">
+      <div class="xc"><span class="big">123.102</span><div class="cap">la nostra reconstrucció · suma de les 54 entrades manuscrites</div></div>
+      <div class="xc"><span class="big">126.588</span><div class="cap">resum oficial de la diòcesi (facsímil INE, pàg. 67)</div></div>
+    </div>
+    <p class="xcheck-note">
+      Una diferència del <strong>~2,8%</strong>, atribuïble als 3 pobles amb el
+      segell «ERROR EN CIFRAS» (on el propi cens no quadra) i al soroll de
+      lectura de la cursiva. La proximitat amb el total publicat és una bona
+      validació externa de l'extracció.
+    </p>
+
+    <p class="note-box" id="pilot-note">
+      <strong>Estat de la verificació.</strong> Els 54 pobles/parròquies estan
+      extrets amb OCR de visió i verificats poble a poble: <strong>51 de 54</strong>
+      reconcilien tot el detall per edat (Σ de cel·les = total del marge). Els
+      <strong>3 que no</strong> són precisament els que porten el segell
+      <strong>«ERROR EN CIFRAS»</strong> de l'INE (Inca, Porreres, Sant Llorenç):
+      el cens de 1768 no quadra amb ell mateix, i hi conservem les xifres tal
+      com les va escriure el rector. Palma hi consta amb les seves 6 parròquies
+      (la fila «Resumen» s'exclou per no duplicar).
+    </p>
+
+    <h2>Nota sobre la grafia dels topònims</h2>
+    <p>
+      El manuscrit dona el nom en castellà i grafia del set-cents
+      («Andraig», «Banalbujar», «Lluchmayor»); l'INE hi va sobreimprimir
+      el codi municipal modern. La columna <em>Nom (1768)</em> reprodueix
+      la forma històrica; <em>Nom actual</em> dona la forma catalana
+      normativa (Andraig → <strong>Andratx</strong>, Banalbujar →
+      <strong>Banyalbufar</strong>, Lluchmayor → <strong>Llucmajor</strong>).
+    </p>
+  </div>
+</section>
+
+<!-- ===== POBLES ===== -->
+<section id="tab-pobles" class="tab-content">
+  <div class="pobles-layout">
+    <aside class="filters">
+      <h3>Filtres</h3>
+      <div class="filter-group">
+        <label for="f-text">Cerca pel nom</label>
+        <input type="text" id="f-text" placeholder="Alaró, Artà…">
+      </div>
+      <div class="filter-group">
+        <label for="f-sort">Ordena per</label>
+        <select id="f-sort">
+          <option value="pueblo_n">Núm. d'ordre</option>
+          <option value="name_catalan">Nom (català)</option>
+          <option value="total_animes_desc">Ànimes (major a menor)</option>
+        </select>
+      </div>
+      <p class="filter-count" id="filter-count">…</p>
+    </aside>
+
+    <div>
+      <table class="pobles-table">
+        <thead>
+          <tr>
+            <th class="num">#</th>
+            <th>Nom actual</th>
+            <th>Nom (1768)</th>
+            <th>Codi INE</th>
+            <th>Parròquia</th>
+            <th class="num">Ànimes</th>
+          </tr>
+        </thead>
+        <tbody id="pobles-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MAPA ===== -->
+<section id="tab-mapa" class="tab-content">
+  <div class="home-hero">
+    <h2>Mapa de la diòcesi de Mallorca (1768)</h2>
+    <p class="home-lead">
+      Cada cercle és un poble del cens, situat al centre del seu municipi
+      actual; la mida és proporcional a la població (ànimes). Clica un
+      cercle per obrir-ne la fitxa.
+    </p>
+  </div>
+  <div class="map-legend" id="map-legend">
+    <span class="map-legend-item"><span class="map-dot dot-v"></span>total verificat (varons+dones)</span>
+    <span class="map-legend-item"><span class="map-dot dot-t"></span>només total del marge</span>
+    <span class="map-note">Les 6 parròquies de Palma es reparteixen en cercle al voltant del centre de Palma (ubicació aproximada).</span>
+  </div>
+  <div id="map" class="map-canvas"></div>
+</section>
+
+<!-- ===== DEMOGRAFIA ===== -->
+<section id="tab-demografia" class="tab-content">
+  <div class="home-hero">
+    <h2>Demografia de Mallorca · 1768</h2>
+    <p class="home-lead">
+      Indicadors calculats sobre els <span id="demo-n">…</span> pobles amb la
+      taula d'edat × sexe × estat civil reconciliada (Σ de cel·les = total del
+      marge). Les xifres de població total inclouen els 54 pobles.
+    </p>
+  </div>
+
+  <div class="demo-kpis" id="demo-kpis"></div>
+
+  <div class="chart-card">
+    <h3>Piràmide de població · edat i sexe</h3>
+    <p class="chart-note">Homes a l'esquerra, dones a la dreta. Una població molt jove: més d'un terç té menys de 16 anys.</p>
+    <div class="pyramid" id="demo-pyramid"></div>
+  </div>
+
+  <div class="chart-card">
+    <h3>Estructura matrimonial per edat</h3>
+    <p class="chart-note">
+      Per a cada grup d'edat, proporció de <strong>casats</strong> vs
+      <strong>no casats</strong> (homes i dones). Atenció: el cens d'Aranda
+      no té columna de vidus, així que els «no casats» inclouen solters
+      <em>i</em> vidus — d'aquí l'alt percentatge femení a 50+ (viduïtat).
+    </p>
+    <div class="ms-legend">
+      <span><span class="swatch ms-cas"></span>Casats / Casades</span>
+      <span><span class="swatch ms-sol"></span>No casats (solters + vidus)</span>
+    </div>
+    <div id="demo-marital"></div>
+  </div>
+
+  <div class="chart-card">
+    <h3>Quocient de masculinitat per poble</h3>
+    <p class="chart-note">Homes per cada 100 dones. A l'esquerra del 100, majoria de dones; a la dreta, majoria d'homes. Clica una barra per obrir la fitxa.</p>
+    <div class="ratio-axis"><span class="ax-left">← més dones</span><span class="ax-center">100</span><span class="ax-right">més homes →</span></div>
+    <div class="ratio-chart" id="demo-ratio"></div>
+  </div>
+
+  <div class="chart-card">
+    <h3>Indicadors per poble</h3>
+    <p class="chart-note">Clica una capçalera per ordenar; clica una fila per obrir la fitxa. Edat mitjana amb midpoints (3,5 / 11,5 / 20,5 / 32,5 / 45 / 60).</p>
+    <table class="indicators-table">
+      <thead><tr>
+        <th class="sortable" data-k="name">Poble</th>
+        <th class="sortable num" data-k="pop" title="Total d'ànimes (marge)">Pob.</th>
+        <th class="sortable num" data-k="sex" title="Homes per 100 dones">Masc.</th>
+        <th class="sortable num" data-k="age" title="Edat mitjana (midpoints)">Edat</th>
+        <th class="sortable num" data-k="dep" title="(menors16 + 50+) / 16–50, en %">Dep.</th>
+        <th class="sortable num" data-k="aging" title="50+ / menors de 16">Env.</th>
+        <th class="sortable num" data-k="married" title="% de casats entre adults de 16+">%Cas.</th>
+      </tr></thead>
+      <tbody id="demo-indicators"></tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ===== FONT ===== -->
+<section id="tab-font" class="tab-content">
+  <div class="home-hero">
+    <h2>Font i mètode</h2>
+  </div>
+  <div class="home-prose">
+    <h2>La font</h2>
+    <p id="source-line">…</p>
+    <p>
+      El recompte original de 1768–69 es va perdre. El que es conserva és una
+      <strong>còpia manuscrita de 1773</strong> a la Real Academia de la
+      Historia (Madrid), de la qual l'INE va publicar un <strong>facsímil el
+      2013</strong>. Cada pàgina és una <strong>imatge del manuscrit</strong>
+      (sense capa de text): una taula per parròquia amb la població per sis
+      grups d'edat × sexe × estat civil, els exempts, el clergat i les
+      institucions del poble. L'INE hi va sobreimprimir el codi municipal
+      modern, el full de mapa i la pàgina R.A.H.
+    </p>
+
+    <h2>Com s'ha construït aquesta edició</h2>
+    <p>
+      El text s'ha extret amb <strong>OCR de visió (Claude Opus)</strong> i
+      després s'ha verificat aprofitant que la taula de 1768 està
+      <strong>sobredeterminada</strong>: cada cel·la compleix
+      <em>casats + solters = total</em>, les columnes d'edat sumen la columna
+      «Total», i <em>varons + dones = total d'ànimes</em> (el número que el
+      rector va escriure al marge). Una xifra mal llegida gairebé mai fa quadrar
+      totes aquestes sumes alhora, així que els desquadres es detecten
+      automàticament i s'han corregit <strong>poble a poble</strong> rellegint
+      el facsímil. Resultat: <strong>51 dels 54</strong> pobles reconcilien tot
+      el detall. Pel camí es va corregir fins i tot un error real de població
+      (Manacor: 5.121, no 5.521).
+    </p>
+    <p>
+      Regla d'integritat: <strong>cap xifra s'inventa</strong>. El que no es
+      pot llegir amb seguretat es deixa buit o marcat. Les coordenades del mapa
+      provenen del Nomenclàtor Geogràfic de les Illes Balears (NGIB) i viuen
+      dins del projecte. Els camps de text en cursiva són transcripcions amb
+      els trams il·legibles marcats.
+    </p>
+
+    <h2>Errors del propi manuscrit: «ERROR EN CIFRAS»</h2>
+    <p>
+      No tots els desquadres són de lectura. En algunes pàgines, els números
+      que el rector va escriure el 1768 <strong>no sumen entre ells</strong>;
+      l'INE ho va detectar i va estampar damunt la taula el segell
+      <strong>«ERROR EN CIFRAS»</strong>. Cap lectura pot fer-les quadrar perquè
+      <strong>la font no quadra amb ella mateixa</strong>; hi conservem les
+      xifres del rector i ho indiquem a la fitxa. Pobles amb el segell
+      confirmat: <strong>Inca, Porreres i Sant Llorenç des Cardassar</strong>.
+    </p>
+
+    <h2>Fonts i referències</h2>
+    <ul class="source-links">
+      <li><strong>INE (2013)</strong>, <em>Censo del Conde de Aranda (1768)</em>, edició facsímil, Tomo VI (Màlaga, Mallorca, Mondoñedo, Orihuela, Osma) — <a href="https://www.ine.es/prodyser/pubweb/censo_aranda/tomo6.pdf" rel="noopener">tomo6.pdf</a> (42 MB). La nota sobre Menorca i les Pitiüses és a la pàg. 65; el resum de la diòcesi, a la pàg. 67.</li>
+      <li><strong>IBESTAT</strong> — Institut d'Estadística de les Illes Balears: dades del <a href="https://ibestat.caib.es/ibestat/page?p=px_tablas&nodeId=a5648b3a-98f5-4fe2-a7b0-7031ff26794a" rel="noopener">Cens d'Aranda (1768)</a> de Balears.</li>
+      <li><strong>J. Juan Vidal</strong>, estudis de demografia mallorquina del s. XVIII (<em>Revista de Demografía Histórica</em>) — context i validació dels indicadors.</li>
+      <li><strong>Viquipèdia</strong> — <a href="https://es.wikipedia.org/wiki/Censo_del_Conde_de_Aranda" rel="noopener">Censo del Conde de Aranda</a>.</li>
+    </ul>
+
+    <h2>Projectes germans</h2>
+    <p>
+      Forma part de la família <em>nomenclators</em>: Floridablanca (1787),
+      Miñano, Madoz, Nomenclàtor de 1860 i Riera, agregats al projecte
+      <em>meta</em> sota el model d'identificadors NGIB.
+    </p>
+  </div>
+</section>
+
+<!-- ===== DETAIL OVERLAY ===== -->
+<div class="detail-overlay" id="detail-overlay">
+  <div class="detail-panel">
+    <button class="detail-close" id="detail-close" aria-label="Tancar">✕</button>
+    <div id="detail-content"></div>
+  </div>
+</div>
+
+<footer>
+  Generat a partir del facsímil INE 2013 del Censo del Conde de Aranda (1768),
+  Tomo VI, Obispado de Mallorca. Còpia manuscrita de 1773 (Real Academia de la
+  Historia). Llicència del codi: AGPL-3.0. Dades originals (1768): domini públic.
+</footer>
+
+<script src="vendor/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

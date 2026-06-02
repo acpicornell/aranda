@@ -1,0 +1,96 @@
+{
+  "source_page": "page-100.jpg",
+  "pueblo_n": 49,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 2088
+  },
+  "extracted": {
+    "raw_n": 49,
+    "name_modern": "SANTANY",
+    "name_1768": "Santany",
+    "cod_mun_ine": "07057",
+    "cl_mapa": "07059",
+    "rah_page": 46,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "Andreu Apostol",
+    "total_animes": 2355,
+    "by_age": {
+      "0-7": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 145,
+        "sol_hem": 158
+      },
+      "7-16": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 202,
+        "sol_hem": 240
+      },
+      "16-25": {
+        "cas_var": 142,
+        "cas_hem": 194,
+        "sol_var": 96,
+        "sol_hem": 62
+      },
+      "25-40": {
+        "cas_var": 256,
+        "cas_hem": 166,
+        "sol_var": 37,
+        "sol_hem": 48
+      },
+      "40-50": {
+        "cas_var": 90,
+        "cas_hem": 95,
+        "sol_var": 26,
+        "sol_hem": 34
+      },
+      "50+": {
+        "cas_var": 143,
+        "cas_hem": 176,
+        "sol_var": 20,
+        "sol_hem": 25
+      }
+    },
+    "totals_row": {
+      "var": 1177,
+      "hem": 1178,
+      "global": 2355
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": null,
+      "real_hacien": null,
+      "cruzada": null,
+      "inquisicion": null
+    },
+    "eclesiasticos": "1 Rector o Parroco; 3 Beneficiados con acogida; 6 sacerdotes thonsurados; un seminarista; un sacristan; 2 escolanes. Dio la relacion en 2 de Dic're d 1768",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "Esta es Gobernada p'un Bayle y 2 regidores; un subdelegado de Marina; un cura; 1 escrivano; un sargento de justicia",
+    "estudios": "",
+    "administraciones_rentas": "",
+    "hermitas": "",
+    "barrios_aldeas": "",
+    "cura_relacion_date": "1768-12-02",
+    "notes": "Nota: V'a y su anexa y 16 alquerias. Aqui mismo se hallan empleados en la Mar... criadas en la Tierra... escuelas",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high (reconciled)",
+      "by_age_cells": "high (reconciled, 2nd pass)",
+      "text_blocks": "low"
+    },
+    "casados_total": {
+      "var": 631,
+      "hem": 631
+    },
+    "solteros_total": {
+      "var": 526,
+      "hem": 567
+    }
+  }
+}

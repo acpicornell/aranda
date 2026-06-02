@@ -1,0 +1,250 @@
+{
+ "_provenance": "Coordinates baked once from the public NGIB gazetteer (Nomenclàtor Geogràfic de les Illes Balears). Self-contained; the runtime pipeline reads only this file.",
+ "municipis": {
+  "07001": {
+   "name_catalan": "Alaró",
+   "lat": 39.70582,
+   "lon": 2.7892
+  },
+  "07003": {
+   "name_catalan": "Alcúdia",
+   "lat": 39.85298,
+   "lon": 3.12113
+  },
+  "07004": {
+   "name_catalan": "Algaida",
+   "lat": 39.5594,
+   "lon": 2.89472
+  },
+  "07005": {
+   "name_catalan": "Andratx",
+   "lat": 39.57624,
+   "lon": 2.4245
+  },
+  "07006": {
+   "name_catalan": "Artà",
+   "lat": 39.69515,
+   "lon": 3.35122
+  },
+  "07007": {
+   "name_catalan": "Banyalbufar",
+   "lat": 39.68695,
+   "lon": 2.51369
+  },
+  "07008": {
+   "name_catalan": "Binissalem",
+   "lat": 39.68841,
+   "lon": 2.84318
+  },
+  "07009": {
+   "name_catalan": "Búger",
+   "lat": 39.75837,
+   "lon": 2.98329
+  },
+  "07010": {
+   "name_catalan": "Bunyola",
+   "lat": 39.6964,
+   "lon": 2.69909
+  },
+  "07011": {
+   "name_catalan": "Calvià",
+   "lat": 39.56356,
+   "lon": 2.50514
+  },
+  "07012": {
+   "name_catalan": "Campanet",
+   "lat": 39.77508,
+   "lon": 2.96533
+  },
+  "07013": {
+   "name_catalan": "Campos",
+   "lat": 39.43089,
+   "lon": 3.01968
+  },
+  "07014": {
+   "name_catalan": "Capdepera",
+   "lat": 39.70206,
+   "lon": 3.43166
+  },
+  "07016": {
+   "name_catalan": "Consell",
+   "lat": 39.66854,
+   "lon": 2.81323
+  },
+  "07017": {
+   "name_catalan": "Costitx",
+   "lat": 39.65776,
+   "lon": 2.94999
+  },
+  "07019": {
+   "name_catalan": "Escorca",
+   "lat": 39.82174,
+   "lon": 2.88414
+  },
+  "07020": {
+   "name_catalan": "Esporles",
+   "lat": 39.66884,
+   "lon": 2.57762
+  },
+  "07021": {
+   "name_catalan": "Estellencs",
+   "lat": 39.65327,
+   "lon": 2.48178
+  },
+  "07022": {
+   "name_catalan": "Felanitx",
+   "lat": 39.46933,
+   "lon": 3.1485
+  },
+  "07025": {
+   "name_catalan": "Fornalutx",
+   "lat": 39.78252,
+   "lon": 2.74176
+  },
+  "07027": {
+   "name_catalan": "Inca",
+   "lat": 39.72129,
+   "lon": 2.9101
+  },
+  "07029": {
+   "name_catalan": "Lloseta",
+   "lat": 39.71733,
+   "lon": 2.86415
+  },
+  "07030": {
+   "name_catalan": "Llubí",
+   "lat": 39.70039,
+   "lon": 3.00364
+  },
+  "07031": {
+   "name_catalan": "Llucmajor",
+   "lat": 39.49101,
+   "lon": 2.89161
+  },
+  "07033": {
+   "name_catalan": "Manacor",
+   "lat": 39.56913,
+   "lon": 3.20775
+  },
+  "07035": {
+   "name_catalan": "Maria de la Salut",
+   "lat": 39.66598,
+   "lon": 3.07549
+  },
+  "07036": {
+   "name_catalan": "Marratxí",
+   "lat": 39.62183,
+   "lon": 2.75019
+  },
+  "07038": {
+   "name_catalan": "Montuïri",
+   "lat": 39.56729,
+   "lon": 2.98224
+  },
+  "07039": {
+   "name_catalan": "Muro",
+   "lat": 39.7367,
+   "lon": 3.05767
+  },
+  "07040": {
+   "name_catalan": "Palma",
+   "lat": 39.56933,
+   "lon": 2.65016
+  },
+  "07041": {
+   "name_catalan": "Petra",
+   "lat": 39.61666,
+   "lon": 3.11316
+  },
+  "07042": {
+   "name_catalan": "Pollença",
+   "lat": 39.87838,
+   "lon": 3.01464
+  },
+  "07043": {
+   "name_catalan": "Porreres",
+   "lat": 39.51688,
+   "lon": 3.02237
+  },
+  "07044": {
+   "name_catalan": "sa Pobla",
+   "lat": 39.76978,
+   "lon": 3.02478
+  },
+  "07045": {
+   "name_catalan": "Puigpunyent",
+   "lat": 39.62351,
+   "lon": 2.52718
+  },
+  "07047": {
+   "name_catalan": "Sencelles",
+   "lat": 39.64771,
+   "lon": 2.89815
+  },
+  "07049": {
+   "name_catalan": "Sant Joan",
+   "lat": 39.59629,
+   "lon": 3.03918
+  },
+  "07050": {
+   "name_catalan": "Sant Joan",
+   "lat": 39.59629,
+   "lon": 3.03918
+  },
+  "07051": {
+   "name_catalan": "Sant Llorenç des Cardassar",
+   "lat": 39.61001,
+   "lon": 3.28388
+  },
+  "07053": {
+   "name_catalan": "Santa Eugènia",
+   "lat": 39.62253,
+   "lon": 2.83671
+  },
+  "07055": {
+   "name_catalan": "Santa Margalida",
+   "lat": 39.70328,
+   "lon": 3.10342
+  },
+  "07056": {
+   "name_catalan": "Santa Maria del Camí",
+   "lat": 39.64724,
+   "lon": 2.77883
+  },
+  "07057": {
+   "name_catalan": "Santanyí",
+   "lat": 39.35433,
+   "lon": 3.1284
+  },
+  "07058": {
+   "name_catalan": "Selva",
+   "lat": 39.75457,
+   "lon": 2.90106
+  },
+  "07060": {
+   "name_catalan": "Sineu",
+   "lat": 39.6441,
+   "lon": 3.01051
+  },
+  "07061": {
+   "name_catalan": "Sóller",
+   "lat": 39.76608,
+   "lon": 2.71502
+  },
+  "07062": {
+   "name_catalan": "Son Servera",
+   "lat": 39.62103,
+   "lon": 3.36032
+  },
+  "07063": {
+   "name_catalan": "Valldemossa",
+   "lat": 39.70909,
+   "lon": 2.6218
+  },
+  "07065": {
+   "name_catalan": "Vilafranca de Bonany",
+   "lat": 39.56857,
+   "lon": 3.08889
+  }
+ }
+}

@@ -1,0 +1,88 @@
+{
+  "source_page": "page-083.jpg",
+  "pueblo_n": 20,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 2035
+  },
+  "extracted": {
+    "raw_n": 20,
+    "name_modern": "FORNALUTX",
+    "name_1768": "Fornaluig",
+    "cod_mun_ine": "07025",
+    "cl_mapa": "07018",
+    "rah_page": 20,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "La Virgen Maria en su Nacimiento (sufragánea)",
+    "total_animes": 978,
+    "by_age": {
+      "0-7": {
+        "sol_var": 73,
+        "sol_hem": 58,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "7-16": {
+        "sol_var": 111,
+        "sol_hem": 101,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "16-25": {
+        "sol_var": 65,
+        "sol_hem": 75,
+        "cas_var": 8,
+        "cas_hem": 21
+      },
+      "25-40": {
+        "sol_var": 50,
+        "sol_hem": 27,
+        "cas_var": 55,
+        "cas_hem": 74
+      },
+      "40-50": {
+        "sol_var": 6,
+        "sol_hem": 17,
+        "cas_var": 46,
+        "cas_hem": 40
+      },
+      "50+": {
+        "sol_var": 20,
+        "sol_hem": 37,
+        "cas_var": 60,
+        "cas_hem": 34
+      }
+    },
+    "totals_row": {
+      "var": 494,
+      "hem": 484,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": null,
+      "real_hacien": 8,
+      "cruzada": null,
+      "inquisicion": 1
+    },
+    "eclesiasticos": "1 Vicario, 3 Sacerdotes tonsurados, 2 Sacristanes, 2 Monacillos, Dala zela, y el Recetor. Resoluen en 20 de Abril de 1768",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "Hospitales 4: 2 Demandadores",
+    "juzgados": "Este Lugar esta Gobernado por la misma Justicia: un Mayor de Bulas",
+    "estudios": "",
+    "administraciones_rentas": "",
+    "hermitas": "",
+    "barrios_aldeas": "Barrios ó Aldeas 28: Esta como sufragánea Villa de (Fornaluig) Dijo de Soller",
+    "cura_relacion_date": "1768-04-20",
+    "notes": "",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "medium",
+      "total_animes": "high",
+      "by_age_cells": "medium",
+      "text_blocks": "low"
+    }
+  }
+}

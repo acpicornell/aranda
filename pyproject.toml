@@ -1,0 +1,17 @@
+[project]
+name = "aranda"
+version = "0.1.0"
+description = "Digital edition of the Balearic section of the Censo del Conde de Aranda (1768). Sister project of the nomenclators family."
+requires-python = ">=3.12"
+dependencies = [
+    "duckdb>=1.5.0",
+    "rapidfuzz>=3.0",
+    "python-dotenv>=1.0",
+    "pyarrow>=15.0",
+    "anthropic>=0.100",
+    "pypdf>=4.0",
+    "pillow>=10.0",
+]
+
+[tool.uv]
+package = false

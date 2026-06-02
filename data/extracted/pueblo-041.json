@@ -1,0 +1,89 @@
+{
+  "source_page": "page-096.jpg",
+  "pueblo_n": 41,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1786
+  },
+  "extracted": {
+    "raw_n": 41,
+    "name_modern": "PUIGPUÑENT",
+    "name_1768": "Puigpuñent",
+    "cod_mun_ine": "07045",
+    "cl_mapa": "07045",
+    "rah_page": 40,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "Nra. Sra. Olla Asumpcion de Maria",
+    "total_animes": 851,
+    "by_age": {
+      "0-7": {
+        "sol_var": 61,
+        "sol_hem": 63,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "7-16": {
+        "sol_var": 88,
+        "sol_hem": 114,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "16-25": {
+        "sol_var": 62,
+        "sol_hem": 60,
+        "cas_var": 8,
+        "cas_hem": 18
+      },
+      "25-40": {
+        "sol_var": 42,
+        "sol_hem": 38,
+        "cas_var": 60,
+        "cas_hem": 50
+      },
+      "40-50": {
+        "sol_var": 11,
+        "sol_hem": 20,
+        "cas_var": 24,
+        "cas_hem": 39
+      },
+      "50+": {
+        "sol_var": 26,
+        "sol_hem": 14,
+        "cas_var": 34,
+        "cas_hem": 19
+      }
+    },
+    "totals_row": {
+      "var": 416,
+      "hem": 435,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": 5,
+      "real_servic": 2,
+      "real_hacien": 1,
+      "cruzada": 1,
+      "inquisicion": null
+    },
+    "eclesiasticos": "1 Rector, un Vicario, 1 Clérigo titular, 1 sacristán, y un Monacillo",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "Su Gobernador con un Bayle y 2 Regidores; un Subdelegado de Intendencia; un familiar del Santo Oficio.",
+    "estudios": "",
+    "administraciones_rentas": "2 Estanqueros",
+    "hermitas": "1 Hermitaño de la Concepción y otra de la Sma. Trinidad en las cercanías de Galilea",
+    "barrios_aldeas": "Galilea (Nra. Sra. del Carmen), sirve de sufraganea filia de Estellenchs",
+    "cura_relacion_date": null,
+    "notes": "2 Planos de las de Puigpuñent y su sufragánea de Estellenchs",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "medium",
+      "text_blocks": "low"
+    },
+    "text_revised": true
+  }
+}

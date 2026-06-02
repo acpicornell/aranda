@@ -1,0 +1,56 @@
+{
+  "source_page": "page-075.jpg",
+  "pueblo_n": 4,
+  "model": "pilot/claude-opus-4-8-vision (manual, free)",
+  "usage": null,
+  "extracted": {
+    "raw_n": 4,
+    "name_modern": "ANDRAIX",
+    "name_1768": "Andraig",
+    "cod_mun_ine": "07005",
+    "cl_mapa": "07039",
+    "rah_page": 4,
+    "obispado": "Mallorca",
+    "provincia": "Mallorca",
+    "parroquia": "San Bartolomé",
+    "total_animes": 3006,
+    "by_age": null,
+    "totals_row": {
+      "var": 1856,
+      "hem": 1150,
+      "global": 3006
+    },
+    "casados_total": {
+      "var": 850,
+      "hem": 850
+    },
+    "solteros_total": {
+      "var": 1006,
+      "hem": 300
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": null,
+      "real_hacien": 1,
+      "cruzada": 2,
+      "inquisicion": null
+    },
+    "eclesiasticos": "1 Vicario perpetuo, Beneficiados; 16 sacerdotes seculares; 2 sacristanes. El Cura en 26 de Nov. de 1768.",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "Bayle Real; Regidores; vecindario.",
+    "estudios": "",
+    "administraciones_rentas": "",
+    "hermitas": "",
+    "barrios_aldeas": "",
+    "cura_relacion_date": "1768-11-26",
+    "notes": "Villa de Andraitx.",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "low",
+      "text_blocks": "medium"
+    }
+  }
+}

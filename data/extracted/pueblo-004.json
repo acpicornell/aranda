@@ -1,0 +1,97 @@
+{
+  "source_page": "page-075.jpg",
+  "pueblo_n": 4,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1823
+  },
+  "extracted": {
+    "raw_n": 4,
+    "name_modern": "ANDRAIX",
+    "name_1768": "Andraig",
+    "cod_mun_ine": "07005",
+    "cl_mapa": "07039",
+    "rah_page": 4,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "San Bartholome",
+    "total_animes": 3006,
+    "by_age": {
+      "0-7": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 170,
+        "sol_hem": 180
+      },
+      "7-16": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 115,
+        "sol_hem": 180
+      },
+      "16-25": {
+        "cas_var": 30,
+        "cas_hem": 30,
+        "sol_var": 142,
+        "sol_hem": 103
+      },
+      "25-40": {
+        "cas_var": 400,
+        "cas_hem": 400,
+        "sol_var": 100,
+        "sol_hem": 132
+      },
+      "40-50": {
+        "cas_var": 303,
+        "cas_hem": 303,
+        "sol_var": 68,
+        "sol_hem": 80
+      },
+      "50+": {
+        "cas_var": 117,
+        "cas_hem": 117,
+        "sol_var": 11,
+        "sol_hem": 25
+      }
+    },
+    "totals_row": {
+      "var": 1856,
+      "hem": 1150,
+      "global": 3006
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": null,
+      "real_hacien": null,
+      "cruzada": 1,
+      "inquisicion": 2
+    },
+    "eclesiasticos": "1 Rector, 1 Beneficiado, sucesores beneficiales 2, sacristanes 2, etc.",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "Regidores della, Baile, Cura = 2 familiares del Sto. Oficio",
+    "estudios": "",
+    "administraciones_rentas": "",
+    "hermitas": "",
+    "barrios_aldeas": "",
+    "cura_relacion_date": "1768-11",
+    "notes": "[al marge] soldados milicianos; 350 matriculados en la Marina.",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "medium",
+      "total_animes": "high (reconciled)",
+      "by_age_cells": "high (reconciled, 2nd pass)",
+      "text_blocks": "low"
+    },
+    "casados_total": {
+      "var": 850,
+      "hem": 850
+    },
+    "solteros_total": {
+      "var": 606,
+      "hem": 700
+    },
+    "text_revised": true
+  }
+}

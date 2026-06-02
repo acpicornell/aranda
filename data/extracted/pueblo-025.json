@@ -1,0 +1,97 @@
+{
+  "source_page": "page-085.jpg",
+  "pueblo_n": 25,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1907
+  },
+  "extracted": {
+    "raw_n": 25,
+    "name_modern": "MAIA DE LA SALUD",
+    "name_1768": "Lugar de Maria",
+    "cod_mun_ine": "07035",
+    "cl_mapa": "07037",
+    "rah_page": 26,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "La Virgen Maria de la Salud",
+    "total_animes": 756,
+    "by_age": {
+      "0-7": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 85,
+        "sol_hem": 72
+      },
+      "7-16": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 68,
+        "sol_hem": 86
+      },
+      "16-25": {
+        "cas_var": 2,
+        "cas_hem": 1,
+        "sol_var": 39,
+        "sol_hem": 27
+      },
+      "25-40": {
+        "cas_var": 80,
+        "cas_hem": 83,
+        "sol_var": 4,
+        "sol_hem": 7
+      },
+      "40-50": {
+        "cas_var": 26,
+        "cas_hem": 26,
+        "sol_var": 2,
+        "sol_hem": 14
+      },
+      "50+": {
+        "cas_var": 44,
+        "cas_hem": 42,
+        "sol_var": 8,
+        "sol_hem": 40
+      }
+    },
+    "totals_row": {
+      "var": 358,
+      "hem": 398,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": null,
+      "real_hacien": 3,
+      "cruzada": 1,
+      "inquisicion": 1
+    },
+    "eclesiasticos": "3 Presbíteros titulares; 1 Vicario perpetuo; 1 Beneficiado; 1 Monaguillo. Dio la relación el Rector en 13 de [mes il·legible] de 1768.",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "este Lugar esta Governado por una misma Justicia, en Sancervilla y Bula",
+    "estudios": "",
+    "administraciones_rentas": "Estanquero de Tabaco",
+    "hermitas": "",
+    "barrios_aldeas": "Este Pueblo es anexo sufraganea del de... Maria",
+    "cura_relacion_date": "1768-10-13",
+    "notes": "",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "medium",
+      "total_animes": "high",
+      "by_age_cells": "high (reconciled, 2nd pass)",
+      "text_blocks": "low"
+    },
+    "casados_total": {
+      "var": 152,
+      "hem": 152
+    },
+    "solteros_total": {
+      "var": 206,
+      "hem": 246
+    },
+    "text_revised": true
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "source_page": "page-104.jpg",
+  "pueblo_n": 55,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 928
+  },
+  "extracted": {
+    "raw_n": 55,
+    "name_modern": "VILLAFRANCA DE BONANY",
+    "name_1768": "Villa de Villafranca",
+    "cod_mun_ine": "07065",
+    "cl_mapa": "07051",
+    "rah_page": 54,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "Santa Barbara, sufragania",
+    "total_animes": 589,
+    "by_age": {
+      "0-7": {
+        "sol_var": 70,
+        "sol_hem": 50,
+        "cas_var": 0,
+        "cas_hem": 0
+      },
+      "7-16": {
+        "sol_var": 52,
+        "sol_hem": 55,
+        "cas_var": 0,
+        "cas_hem": 0
+      },
+      "16-25": {
+        "sol_var": 46,
+        "sol_hem": 31,
+        "cas_var": 4,
+        "cas_hem": 21
+      },
+      "25-40": {
+        "sol_var": 13,
+        "sol_hem": 17,
+        "cas_var": 65,
+        "cas_hem": 53
+      },
+      "40-50": {
+        "sol_var": 0,
+        "sol_hem": 9,
+        "cas_var": 9,
+        "cas_hem": 21
+      },
+      "50+": {
+        "sol_var": 4,
+        "sol_hem": 24,
+        "cas_var": 31,
+        "cas_hem": 14
+      }
+    },
+    "totals_row": {
+      "var": 294,
+      "hem": 295,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": 4,
+      "real_servic": 1,
+      "real_hacien": 1,
+      "cruzada": null,
+      "inquisicion": null
+    },
+    "eclesiasticos": "1 Vicario y tres sirvientes; un sufraganeo de la Iglesia. El Vicario en 12 de Enero de 1769",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "1 Receptor de Bulas",
+    "estudios": "",
+    "administraciones_rentas": "1 Estanquero de Tabaco",
+    "hermitas": "",
+    "barrios_aldeas": "Esta sufraganea y sufragania de la de Petra",
+    "cura_relacion_date": "1769-01-12",
+    "notes": "Nota: Esta Villa es sufraganea y anejo Espiritual a la de Petra; en lo temporal concierne, en lo a los Criminales, y en lo Civil y Alodial aun a Bayle y Regidores que nombra el Pueblo de la Villa franca",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "low",
+      "text_blocks": "low"
+    }
+  }
+}

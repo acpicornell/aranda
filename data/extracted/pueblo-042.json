@@ -1,0 +1,97 @@
+{
+  "source_page": "page-096.jpg",
+  "pueblo_n": 42,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1786
+  },
+  "extracted": {
+    "raw_n": 42,
+    "name_modern": "SAN JUAN",
+    "name_1768": "Juan",
+    "cod_mun_ine": "07049",
+    "cl_mapa": "07046",
+    "rah_page": 47,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "S. Juan Bauptista",
+    "total_animes": 1471,
+    "by_age": {
+      "0-7": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 138,
+        "sol_hem": 120
+      },
+      "7-16": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 124,
+        "sol_hem": 123
+      },
+      "16-25": {
+        "cas_var": 0,
+        "cas_hem": 5,
+        "sol_var": 72,
+        "sol_hem": 80
+      },
+      "25-40": {
+        "cas_var": 121,
+        "cas_hem": 153,
+        "sol_var": 81,
+        "sol_hem": 68
+      },
+      "40-50": {
+        "cas_var": 81,
+        "cas_hem": 50,
+        "sol_var": 12,
+        "sol_hem": 29
+      },
+      "50+": {
+        "cas_var": 63,
+        "cas_hem": 57,
+        "sol_var": 21,
+        "sol_hem": 73
+      }
+    },
+    "totals_row": {
+      "var": 713,
+      "hem": 758,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": 15,
+      "real_servic": 1,
+      "real_hacien": 1,
+      "cruzada": null,
+      "inquisicion": null
+    },
+    "eclesiasticos": "1 Rector, 6 Beneficiados, 8 sacerdotes titulares, 1 sacristán, organista, 3 Monacillos. Dio la relación el Rector en 5 de Febrero de 1769",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "Su Gobernador con Bayle y 4 Regidores; un Subdelegado de Intendencia.",
+    "estudios": "",
+    "administraciones_rentas": "",
+    "hermitas": "Santuario de Nuestra Señora [dedicació il·legible] con sacristán capellán.",
+    "barrios_aldeas": "",
+    "cura_relacion_date": "1769-02-05",
+    "notes": "",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "medium",
+      "total_animes": "high",
+      "by_age_cells": "high (reconciled, 2nd pass)",
+      "text_blocks": "low"
+    },
+    "casados_total": {
+      "var": 265,
+      "hem": 265
+    },
+    "solteros_total": {
+      "var": 448,
+      "hem": 493
+    },
+    "text_revised": true
+  }
+}

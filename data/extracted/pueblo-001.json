@@ -1,0 +1,97 @@
+{
+  "source_page": "page-073.jpg",
+  "pueblo_n": 1,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1002
+  },
+  "extracted": {
+    "raw_n": 1,
+    "name_modern": "ALARO",
+    "name_1768": "Alaró",
+    "cod_mun_ine": "07001",
+    "cl_mapa": "07020",
+    "rah_page": 1,
+    "obispado": "Mallorca",
+    "provincia": "Mallorca",
+    "parroquia": "San Bartholomé Apostol Matriz",
+    "total_animes": 2266,
+    "by_age": {
+      "0-7": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 216,
+        "sol_hem": 194
+      },
+      "7-16": {
+        "cas_var": 0,
+        "cas_hem": 3,
+        "sol_var": 249,
+        "sol_hem": 157
+      },
+      "16-25": {
+        "cas_var": 15,
+        "cas_hem": 29,
+        "sol_var": 123,
+        "sol_hem": 118
+      },
+      "25-40": {
+        "cas_var": 179,
+        "cas_hem": 203,
+        "sol_var": 75,
+        "sol_hem": 38
+      },
+      "40-50": {
+        "cas_var": 147,
+        "cas_hem": 93,
+        "sol_var": 6,
+        "sol_hem": 27
+      },
+      "50+": {
+        "cas_var": 105,
+        "cas_hem": 118,
+        "sol_var": 41,
+        "sol_hem": 130
+      }
+    },
+    "totals_row": {
+      "var": 1156,
+      "hem": 1110,
+      "global": 2266
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": 16,
+      "real_hacien": 2,
+      "cruzada": 1,
+      "inquisicion": 1
+    },
+    "eclesiasticos": "1 Rector, 2 Vicarios, 9 Beneficiados, 3 Ordenados in sacris, 1 ordenado de menores, sacristán y 2 acólitos, 4 campaneros. Dio la relación el Rector en 20 de [mes il·legible] de 1768.",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "Curato cura, Governador, un Bayle y 4 Regidores, etc.; cárcel y casa Lugar de Concell",
+    "estudios": "Subdelegado de la Real Intendencia; otro de Marina; un Alcaide de la S.ta Cruzada; un familiar",
+    "administraciones_rentas": "1 Estanquero de tabaco y otro de sal",
+    "hermitas": "",
+    "barrios_aldeas": "casas y huertas en circuición, vecinos a huérfanos y lugar de Concell",
+    "cura_relacion_date": "1768",
+    "notes": "2 Plazas: Plaza de Alaró y la de Sufragánea de Concell",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "high (reconciled, 2nd pass)",
+      "text_blocks": "low"
+    },
+    "casados_total": {
+      "var": 446,
+      "hem": 446
+    },
+    "solteros_total": {
+      "var": 710,
+      "hem": 664
+    },
+    "text_revised": true
+  }
+}

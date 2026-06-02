@@ -1,0 +1,88 @@
+{
+  "source_page": "page-080.jpg",
+  "pueblo_n": 15,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1635
+  },
+  "extracted": {
+    "raw_n": 15,
+    "name_modern": "COSTITX",
+    "name_1768": "Custitx",
+    "cod_mun_ine": "07017",
+    "cl_mapa": "07034",
+    "rah_page": 16,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "Santa María, sufragánea",
+    "total_animes": 1061,
+    "by_age": {
+      "0-7": {
+        "sol_var": 92,
+        "sol_hem": 94,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "7-16": {
+        "sol_var": 85,
+        "sol_hem": 96,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "16-25": {
+        "sol_var": 62,
+        "sol_hem": 61,
+        "cas_var": 9,
+        "cas_hem": 9
+      },
+      "25-40": {
+        "sol_var": 14,
+        "sol_hem": 32,
+        "cas_var": 116,
+        "cas_hem": 100
+      },
+      "40-50": {
+        "sol_var": 31,
+        "sol_hem": 39,
+        "cas_var": 29,
+        "cas_hem": 57
+      },
+      "50+": {
+        "sol_var": 34,
+        "sol_hem": 49,
+        "cas_var": 32,
+        "cas_hem": 20
+      }
+    },
+    "totals_row": {
+      "var": 504,
+      "hem": 557,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": 10,
+      "real_hacien": null,
+      "cruzada": null,
+      "inquisicion": null
+    },
+    "eclesiasticos": "Un Vicario y otros 2 facedores con titular, no facusan. Dió la relación el mismo recino de Sancellas en 15 de Enero de 1763",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "Este con Governador del Lugar y la misma Justicia",
+    "estudios": "",
+    "administraciones_rentas": "",
+    "hermitas": "",
+    "barrios_aldeas": "Como sufragánea de la villa de Sancellas",
+    "cura_relacion_date": "1763-01-15",
+    "notes": "",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "medium",
+      "by_age_cells": "low",
+      "text_blocks": "low"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "source_page": "page-101.jpg",
+  "pueblo_n": 51,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 2051
+  },
+  "extracted": {
+    "raw_n": 51,
+    "name_modern": "SINEU",
+    "name_1768": "Syneu",
+    "cod_mun_ine": "07060",
+    "cl_mapa": "07036",
+    "rah_page": 49,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "Ntra Señora de los Angeles",
+    "total_animes": 3282,
+    "by_age": {
+      "0-7": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 276,
+        "sol_hem": 277
+      },
+      "7-16": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 347,
+        "sol_hem": 311
+      },
+      "16-25": {
+        "cas_var": 19,
+        "cas_hem": 40,
+        "sol_var": 184,
+        "sol_hem": 157
+      },
+      "25-40": {
+        "cas_var": 251,
+        "cas_hem": 274,
+        "sol_var": 125,
+        "sol_hem": 124
+      },
+      "40-50": {
+        "cas_var": 180,
+        "cas_hem": 156,
+        "sol_var": 18,
+        "sol_hem": 38
+      },
+      "50+": {
+        "cas_var": 186,
+        "cas_hem": 166,
+        "sol_var": 32,
+        "sol_hem": 121
+      }
+    },
+    "totals_row": {
+      "var": 1618,
+      "hem": 1664,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": 27,
+      "real_hacien": null,
+      "cruzada": 1,
+      "inquisicion": 2
+    },
+    "eclesiasticos": "1 Rector: un Vicario: 21 Beneficiados; y otros que ay vacantes; 5 Sacerdotes; 8 Tonsurados con 1 uno ordenado in Vicarii: 1 Sacristan y 2 Monacillos. Dató relación 4 de Febrero de 1769",
+    "conventos_religiosos": "1 Convento de religiosos con sacerdotes [dedicació il·legible]; 1 convento de monjas de la Concepción [resta il·legible].",
+    "hospicios_expositos": "1 Convto de Religiosas de la Inma Concepcion con 23 Religiosas: 3 Novicias; y 7 Obedienciarias; 1 Demandadero y un Monacillo",
+    "juzgados": "Gran Bayle y 4 Regidores; 2 receptores de Bulas; 2 familiares del Santo Oficio.",
+    "estudios": "",
+    "administraciones_rentas": "",
+    "hermitas": "Oratorios de Mancor y Biniamar (cada uno con sacristán); ermita de Santa Lucía.",
+    "barrios_aldeas": "",
+    "cura_relacion_date": "1769-02-04",
+    "notes": "[al marge, il·legible]",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "high (reconciled, 2nd pass)",
+      "text_blocks": "low"
+    },
+    "casados_total": {
+      "var": 636,
+      "hem": 636
+    },
+    "solteros_total": {
+      "var": 982,
+      "hem": 1028
+    },
+    "text_revised": true
+  }
+}

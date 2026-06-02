@@ -1,0 +1,96 @@
+{
+  "source_page": "page-078.jpg",
+  "pueblo_n": 11,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1926
+  },
+  "extracted": {
+    "raw_n": 11,
+    "name_modern": "CAMPANET",
+    "name_1768": "Campanet",
+    "cod_mun_ine": "07012",
+    "cl_mapa": "07012",
+    "rah_page": 11,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "San Miguel Arcángel, con Cura de Almas",
+    "total_animes": 1488,
+    "by_age": {
+      "0-7": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 139,
+        "sol_hem": 115
+      },
+      "7-16": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 158,
+        "sol_hem": 150
+      },
+      "16-25": {
+        "cas_var": 13,
+        "cas_hem": 42,
+        "sol_var": 96,
+        "sol_hem": 60
+      },
+      "25-40": {
+        "cas_var": 129,
+        "cas_hem": 139,
+        "sol_var": 34,
+        "sol_hem": 24
+      },
+      "40-50": {
+        "cas_var": 56,
+        "cas_hem": 54,
+        "sol_var": 3,
+        "sol_hem": 19
+      },
+      "50+": {
+        "cas_var": 96,
+        "cas_hem": 59,
+        "sol_var": 28,
+        "sol_hem": 74
+      }
+    },
+    "totals_row": {
+      "var": 752,
+      "hem": 736,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": 13,
+      "real_servic": null,
+      "real_hacien": null,
+      "cruzada": 1,
+      "inquisicion": null
+    },
+    "eclesiasticos": "1 Rector y 1 Beneficiado; un Vicario; 3 titulares y otros 2 Beneficiados más; 2 entre Curato Catedral y Vicario en la Parroquia de Selva; 1 Organista con su Ayudante. Mandados. Sirven con 4 Asistentes. Dada la relación por el Rector en 19 de Dic. de 1768",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "1 Subdelegado de la Real Intendencia que es también Receptor de Bulas",
+    "estudios": "2 escuelas y 2 Doctores en Leyes (que gozan del fuero militar)",
+    "administraciones_rentas": "1 Exacción de Rentas de Caña de Almagales de la Puebla; 3 Administradores; 1 de Sal, tabaco y Pólvora",
+    "hermitas": "",
+    "barrios_aldeas": "Sufragania de Buger",
+    "cura_relacion_date": "1768-12-19",
+    "notes": "Nota: 2 Matriculados de Marina, ninguno de cuyos individuos... no han puesto en su respectiva casilla sino los 13 de Marina",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "medium",
+      "by_age_cells": "high (reconciled, 2nd pass)",
+      "text_blocks": "low"
+    },
+    "casados_total": {
+      "var": 294,
+      "hem": 294
+    },
+    "solteros_total": {
+      "var": 458,
+      "hem": 442
+    }
+  }
+}

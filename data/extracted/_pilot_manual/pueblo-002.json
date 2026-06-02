@@ -1,0 +1,50 @@
+{
+  "source_page": "page-074.jpg",
+  "pueblo_n": 2,
+  "model": "pilot/claude-opus-4-8-vision (manual, free)",
+  "usage": null,
+  "extracted": {
+    "raw_n": 2,
+    "name_modern": "ALCUDIA",
+    "name_1768": "Alcudia",
+    "cod_mun_ine": "07003",
+    "cl_mapa": "07015",
+    "rah_page": 2,
+    "obispado": "Mallorca",
+    "provincia": "Mallorca",
+    "parroquia": "",
+    "total_animes": 813,
+    "by_age": null,
+    "totals_row": {
+      "var": null,
+      "hem": null,
+      "global": 813
+    },
+    "casados_total": null,
+    "solteros_total": null,
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": null,
+      "real_hacien": null,
+      "cruzada": null,
+      "inquisicion": 1
+    },
+    "eclesiasticos": "1 Párroco ó Pároco; 6 Beneficiados; sacristanes.",
+    "conventos_religiosos": "1 Convento de … con 8 religiosos; 1 de Mínimos.",
+    "hospicios_expositos": "",
+    "juzgados": "",
+    "estudios": "",
+    "administraciones_rentas": "1 Administración de Salinas; Aduana.",
+    "hermitas": "1 Santuario de Ntra. Sra. de la Victoria.",
+    "barrios_aldeas": "",
+    "cura_relacion_date": "1768",
+    "notes": "Ciudad de Alcudia.",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "low",
+      "text_blocks": "low"
+    }
+  }
+}

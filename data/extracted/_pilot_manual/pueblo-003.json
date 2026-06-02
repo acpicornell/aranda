@@ -1,0 +1,44 @@
+{
+  "source_page": "page-074.jpg",
+  "pueblo_n": 3,
+  "model": "pilot/claude-opus-4-8-vision (manual, free)",
+  "usage": null,
+  "extracted": {
+    "raw_n": 3,
+    "name_modern": "ALGAIDA",
+    "name_1768": "Algayda",
+    "cod_mun_ine": "07004",
+    "cl_mapa": "07044",
+    "rah_page": 3,
+    "obispado": "Mallorca",
+    "provincia": "Mallorca",
+    "parroquia": "San Pedro",
+    "total_animes": 2482,
+    "by_age": null,
+    "totals_row": {
+      "var": null,
+      "hem": null,
+      "global": 2482
+    },
+    "casados_total": null,
+    "solteros_total": null,
+    "exentos": null,
+    "eclesiasticos": "12 Beneficiados; … sacerdotes.",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "1 Demandadero del Hospital.",
+    "juzgados": "Gobernador, un Bayle y 4 Regidores.",
+    "estudios": "",
+    "administraciones_rentas": "",
+    "hermitas": "1 Santuario.",
+    "barrios_aldeas": "",
+    "cura_relacion_date": "1768",
+    "notes": "Villa de Algaida.",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "low",
+      "text_blocks": "low"
+    }
+  }
+}

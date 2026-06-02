@@ -1,0 +1,88 @@
+{
+  "source_page": "page-074.jpg",
+  "pueblo_n": 3,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1959
+  },
+  "extracted": {
+    "raw_n": 3,
+    "name_modern": "ALGAIDA",
+    "name_1768": "Villa de Algayda",
+    "cod_mun_ine": "07004",
+    "cl_mapa": "07044",
+    "rah_page": 3,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "San Pedro",
+    "total_animes": 2482,
+    "by_age": {
+      "0-7": {
+        "sol_var": 229,
+        "sol_hem": 211,
+        "cas_var": 0,
+        "cas_hem": 0
+      },
+      "7-16": {
+        "sol_var": 241,
+        "sol_hem": 221,
+        "cas_var": 0,
+        "cas_hem": 0
+      },
+      "16-25": {
+        "sol_var": 146,
+        "sol_hem": 128,
+        "cas_var": 25,
+        "cas_hem": 50
+      },
+      "25-40": {
+        "sol_var": 51,
+        "sol_hem": 62,
+        "cas_var": 203,
+        "cas_hem": 261
+      },
+      "40-50": {
+        "sol_var": 28,
+        "sol_hem": 52,
+        "cas_var": 140,
+        "cas_hem": 81
+      },
+      "50+": {
+        "sol_var": 54,
+        "sol_hem": 133,
+        "cas_var": 95,
+        "cas_hem": 71
+      }
+    },
+    "totals_row": {
+      "var": 1212,
+      "hem": 1270,
+      "global": 2482
+    },
+    "exentos": {
+      "hidalguia": 13,
+      "real_servic": 25,
+      "real_hacien": null,
+      "cruzada": null,
+      "inquisicion": null
+    },
+    "eclesiasticos": "12 Beneficiados incluso el Rector; 1 fiscadores; 1 Vicario; 1 organista.",
+    "conventos_religiosos": "Dio el Rector en fines de 1768.",
+    "hospicios_expositos": "3 Demandantes de limosna.",
+    "juzgados": "Está gobernada con un Bayle y 4 regidores; 2 escribanos de Sala.",
+    "estudios": "",
+    "administraciones_rentas": "",
+    "hermitas": "",
+    "barrios_aldeas": "",
+    "cura_relacion_date": "1768",
+    "notes": "Nota: Hay un Hermano del Cl. Alcalde; un fijo 2 Cavos y 22 soldados milicianos",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high (reconciled)",
+      "by_age_cells": "high (reconciled, user-corrected)",
+      "text_blocks": "low"
+    }
+  }
+}

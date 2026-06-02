@@ -1,0 +1,89 @@
+{
+  "source_page": "page-084.jpg",
+  "pueblo_n": 22,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1742
+  },
+  "extracted": {
+    "raw_n": 22,
+    "name_modern": "LLOSETA",
+    "name_1768": "Lloseta y Ayamans",
+    "cod_mun_ine": "07029",
+    "cl_mapa": "07021",
+    "rah_page": 22,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "Maria de Lloseta, Sufraganea",
+    "total_animes": 608,
+    "by_age": {
+      "0-7": {
+        "sol_var": 59,
+        "sol_hem": 56,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "7-16": {
+        "sol_var": 68,
+        "sol_hem": 60,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "16-25": {
+        "sol_var": 36,
+        "sol_hem": 35,
+        "cas_var": 4,
+        "cas_hem": 23
+      },
+      "25-40": {
+        "sol_var": 12,
+        "sol_hem": 8,
+        "cas_var": 35,
+        "cas_hem": 42
+      },
+      "40-50": {
+        "sol_var": 2,
+        "sol_hem": 10,
+        "cas_var": 33,
+        "cas_hem": 28
+      },
+      "50+": {
+        "sol_var": 18,
+        "sol_hem": 23,
+        "cas_var": 38,
+        "cas_hem": 18
+      }
+    },
+    "totals_row": {
+      "var": 305,
+      "hem": 303,
+      "global": 608
+    },
+    "exentos": {
+      "hidalguia": 6,
+      "real_servic": 1,
+      "real_hacien": 1,
+      "cruzada": null,
+      "inquisicion": null
+    },
+    "eclesiasticos": "1 Vicario; sacristanes y 1 demandadero. Dio la relación el Vicario en 18 de [mes il·legible] de 1768.",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "Está governado en este lugar con un Bayle y 4 Regidores",
+    "estudios": "",
+    "administraciones_rentas": "1 Estanquero, y un Receptor de la Bula",
+    "hermitas": "",
+    "barrios_aldeas": "Está sufraganea de la Iglesia de Binisalem",
+    "cura_relacion_date": "1768",
+    "notes": "",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "low",
+      "total_animes": "high (reconciled)",
+      "by_age_cells": "high (reconciled, user-corrected)",
+      "text_blocks": "low"
+    },
+    "text_revised": true
+  }
+}

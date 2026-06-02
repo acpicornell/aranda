@@ -1,0 +1,47 @@
+# Source PDF (re-downloadable from INE).
+data/sources/
+
+# Per-page image extracts (regenerable via pdftoppm).
+data/pages/
+
+# Raw LLM extraction outputs (regenerable, but expensive — commit if final).
+data/extracted/raw/
+
+# Normalized JSONL (rebuildable from extracted/).
+data/normalized/
+
+# Audit reports.
+data/reports/
+
+# DuckDB binary.
+db/*.duckdb
+db/*.duckdb.wal
+
+# Generated web data — committed (deployed via wrangler).
+# web/data.json
+# web/data-blobs.json
+
+# Secrets.
+.env
+.env.*
+!.env.example
+
+# Python.
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Editor / OS.
+.vscode/
+.idea/
+.DS_Store
+
+# Wrangler.
+.wrangler
+.dev.vars*
+!.dev.vars.example
+node_modules/
+
+# Claude Code local/runtime files.
+.claude/

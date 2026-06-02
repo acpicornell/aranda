@@ -1,0 +1,88 @@
+{
+  "source_page": "page-078.jpg",
+  "pueblo_n": 10,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1926
+  },
+  "extracted": {
+    "raw_n": 10,
+    "name_modern": "CALVIA",
+    "name_1768": "Calvia",
+    "cod_mun_ine": "07011",
+    "cl_mapa": "07042",
+    "rah_page": 10,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "San Juan Bautista",
+    "total_animes": 1204,
+    "by_age": {
+      "0-7": {
+        "sol_var": 109,
+        "sol_hem": 141,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "7-16": {
+        "sol_var": 96,
+        "sol_hem": 79,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "16-25": {
+        "sol_var": 84,
+        "sol_hem": 86,
+        "cas_var": 6,
+        "cas_hem": 20
+      },
+      "25-40": {
+        "sol_var": 46,
+        "sol_hem": 27,
+        "cas_var": 60,
+        "cas_hem": 99
+      },
+      "40-50": {
+        "sol_var": 6,
+        "sol_hem": 15,
+        "cas_var": 56,
+        "cas_hem": 44
+      },
+      "50+": {
+        "sol_var": 22,
+        "sol_hem": 63,
+        "cas_var": 93,
+        "cas_hem": 52
+      }
+    },
+    "totals_row": {
+      "var": 578,
+      "hem": 626,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": 8,
+      "real_servic": null,
+      "real_hacien": null,
+      "cruzada": null,
+      "inquisicion": null
+    },
+    "eclesiasticos": "1 Rector, un Vicario; 1 Beneficiado simple; 2 sacristanes. Dada la relación por el Rector en 19 de Nov. de 1768",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "Escribanía. Está gobernada de un Bayle y 4 Regidores; un Mayor de Bula; un Juzgado del Real, Intendencia consistorial",
+    "estudios": "",
+    "administraciones_rentas": "",
+    "hermitas": "",
+    "barrios_aldeas": "",
+    "cura_relacion_date": "1768-11-19",
+    "notes": "Nota: Un Soldado del Real de Marina con los Marineros que actualmente no son [...]",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "medium",
+      "by_age_cells": "low",
+      "text_blocks": "low"
+    }
+  }
+}

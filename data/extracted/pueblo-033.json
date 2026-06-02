@@ -1,0 +1,88 @@
+{
+  "source_page": "page-090.jpg",
+  "pueblo_n": 33,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 2210
+  },
+  "extracted": {
+    "raw_n": 33,
+    "name_modern": "PALMA",
+    "name_1768": "Miguel",
+    "cod_mun_ine": "07040",
+    "cl_mapa": "07043",
+    "rah_page": 34,
+    "obispado": "Mallorca",
+    "provincia": "Mallorca",
+    "parroquia": "San Miguel",
+    "total_animes": 3346,
+    "by_age": {
+      "0-7": {
+        "sol_var": 296,
+        "sol_hem": 241,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "7-16": {
+        "sol_var": 297,
+        "sol_hem": 317,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "16-25": {
+        "sol_var": 139,
+        "sol_hem": 134,
+        "cas_var": 82,
+        "cas_hem": 137
+      },
+      "25-40": {
+        "sol_var": 41,
+        "sol_hem": 96,
+        "cas_var": 292,
+        "cas_hem": 363
+      },
+      "40-50": {
+        "sol_var": 22,
+        "sol_hem": 93,
+        "cas_var": 199,
+        "cas_hem": 137
+      },
+      "50+": {
+        "sol_var": 91,
+        "sol_hem": 155,
+        "cas_var": 144,
+        "cas_hem": 70
+      }
+    },
+    "totals_row": {
+      "var": null,
+      "hem": null,
+      "global": 3346
+    },
+    "exentos": {
+      "hidalguia": 129,
+      "real_servic": 18,
+      "real_hacien": null,
+      "cruzada": null,
+      "inquisicion": null
+    },
+    "eclesiasticos": "Hallan fundado en esta Parroquia 28 Beneficios; entre 1 cura della el Rector; 22 Curas; 2 Tonsurados; 2 Vicarios fueron Beneficiados, eran titulares; 14 sacerdotes titulares. Dio la Relacion el cura Rector en 16 de Marzo de 1768",
+    "conventos_religiosos": "Los Carmelitas con 58 individuos; 36 sacerdotes; 8 frailes legos; otros de oficio; los Trinitarios; Novicios y legos; otro de San Antonio; Clara de Padres",
+    "hospicios_expositos": "1 Hospital llamado del Rey con un Capellan y 2 familias que sirven en el; que se compone de no sacerdotes",
+    "juzgados": "1 escribano un Cura y 2 ministros oficiales del tribunal de la Inquisicion",
+    "estudios": "",
+    "administraciones_rentas": "",
+    "hermitas": "1 oratorio en el qual se celebra el Santisimo Sacramento; otra de la Domingo y tiene el Rosario",
+    "barrios_aldeas": "",
+    "cura_relacion_date": "1768-03-16",
+    "notes": "2 capitulares de la Real Audiencia del señor que de las libres 3 oficiales y 139 vecinos suenan los 18 quedan puestos en la Capilla. Ay tambien algunos. 123 de Marina 97 Marineros",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "low",
+      "text_blocks": "low"
+    }
+  }
+}

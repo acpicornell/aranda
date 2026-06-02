@@ -1,0 +1,96 @@
+{
+  "source_page": "page-098.jpg",
+  "pueblo_n": 46,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1826
+  },
+  "extracted": {
+    "raw_n": 46,
+    "name_modern": "SANTA EUGENIA",
+    "name_1768": "Sta Eugenia",
+    "cod_mun_ine": "07053",
+    "cl_mapa": "07032",
+    "rah_page": 42,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "Sta Eugenia anexos",
+    "total_animes": 864,
+    "by_age": {
+      "0-7": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 91,
+        "sol_hem": 82
+      },
+      "7-16": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 76,
+        "sol_hem": 72
+      },
+      "16-25": {
+        "cas_var": 3,
+        "cas_hem": 2,
+        "sol_var": 53,
+        "sol_hem": 65
+      },
+      "25-40": {
+        "cas_var": 64,
+        "cas_hem": 86,
+        "sol_var": 14,
+        "sol_hem": 4
+      },
+      "40-50": {
+        "cas_var": 38,
+        "cas_hem": 38,
+        "sol_var": 6,
+        "sol_hem": 7
+      },
+      "50+": {
+        "cas_var": 56,
+        "cas_hem": 35,
+        "sol_var": 22,
+        "sol_hem": 50
+      }
+    },
+    "totals_row": {
+      "var": 423,
+      "hem": 441,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": 4,
+      "real_hacien": 2,
+      "cruzada": 1,
+      "inquisicion": null
+    },
+    "eclesiasticos": "1 Vicario, 1 sacerdote secular, otro Ceo acolito, 1 sacristan y tres muchachos pr el servicio dela Iglesia. Da la relacion el Vicario en 26 de Novbre de 1768",
+    "conventos_religiosos": "1 Sindico dela Orden de Mendices",
+    "hospicios_expositos": "1 Demandadero dela Sma Anima",
+    "juzgados": "Este lugar se gova por la propia Justicia: un subdelegado de la Inmediencia y un Receptor dela Bula",
+    "estudios": "",
+    "administraciones_rentas": "1 Estanquero de sal, y otro de Tabaco",
+    "hermitas": "",
+    "barrios_aldeas": "",
+    "cura_relacion_date": "1768-11-26",
+    "notes": "42",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "medium",
+      "total_animes": "high",
+      "by_age_cells": "high (reconciled, 2nd pass)",
+      "text_blocks": "low"
+    },
+    "casados_total": {
+      "var": 161,
+      "hem": 161
+    },
+    "solteros_total": {
+      "var": 262,
+      "hem": 280
+    }
+  }
+}

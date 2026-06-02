@@ -1,0 +1,97 @@
+{
+  "source_page": "page-102.jpg",
+  "pueblo_n": 52,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1841
+  },
+  "extracted": {
+    "raw_n": 52,
+    "name_modern": "SOLLER",
+    "name_1768": "Soller",
+    "cod_mun_ine": "07061",
+    "cl_mapa": "07017",
+    "rah_page": 50,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "San Bartholome",
+    "total_animes": 4563,
+    "by_age": {
+      "0-7": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 421,
+        "sol_hem": 451
+      },
+      "7-16": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 448,
+        "sol_hem": 386
+      },
+      "16-25": {
+        "cas_var": 14,
+        "cas_hem": 41,
+        "sol_var": 304,
+        "sol_hem": 262
+      },
+      "25-40": {
+        "cas_var": 401,
+        "cas_hem": 464,
+        "sol_var": 159,
+        "sol_hem": 129
+      },
+      "40-50": {
+        "cas_var": 197,
+        "cas_hem": 108,
+        "sol_var": 16,
+        "sol_hem": 97
+      },
+      "50+": {
+        "cas_var": 199,
+        "cas_hem": 198,
+        "sol_var": 89,
+        "sol_hem": 179
+      }
+    },
+    "totals_row": {
+      "var": 2248,
+      "hem": 2315,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": 25,
+      "real_servic": null,
+      "real_hacien": 1,
+      "cruzada": 1,
+      "inquisicion": 1
+    },
+    "eclesiasticos": "1 Rector: 28 Beneficiados: 6 sacadores titulares: 2 sacristanes: 8 acomodillas. Dio la relación el Rector en 20 de Noviembre de 1768",
+    "conventos_religiosos": "8 Observantes con 16 sacadores: 8 digo 4 Terceros: 2 Criados, un sindico",
+    "hospicios_expositos": "2 Demandaderos de Hospitales",
+    "juzgados": "Gobernada con un teniente de Bayle y 4 Regidores; un Subdelegado de Intendencia; un Comisario de Cruzada [resta il·legible].",
+    "estudios": "Sufragania",
+    "administraciones_rentas": "",
+    "hermitas": "1 oratorio publico llamado de Biniaraix con 1 Beneficiado",
+    "barrios_aldeas": "Esta Villa en Marina, y tiene por Sufragania a la de Fornalutx",
+    "cura_relacion_date": "1768-11-20",
+    "notes": "2 Planes de mas: Soller y su Sufragania de Fornalutx. Nota: Un Juzgado: 2 de Marina, y 82 Matriculados en ella.",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "high (reconciled, 2nd pass)",
+      "text_blocks": "low"
+    },
+    "casados_total": {
+      "var": 811,
+      "hem": 811
+    },
+    "solteros_total": {
+      "var": 1437,
+      "hem": 1504
+    },
+    "text_revised": true
+  }
+}

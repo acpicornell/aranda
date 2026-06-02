@@ -1,0 +1,88 @@
+{
+  "source_page": "page-099.jpg",
+  "pueblo_n": 47,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 950
+  },
+  "extracted": {
+    "raw_n": 47,
+    "name_modern": "SANTA MARGARITA",
+    "name_1768": "Sta Margarita",
+    "cod_mun_ine": "07055",
+    "cl_mapa": "07038",
+    "rah_page": 45,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "Sta Margarita Macuy",
+    "total_animes": 1723,
+    "by_age": {
+      "0-7": {
+        "sol_var": 147,
+        "sol_hem": 153,
+        "cas_var": 0,
+        "cas_hem": 0
+      },
+      "7-16": {
+        "sol_var": 152,
+        "sol_hem": 120,
+        "cas_var": 0,
+        "cas_hem": 0
+      },
+      "16-25": {
+        "sol_var": 104,
+        "sol_hem": 72,
+        "cas_var": 35,
+        "cas_hem": 42
+      },
+      "25-40": {
+        "sol_var": 32,
+        "sol_hem": 26,
+        "cas_var": 188,
+        "cas_hem": 200
+      },
+      "40-50": {
+        "sol_var": 15,
+        "sol_hem": 37,
+        "cas_var": 83,
+        "cas_hem": 77
+      },
+      "50+": {
+        "sol_var": 26,
+        "sol_hem": 99,
+        "cas_var": 64,
+        "cas_hem": 51
+      }
+    },
+    "totals_row": {
+      "var": 846,
+      "hem": 877,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": 12,
+      "real_hacien": 5,
+      "cruzada": null,
+      "inquisicion": null
+    },
+    "eclesiasticos": "7 tonsurados, beneficiados, vicarios 13: un sacristan y 2 monacillos. Dió la relación en ella. Recibió en 12 de Diciembre 1768",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "Está esta gobernada por Bayle y Regidores; ay Bayle y sus lugares de Murta; un subdelegado de Intendencia",
+    "estudios": "",
+    "administraciones_rentas": "Guardias de tabacos",
+    "hermitas": "",
+    "barrios_aldeas": "Esta villa es Murta y tiene por sufraganea ala de el Lugar de Murta",
+    "cura_relacion_date": "1768-12-12",
+    "notes": "2 Plazas dichas de Margarita y subdelegano de Murta. Nota: 1 subdelegado de Murta, y 2 Margarita además de ella",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "medium",
+      "total_animes": "high",
+      "by_age_cells": "medium",
+      "text_blocks": "low"
+    }
+  }
+}

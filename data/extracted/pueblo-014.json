@@ -1,0 +1,88 @@
+{
+  "source_page": "page-080.jpg",
+  "pueblo_n": 14,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1635
+  },
+  "extracted": {
+    "raw_n": 14,
+    "name_modern": "CONSELL",
+    "name_1768": "Concell",
+    "cod_mun_ine": "07016",
+    "cl_mapa": "07027",
+    "rah_page": 15,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "La Visitación de Nuestra Señora, sufragánea",
+    "total_animes": 502,
+    "by_age": {
+      "0-7": {
+        "sol_var": 40,
+        "sol_hem": 45,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "7-16": {
+        "sol_var": 55,
+        "sol_hem": 45,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "16-25": {
+        "sol_var": 16,
+        "sol_hem": 30,
+        "cas_var": null,
+        "cas_hem": 4
+      },
+      "25-40": {
+        "sol_var": 20,
+        "sol_hem": 9,
+        "cas_var": 22,
+        "cas_hem": 42
+      },
+      "40-50": {
+        "sol_var": 20,
+        "sol_hem": 11,
+        "cas_var": 43,
+        "cas_hem": 21
+      },
+      "50+": {
+        "sol_var": 12,
+        "sol_hem": 21,
+        "cas_var": 24,
+        "cas_hem": 22
+      }
+    },
+    "totals_row": {
+      "var": 252,
+      "hem": 250,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": 4,
+      "real_hacien": 2,
+      "cruzada": null,
+      "inquisicion": null
+    },
+    "eclesiasticos": "Un Vicario y 2 facedores: el Vicario juma otro, 2 facedores son fameros; 1 facusan y 2 Acomos",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "Este Lugar con Governador y su Justicia",
+    "estudios": "",
+    "administraciones_rentas": "Un Estanquero de Tabaco y uno de Papel",
+    "hermitas": "",
+    "barrios_aldeas": "Como sufragánea de Alaró",
+    "cura_relacion_date": null,
+    "notes": "",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "low",
+      "text_blocks": "low"
+    }
+  }
+}

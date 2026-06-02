@@ -1,0 +1,89 @@
+{
+  "source_page": "page-103.jpg",
+  "pueblo_n": 54,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1185
+  },
+  "extracted": {
+    "raw_n": 54,
+    "name_modern": "VALLDEMOSA",
+    "name_1768": "Villa de Sn Bartholome de Valldemosa",
+    "cod_mun_ine": "07063",
+    "cl_mapa": "07025",
+    "rah_page": 53,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "San Bartholome Martir",
+    "total_animes": 1268,
+    "by_age": {
+      "0-7": {
+        "sol_var": 120,
+        "sol_hem": 125,
+        "cas_var": 0,
+        "cas_hem": 0
+      },
+      "7-16": {
+        "sol_var": 109,
+        "sol_hem": 84,
+        "cas_var": 0,
+        "cas_hem": 0
+      },
+      "16-25": {
+        "sol_var": 120,
+        "sol_hem": 76,
+        "cas_var": 7,
+        "cas_hem": 16
+      },
+      "25-40": {
+        "sol_var": 25,
+        "sol_hem": 15,
+        "cas_var": 80,
+        "cas_hem": 92
+      },
+      "40-50": {
+        "sol_var": 5,
+        "sol_hem": 11,
+        "cas_var": 74,
+        "cas_hem": 78
+      },
+      "50+": {
+        "sol_var": 27,
+        "sol_hem": 55,
+        "cas_var": 87,
+        "cas_hem": 62
+      }
+    },
+    "totals_row": {
+      "var": 654,
+      "hem": 614,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": 8,
+      "real_hacien": 2,
+      "cruzada": 1,
+      "inquisicion": null
+    },
+    "eclesiasticos": "1 Vicario; sacerdotes; sacristanes. Dio la relación el Vicario en [mes il·legible] de 1768 [resta il·legible].",
+    "conventos_religiosos": "1 Convento de la Cartuja (Cartoixa) de monjes [resta il·legible].",
+    "hospicios_expositos": "2 Demandadores del Hospital General y de Sn Antonio",
+    "juzgados": "Gobernada con Gobernador, Bayle y 4 Regidores; un Subdelegado de Intendencia.",
+    "estudios": "",
+    "administraciones_rentas": "1 Cosaquero de Tabaco; y otro de sal",
+    "hermitas": "Ermita u oratorio de la Santísima Trinidad, con ermitaños.",
+    "barrios_aldeas": "Esta villa es Madriz y tiene por sufraganea a la de Deya",
+    "cura_relacion_date": "1768",
+    "notes": "[al marge, il·legible]",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "medium",
+      "text_blocks": "low"
+    },
+    "text_revised": true
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "source_page": "page-074.jpg",
+  "pueblo_n": 2,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1959
+  },
+  "extracted": {
+    "raw_n": 2,
+    "name_modern": "ALCUDIA",
+    "name_1768": "Ciudad de Alcudia",
+    "cod_mun_ine": "07003",
+    "cl_mapa": "07015",
+    "rah_page": 2,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "Sant Jaume el Mayor",
+    "total_animes": 813,
+    "by_age": {
+      "0-7": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 80,
+        "sol_hem": 50
+      },
+      "7-16": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 100,
+        "sol_hem": 80
+      },
+      "16-25": {
+        "cas_var": 20,
+        "cas_hem": 35,
+        "sol_var": 50,
+        "sol_hem": 12
+      },
+      "25-40": {
+        "cas_var": 86,
+        "cas_hem": 80,
+        "sol_var": 5,
+        "sol_hem": 17
+      },
+      "40-50": {
+        "cas_var": 45,
+        "cas_hem": 28,
+        "sol_var": 10,
+        "sol_hem": 20
+      },
+      "50+": {
+        "cas_var": 29,
+        "cas_hem": 37,
+        "sol_var": 14,
+        "sol_hem": 15
+      }
+    },
+    "totals_row": {
+      "var": 439,
+      "hem": 374,
+      "global": 813
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": null,
+      "real_hacien": null,
+      "cruzada": 1,
+      "inquisicion": null
+    },
+    "eclesiasticos": "1 Rector o Párroco; 6 Beneficiados; 1 Sacristán y 3 Monaguillos de la Iglesia. Dio Rector en fines de 1768.",
+    "conventos_religiosos": "Convento de frailes observantes con extraordinarios y 2 legos y 2 donados; 1 convento de monjas con 1 síndico.",
+    "hospicios_expositos": "",
+    "juzgados": "Está gobernada con un Bayle y 6 regidores; un Cl. Real; 1 Alcalde; un Gobernador de la Plaza; Real en la Capital de Palma; 1 fiscal mayor; un Alguacil de la Plaza.",
+    "estudios": "un Capitán de llaves; un Guarda Almacén; un subdelegado de Marina; 1 Comisario de Cruzada.",
+    "administraciones_rentas": "1 Administrador de la Aduana; 1 administrador en Palma; un Visitador de la renta; vende en la de Pollensa; un estanquero.",
+    "hermitas": "1 Oratorio de Ntra. Sra. de la Victoria con demandadero (esto consta menos de 1 leguas).",
+    "barrios_aldeas": "",
+    "cura_relacion_date": "1768",
+    "notes": "Nota: 1 Comisario de Marina con 82 Marineros matriculados y 5 Soldados Milicianos",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high (reconciled)",
+      "by_age_cells": "high (reconciled, 2nd pass)",
+      "text_blocks": "low"
+    },
+    "casados_total": {
+      "var": 180,
+      "hem": 180
+    },
+    "solteros_total": {
+      "var": 259,
+      "hem": 194
+    }
+  }
+}

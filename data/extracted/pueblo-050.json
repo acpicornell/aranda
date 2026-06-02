@@ -1,0 +1,96 @@
+{
+  "source_page": "page-101.jpg",
+  "pueblo_n": 50,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 2051
+  },
+  "extracted": {
+    "raw_n": 50,
+    "name_modern": "SELVA",
+    "name_1768": "Selva",
+    "cod_mun_ine": "07058",
+    "cl_mapa": "07011",
+    "rah_page": 48,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "Lorenzo",
+    "total_animes": 2621,
+    "by_age": {
+      "0-7": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 238,
+        "sol_hem": 223
+      },
+      "7-16": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 256,
+        "sol_hem": 258
+      },
+      "16-25": {
+        "cas_var": 15,
+        "cas_hem": 58,
+        "sol_var": 185,
+        "sol_hem": 139
+      },
+      "25-40": {
+        "cas_var": 181,
+        "cas_hem": 225,
+        "sol_var": 72,
+        "sol_hem": 45
+      },
+      "40-50": {
+        "cas_var": 127,
+        "cas_hem": 99,
+        "sol_var": 14,
+        "sol_hem": 52
+      },
+      "50+": {
+        "cas_var": 163,
+        "cas_hem": 104,
+        "sol_var": 47,
+        "sol_hem": 120
+      }
+    },
+    "totals_row": {
+      "var": 1298,
+      "hem": 1323,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": 22,
+      "real_hacien": 5,
+      "cruzada": 2,
+      "inquisicion": 2
+    },
+    "eclesiasticos": "1 Rector; 13 Beneficiados; 11 Sacerdotes titulares con 2 Vicarios ó Tenientes; 3 Sacristanes y 2 Muchachos sirviendo",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "2 Receptores de Bulas; 2 Familiares del Sto Oficio = Se halla Governada en un Gran Bayle; 4 Regidores",
+    "estudios": "",
+    "administraciones_rentas": "5 Estanqueros de Tabaco en el término de dho lugar",
+    "hermitas": "1 Oratorio ó Hermita de Sta Lucia con un Sacristan sin Salario",
+    "barrios_aldeas": "Santuarios: 2 Oratorios pcos llamados de Mancor y de Biniamar cada uno con su Sacristan con salario",
+    "cura_relacion_date": null,
+    "notes": "",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "high (reconciled, 2nd pass)",
+      "text_blocks": "low"
+    },
+    "casados_total": {
+      "var": 486,
+      "hem": 486
+    },
+    "solteros_total": {
+      "var": 812,
+      "hem": 837
+    }
+  }
+}

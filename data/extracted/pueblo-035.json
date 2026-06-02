@@ -1,0 +1,88 @@
+{
+  "source_page": "page-091.jpg",
+  "pueblo_n": 35,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1953
+  },
+  "extracted": {
+    "raw_n": 35,
+    "name_modern": "PALMA",
+    "name_1768": "Cruz",
+    "cod_mun_ine": "07040",
+    "cl_mapa": "07043",
+    "rah_page": 32,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "Santa Cruz",
+    "total_animes": 6514,
+    "by_age": {
+      "0-7": {
+        "sol_var": 502,
+        "sol_hem": 525,
+        "cas_var": 0,
+        "cas_hem": 0
+      },
+      "7-16": {
+        "sol_var": 560,
+        "sol_hem": 601,
+        "cas_var": 0,
+        "cas_hem": 3
+      },
+      "16-25": {
+        "sol_var": 339,
+        "sol_hem": 312,
+        "cas_var": 119,
+        "cas_hem": 250
+      },
+      "25-40": {
+        "sol_var": 149,
+        "sol_hem": 258,
+        "cas_var": 661,
+        "cas_hem": 708
+      },
+      "40-50": {
+        "sol_var": 54,
+        "sol_hem": 178,
+        "cas_var": 284,
+        "cas_hem": 220
+      },
+      "50+": {
+        "sol_var": 91,
+        "sol_hem": 309,
+        "cas_var": 254,
+        "cas_hem": 137
+      }
+    },
+    "totals_row": {
+      "var": 3013,
+      "hem": 3501,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": 984,
+      "real_servic": 21,
+      "real_hacien": 4,
+      "cruzada": 6,
+      "inquisicion": null
+    },
+    "eclesiasticos": "1 Recor y 30 Beneficiados; uno de ellos no esta ordenado de orden sacro; 1 Vicario; 1 Sacristan; 1 Cura; 1 Ayudante; 18 Personas eclesiasticas. Da la relacion el Recor, en 20 de Marzo de 1768.",
+    "conventos_religiosos": "Convento de Nuestra Señora del Carmen; uno de Capuchinos con 53 individuos; otro de Trinitarios con 19 individuos; otro de Mínimos con 14 individuos",
+    "hospicios_expositos": "",
+    "juzgados": "",
+    "estudios": "",
+    "administraciones_rentas": "Empleados en la Real Aduana de la mar; tienen tabaco; de la sal; otro en la Comanduria",
+    "hermitas": "",
+    "barrios_aldeas": "",
+    "cura_relacion_date": "1768-03-20",
+    "notes": "Nota: hay 946 cuarteles... 6 oficiales de la Plana Mayor... 5 Caballeros del Habito de San... otra Cueva...",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "medium",
+      "total_animes": "high",
+      "by_age_cells": "high (reconciled, user-corrected)",
+      "text_blocks": "low"
+    }
+  }
+}

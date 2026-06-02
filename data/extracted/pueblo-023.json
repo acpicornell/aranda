@@ -1,0 +1,89 @@
+{
+  "source_page": "page-084.jpg",
+  "pueblo_n": 23,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1742
+  },
+  "extracted": {
+    "raw_n": 23,
+    "name_modern": "LLUBI",
+    "name_1768": "Castell Llubi",
+    "cod_mun_ine": "07030",
+    "cl_mapa": "07045",
+    "rah_page": 14,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "Felix, Sufraganea",
+    "total_animes": 1195,
+    "by_age": {
+      "0-7": {
+        "sol_var": 119,
+        "sol_hem": 126,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "7-16": {
+        "sol_var": 110,
+        "sol_hem": 99,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "16-25": {
+        "sol_var": 71,
+        "sol_hem": 45,
+        "cas_var": 2,
+        "cas_hem": 19
+      },
+      "25-40": {
+        "sol_var": 19,
+        "sol_hem": 32,
+        "cas_var": 126,
+        "cas_hem": 155
+      },
+      "40-50": {
+        "sol_var": 4,
+        "sol_hem": 26,
+        "cas_var": 75,
+        "cas_hem": 36
+      },
+      "50+": {
+        "sol_var": 16,
+        "sol_hem": 62,
+        "cas_var": 30,
+        "cas_hem": 23
+      }
+    },
+    "totals_row": {
+      "var": 572,
+      "hem": 623,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": 10,
+      "real_servic": 2,
+      "real_hacien": 1,
+      "cruzada": null,
+      "inquisicion": null
+    },
+    "eclesiasticos": "Vicario; 1 sacerdote que sirve una Capellania fundada en esta Iglesia; 3 sacerdotes tonsurados; 1 sacristan y 2 ordenados",
+    "conventos_religiosos": "Demandadero de Nuestra Señora de la Merced y Casa de la Misericordia",
+    "hospicios_expositos": "",
+    "juzgados": "1 Subdelegado de Intendencia; Bayle y 2 Regidores; lugar sufragáneo [resta il·legible].",
+    "estudios": "",
+    "administraciones_rentas": "1 Estanquero de Tabaco y otro de Sal",
+    "hermitas": "",
+    "barrios_aldeas": "",
+    "cura_relacion_date": null,
+    "notes": "",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "low",
+      "total_animes": "high",
+      "by_age_cells": "medium",
+      "text_blocks": "low"
+    },
+    "text_revised": true
+  }
+}

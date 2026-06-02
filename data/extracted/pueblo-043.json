@@ -1,0 +1,96 @@
+{
+  "source_page": "page-097.jpg",
+  "pueblo_n": 43,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1808
+  },
+  "extracted": {
+    "raw_n": 43,
+    "name_modern": "SAN JUAN BAUTISTA",
+    "name_1768": "San Juan Bap.ta de Deya",
+    "cod_mun_ine": "07050",
+    "cl_mapa": "07062",
+    "rah_page": 43,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "S.ta Juan Bap.ta Sufrag.",
+    "total_animes": 759,
+    "by_age": {
+      "0-7": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 74,
+        "sol_hem": 72
+      },
+      "7-16": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 53,
+        "sol_hem": 54
+      },
+      "16-25": {
+        "cas_var": 4,
+        "cas_hem": 7,
+        "sol_var": 51,
+        "sol_hem": 42
+      },
+      "25-40": {
+        "cas_var": 39,
+        "cas_hem": 38,
+        "sol_var": 22,
+        "sol_hem": 18
+      },
+      "40-50": {
+        "cas_var": 48,
+        "cas_hem": 58,
+        "sol_var": 20,
+        "sol_hem": 13
+      },
+      "50+": {
+        "cas_var": 51,
+        "cas_hem": 39,
+        "sol_var": 18,
+        "sol_hem": 38
+      }
+    },
+    "totals_row": {
+      "var": 380,
+      "hem": 379,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": 7,
+      "real_hacien": 2,
+      "cruzada": 1,
+      "inquisicion": null
+    },
+    "eclesiasticos": "1 Vicario; 3 sacerdotes; Beneficiado; un sacristan y 1 muchacho p.a servicio de Iglesia. Dio la relacion el cura el 21 de [mes] de 1768",
+    "conventos_religiosos": "2 [convento] (ilegible)",
+    "hospicios_expositos": "2 demandadores: de la Gual, p[or] de S.t Antonio",
+    "juzgados": "1 estad.o de Govierno: de S.n Juan y 1 regidores. Sus dis: un decano de las Baldes; un sub-delegado de la Comandencia",
+    "estudios": "",
+    "administraciones_rentas": "1 estanquero de tabaco, y otro de sal",
+    "hermitas": "",
+    "barrios_aldeas": "Esta Iglesia es sufragania en lo espiritual de la Parroq.a de Bardonesa",
+    "cura_relacion_date": "1768",
+    "notes": "",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "medium",
+      "total_animes": "high",
+      "by_age_cells": "high (reconciled, 2nd pass)",
+      "text_blocks": "low"
+    },
+    "casados_total": {
+      "var": 142,
+      "hem": 142
+    },
+    "solteros_total": {
+      "var": 238,
+      "hem": 237
+    }
+  }
+}

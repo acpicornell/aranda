@@ -1,0 +1,88 @@
+{
+  "source_page": "page-102.jpg",
+  "pueblo_n": 53,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1841
+  },
+  "extracted": {
+    "raw_n": 53,
+    "name_modern": "SON SERVERA",
+    "name_1768": "Son Cervera",
+    "cod_mun_ine": "07062",
+    "cl_mapa": "07054",
+    "rah_page": 51,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "San Juan Baptista",
+    "total_animes": 981,
+    "by_age": {
+      "0-7": {
+        "sol_var": 128,
+        "sol_hem": 112,
+        "cas_var": 0,
+        "cas_hem": 0
+      },
+      "7-16": {
+        "sol_var": 102,
+        "sol_hem": 76,
+        "cas_var": 0,
+        "cas_hem": 0
+      },
+      "16-25": {
+        "sol_var": 20,
+        "sol_hem": 33,
+        "cas_var": 3,
+        "cas_hem": 13
+      },
+      "25-40": {
+        "sol_var": 26,
+        "sol_hem": 16,
+        "cas_var": 79,
+        "cas_hem": 81
+      },
+      "40-50": {
+        "sol_var": 4,
+        "sol_hem": 11,
+        "cas_var": 41,
+        "cas_hem": 50
+      },
+      "50+": {
+        "sol_var": 12,
+        "sol_hem": 47,
+        "cas_var": 74,
+        "cas_hem": 53
+      }
+    },
+    "totals_row": {
+      "var": 489,
+      "hem": 492,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": 12,
+      "real_servic": null,
+      "real_hacien": null,
+      "cruzada": null,
+      "inquisicion": null
+    },
+    "eclesiasticos": "1 Vicario temporal: 2 sacadores titulares: un sacristan. Dio la relación el Vicario en 20 de Noviembre de 1768",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "Este Lugar se halla Governado por la misma Justicia",
+    "estudios": "",
+    "administraciones_rentas": "",
+    "hermitas": "",
+    "barrios_aldeas": "Esta en Marina...",
+    "cura_relacion_date": "1768-11-20",
+    "notes": "51",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "high (reconciled, user-corrected)",
+      "text_blocks": "low"
+    }
+  }
+}

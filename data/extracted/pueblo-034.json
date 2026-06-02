@@ -1,0 +1,88 @@
+{
+  "source_page": "page-091.jpg",
+  "pueblo_n": 34,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1953
+  },
+  "extracted": {
+    "raw_n": 34,
+    "name_modern": "PALMA",
+    "name_1768": "Nicolas",
+    "cod_mun_ine": "07040",
+    "cl_mapa": "07043",
+    "rah_page": 33,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "San Nicolás",
+    "total_animes": 3319,
+    "by_age": {
+      "0-7": {
+        "sol_var": 250,
+        "sol_hem": 238,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "7-16": {
+        "sol_var": 278,
+        "sol_hem": 265,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "16-25": {
+        "sol_var": 206,
+        "sol_hem": 210,
+        "cas_var": 18,
+        "cas_hem": 67
+      },
+      "25-40": {
+        "sol_var": 96,
+        "sol_hem": 170,
+        "cas_var": 208,
+        "cas_hem": 241
+      },
+      "40-50": {
+        "sol_var": 25,
+        "sol_hem": 112,
+        "cas_var": 146,
+        "cas_hem": 134
+      },
+      "50+": {
+        "sol_var": 65,
+        "sol_hem": 274,
+        "cas_var": 193,
+        "cas_hem": 123
+      }
+    },
+    "totals_row": {
+      "var": 1485,
+      "hem": 1834,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": 117,
+      "real_servic": 7,
+      "real_hacien": null,
+      "cruzada": null,
+      "inquisicion": 10
+    },
+    "eclesiasticos": "1 Beneficiado y el Recor Parroco; 1 Vicario; 1 Cura; 1 Sacristan; 1 Ayudante; 2 Monacillos. Da la relacion el cura Nicolas, 16 de Mayo de 1768.",
+    "conventos_religiosos": "Conventos de Dominicos y otras ordenes religiosas mencionadas en la relacion",
+    "hospicios_expositos": "Casa de Expositos",
+    "juzgados": "Tribunal de la Inquisicion; Real Audiencia Episcopal; Casas de Caballeros",
+    "estudios": "",
+    "administraciones_rentas": "2 Oficiales de la Real Comandancia, y otro de la Thesoreria; de la Sal; otro de la Casa de Correos",
+    "hermitas": "",
+    "barrios_aldeas": "",
+    "cura_relacion_date": "1768-05-16",
+    "notes": "(1) Nota... (2) Un Sindico Capuchino... Otra Cueva...",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "medium",
+      "total_animes": "high",
+      "by_age_cells": "high (reconciled, user-corrected)",
+      "text_blocks": "low"
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "source_page": "page-082.jpg",
+  "pueblo_n": 19,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 2002
+  },
+  "extracted": {
+    "raw_n": 19,
+    "name_modern": "FELANITX",
+    "name_1768": "Felanitx",
+    "cod_mun_ine": "07022",
+    "cl_mapa": "07057",
+    "rah_page": 19,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "San Miguel",
+    "total_animes": 6855,
+    "by_age": {
+      "0-7": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 664,
+        "sol_hem": 598
+      },
+      "7-16": {
+        "cas_var": 0,
+        "cas_hem": 1,
+        "sol_var": 662,
+        "sol_hem": 561
+      },
+      "16-25": {
+        "cas_var": 53,
+        "cas_hem": 98,
+        "sol_var": 300,
+        "sol_hem": 265
+      },
+      "25-40": {
+        "cas_var": 376,
+        "cas_hem": 394,
+        "sol_var": 251,
+        "sol_hem": 207
+      },
+      "40-50": {
+        "cas_var": 286,
+        "cas_hem": 296,
+        "sol_var": 287,
+        "sol_hem": 154
+      },
+      "50+": {
+        "cas_var": 405,
+        "cas_hem": 331,
+        "sol_var": 284,
+        "sol_hem": 382
+      }
+    },
+    "totals_row": {
+      "var": 3528,
+      "hem": 3327,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": 132,
+      "real_hacien": 10,
+      "cruzada": 1,
+      "inquisicion": 3
+    },
+    "eclesiasticos": "1 Rector Parroco; 19 Sacerdotes; 3 Beneficiados tonsurados. Otro estudia, y también Sacerdotes Beneficiados expecto Resido en ella: otro 2 Vacantes: 1 Sacerdote y 1 Subdiacono con Capellania Colativa: 12 Clerigos titulares: 2 Sacristanes: 6 Eclesiásticos. Dio la relación el Rector en 19 de Mayo de 1769",
+    "conventos_religiosos": "1 convento de Agustinos con 19 Individuos: 13 Sacerdotes y 6 legos: un termino de los Capuchinos",
+    "hospicios_expositos": "2 Demandaderas",
+    "juzgados": "Esta se gobierna por un Bayle y 4 Regidores: con su Delegado de la Intendencia: un Diputado de Marina: 4 Casa Guarda: 3 familiares de Inquisición",
+    "estudios": "",
+    "administraciones_rentas": "",
+    "hermitas": "",
+    "barrios_aldeas": "",
+    "cura_relacion_date": "1769-05-19",
+    "notes": "Nota: Un Comisario de Marina y un habilitado con 72 Matriculados en Marina y 2 tornay. El Milicianos de el Regimiento de Dragones de Almansa que son los 61 milicianos componen 152",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "high (reconciled, 2nd pass)",
+      "text_blocks": "low"
+    },
+    "casados_total": {
+      "var": 1120,
+      "hem": 1120
+    },
+    "solteros_total": {
+      "var": 2408,
+      "hem": 2207
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "source_page": "page-097.jpg",
+  "pueblo_n": 44,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1808
+  },
+  "extracted": {
+    "raw_n": 44,
+    "name_modern": "SAN LORENZO DEL CARDESSAR",
+    "name_1768": "Lugar de S.n Lorenzo del Cardesran",
+    "cod_mun_ine": "07051",
+    "cl_mapa": "07053",
+    "rah_page": 44,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "S.n Lorenzo Sufraganea",
+    "total_animes": 357,
+    "by_age": {
+      "0-7": {
+        "sol_var": 31,
+        "sol_hem": 22,
+        "cas_var": 0,
+        "cas_hem": 0
+      },
+      "7-16": {
+        "sol_var": 23,
+        "sol_hem": 17,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "16-25": {
+        "sol_var": 13,
+        "sol_hem": 9,
+        "cas_var": 4,
+        "cas_hem": 5
+      },
+      "25-40": {
+        "sol_var": 32,
+        "sol_hem": 42,
+        "cas_var": 27,
+        "cas_hem": 29
+      },
+      "40-50": {
+        "sol_var": 13,
+        "sol_hem": 12,
+        "cas_var": 8,
+        "cas_hem": 7
+      },
+      "50+": {
+        "sol_var": 8,
+        "sol_hem": 6,
+        "cas_var": 4,
+        "cas_hem": 2
+      }
+    },
+    "totals_row": {
+      "var": 178,
+      "hem": 179,
+      "global": 357
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": 4,
+      "real_hacien": 1,
+      "cruzada": null,
+      "inquisicion": null
+    },
+    "eclesiasticos": "1 Vicario, 1 sacristan; y 2 Monacillos. Dio la relacion el Vicario. Recibida el 11 de enero de 1769",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "",
+    "estudios": "",
+    "administraciones_rentas": "1 estanquero de tabaco",
+    "hermitas": "",
+    "barrios_aldeas": "Esta Iglesia es sufraganea de la de Manacor",
+    "cura_relacion_date": "1769-01-11",
+    "notes": "",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "medium",
+      "total_animes": "high (reconciled)",
+      "by_age_cells": "low",
+      "text_blocks": "low"
+    },
+    "cifras_stamp": true
+  }
+}

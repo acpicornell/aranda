@@ -1,0 +1,89 @@
+{
+  "source_page": "page-089.jpg",
+  "pueblo_n": 31,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1161
+  },
+  "extracted": {
+    "raw_n": 31,
+    "name_modern": "PALMA",
+    "name_1768": "Palma",
+    "cod_mun_ine": "07040",
+    "cl_mapa": "07043",
+    "rah_page": 30,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "Nuestra Señora de la Asunción",
+    "total_animes": 866,
+    "by_age": {
+      "0-7": {
+        "sol_var": 56,
+        "sol_hem": 62,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "7-16": {
+        "sol_var": 51,
+        "sol_hem": 58,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "16-25": {
+        "sol_var": 71,
+        "sol_hem": 70,
+        "cas_var": 6,
+        "cas_hem": 23
+      },
+      "25-40": {
+        "sol_var": 34,
+        "sol_hem": 68,
+        "cas_var": 50,
+        "cas_hem": 62
+      },
+      "40-50": {
+        "sol_var": 12,
+        "sol_hem": 42,
+        "cas_var": 36,
+        "cas_hem": 18
+      },
+      "50+": {
+        "sol_var": 19,
+        "sol_hem": 81,
+        "cas_var": 29,
+        "cas_hem": 18
+      }
+    },
+    "totals_row": {
+      "var": 364,
+      "hem": 502,
+      "global": 866
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": null,
+      "real_hacien": null,
+      "cruzada": null,
+      "inquisicion": null
+    },
+    "eclesiasticos": "Iglesia Catedral (la Seu): dignidades, canónigos, beneficiados y sacerdotes; 2 sacristanes [resta il·legible].",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "",
+    "estudios": "",
+    "administraciones_rentas": "",
+    "hermitas": "",
+    "barrios_aldeas": "",
+    "cura_relacion_date": null,
+    "notes": "Nota: Con la Parroquia de S. Nicolás se halla unida... el Conde de Domingo... Aunque en otra Isla... le repute acontado... Nota: Se hallan en esta Parroquia el Comandante General, Regente: 30 vocales y Fiscal de la Real Audiencia, Comisario ordenador, Sargento mayor de Milicias: 2 Tenientes, y 1 Soldado de las Reales Milicias... con sus familias, y se han comprendido en los totales. Nota: Haviendose mandado por el Conde de Aranda... varias notas relativas... totales: 1635 / 1070 / 775 / 100. Total 3580 del cuerpo general.",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high (user-confirmed 866)",
+      "by_age_cells": "high (reconciled, user-corrected)",
+      "text_blocks": "low"
+    },
+    "text_revised": true
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "source_page": "page-094.jpg",
+  "pueblo_n": 38,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1206
+  },
+  "extracted": {
+    "raw_n": 38,
+    "name_modern": "POLLENSA",
+    "name_1768": "Pollensa",
+    "cod_mun_ine": "07042",
+    "cl_mapa": "07008",
+    "rah_page": 37,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "La Virgen de los Angeles",
+    "total_animes": 4340,
+    "by_age": {
+      "0-7": {
+        "sol_var": 490,
+        "sol_hem": 470,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "7-16": {
+        "sol_var": 275,
+        "sol_hem": 289,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "16-25": {
+        "sol_var": 247,
+        "sol_hem": 230,
+        "cas_var": 28,
+        "cas_hem": 49
+      },
+      "25-40": {
+        "sol_var": 146,
+        "sol_hem": 210,
+        "cas_var": 244,
+        "cas_hem": 305
+      },
+      "40-50": {
+        "sol_var": 136,
+        "sol_hem": 102,
+        "cas_var": 245,
+        "cas_hem": 211
+      },
+      "50+": {
+        "sol_var": 129,
+        "sol_hem": 234,
+        "cas_var": 174,
+        "cas_hem": 126
+      }
+    },
+    "totals_row": {
+      "var": 2114,
+      "hem": 2226,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": 33,
+      "real_servic": 3,
+      "real_hacien": 1,
+      "cruzada": null,
+      "inquisicion": null
+    },
+    "eclesiasticos": "Cura Párroco, Cura Unida a la Religión de San Juan cuio Prior es el Obispo de Malta y otro Prior con la agregación; hay 18 Beneficiados y 29 Sacerdotes, Vicario: Sacristán y Ayudantes ó tenientes. Dio la relación dicho Vicario Prior en 26 de febrero de 1769",
+    "conventos_religiosos": "1 con 14 individuos, los 9 Sacerdotes y los 5 legos, del orden de Santo Domingo; 4 criados",
+    "hospicios_expositos": "3 Demandaderas",
+    "juzgados": "Cura está governada por un Bayle y 4 regidores; en ella un Abogado, un Reverendo, un Inspector de Cruzada, un Familiar del Santo Oficio",
+    "estudios": "",
+    "administraciones_rentas": "1 Empleado en el tabaco",
+    "hermitas": "Santuarios: 1 oratorio público llamado Nuestra Señora del Refugio, con un Donado. Hermitas: 1 ermita en el Desierto del Predio Ternellas con dos hermitaños de Nuestra Señora de la Misericordia, una de ellos Sacerdote",
+    "barrios_aldeas": "",
+    "cura_relacion_date": "1769-02-26",
+    "notes": "Nota: Hay 1º Governador de el Castillo que con su familia vive en Palma, y en el hay un Ayudante que reside allí con la tropa. Otra: hay un Quartel y Dragones en cuia guarnición el número se varía según las circunstancias. Hay lo tercero un Subdelegado de Marina y 32 marineros matriculados en ella.",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "high (reconciled, user-corrected; 0-7 row recovered)",
+      "text_blocks": "low"
+    }
+  }
+}

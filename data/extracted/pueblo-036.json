@@ -1,0 +1,96 @@
+{
+  "source_page": "page-092.jpg",
+  "pueblo_n": 36,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1084
+  },
+  "extracted": {
+    "raw_n": 36,
+    "name_modern": "PALMA",
+    "name_1768": "Ciudad de Palma",
+    "cod_mun_ine": "07040",
+    "cl_mapa": "07043",
+    "rah_page": 31,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "Santa Eulalia",
+    "total_animes": 12183,
+    "by_age": {
+      "0-7": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 820,
+        "sol_hem": 848
+      },
+      "7-16": {
+        "cas_var": 0,
+        "cas_hem": 1,
+        "sol_var": 1200,
+        "sol_hem": 1026
+      },
+      "16-25": {
+        "cas_var": 103,
+        "cas_hem": 292,
+        "sol_var": 748,
+        "sol_hem": 660
+      },
+      "25-40": {
+        "cas_var": 731,
+        "cas_hem": 948,
+        "sol_var": 306,
+        "sol_hem": 642
+      },
+      "40-50": {
+        "cas_var": 622,
+        "cas_hem": 500,
+        "sol_var": 192,
+        "sol_hem": 339
+      },
+      "50+": {
+        "cas_var": 665,
+        "cas_hem": 380,
+        "sol_var": 261,
+        "sol_hem": 899
+      }
+    },
+    "totals_row": {
+      "var": 5648,
+      "hem": 6535,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": 400,
+      "real_servic": 8,
+      "real_hacien": null,
+      "cruzada": 30,
+      "inquisicion": null
+    },
+    "eclesiasticos": "Se hallan sirviendo en este Pueblo el Beneficio, y el Cura: 3 Vicarios diarios, 2 sacristanes, 3 acolitos...",
+    "conventos_religiosos": "Convento de Sto Domingo; Convento de S. Francisco; varios conventos de religiosos con numerosos individuos",
+    "hospicios_expositos": "Casa de Expósitos; Casa de Misericordia",
+    "juzgados": "Audiencia; oficiales del Real Acuerdo; oficios judiciales, Cancilleria, Real Audiencia y tribunales",
+    "estudios": "Universidad; colegios con cathedras",
+    "administraciones_rentas": "Administración de Rentas y Estancos; administradores del Real Aviso",
+    "hermitas": "Hermitas con oratorios públicos donde se celebran los días festivos",
+    "barrios_aldeas": null,
+    "cura_relacion_date": null,
+    "notes": "Nota: En el nuevo Cuño nuevo... Otra... En la Administración con limpieza... Otra... Nota... Los Criados de los Cavalleros van todos con tanto al total de las Almas. Otra: No se incluyen en la lista del Colegio o Casa de Montesión que fue de los Regulares de la Compañia de Jesus.",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "medium",
+      "by_age_cells": "high (reconciled, 2nd pass)",
+      "text_blocks": "low"
+    },
+    "casados_total": {
+      "var": 2121,
+      "hem": 2121
+    },
+    "solteros_total": {
+      "var": 3527,
+      "hem": 4414
+    }
+  }
+}

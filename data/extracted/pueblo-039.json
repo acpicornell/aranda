@@ -1,0 +1,89 @@
+{
+  "source_page": "page-095.jpg",
+  "pueblo_n": 39,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1873
+  },
+  "extracted": {
+    "raw_n": 39,
+    "name_modern": "PORRERAS",
+    "name_1768": "Porreras",
+    "cod_mun_ine": "07043",
+    "cl_mapa": "07050",
+    "rah_page": 38,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "Ntra. Sra. de Consolación",
+    "total_animes": 2987,
+    "by_age": {
+      "0-7": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 270,
+        "sol_hem": 237
+      },
+      "7-16": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 238,
+        "sol_hem": 286
+      },
+      "16-25": {
+        "cas_var": 22,
+        "cas_hem": 47,
+        "sol_var": 203,
+        "sol_hem": 155
+      },
+      "25-40": {
+        "cas_var": 190,
+        "cas_hem": 258,
+        "sol_var": 115,
+        "sol_hem": 76
+      },
+      "40-50": {
+        "cas_var": 181,
+        "cas_hem": 115,
+        "sol_var": 76,
+        "sol_hem": 67
+      },
+      "50+": {
+        "cas_var": 195,
+        "cas_hem": 128,
+        "sol_var": 66,
+        "sol_hem": 202
+      }
+    },
+    "totals_row": {
+      "var": 1476,
+      "hem": 1511,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": 29,
+      "real_hacien": 4,
+      "cruzada": 1,
+      "inquisicion": 1
+    },
+    "eclesiasticos": "1 Vicar ó Párroco: 10 Beneficiados: 12 sucedores acogidos: 16 tonsurados: un sacristán; un copulares: 2 Monacillos. Dió la relación el Vicar en 20 de Octubre de 1768",
+    "conventos_religiosos": "1 Convento de Observantes Menores",
+    "hospicios_expositos": "2 Demandaderos",
+    "juzgados": "Está ed Governada por un Bayle, 3 regidores, un subdelegado de Marina; un religioso de Cruzada, un familiar del Sto. Oficio",
+    "estudios": "",
+    "administraciones_rentas": "4 Empleados en la renta del Aguardiente",
+    "hermitas": "",
+    "barrios_aldeas": "",
+    "cura_relacion_date": "1768-10-20",
+    "notes": "Nota: Un subdelegado de Marina",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "cells re-read (user-corrected); manuscript internally inconsistent — INE «ERROR EN CIFRAS» stamp",
+      "text_blocks": "low"
+    },
+    "cifras_stamp": true
+  }
+}

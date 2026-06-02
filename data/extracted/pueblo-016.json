@@ -1,0 +1,89 @@
+{
+  "source_page": "page-081.jpg",
+  "pueblo_n": 16,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1719
+  },
+  "extracted": {
+    "raw_n": 16,
+    "name_modern": "ESCORCA",
+    "name_1768": "Villa de S.n Pedro de Escorca y de Nuestra S.ra de Lluch",
+    "cod_mun_ine": "07019",
+    "cl_mapa": "07009",
+    "rah_page": 52,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "",
+    "total_animes": 162,
+    "by_age": {
+      "0-7": {
+        "sol_var": null,
+        "sol_hem": null,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "7-16": {
+        "sol_var": 16,
+        "sol_hem": 17,
+        "cas_var": null,
+        "cas_hem": null
+      },
+      "16-25": {
+        "sol_var": 12,
+        "sol_hem": 6,
+        "cas_var": 2,
+        "cas_hem": 3
+      },
+      "25-40": {
+        "sol_var": 19,
+        "sol_hem": 11,
+        "cas_var": 8,
+        "cas_hem": 11
+      },
+      "40-50": {
+        "sol_var": 10,
+        "sol_hem": 4,
+        "cas_var": 3,
+        "cas_hem": 5
+      },
+      "50+": {
+        "sol_var": 2,
+        "sol_hem": 1,
+        "cas_var": 19,
+        "cas_hem": 13
+      }
+    },
+    "totals_row": {
+      "var": null,
+      "hem": null,
+      "global": 162
+    },
+    "exentos": {
+      "hidalguia": 1,
+      "real_servic": null,
+      "real_hacien": null,
+      "cruzada": null,
+      "inquisicion": null
+    },
+    "eclesiasticos": "Colegio de Nuestra Señora de Lluc, con organista y colegiales [resta il·legible].",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "Bayle; un Subdelegado de Intendencia y otro de Marina; 1 familiar del Santo Oficio; 1 alcaide de la Cruzada [resta il·legible].",
+    "estudios": "",
+    "administraciones_rentas": "",
+    "hermitas": "",
+    "barrios_aldeas": "[il·legible]",
+    "cura_relacion_date": null,
+    "notes": "[al marge, il·legible]",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "medium",
+      "total_animes": "medium",
+      "by_age_cells": "low",
+      "text_blocks": "low"
+    },
+    "text_revised": true
+  }
+}

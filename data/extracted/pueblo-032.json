@@ -1,0 +1,88 @@
+{
+  "source_page": "page-090.jpg",
+  "pueblo_n": 32,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 2210
+  },
+  "extracted": {
+    "raw_n": 32,
+    "name_modern": "PALMA",
+    "name_1768": "Jayme",
+    "cod_mun_ine": "07040",
+    "cl_mapa": "07043",
+    "rah_page": 35,
+    "obispado": "Mallorca",
+    "provincia": "Mallorca",
+    "parroquia": "San Jaime",
+    "total_animes": 3916,
+    "by_age": {
+      "0-7": {
+        "sol_var": 535,
+        "sol_hem": 339,
+        "cas_var": 0,
+        "cas_hem": 0
+      },
+      "7-16": {
+        "sol_var": 266,
+        "sol_hem": 290,
+        "cas_var": 0,
+        "cas_hem": 1
+      },
+      "16-25": {
+        "sol_var": 159,
+        "sol_hem": 199,
+        "cas_var": 80,
+        "cas_hem": 106
+      },
+      "25-40": {
+        "sol_var": 100,
+        "sol_hem": 185,
+        "cas_var": 250,
+        "cas_hem": 302
+      },
+      "40-50": {
+        "sol_var": 46,
+        "sol_hem": 135,
+        "cas_var": 176,
+        "cas_hem": 126
+      },
+      "50+": {
+        "sol_var": 83,
+        "sol_hem": 277,
+        "cas_var": 145,
+        "cas_hem": 116
+      }
+    },
+    "totals_row": {
+      "var": 1840,
+      "hem": 2076,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": 85,
+      "real_servic": 18,
+      "real_hacien": null,
+      "cruzada": null,
+      "inquisicion": 1
+    },
+    "eclesiasticos": "1 Rector y 1 Beneficiado; entre los Reales ay 2 Vicarios; otros 2 tonsurados; y 1 sacristan; 1 Acolito; tiene y 2 Donadillos; 22 Clerigos seculares sirvieron en esta Parroquia. Data Relacion el cura Rector en 23 de Marzo de 1768",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "Hospicio General en que viven 4 Capellanes; 32 frailes de Servicio; y 76 expositos de a un solo seno; también casas 2 sacerdotes y donados; una casa de misericordia en que viven 118 pobres exentos en 2 demandadores; consorcia de la sociedad en que viven 26 cirujanos con 2 sacerdotes y demandadores",
+    "juzgados": "1 oydor de la Real Audiencia; 1 familiar del Santo Oficio",
+    "estudios": "",
+    "administraciones_rentas": "18 empleados en rentas y oficinas",
+    "hermitas": "",
+    "barrios_aldeas": "",
+    "cura_relacion_date": "1768-03-23",
+    "notes": "6 Cavalleros; 3 ecclesiasticos llamados de San Juan y de Calatrava. Ay 52 Maestranzas. Suena la Marina y con 33 soldados nacionales; 85 de servicio",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "high (reconciled, user-corrected)",
+      "text_blocks": "low"
+    }
+  }
+}

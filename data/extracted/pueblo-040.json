@@ -1,0 +1,96 @@
+{
+  "source_page": "page-095.jpg",
+  "pueblo_n": 40,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1873
+  },
+  "extracted": {
+    "raw_n": 40,
+    "name_modern": "PUEBLA, LA",
+    "name_1768": "La Puebla",
+    "cod_mun_ine": "07044",
+    "cl_mapa": "07004",
+    "rah_page": 39,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "San Antonio",
+    "total_animes": 2194,
+    "by_age": {
+      "0-7": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 264,
+        "sol_hem": 217
+      },
+      "7-16": {
+        "cas_var": 0,
+        "cas_hem": 1,
+        "sol_var": 218,
+        "sol_hem": 192
+      },
+      "16-25": {
+        "cas_var": 28,
+        "cas_hem": 62,
+        "sol_var": 97,
+        "sol_hem": 67
+      },
+      "25-40": {
+        "cas_var": 252,
+        "cas_hem": 270,
+        "sol_var": 40,
+        "sol_hem": 28
+      },
+      "40-50": {
+        "cas_var": 98,
+        "cas_hem": 77,
+        "sol_var": 7,
+        "sol_hem": 64
+      },
+      "50+": {
+        "cas_var": 64,
+        "cas_hem": 32,
+        "sol_var": 21,
+        "sol_hem": 95
+      }
+    },
+    "totals_row": {
+      "var": 1089,
+      "hem": 1105,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": 21,
+      "real_hacien": null,
+      "cruzada": 1,
+      "inquisicion": null
+    },
+    "eclesiasticos": "1 Cura, 1 Vicario: 1 Clérigo acogido con las obligaciones de Confesar, Agonizar, Asistir al Coro y demás Ministerios Especiales: 2 Clérigos tonsurados: 1 Diácono retor de habitación: 1 sacristán y 4 Monacillos",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "Está ed esta Governada por un Bayle, 4 regidores: Un subdelegado de Intendencia; otro de Marina y un Comisario de Cruzada",
+    "estudios": "",
+    "administraciones_rentas": "",
+    "hermitas": "Distante de esta 2 leguas de la qual se halla un Oratorio público que fue sufragania suya y de ella retoreado y un sacristán",
+    "barrios_aldeas": "",
+    "cura_relacion_date": null,
+    "notes": "",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "high (reconciled, 2nd pass)",
+      "text_blocks": "low"
+    },
+    "casados_total": {
+      "var": 442,
+      "hem": 442
+    },
+    "solteros_total": {
+      "var": 647,
+      "hem": 663
+    }
+  }
+}

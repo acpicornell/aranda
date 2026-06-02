@@ -1,0 +1,96 @@
+{
+  "source_page": "page-082.jpg",
+  "pueblo_n": 18,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 2002
+  },
+  "extracted": {
+    "raw_n": 18,
+    "name_modern": "ESTALLENCHS",
+    "name_1768": "Estellenchs",
+    "cod_mun_ine": "07021",
+    "cl_mapa": "07040",
+    "rah_page": 18,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "San Juan Bautista de Espureñes",
+    "total_animes": 474,
+    "by_age": {
+      "0-7": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 34,
+        "sol_hem": 29
+      },
+      "7-16": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 40,
+        "sol_hem": 33
+      },
+      "16-25": {
+        "cas_var": 3,
+        "cas_hem": 15,
+        "sol_var": 26,
+        "sol_hem": 33
+      },
+      "25-40": {
+        "cas_var": 31,
+        "cas_hem": 28,
+        "sol_var": 34,
+        "sol_hem": 27
+      },
+      "40-50": {
+        "cas_var": 24,
+        "cas_hem": 18,
+        "sol_var": 5,
+        "sol_hem": 5
+      },
+      "50+": {
+        "cas_var": 37,
+        "cas_hem": 34,
+        "sol_var": 8,
+        "sol_hem": 10
+      }
+    },
+    "totals_row": {
+      "var": 242,
+      "hem": 232,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": null,
+      "real_servic": 5,
+      "real_hacien": null,
+      "cruzada": 1,
+      "inquisicion": null
+    },
+    "eclesiasticos": "Vicario, y un Clerigo Sacristan y Confesor: 1 Sacristan y 1 Monecillo. Dio la relación el Vicario en 3 de Mayo de 1769",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "Este Lugar para su Govierno tiene en lo civil una Justicia: un Delegado de la Intendencia, y otro de Marina un Receptor de Bulas",
+    "estudios": "",
+    "administraciones_rentas": "2 Estanqueros de Tabaco y Sal",
+    "hermitas": "",
+    "barrios_aldeas": "Esta Villa es anexa a la de Puigpuñent",
+    "cura_relacion_date": "1769-05-03",
+    "notes": "Nota: Ay 2 matriculados en la Marina",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "high (reconciled, 2nd pass)",
+      "text_blocks": "low"
+    },
+    "casados_total": {
+      "var": 95,
+      "hem": 95
+    },
+    "solteros_total": {
+      "var": 147,
+      "hem": 137
+    }
+  }
+}

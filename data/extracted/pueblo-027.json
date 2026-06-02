@@ -1,0 +1,88 @@
+{
+  "source_page": "page-087.jpg",
+  "pueblo_n": 27,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1778
+  },
+  "extracted": {
+    "raw_n": 27,
+    "name_modern": "MARRATXI",
+    "name_1768": "Marratxi",
+    "cod_mun_ine": "07036",
+    "cl_mapa": "07031",
+    "rah_page": 27,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "San Marçal",
+    "total_animes": 965,
+    "by_age": {
+      "0-7": {
+        "sol_var": 83,
+        "sol_hem": 85,
+        "cas_var": 0,
+        "cas_hem": 0
+      },
+      "7-16": {
+        "sol_var": 72,
+        "sol_hem": 78,
+        "cas_var": 0,
+        "cas_hem": 0
+      },
+      "16-25": {
+        "sol_var": 62,
+        "sol_hem": 67,
+        "cas_var": 1,
+        "cas_hem": 3
+      },
+      "25-40": {
+        "sol_var": 61,
+        "sol_hem": 53,
+        "cas_var": 57,
+        "cas_hem": 50
+      },
+      "40-50": {
+        "sol_var": 28,
+        "sol_hem": 25,
+        "cas_var": 55,
+        "cas_hem": 58
+      },
+      "50+": {
+        "sol_var": 22,
+        "sol_hem": 25,
+        "cas_var": 39,
+        "cas_hem": 41
+      }
+    },
+    "totals_row": {
+      "var": null,
+      "hem": null,
+      "global": 965
+    },
+    "exentos": {
+      "hidalguia": 8,
+      "real_servic": null,
+      "real_hacien": 2,
+      "cruzada": null,
+      "inquisicion": null
+    },
+    "eclesiasticos": "Un Rector ó Párroco: un Vicario: un Acólito: 1 Sacristán casado y otro soltero. Dio la relación el Cura Recor en 21 de febrero de 1769.",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "3 Demandadores",
+    "juzgados": "1 Subdelegado de Intendencia: un Negociado de Cruzada = Esta esta Gobernada por un Bayle y 4 Regidores y 1 Mostazaf de Villa",
+    "estudios": "",
+    "administraciones_rentas": "2 Empleados en el tabaco",
+    "hermitas": "",
+    "barrios_aldeas": "",
+    "cura_relacion_date": "1769-02-21",
+    "notes": "",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "medium",
+      "total_animes": "high",
+      "by_age_cells": "medium",
+      "text_blocks": "low"
+    }
+  }
+}

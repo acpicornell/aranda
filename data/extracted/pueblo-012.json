@@ -1,0 +1,97 @@
+{
+  "source_page": "page-079.jpg",
+  "pueblo_n": 12,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1914
+  },
+  "extracted": {
+    "raw_n": 12,
+    "name_modern": "CAMPOS DEL PUERTO",
+    "name_1768": "Campos",
+    "cod_mun_ine": "07013",
+    "cl_mapa": "07056",
+    "rah_page": 12,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "Julian i Llarens",
+    "total_animes": 2152,
+    "by_age": {
+      "0-7": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 164,
+        "sol_hem": 140
+      },
+      "7-16": {
+        "cas_var": 0,
+        "cas_hem": 0,
+        "sol_var": 227,
+        "sol_hem": 222
+      },
+      "16-25": {
+        "cas_var": 38,
+        "cas_hem": 71,
+        "sol_var": 139,
+        "sol_hem": 131
+      },
+      "25-40": {
+        "cas_var": 165,
+        "cas_hem": 192,
+        "sol_var": 60,
+        "sol_hem": 56
+      },
+      "40-50": {
+        "cas_var": 91,
+        "cas_hem": 67,
+        "sol_var": 14,
+        "sol_hem": 41
+      },
+      "50+": {
+        "cas_var": 92,
+        "cas_hem": 56,
+        "sol_var": 52,
+        "sol_hem": 134
+      }
+    },
+    "totals_row": {
+      "var": 1042,
+      "hem": 1110,
+      "global": 2152
+    },
+    "exentos": {
+      "hidalguia": 3,
+      "real_servic": 1,
+      "real_hacien": 2,
+      "cruzada": null,
+      "inquisicion": null
+    },
+    "eclesiasticos": "1 Rector y 2 capones; 11 Beneficiados; 2 tonsurados; 12 hacedores titulares...",
+    "conventos_religiosos": "Sala con 5 sacerdotes; un Corista; 5 legos y 2 criados",
+    "hospicios_expositos": "",
+    "juzgados": "Su Gobernador con Bayle y 4 Regidores; un Subdelegado de Intendencia y otro de Marina; 1 familiar del Santo Oficio.",
+    "estudios": "",
+    "administraciones_rentas": "un Admin.or de tabaco, otro de Aguardiente y otro de la sal",
+    "hermitas": "Santuarios: 2 Hermitas u oratorios... un Donato; sin Patron... San Damian predominante...",
+    "barrios_aldeas": "",
+    "cura_relacion_date": "1768",
+    "notes": "Nota. Independencia = 2 Cura y 20 Soldado de Milicianos. 8 torres y Guardas de la Costa.",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "high",
+      "total_animes": "high",
+      "by_age_cells": "high (reconciled, 2nd pass)",
+      "text_blocks": "low"
+    },
+    "casados_total": {
+      "var": 386,
+      "hem": 386
+    },
+    "solteros_total": {
+      "var": 656,
+      "hem": 724
+    },
+    "text_revised": true
+  }
+}

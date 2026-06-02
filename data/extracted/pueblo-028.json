@@ -1,0 +1,88 @@
+{
+  "source_page": "page-087.jpg",
+  "pueblo_n": 28,
+  "model": "claude-opus-4-8",
+  "usage": {
+    "input_tokens": 4490,
+    "output_tokens": 1778
+  },
+  "extracted": {
+    "raw_n": 28,
+    "name_modern": "MONTUIRI",
+    "name_1768": "Montuyri",
+    "cod_mun_ine": "07038",
+    "cl_mapa": "07045",
+    "rah_page": 28,
+    "obispado": "Mallorca",
+    "provincia": null,
+    "parroquia": "Nuestra Señora de la Asunción",
+    "total_animes": 1632,
+    "by_age": {
+      "0-7": {
+        "sol_var": 142,
+        "sol_hem": 144,
+        "cas_var": 0,
+        "cas_hem": 0
+      },
+      "7-16": {
+        "sol_var": 171,
+        "sol_hem": 162,
+        "cas_var": 0,
+        "cas_hem": 0
+      },
+      "16-25": {
+        "sol_var": 105,
+        "sol_hem": 82,
+        "cas_var": 33,
+        "cas_hem": 44
+      },
+      "25-40": {
+        "sol_var": 24,
+        "sol_hem": 36,
+        "cas_var": 130,
+        "cas_hem": 143
+      },
+      "40-50": {
+        "sol_var": 15,
+        "sol_hem": 29,
+        "cas_var": 70,
+        "cas_hem": 66
+      },
+      "50+": {
+        "sol_var": 34,
+        "sol_hem": 84,
+        "cas_var": 69,
+        "cas_hem": 49
+      }
+    },
+    "totals_row": {
+      "var": 793,
+      "hem": 839,
+      "global": null
+    },
+    "exentos": {
+      "hidalguia": 19,
+      "real_servic": null,
+      "real_hacien": 2,
+      "cruzada": null,
+      "inquisicion": null
+    },
+    "eclesiasticos": "El Rector: 12 Beneficios Simples: 5 Acólitos titulares y los 2 Vicarios: un Sacristán y 2 Escolanos",
+    "conventos_religiosos": "",
+    "hospicios_expositos": "",
+    "juzgados": "1 Subdelegado de Intendencia: Esta esta Gobernada por un Bayle y 7 Regidores = 2 Escribanos: uno de la Real Casa Real: otro de la Universidad o Villa.",
+    "estudios": "",
+    "administraciones_rentas": "2 Estanqueros de Tabaco y Sal",
+    "hermitas": "",
+    "barrios_aldeas": "",
+    "cura_relacion_date": null,
+    "notes": "Santuarios 10: Oratorio de San Miguel: aiudante San Custodio",
+    "confidence": {
+      "metadata": "high",
+      "name_1768": "medium",
+      "total_animes": "high",
+      "by_age_cells": "medium",
+      "text_blocks": "low"
+    }
+  }
+}
