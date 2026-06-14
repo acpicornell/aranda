@@ -77,35 +77,27 @@ nav.tabs {
 .home-stat .num { display: block; font-family: Georgia, serif; font-size: 1.9em; font-weight: 700; color: var(--accent-dark); font-variant-numeric: tabular-nums; line-height: 1.1; }
 .home-stat .label { display: block; font-size: .75em; color: var(--text-muted); text-transform: uppercase; letter-spacing: .5px; margin-top: .3em; }
 
-/* Prose flows into 2 columns on wide screens (magazine style) so it uses
-   the full page width while keeping each line readable. Headings and the
-   highlighted cards span all columns. Falls back to 1 column when narrow. */
-.home-prose { max-width: none; margin: 0; line-height: 1.7; column-width: 30em; column-gap: 3em; }
-.home-prose > h2 { column-span: all; font-family: Georgia, serif; font-size: 1.45em; color: var(--accent-dark); margin: 1.4em 0 .5em; border-bottom: 1px solid var(--border); padding-bottom: .3em; }
-.home-prose > h2:first-child { margin-top: 0; }
+/* Inici prose uses an EXPLICIT two-column grid (.two-col): each section is
+   placed by hand into the left or right .col, so content never auto-flows or
+   splits across the gap. The Font tab keeps the plain auto multi-column flow
+   below (column-width), which falls back to one column when narrow. */
+.home-prose { max-width: none; margin: 0; line-height: 1.7; column-width: 30em; column-gap: 3em; column-fill: balance; }
+.home-prose.two-col { display: grid; grid-template-columns: 1fr 1fr; column-gap: 3em; align-items: start; }
+.home-prose h2 { font-family: Georgia, serif; font-size: 1.45em; color: var(--accent-dark); margin: 1.4em 0 .5em; border-bottom: 1px solid var(--border); padding-bottom: .3em; break-inside: avoid; break-after: avoid; }
+.home-prose > :first-child, .home-prose .col > :first-child { margin-top: 0; }
 .home-prose p { margin: 0 0 .9em; break-inside: avoid; }
 .home-prose strong { color: var(--accent-dark); }
-.home-prose ul { line-height: 1.7; break-inside: avoid; margin: 0 0 .9em; }
+.home-prose ul { line-height: 1.7; margin: 0 0 .9em; }
 .source-links { margin: 0 0 1em; padding-left: 1.3em; }
 .source-links li { margin: 0 0 .5em; break-inside: avoid; }
 
 .note-box {
-  column-span: all;
+  break-inside: avoid;
   background: var(--num-bg); border-left: 3px solid var(--accent);
   padding: 1em 1.2em; border-radius: 4px; margin: 1.4em 0;
   font-size: .95em; color: var(--text);
 }
 .note-box strong { color: var(--accent-dark); }
-
-/* cross-check / featured cards — full width, two big figures side by side */
-.xcheck { column-span: all; margin: 1.4em 0; display: grid; grid-template-columns: 1fr 1fr; gap: 1.2em; }
-.xcheck .xc {
-  background: var(--surface); border: 1px solid var(--border);
-  border-left: 3px solid var(--accent); border-radius: 6px; padding: 1.1em 1.3em;
-}
-.xcheck .xc .big { font-family: Georgia, serif; font-size: 1.9em; font-weight: 700; color: var(--accent-dark); font-variant-numeric: tabular-nums; }
-.xcheck .xc .cap { font-size: .85em; color: var(--text-muted); margin-top: .25em; }
-.xcheck-note { column-span: all; margin: 0 0 1em; font-size: .9em; color: var(--text-muted); }
 
 .sources-grid { column-span: all; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1em; margin: 1.2em 0; }
 .source-card { background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 4px; padding: .9em 1.1em; }
@@ -236,5 +228,5 @@ footer a { color: var(--accent); }
 @media (max-width: 760px) {
   .pobles-layout { grid-template-columns: 1fr; }
   .filters { position: static; }
-  .xcheck { grid-template-columns: 1fr; }
+  .home-prose.two-col { grid-template-columns: 1fr; }
 }
