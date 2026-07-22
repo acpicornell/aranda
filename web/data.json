@@ -4182,14 +4182,14 @@
    "source_page": "page-097.jpg",
    "is_aggregate": false,
    "cifras_stamp": false,
-   "cod_mun_ine": "07050",
+   "cod_mun_ine": "07018",
    "cl_mapa": "07062",
    "rah_page": 43,
    "name_1768": "San Juan Bap.ta de Deya",
    "name_modern": "SAN JUAN BAUTISTA",
-   "name_catalan": "Sant Joan",
-   "lat": 39.59629,
-   "lon": 3.03918,
+   "name_catalan": "Deià",
+   "lat": 39.74866,
+   "lon": 2.64876,
    "obispado": "Mallorca",
    "provincia": null,
    "parroquia": "S.ta Juan Bap.ta Sufrag.",
@@ -4197,7 +4197,7 @@
    "demografia": {
     "var": 380,
     "hem": 379,
-    "global": null,
+    "global": 759,
     "casados": {
      "var": 142,
      "hem": 142
@@ -4263,15 +4263,21 @@
     "barrios_aldeas": "Esta Iglesia es sufragania en lo espiritual de la Parroq.a de Bardonesa"
    },
    "cura_relacion_date": "1768",
-   "notes": null,
+   "notes": "Deià. INE titles this entry by its parish, 'SAN JUAN BAUTISTA', and prints Cód.Mun. 07050 / Cl.Mapa 07062 for it (the sufragània of Sant Joan Baptista de Deià, then dependent on Valldemossa). The modern municipality is Deià (INE 07018); do not confuse it with the Pla village of Sant Joan (RAH 42, INE 07049).",
    "confidence": {
     "metadata": "high",
     "name_1768": "medium",
-    "total_animes": "high",
-    "by_age_cells": "high (reconciled, 2nd pass)",
-    "text_blocks": "low"
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
+    "text_blocks": "low",
+    "name_catalan": "corrected (Deià, per RAH-43 header 'de Deya')"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 759,
+    "total": 759,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 44,

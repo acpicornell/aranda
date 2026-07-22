@@ -76,6 +76,11 @@
    "lat": 39.65776,
    "lon": 2.94999
   },
+  "07018": {
+   "name_catalan": "Deià",
+   "lat": 39.74866,
+   "lon": 2.64876
+  },
   "07019": {
    "name_catalan": "Escorca",
    "lat": 39.82174,
@@ -182,11 +187,6 @@
    "lon": 2.89815
   },
   "07049": {
-   "name_catalan": "Sant Joan",
-   "lat": 39.59629,
-   "lon": 3.03918
-  },
-  "07050": {
    "name_catalan": "Sant Joan",
    "lat": 39.59629,
    "lon": 3.03918

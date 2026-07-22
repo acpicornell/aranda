@@ -10,10 +10,11 @@ coordinates, page references — is preserved untouched. See data/ibestat/SOURCE
 Not touched automatically (need a human decision, reported at the end):
   • Palma — IBESTAT has a single aggregate; our edition keeps the 6 parishes,
     which is more granular, so we leave them as they are.
-  • The duplicate "Sant Joan" (page-097, a mislabelled sufragània) — only the
-    real Sant Joan (total 1471) is updated; the other row is left and flagged.
-  • Deià — IBESTAT lists it as a parish; our edition has no Deià. Reported so it
-    can be added deliberately (it would be numbers-only, no manuscript prose).
+
+Resolved separately (see scripts/fix_deia.py): what looked like a duplicate
+"Sant Joan" (page-097 / RAH 43) is in fact Deià — INE titles that sufragània by
+its parish "SAN JUAN BAUTISTA". It is now correctly labelled Deià (INE 07018) and
+carries the IBESTAT gold figures, so it no longer shows up here as unmatched.
 
 Usage (under the project's Nix shell):
     nix develop -c python scripts/ibestat_apply.py            # dry run → candidate + report
