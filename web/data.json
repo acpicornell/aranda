@@ -92,14 +92,15 @@
     "inquisicion": 1
    },
    "text": {
-    "eclesiasticos": "1 Rector, 2 Vicarios, 9 Beneficiados, 3 Ordenados in sacris, 1 ordenado de menores, sacristán y 2 acólitos, 4 campaneros. Dio la relación el Rector en 20 de [mes il·legible] de 1768.",
+    "eclesiasticos": "1 Rector, 2 Vicarios, 9 Beneficiados, 3 Ordenados in sacris, 1 ordenado de menores, sacristán y 2 monacillos, 4 campaneros. Dio la relación el Rector en 20 de [mes il·legible] de 1768.",
     "conventos_religiosos": null,
     "hospicios_expositos": null,
     "juzgados": "Curato cura, Governador, un Bayle y 4 Regidores, etc.; cárcel y casa Lugar de Concell",
     "estudios": "Subdelegado de la Real Intendencia; otro de Marina; un Alcaide de la S.ta Cruzada; un familiar",
     "administraciones_rentas": "1 Estanquero de tabaco y otro de sal",
     "hermitas": null,
-    "barrios_aldeas": "casas y huertas en circuición, vecinos a huérfanos y lugar de Concell"
+    "barrios_aldeas": "Casas y huertas en su circuición. Su sufragánea es la de Consell (Concell). [resta il·legible]",
+    "altres": "[Edificios notables] 1 Castillo llamado de Alaró, en el qual ay un Oratorio dedicado a Ntra. Sra. del Refugio, con tres sacerdotes titulares que van expresados."
    },
    "cura_relacion_date": "1768",
    "notes": "2 Plazas: Plaza de Alaró y la de Sufragánea de Concell",
@@ -108,7 +109,7 @@
     "name_1768": "high",
     "total_animes": "gold (IBESTAT)",
     "by_age_cells": "gold (IBESTAT)",
-    "text_blocks": "low"
+    "text_blocks": "medium (manual review, crop-verified)"
    },
    "sum_check": {
     "method": "ibestat",
@@ -193,14 +194,15 @@
     "inquisicion": null
    },
    "text": {
-    "eclesiasticos": "1 Rector o Párroco; 6 Beneficiados; 1 Sacristán y 3 Monaguillos de la Iglesia. Dio Rector en fines de 1768.",
-    "conventos_religiosos": "Convento de frailes observantes con extraordinarios y 2 legos y 2 donados; 1 convento de monjas con 1 síndico.",
+    "eclesiasticos": "1 Rector ó Párroco; 6 Beneficiados sacerdotes; 1 sacristán y 3 monacillos. Dió la relación el Rector en fines de 1768.",
+    "conventos_religiosos": "1 convento de S. Francisco (observantes) con sacerdotes, 2 legos y 2 donados de razón, y un criado; 1 convento de monjas con 1 síndico.",
     "hospicios_expositos": null,
-    "juzgados": "Está gobernada con un Bayle y 6 regidores; un Cl. Real; 1 Alcalde; un Gobernador de la Plaza; Real en la Capital de Palma; 1 fiscal mayor; un Alguacil de la Plaza.",
-    "estudios": "un Capitán de llaves; un Guarda Almacén; un subdelegado de Marina; 1 Comisario de Cruzada.",
+    "juzgados": "Está governada con un Bayle y 6 regidores; un Escribano Real; 4 Ministros; un Gobernador de la Plaza residente en la Capital de Palma; un Sargento mayor; un Ayudante de la Plaza.",
+    "estudios": "un Capitán de Llaves; un Guarda Almacén; un Subdelegado de Intendencia; un Comisario de Cruzada.",
     "administraciones_rentas": "1 Administrador de la Aduana; 1 administrador en Palma; un Visitador de la renta; vende en la de Pollensa; un estanquero.",
     "hermitas": "1 Oratorio de Ntra. Sra. de la Victoria con demandadero (esto consta menos de 1 leguas).",
-    "barrios_aldeas": null
+    "barrios_aldeas": null,
+    "altres": "[Nota al margen] 1 Comisario de Marina con 82 Marineros Matriculados y 5 Soldados Milicianos."
    },
    "cura_relacion_date": "1768",
    "notes": "Nota: 1 Comisario de Marina con 82 Marineros matriculados y 5 Soldados Milicianos",
@@ -209,7 +211,7 @@
     "name_1768": "high",
     "total_animes": "high (reconciled)",
     "by_age_cells": "high (reconciled, 2nd pass)",
-    "text_blocks": "low"
+    "text_blocks": "medium (manual review, crop-verified)"
    },
    "sum_check": "ok"
   },
@@ -289,14 +291,14 @@
     "inquisicion": null
    },
    "text": {
-    "eclesiasticos": "12 Beneficiados incluso el Rector; 1 fiscadores; 1 Vicario; 1 organista.",
-    "conventos_religiosos": "Dio el Rector en fines de 1768.",
-    "hospicios_expositos": "3 Demandantes de limosna.",
+    "eclesiasticos": "12 Beneficiados incluso el Rector; 1 Vicario; [detall del clergat parcialment il·legible]. La parroquia comprende el Monte de Randa. Dió la relación el Rector en 12 de [mes il·legible] de 1768.",
+    "hospicios_expositos": "3 Demandadores de limosna.",
     "juzgados": "Está gobernada con un Bayle y 4 regidores; 2 escribanos de Sala.",
     "estudios": null,
     "administraciones_rentas": null,
     "hermitas": null,
-    "barrios_aldeas": null
+    "barrios_aldeas": null,
+    "altres": "[Nota al margen, parcialment il·legible] … 2 Curas y 22 Soldados Milicianos."
    },
    "cura_relacion_date": "1768",
    "notes": "Nota: Hay un Hermano del Cl. Alcalde; un fijo 2 Cavos y 22 soldados milicianos",
@@ -305,7 +307,7 @@
     "name_1768": "high",
     "total_animes": "gold (IBESTAT)",
     "by_age_cells": "gold (IBESTAT)",
-    "text_blocks": "low"
+    "text_blocks": "medium (manual review, crop-verified)"
    },
    "sum_check": {
     "method": "ibestat",

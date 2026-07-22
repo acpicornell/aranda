@@ -22,7 +22,8 @@
         default = pkgs.mkShell {
           packages = [
             (pkgs.python3.withPackages (ps: with ps; [
-              xlrd   # parse legacy .xls (BIFF) IBESTAT exports
+              xlrd     # parse legacy .xls (BIFF) IBESTAT exports
+              pillow   # crop/zoom page images for the manual prose review (scripts/crop_page.py)
             ]))
           ];
         };

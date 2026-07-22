@@ -341,6 +341,7 @@ function textBlocks(t) {
     administraciones_rentas: "Administracions de rendes i estancs",
     hermitas: "Ermites",
     barrios_aldeas: "Barris o aldees",
+    altres: "Altres (edificis notables, pòsits, fires…)",
   };
   const items = Object.entries(labels)
     .filter(([k]) => t && t[k])
