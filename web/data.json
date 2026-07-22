@@ -7,12 +7,13 @@
   "totals": {
    "pueblos_extracted": 54,
    "population_verified": 50,
-   "total_animes": 123102,
+   "total_animes": 122969,
    "biggest": {
     "name": "Palma",
     "pop": 12183
    }
-  }
+  },
+  "numbers_source": "IBESTAT gold standard (2026-07-22) — per-parish figures adopted from I101001_7601; see data/ibestat/SOURCE.md. Free-text notes remain as transcribed from the INE facsimile."
  },
  "pueblos": [
   {
@@ -78,7 +79,7 @@
      "50+": {
       "cas_var": 105,
       "cas_hem": 118,
-      "sol_var": 41,
+      "sol_var": 11,
       "sol_hem": 130
      }
     }
@@ -105,11 +106,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high",
-    "by_age_cells": "high (reconciled, 2nd pass)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 2236,
+    "total": 2266,
+    "ok": false
+   }
   },
   {
    "pueblo_n": 2,
@@ -228,44 +234,50 @@
     "var": 1212,
     "hem": 1270,
     "global": 2482,
-    "casados": null,
-    "solteros": null,
+    "casados": {
+     "var": 463,
+     "hem": 463
+    },
+    "solteros": {
+     "var": 749,
+     "hem": 807
+    },
     "by_age": {
      "0-7": {
-      "sol_var": 229,
-      "sol_hem": 211,
       "cas_var": 0,
-      "cas_hem": 0
+      "cas_hem": 0,
+      "sol_var": 229,
+      "sol_hem": 211
      },
      "7-16": {
-      "sol_var": 241,
-      "sol_hem": 221,
       "cas_var": 0,
-      "cas_hem": 0
+      "cas_hem": 0,
+      "sol_var": 241,
+      "sol_hem": 221
      },
      "16-25": {
-      "sol_var": 146,
-      "sol_hem": 128,
       "cas_var": 25,
-      "cas_hem": 50
+      "cas_hem": 50,
+      "sol_var": 146,
+      "sol_hem": 128
      },
      "25-40": {
-      "sol_var": 51,
-      "sol_hem": 62,
       "cas_var": 203,
-      "cas_hem": 261
+      "cas_hem": 261,
+      "sol_var": 51,
+      "sol_hem": 62
      },
      "40-50": {
-      "sol_var": 28,
-      "sol_hem": 52,
       "cas_var": 140,
-      "cas_hem": 81
+      "cas_hem": 81,
+      "sol_var": 28,
+      "sol_hem": 52
      },
      "50+": {
-      "sol_var": 54,
-      "sol_hem": 133,
       "cas_var": 95,
-      "cas_hem": 71
+      "cas_hem": 71,
+      "sol_var": 54,
+      "sol_hem": 133
      }
     }
    },
@@ -291,11 +303,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high (reconciled)",
-    "by_age_cells": "high (reconciled, user-corrected)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 2482,
+    "total": 2482,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 4,
@@ -315,8 +332,8 @@
    "parroquia": "San Bartholome",
    "total_animes": 3006,
    "demografia": {
-    "var": 1856,
-    "hem": 1150,
+    "var": 1456,
+    "hem": 1550,
     "global": 3006,
     "casados": {
      "var": 850,
@@ -387,11 +404,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "medium",
-    "total_animes": "high (reconciled)",
-    "by_age_cells": "high (reconciled, 2nd pass)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 3006,
+    "total": 3006,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 5,
@@ -413,45 +435,51 @@
    "demografia": {
     "var": 1439,
     "hem": 1463,
-    "global": null,
-    "casados": null,
-    "solteros": null,
+    "global": 2902,
+    "casados": {
+     "var": 519,
+     "hem": 518
+    },
+    "solteros": {
+     "var": 920,
+     "hem": 945
+    },
     "by_age": {
      "0-7": {
-      "sol_var": 304,
-      "sol_hem": 283,
       "cas_var": 0,
-      "cas_hem": 0
+      "cas_hem": 0,
+      "sol_var": 304,
+      "sol_hem": 283
      },
      "7-16": {
-      "sol_var": 212,
-      "sol_hem": 209,
       "cas_var": 0,
-      "cas_hem": 1
+      "cas_hem": 1,
+      "sol_var": 212,
+      "sol_hem": 209
      },
      "16-25": {
-      "sol_var": 195,
-      "sol_hem": 226,
       "cas_var": 24,
-      "cas_hem": 46
+      "cas_hem": 46,
+      "sol_var": 195,
+      "sol_hem": 226
      },
      "25-40": {
-      "sol_var": 69,
-      "sol_hem": 48,
       "cas_var": 240,
-      "cas_hem": 295
+      "cas_hem": 295,
+      "sol_var": 69,
+      "sol_hem": 48
      },
      "40-50": {
-      "sol_var": 44,
-      "sol_hem": 49,
       "cas_var": 136,
-      "cas_hem": 123
+      "cas_hem": 123,
+      "sol_var": 44,
+      "sol_hem": 49
      },
      "50+": {
-      "sol_var": 96,
-      "sol_hem": 130,
       "cas_var": 119,
-      "cas_hem": 53
+      "cas_hem": 53,
+      "sol_var": 96,
+      "sol_hem": 130
      }
     }
    },
@@ -477,11 +505,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high",
-    "by_age_cells": "high (reconciled, user-corrected)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 2902,
+    "total": 2902,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 6,
@@ -503,45 +536,51 @@
    "demografia": {
     "var": 188,
     "hem": 199,
-    "global": null,
-    "casados": null,
-    "solteros": null,
+    "global": 387,
+    "casados": {
+     "var": 69,
+     "hem": 69
+    },
+    "solteros": {
+     "var": 119,
+     "hem": 130
+    },
     "by_age": {
      "0-7": {
-      "sol_var": 30,
-      "sol_hem": 23,
       "cas_var": 0,
-      "cas_hem": 0
+      "cas_hem": 0,
+      "sol_var": 30,
+      "sol_hem": 23
      },
      "7-16": {
-      "sol_var": 39,
-      "sol_hem": 47,
       "cas_var": 0,
-      "cas_hem": 0
+      "cas_hem": 0,
+      "sol_var": 39,
+      "sol_hem": 47
      },
      "16-25": {
-      "sol_var": 21,
-      "sol_hem": 14,
       "cas_var": 0,
-      "cas_hem": 2
+      "cas_hem": 2,
+      "sol_var": 21,
+      "sol_hem": 14
      },
      "25-40": {
-      "sol_var": 16,
-      "sol_hem": 10,
       "cas_var": 13,
-      "cas_hem": 22
+      "cas_hem": 22,
+      "sol_var": 16,
+      "sol_hem": 10
      },
      "40-50": {
-      "sol_var": 3,
-      "sol_hem": 8,
       "cas_var": 26,
-      "cas_hem": 24
+      "cas_hem": 24,
+      "sol_var": 3,
+      "sol_hem": 8
      },
      "50+": {
-      "sol_var": 10,
-      "sol_hem": 28,
       "cas_var": 30,
-      "cas_hem": 21
+      "cas_hem": 21,
+      "sol_var": 10,
+      "sol_hem": 28
      }
     }
    },
@@ -567,11 +606,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high",
-    "by_age_cells": "high (reconciled, user-corrected)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 387,
+    "total": 387,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 7,
@@ -593,45 +637,51 @@
    "demografia": {
     "var": 1131,
     "hem": 1187,
-    "global": null,
-    "casados": null,
-    "solteros": null,
+    "global": 2318,
+    "casados": {
+     "var": 419,
+     "hem": 419
+    },
+    "solteros": {
+     "var": 712,
+     "hem": 768
+    },
     "by_age": {
      "0-7": {
-      "sol_var": 256,
-      "sol_hem": 211,
       "cas_var": 0,
-      "cas_hem": 0
+      "cas_hem": 0,
+      "sol_var": 256,
+      "sol_hem": 211
      },
      "7-16": {
-      "sol_var": 232,
-      "sol_hem": 229,
       "cas_var": 0,
-      "cas_hem": 0
+      "cas_hem": 0,
+      "sol_var": 232,
+      "sol_hem": 229
      },
      "16-25": {
-      "sol_var": 106,
-      "sol_hem": 127,
       "cas_var": 23,
-      "cas_hem": 38
+      "cas_hem": 38,
+      "sol_var": 106,
+      "sol_hem": 127
      },
      "25-40": {
-      "sol_var": 57,
-      "sol_hem": 44,
       "cas_var": 155,
-      "cas_hem": 158
+      "cas_hem": 158,
+      "sol_var": 57,
+      "sol_hem": 44
      },
      "40-50": {
-      "sol_var": 21,
-      "sol_hem": 55,
       "cas_var": 133,
-      "cas_hem": 116
+      "cas_hem": 116,
+      "sol_var": 21,
+      "sol_hem": 55
      },
      "50+": {
-      "sol_var": 40,
-      "sol_hem": 102,
       "cas_var": 108,
-      "cas_hem": 107
+      "cas_hem": 107,
+      "sol_var": 10,
+      "sol_hem": 102
      }
     }
    },
@@ -657,11 +707,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high",
-    "by_age_cells": "high (reconciled, user-corrected)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 2288,
+    "total": 2318,
+    "ok": false
+   }
   },
   {
    "pueblo_n": 8,
@@ -683,7 +738,7 @@
    "demografia": {
     "var": 454,
     "hem": 411,
-    "global": null,
+    "global": 865,
     "casados": {
      "var": 167,
      "hem": 167
@@ -753,11 +808,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high",
-    "by_age_cells": "high (reconciled, 2nd pass)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 865,
+    "total": 865,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 9,
@@ -779,45 +839,51 @@
    "demografia": {
     "var": 660,
     "hem": 665,
-    "global": null,
-    "casados": null,
-    "solteros": null,
+    "global": 1325,
+    "casados": {
+     "var": 195,
+     "hem": 195
+    },
+    "solteros": {
+     "var": 465,
+     "hem": 470
+    },
     "by_age": {
      "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 142,
-      "sol_hem": 133,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 133
      },
      "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 127,
-      "sol_hem": 113,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 113
      },
      "16-25": {
-      "sol_var": 78,
-      "sol_hem": 94,
       "cas_var": 14,
-      "cas_hem": 16
+      "cas_hem": 16,
+      "sol_var": 78,
+      "sol_hem": 94
      },
      "25-40": {
-      "sol_var": 80,
-      "sol_hem": 82,
       "cas_var": 46,
-      "cas_hem": 54
+      "cas_hem": 54,
+      "sol_var": 80,
+      "sol_hem": 82
      },
      "40-50": {
-      "sol_var": 5,
-      "sol_hem": 19,
       "cas_var": 50,
-      "cas_hem": 48
+      "cas_hem": 48,
+      "sol_var": 5,
+      "sol_hem": 19
      },
      "50+": {
-      "sol_var": 33,
-      "sol_hem": 29,
       "cas_var": 85,
-      "cas_hem": 77
+      "cas_hem": 77,
+      "sol_var": 33,
+      "sol_hem": 29
      }
     }
    },
@@ -843,11 +909,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high",
-    "by_age_cells": "high (reconciled, user-corrected)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 1325,
+    "total": 1325,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 10,
@@ -869,45 +940,51 @@
    "demografia": {
     "var": 578,
     "hem": 626,
-    "global": null,
-    "casados": null,
-    "solteros": null,
+    "global": 1204,
+    "casados": {
+     "var": 215,
+     "hem": 215
+    },
+    "solteros": {
+     "var": 363,
+     "hem": 411
+    },
     "by_age": {
      "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 109,
-      "sol_hem": 141,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 141
      },
      "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 96,
-      "sol_hem": 79,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 79
      },
      "16-25": {
-      "sol_var": 84,
-      "sol_hem": 86,
       "cas_var": 6,
-      "cas_hem": 20
+      "cas_hem": 20,
+      "sol_var": 84,
+      "sol_hem": 86
      },
      "25-40": {
-      "sol_var": 46,
-      "sol_hem": 27,
       "cas_var": 60,
-      "cas_hem": 99
+      "cas_hem": 99,
+      "sol_var": 46,
+      "sol_hem": 27
      },
      "40-50": {
-      "sol_var": 6,
-      "sol_hem": 15,
       "cas_var": 56,
-      "cas_hem": 44
+      "cas_hem": 44,
+      "sol_var": 6,
+      "sol_hem": 15
      },
      "50+": {
-      "sol_var": 22,
-      "sol_hem": 63,
       "cas_var": 93,
-      "cas_hem": 52
+      "cas_hem": 52,
+      "sol_var": 22,
+      "sol_hem": 63
      }
     }
    },
@@ -933,11 +1010,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "medium",
-    "by_age_cells": "low",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 1204,
+    "total": 1204,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 11,
@@ -959,7 +1041,7 @@
    "demografia": {
     "var": 752,
     "hem": 736,
-    "global": null,
+    "global": 1488,
     "casados": {
      "var": 294,
      "hem": 294
@@ -1029,11 +1111,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "medium",
-    "by_age_cells": "high (reconciled, 2nd pass)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 1488,
+    "total": 1488,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 12,
@@ -1149,47 +1236,53 @@
    "parroquia": "Bart.me Apostol Sufragania",
    "total_animes": 888,
    "demografia": {
-    "var": null,
-    "hem": null,
+    "var": 432,
+    "hem": 456,
     "global": 888,
-    "casados": null,
-    "solteros": null,
+    "casados": {
+     "var": 183,
+     "hem": 184
+    },
+    "solteros": {
+     "var": 249,
+     "hem": 272
+    },
     "by_age": {
      "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 92,
-      "sol_hem": 87,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 87
      },
      "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 103,
-      "sol_hem": 104,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 104
      },
      "16-25": {
-      "sol_var": 32,
-      "sol_hem": 23,
       "cas_var": 9,
-      "cas_hem": 21
+      "cas_hem": 21,
+      "sol_var": 32,
+      "sol_hem": 23
      },
      "25-40": {
-      "sol_var": 6,
-      "sol_hem": 9,
       "cas_var": 97,
-      "cas_hem": 102
+      "cas_hem": 102,
+      "sol_var": 6,
+      "sol_hem": 9
      },
      "40-50": {
-      "sol_var": 3,
-      "sol_hem": 7,
       "cas_var": 43,
-      "cas_hem": 38
+      "cas_hem": 38,
+      "sol_var": 3,
+      "sol_hem": 7
      },
      "50+": {
-      "sol_var": 13,
-      "sol_hem": 42,
       "cas_var": 34,
-      "cas_hem": 23
+      "cas_hem": 23,
+      "sol_var": 13,
+      "sol_hem": 42
      }
     }
    },
@@ -1215,11 +1308,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high",
-    "by_age_cells": "low",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 888,
+    "total": 888,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 14,
@@ -1241,45 +1339,51 @@
    "demografia": {
     "var": 252,
     "hem": 250,
-    "global": null,
-    "casados": null,
-    "solteros": null,
+    "global": 502,
+    "casados": {
+     "var": 89,
+     "hem": 89
+    },
+    "solteros": {
+     "var": 163,
+     "hem": 161
+    },
     "by_age": {
      "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 40,
-      "sol_hem": 45,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 45
      },
      "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 55,
-      "sol_hem": 45,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 45
      },
      "16-25": {
+      "cas_var": 0,
+      "cas_hem": 4,
       "sol_var": 16,
-      "sol_hem": 30,
-      "cas_var": null,
-      "cas_hem": 4
+      "sol_hem": 30
      },
      "25-40": {
-      "sol_var": 20,
-      "sol_hem": 9,
       "cas_var": 22,
-      "cas_hem": 42
+      "cas_hem": 42,
+      "sol_var": 20,
+      "sol_hem": 9
      },
      "40-50": {
-      "sol_var": 20,
-      "sol_hem": 11,
       "cas_var": 43,
-      "cas_hem": 21
+      "cas_hem": 21,
+      "sol_var": 20,
+      "sol_hem": 11
      },
      "50+": {
-      "sol_var": 12,
-      "sol_hem": 21,
       "cas_var": 24,
-      "cas_hem": 22
+      "cas_hem": 22,
+      "sol_var": 12,
+      "sol_hem": 21
      }
     }
    },
@@ -1305,11 +1409,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high",
-    "by_age_cells": "low",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 502,
+    "total": 502,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 15,
@@ -1331,45 +1440,51 @@
    "demografia": {
     "var": 504,
     "hem": 557,
-    "global": null,
-    "casados": null,
-    "solteros": null,
+    "global": 1061,
+    "casados": {
+     "var": 186,
+     "hem": 186
+    },
+    "solteros": {
+     "var": 318,
+     "hem": 371
+    },
     "by_age": {
      "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 92,
-      "sol_hem": 94,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 94
      },
      "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 85,
-      "sol_hem": 96,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 96
      },
      "16-25": {
-      "sol_var": 62,
-      "sol_hem": 61,
       "cas_var": 9,
-      "cas_hem": 9
+      "cas_hem": 9,
+      "sol_var": 62,
+      "sol_hem": 61
      },
      "25-40": {
-      "sol_var": 14,
-      "sol_hem": 32,
-      "cas_var": 116,
-      "cas_hem": 100
+      "cas_var": 115,
+      "cas_hem": 100,
+      "sol_var": 15,
+      "sol_hem": 32
      },
      "40-50": {
-      "sol_var": 31,
-      "sol_hem": 39,
       "cas_var": 29,
-      "cas_hem": 57
+      "cas_hem": 57,
+      "sol_var": 31,
+      "sol_hem": 39
      },
      "50+": {
-      "sol_var": 34,
-      "sol_hem": 49,
       "cas_var": 32,
-      "cas_hem": 20
+      "cas_hem": 20,
+      "sol_var": 34,
+      "sol_hem": 49
      }
     }
    },
@@ -1395,11 +1510,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "medium",
-    "by_age_cells": "low",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 1061,
+    "total": 1061,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 16,
@@ -1417,49 +1537,55 @@
    "obispado": "Mallorca",
    "provincia": null,
    "parroquia": null,
-   "total_animes": 162,
+   "total_animes": 169,
    "demografia": {
-    "var": null,
-    "hem": null,
-    "global": 162,
-    "casados": null,
-    "solteros": null,
+    "var": 94,
+    "hem": 75,
+    "global": 169,
+    "casados": {
+     "var": 32,
+     "hem": 32
+    },
+    "solteros": {
+     "var": 62,
+     "hem": 43
+    },
     "by_age": {
      "0-7": {
-      "sol_var": null,
-      "sol_hem": null,
-      "cas_var": null,
-      "cas_hem": null
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 16,
+      "sol_hem": 17
      },
      "7-16": {
-      "sol_var": 16,
-      "sol_hem": 17,
-      "cas_var": null,
-      "cas_hem": null
+      "cas_var": 0,
+      "cas_hem": 0,
+      "sol_var": 12,
+      "sol_hem": 6
      },
      "16-25": {
-      "sol_var": 12,
-      "sol_hem": 6,
       "cas_var": 2,
-      "cas_hem": 3
+      "cas_hem": 3,
+      "sol_var": 19,
+      "sol_hem": 11
      },
      "25-40": {
-      "sol_var": 19,
-      "sol_hem": 11,
       "cas_var": 8,
-      "cas_hem": 11
+      "cas_hem": 11,
+      "sol_var": 10,
+      "sol_hem": 4
      },
      "40-50": {
-      "sol_var": 10,
-      "sol_hem": 4,
       "cas_var": 3,
-      "cas_hem": 5
+      "cas_hem": 5,
+      "sol_var": 2,
+      "sol_hem": 1
      },
      "50+": {
-      "sol_var": 2,
-      "sol_hem": 1,
       "cas_var": 19,
-      "cas_hem": 13
+      "cas_hem": 13,
+      "sol_var": 3,
+      "sol_hem": 4
      }
     }
    },
@@ -1485,11 +1611,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "medium",
-    "total_animes": "medium",
-    "by_age_cells": "low",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 169,
+    "total": 169,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 17,
@@ -1511,7 +1642,7 @@
    "demografia": {
     "var": 1035,
     "hem": 1029,
-    "global": null,
+    "global": 2064,
     "casados": {
      "var": 386,
      "hem": 386
@@ -1581,11 +1712,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high",
-    "by_age_cells": "high (reconciled, 2nd pass)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 2064,
+    "total": 2064,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 18,
@@ -1607,7 +1743,7 @@
    "demografia": {
     "var": 242,
     "hem": 232,
-    "global": null,
+    "global": 474,
     "casados": {
      "var": 95,
      "hem": 95
@@ -1677,11 +1813,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high",
-    "by_age_cells": "high (reconciled, 2nd pass)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 474,
+    "total": 474,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 19,
@@ -1703,7 +1844,7 @@
    "demografia": {
     "var": 3528,
     "hem": 3327,
-    "global": null,
+    "global": 6855,
     "casados": {
      "var": 1120,
      "hem": 1120
@@ -1741,12 +1882,12 @@
       "cas_var": 286,
       "cas_hem": 296,
       "sol_var": 287,
-      "sol_hem": 154
+      "sol_hem": 194
      },
      "50+": {
       "cas_var": 405,
       "cas_hem": 331,
-      "sol_var": 284,
+      "sol_var": 244,
       "sol_hem": 382
      }
     }
@@ -1773,11 +1914,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high",
-    "by_age_cells": "high (reconciled, 2nd pass)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 6855,
+    "total": 6855,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 20,
@@ -1799,45 +1945,51 @@
    "demografia": {
     "var": 494,
     "hem": 484,
-    "global": null,
-    "casados": null,
-    "solteros": null,
+    "global": 978,
+    "casados": {
+     "var": 169,
+     "hem": 169
+    },
+    "solteros": {
+     "var": 325,
+     "hem": 315
+    },
     "by_age": {
      "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 73,
-      "sol_hem": 58,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 58
      },
      "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 111,
-      "sol_hem": 101,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 101
      },
      "16-25": {
-      "sol_var": 65,
-      "sol_hem": 75,
       "cas_var": 8,
-      "cas_hem": 21
+      "cas_hem": 21,
+      "sol_var": 65,
+      "sol_hem": 75
      },
      "25-40": {
-      "sol_var": 50,
-      "sol_hem": 27,
       "cas_var": 55,
-      "cas_hem": 74
+      "cas_hem": 74,
+      "sol_var": 50,
+      "sol_hem": 27
      },
      "40-50": {
-      "sol_var": 6,
-      "sol_hem": 17,
       "cas_var": 46,
-      "cas_hem": 40
+      "cas_hem": 40,
+      "sol_var": 6,
+      "sol_hem": 17
      },
      "50+": {
-      "sol_var": 20,
-      "sol_hem": 37,
       "cas_var": 60,
-      "cas_hem": 34
+      "cas_hem": 34,
+      "sol_var": 20,
+      "sol_hem": 37
      }
     }
    },
@@ -1863,11 +2015,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "medium",
-    "total_animes": "high",
-    "by_age_cells": "medium",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 978,
+    "total": 978,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 21,
@@ -1889,45 +2046,51 @@
    "demografia": {
     "var": 1344,
     "hem": 1442,
-    "global": null,
-    "casados": null,
-    "solteros": null,
+    "global": 2786,
+    "casados": {
+     "var": 600,
+     "hem": 599
+    },
+    "solteros": {
+     "var": 744,
+     "hem": 843
+    },
     "by_age": {
      "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 270,
-      "sol_hem": 258,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 258
      },
      "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 122,
-      "sol_hem": 127,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 127
      },
      "16-25": {
-      "sol_var": 102,
-      "sol_hem": 112,
       "cas_var": 69,
-      "cas_hem": 120
+      "cas_hem": 120,
+      "sol_var": 102,
+      "sol_hem": 112
      },
      "25-40": {
-      "sol_var": 139,
-      "sol_hem": 183,
       "cas_var": 322,
-      "cas_hem": 321
+      "cas_hem": 321,
+      "sol_var": 139,
+      "sol_hem": 183
      },
      "40-50": {
-      "sol_var": 46,
-      "sol_hem": 86,
       "cas_var": 109,
-      "cas_hem": 89
+      "cas_hem": 89,
+      "sol_var": 46,
+      "sol_hem": 86
      },
      "50+": {
-      "sol_var": 65,
-      "sol_hem": 67,
       "cas_var": 100,
-      "cas_hem": 69
+      "cas_hem": 69,
+      "sol_var": 65,
+      "sol_hem": 67
      }
     }
    },
@@ -1953,11 +2116,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high",
-    "by_age_cells": "cells user-verified; manuscript totals inconsistent (+10 dones)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "mismatch(Σ=2776 vs total=2786)"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 2776,
+    "total": 2786,
+    "ok": false
+   }
   },
   {
    "pueblo_n": 22,
@@ -1980,44 +2148,50 @@
     "var": 305,
     "hem": 303,
     "global": 608,
-    "casados": null,
-    "solteros": null,
+    "casados": {
+     "var": 110,
+     "hem": 111
+    },
+    "solteros": {
+     "var": 195,
+     "hem": 192
+    },
     "by_age": {
      "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 59,
-      "sol_hem": 56,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 56
      },
      "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 68,
-      "sol_hem": 60,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 60
      },
      "16-25": {
-      "sol_var": 36,
-      "sol_hem": 35,
       "cas_var": 4,
-      "cas_hem": 23
+      "cas_hem": 23,
+      "sol_var": 36,
+      "sol_hem": 35
      },
      "25-40": {
-      "sol_var": 12,
-      "sol_hem": 8,
       "cas_var": 35,
-      "cas_hem": 42
+      "cas_hem": 42,
+      "sol_var": 12,
+      "sol_hem": 8
      },
      "40-50": {
-      "sol_var": 2,
-      "sol_hem": 10,
       "cas_var": 33,
-      "cas_hem": 28
+      "cas_hem": 28,
+      "sol_var": 2,
+      "sol_hem": 10
      },
      "50+": {
-      "sol_var": 18,
-      "sol_hem": 23,
       "cas_var": 38,
-      "cas_hem": 18
+      "cas_hem": 18,
+      "sol_var": 18,
+      "sol_hem": 23
      }
     }
    },
@@ -2043,11 +2217,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "low",
-    "total_animes": "high (reconciled)",
-    "by_age_cells": "high (reconciled, user-corrected)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 608,
+    "total": 608,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 23,
@@ -2069,45 +2248,51 @@
    "demografia": {
     "var": 572,
     "hem": 623,
-    "global": null,
-    "casados": null,
-    "solteros": null,
+    "global": 1195,
+    "casados": {
+     "var": 233,
+     "hem": 233
+    },
+    "solteros": {
+     "var": 339,
+     "hem": 390
+    },
     "by_age": {
      "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 119,
-      "sol_hem": 126,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 126
      },
      "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 110,
-      "sol_hem": 99,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 99
      },
      "16-25": {
-      "sol_var": 71,
-      "sol_hem": 45,
       "cas_var": 2,
-      "cas_hem": 19
+      "cas_hem": 19,
+      "sol_var": 71,
+      "sol_hem": 45
      },
      "25-40": {
-      "sol_var": 19,
-      "sol_hem": 32,
       "cas_var": 126,
-      "cas_hem": 155
+      "cas_hem": 155,
+      "sol_var": 19,
+      "sol_hem": 32
      },
      "40-50": {
-      "sol_var": 4,
-      "sol_hem": 26,
       "cas_var": 75,
-      "cas_hem": 36
+      "cas_hem": 36,
+      "sol_var": 4,
+      "sol_hem": 26
      },
      "50+": {
-      "sol_var": 16,
-      "sol_hem": 62,
       "cas_var": 30,
-      "cas_hem": 23
+      "cas_hem": 23,
+      "sol_var": 16,
+      "sol_hem": 62
      }
     }
    },
@@ -2133,11 +2318,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "low",
-    "total_animes": "high",
-    "by_age_cells": "medium",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 1195,
+    "total": 1195,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 24,
@@ -2159,7 +2349,7 @@
    "demografia": {
     "var": 3238,
     "hem": 3395,
-    "global": null,
+    "global": 6633,
     "casados": {
      "var": 1243,
      "hem": 1243
@@ -2229,11 +2419,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "medium",
-    "total_animes": "high",
-    "by_age_cells": "high (reconciled, 2nd pass)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 6633,
+    "total": 6633,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 25,
@@ -2255,7 +2450,7 @@
    "demografia": {
     "var": 358,
     "hem": 398,
-    "global": null,
+    "global": 756,
     "casados": {
      "var": 152,
      "hem": 152
@@ -2325,11 +2520,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "medium",
-    "total_animes": "high",
-    "by_age_cells": "high (reconciled, 2nd pass)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 756,
+    "total": 756,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 26,
@@ -2347,49 +2547,55 @@
    "obispado": "Mallorca",
    "provincia": null,
    "parroquia": "S. Jayme Apostol",
-   "total_animes": 5121,
+   "total_animes": 5021,
    "demografia": {
-    "var": 2479,
+    "var": 2379,
     "hem": 2642,
-    "global": 5121,
-    "casados": null,
-    "solteros": null,
+    "global": 5021,
+    "casados": {
+     "var": 1023,
+     "hem": 1023
+    },
+    "solteros": {
+     "var": 1456,
+     "hem": 1619
+    },
     "by_age": {
      "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 524,
-      "sol_hem": 570,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 570
      },
      "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 497,
-      "sol_hem": 493,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 493
      },
      "16-25": {
-      "sol_var": 225,
-      "sol_hem": 176,
       "cas_var": 28,
-      "cas_hem": 26
+      "cas_hem": 26,
+      "sol_var": 225,
+      "sol_hem": 176
      },
      "25-40": {
-      "sol_var": 75,
-      "sol_hem": 70,
       "cas_var": 295,
-      "cas_hem": 292
+      "cas_hem": 292,
+      "sol_var": 75,
+      "sol_hem": 70
      },
      "40-50": {
-      "sol_var": 50,
-      "sol_hem": 72,
       "cas_var": 413,
-      "cas_hem": 405
+      "cas_hem": 405,
+      "sol_var": 50,
+      "sol_hem": 72
      },
      "50+": {
-      "sol_var": 85,
-      "sol_hem": 238,
       "cas_var": 287,
-      "cas_hem": 300
+      "cas_hem": 300,
+      "sol_var": 85,
+      "sol_hem": 238
      }
     }
    },
@@ -2415,11 +2621,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high (user-confirmed 5121; was misread 5521)",
-    "by_age_cells": "high (reconciled, user-corrected)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 5121,
+    "total": 5021,
+    "ok": false
+   }
   },
   {
    "pueblo_n": 27,
@@ -2439,47 +2650,53 @@
    "parroquia": "San Marçal",
    "total_animes": 965,
    "demografia": {
-    "var": null,
-    "hem": null,
+    "var": 480,
+    "hem": 485,
     "global": 965,
-    "casados": null,
-    "solteros": null,
+    "casados": {
+     "var": 152,
+     "hem": 152
+    },
+    "solteros": {
+     "var": 328,
+     "hem": 333
+    },
     "by_age": {
      "0-7": {
-      "sol_var": 83,
-      "sol_hem": 85,
       "cas_var": 0,
-      "cas_hem": 0
+      "cas_hem": 0,
+      "sol_var": 83,
+      "sol_hem": 85
      },
      "7-16": {
-      "sol_var": 72,
-      "sol_hem": 78,
       "cas_var": 0,
-      "cas_hem": 0
+      "cas_hem": 0,
+      "sol_var": 72,
+      "sol_hem": 78
      },
      "16-25": {
-      "sol_var": 62,
-      "sol_hem": 67,
       "cas_var": 1,
-      "cas_hem": 3
+      "cas_hem": 3,
+      "sol_var": 62,
+      "sol_hem": 67
      },
      "25-40": {
-      "sol_var": 61,
-      "sol_hem": 53,
       "cas_var": 57,
-      "cas_hem": 50
+      "cas_hem": 50,
+      "sol_var": 61,
+      "sol_hem": 53
      },
      "40-50": {
-      "sol_var": 28,
-      "sol_hem": 25,
       "cas_var": 55,
-      "cas_hem": 58
+      "cas_hem": 58,
+      "sol_var": 28,
+      "sol_hem": 25
      },
      "50+": {
-      "sol_var": 22,
-      "sol_hem": 25,
       "cas_var": 39,
-      "cas_hem": 41
+      "cas_hem": 41,
+      "sol_var": 22,
+      "sol_hem": 25
      }
     }
    },
@@ -2505,11 +2722,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "medium",
-    "total_animes": "high",
-    "by_age_cells": "medium",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 965,
+    "total": 965,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 28,
@@ -2531,45 +2753,51 @@
    "demografia": {
     "var": 793,
     "hem": 839,
-    "global": null,
-    "casados": null,
-    "solteros": null,
+    "global": 1632,
+    "casados": {
+     "var": 302,
+     "hem": 302
+    },
+    "solteros": {
+     "var": 491,
+     "hem": 537
+    },
     "by_age": {
      "0-7": {
-      "sol_var": 142,
-      "sol_hem": 144,
       "cas_var": 0,
-      "cas_hem": 0
+      "cas_hem": 0,
+      "sol_var": 142,
+      "sol_hem": 144
      },
      "7-16": {
-      "sol_var": 171,
-      "sol_hem": 162,
       "cas_var": 0,
-      "cas_hem": 0
+      "cas_hem": 0,
+      "sol_var": 171,
+      "sol_hem": 162
      },
      "16-25": {
-      "sol_var": 105,
-      "sol_hem": 82,
       "cas_var": 33,
-      "cas_hem": 44
+      "cas_hem": 44,
+      "sol_var": 105,
+      "sol_hem": 82
      },
      "25-40": {
-      "sol_var": 24,
-      "sol_hem": 36,
       "cas_var": 130,
-      "cas_hem": 143
+      "cas_hem": 143,
+      "sol_var": 24,
+      "sol_hem": 36
      },
      "40-50": {
-      "sol_var": 15,
-      "sol_hem": 29,
       "cas_var": 70,
-      "cas_hem": 66
+      "cas_hem": 66,
+      "sol_var": 15,
+      "sol_hem": 29
      },
      "50+": {
-      "sol_var": 34,
-      "sol_hem": 84,
       "cas_var": 69,
-      "cas_hem": 49
+      "cas_hem": 49,
+      "sol_var": 34,
+      "sol_hem": 84
      }
     }
    },
@@ -2595,11 +2823,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "medium",
-    "total_animes": "high",
-    "by_age_cells": "medium",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 1632,
+    "total": 1632,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 29,
@@ -2621,45 +2854,51 @@
    "demografia": {
     "var": 1242,
     "hem": 1267,
-    "global": null,
-    "casados": null,
-    "solteros": null,
+    "global": 2509,
+    "casados": {
+     "var": 468,
+     "hem": 468
+    },
+    "solteros": {
+     "var": 774,
+     "hem": 799
+    },
     "by_age": {
      "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 327,
-      "sol_hem": 269,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 269
      },
      "7-16": {
+      "cas_var": 0,
+      "cas_hem": 20,
       "sol_var": 175,
-      "sol_hem": 189,
-      "cas_var": null,
-      "cas_hem": 20
+      "sol_hem": 189
      },
      "16-25": {
-      "sol_var": 113,
-      "sol_hem": 117,
       "cas_var": 94,
-      "cas_hem": 122
+      "cas_hem": 122,
+      "sol_var": 113,
+      "sol_hem": 117
      },
      "25-40": {
-      "sol_var": 46,
-      "sol_hem": 66,
       "cas_var": 180,
-      "cas_hem": 202
+      "cas_hem": 202,
+      "sol_var": 46,
+      "sol_hem": 66
      },
      "40-50": {
-      "sol_var": 51,
-      "sol_hem": 42,
       "cas_var": 129,
-      "cas_hem": 80
+      "cas_hem": 80,
+      "sol_var": 51,
+      "sol_hem": 42
      },
      "50+": {
-      "sol_var": 62,
-      "sol_hem": 116,
       "cas_var": 65,
-      "cas_hem": 44
+      "cas_hem": 44,
+      "sol_var": 62,
+      "sol_hem": 116
      }
     }
    },
@@ -2685,11 +2924,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "medium",
-    "by_age_cells": "low",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 2509,
+    "total": 2509,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 30,
@@ -3347,7 +3591,7 @@
    "demografia": {
     "var": 947,
     "hem": 1012,
-    "global": null,
+    "global": 1959,
     "casados": {
      "var": 396,
      "hem": 396
@@ -3417,11 +3661,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high",
-    "by_age_cells": "high (reconciled, 2nd pass)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 1959,
+    "total": 1959,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 38,
@@ -3443,45 +3692,51 @@
    "demografia": {
     "var": 2114,
     "hem": 2226,
-    "global": null,
-    "casados": null,
-    "solteros": null,
+    "global": 4340,
+    "casados": {
+     "var": 691,
+     "hem": 691
+    },
+    "solteros": {
+     "var": 1423,
+     "hem": 1535
+    },
     "by_age": {
      "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 490,
-      "sol_hem": 470,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 470
      },
      "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 275,
-      "sol_hem": 289,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 289
      },
      "16-25": {
-      "sol_var": 247,
-      "sol_hem": 230,
       "cas_var": 28,
-      "cas_hem": 49
+      "cas_hem": 49,
+      "sol_var": 247,
+      "sol_hem": 230
      },
      "25-40": {
-      "sol_var": 146,
-      "sol_hem": 210,
       "cas_var": 244,
-      "cas_hem": 305
+      "cas_hem": 305,
+      "sol_var": 146,
+      "sol_hem": 210
      },
      "40-50": {
-      "sol_var": 136,
-      "sol_hem": 102,
       "cas_var": 245,
-      "cas_hem": 211
+      "cas_hem": 211,
+      "sol_var": 136,
+      "sol_hem": 102
      },
      "50+": {
-      "sol_var": 129,
-      "sol_hem": 234,
       "cas_var": 174,
-      "cas_hem": 126
+      "cas_hem": 126,
+      "sol_var": 129,
+      "sol_hem": 234
      }
     }
    },
@@ -3507,11 +3762,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high",
-    "by_age_cells": "high (reconciled, user-corrected; 0-7 row recovered)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 4340,
+    "total": 4340,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 39,
@@ -3533,9 +3793,15 @@
    "demografia": {
     "var": 1476,
     "hem": 1511,
-    "global": null,
-    "casados": null,
-    "solteros": null,
+    "global": 2987,
+    "casados": {
+     "var": 548,
+     "hem": 548
+    },
+    "solteros": {
+     "var": 928,
+     "hem": 963
+    },
     "by_age": {
      "0-7": {
       "cas_var": 0,
@@ -3547,7 +3813,7 @@
       "cas_var": 0,
       "cas_hem": 0,
       "sol_var": 238,
-      "sol_hem": 286
+      "sol_hem": 246
      },
      "16-25": {
       "cas_var": 22,
@@ -3562,10 +3828,10 @@
       "sol_hem": 76
      },
      "40-50": {
-      "cas_var": 181,
+      "cas_var": 141,
       "cas_hem": 115,
-      "sol_var": 76,
-      "sol_hem": 67
+      "sol_var": 26,
+      "sol_hem": 47
      },
      "50+": {
       "cas_var": 195,
@@ -3597,11 +3863,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high",
-    "by_age_cells": "cells re-read (user-corrected); manuscript internally inconsistent — INE «ERROR EN CIFRAS» stamp",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "mismatch(Σ=3127 vs total=2987)"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 2977,
+    "total": 2987,
+    "ok": false
+   }
   },
   {
    "pueblo_n": 40,
@@ -3623,7 +3894,7 @@
    "demografia": {
     "var": 1089,
     "hem": 1105,
-    "global": null,
+    "global": 2194,
     "casados": {
      "var": 442,
      "hem": 442
@@ -3693,11 +3964,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high",
-    "by_age_cells": "high (reconciled, 2nd pass)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 2194,
+    "total": 2194,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 41,
@@ -3719,45 +3995,51 @@
    "demografia": {
     "var": 416,
     "hem": 435,
-    "global": null,
-    "casados": null,
-    "solteros": null,
+    "global": 851,
+    "casados": {
+     "var": 126,
+     "hem": 126
+    },
+    "solteros": {
+     "var": 290,
+     "hem": 309
+    },
     "by_age": {
      "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 61,
-      "sol_hem": 63,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 63
      },
      "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 88,
-      "sol_hem": 114,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 114
      },
      "16-25": {
-      "sol_var": 62,
-      "sol_hem": 60,
       "cas_var": 8,
-      "cas_hem": 18
+      "cas_hem": 18,
+      "sol_var": 62,
+      "sol_hem": 60
      },
      "25-40": {
-      "sol_var": 42,
-      "sol_hem": 38,
       "cas_var": 60,
-      "cas_hem": 50
+      "cas_hem": 50,
+      "sol_var": 42,
+      "sol_hem": 38
      },
      "40-50": {
-      "sol_var": 11,
-      "sol_hem": 20,
       "cas_var": 24,
-      "cas_hem": 39
+      "cas_hem": 39,
+      "sol_var": 11,
+      "sol_hem": 20
      },
      "50+": {
-      "sol_var": 26,
-      "sol_hem": 14,
       "cas_var": 34,
-      "cas_hem": 19
+      "cas_hem": 19,
+      "sol_var": 26,
+      "sol_hem": 14
      }
     }
    },
@@ -3783,11 +4065,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high",
-    "by_age_cells": "medium",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 851,
+    "total": 851,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 42,
@@ -3809,7 +4096,7 @@
    "demografia": {
     "var": 713,
     "hem": 758,
-    "global": null,
+    "global": 1471,
     "casados": {
      "var": 265,
      "hem": 265
@@ -3879,11 +4166,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "medium",
-    "total_animes": "high",
-    "by_age_cells": "high (reconciled, 2nd pass)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 1471,
+    "total": 1471,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 43,
@@ -3997,49 +4289,55 @@
    "obispado": "Mallorca",
    "provincia": null,
    "parroquia": "S.n Lorenzo Sufraganea",
-   "total_animes": 357,
+   "total_animes": 317,
    "demografia": {
-    "var": 178,
-    "hem": 179,
-    "global": 357,
-    "casados": null,
-    "solteros": null,
+    "var": 163,
+    "hem": 154,
+    "global": 317,
+    "casados": {
+     "var": 43,
+     "hem": 43
+    },
+    "solteros": {
+     "var": 120,
+     "hem": 111
+    },
     "by_age": {
      "0-7": {
-      "sol_var": 31,
-      "sol_hem": 22,
       "cas_var": 0,
-      "cas_hem": 0
+      "cas_hem": 0,
+      "sol_var": 31,
+      "sol_hem": 22
      },
      "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 23,
-      "sol_hem": 17,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 17
      },
      "16-25": {
-      "sol_var": 13,
-      "sol_hem": 9,
       "cas_var": 4,
-      "cas_hem": 5
+      "cas_hem": 5,
+      "sol_var": 13,
+      "sol_hem": 9
      },
      "25-40": {
-      "sol_var": 32,
-      "sol_hem": 42,
       "cas_var": 27,
-      "cas_hem": 29
+      "cas_hem": 29,
+      "sol_var": 32,
+      "sol_hem": 42
      },
      "40-50": {
-      "sol_var": 13,
-      "sol_hem": 12,
       "cas_var": 8,
-      "cas_hem": 7
+      "cas_hem": 7,
+      "sol_var": 13,
+      "sol_hem": 12
      },
      "50+": {
-      "sol_var": 8,
-      "sol_hem": 6,
       "cas_var": 4,
-      "cas_hem": 2
+      "cas_hem": 2,
+      "sol_var": 8,
+      "sol_hem": 6
      }
     }
    },
@@ -4065,11 +4363,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "medium",
-    "total_animes": "high (reconciled)",
-    "by_age_cells": "low",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "mismatch(Σ=314 vs total=357)"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 314,
+    "total": 317,
+    "ok": false
+   }
   },
   {
    "pueblo_n": 45,
@@ -4091,45 +4394,51 @@
    "demografia": {
     "var": 964,
     "hem": 1038,
-    "global": null,
-    "casados": null,
-    "solteros": null,
+    "global": 2002,
+    "casados": {
+     "var": 381,
+     "hem": 381
+    },
+    "solteros": {
+     "var": 583,
+     "hem": 657
+    },
     "by_age": {
      "0-7": {
-      "sol_var": 270,
-      "sol_hem": 277,
       "cas_var": 0,
-      "cas_hem": 0
+      "cas_hem": 0,
+      "sol_var": 270,
+      "sol_hem": 277
      },
      "7-16": {
-      "sol_var": 200,
-      "sol_hem": 220,
       "cas_var": 14,
-      "cas_hem": 15
+      "cas_hem": 15,
+      "sol_var": 200,
+      "sol_hem": 220
      },
      "16-25": {
-      "sol_var": 54,
-      "sol_hem": 70,
       "cas_var": 103,
-      "cas_hem": 110
+      "cas_hem": 110,
+      "sol_var": 54,
+      "sol_hem": 70
      },
      "25-40": {
-      "sol_var": 12,
-      "sol_hem": 15,
       "cas_var": 98,
-      "cas_hem": 102
+      "cas_hem": 102,
+      "sol_var": 12,
+      "sol_hem": 15
      },
      "40-50": {
-      "sol_var": 7,
-      "sol_hem": 25,
       "cas_var": 82,
-      "cas_hem": 74
+      "cas_hem": 74,
+      "sol_var": 7,
+      "sol_hem": 25
      },
      "50+": {
-      "sol_var": 40,
-      "sol_hem": 50,
       "cas_var": 84,
-      "cas_hem": 80
+      "cas_hem": 80,
+      "sol_var": 40,
+      "sol_hem": 50
      }
     }
    },
@@ -4155,11 +4464,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "medium",
-    "total_animes": "high",
-    "by_age_cells": "low",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 2002,
+    "total": 2002,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 46,
@@ -4181,7 +4495,7 @@
    "demografia": {
     "var": 423,
     "hem": 441,
-    "global": null,
+    "global": 864,
     "casados": {
      "var": 161,
      "hem": 161
@@ -4251,11 +4565,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "medium",
-    "total_animes": "high",
-    "by_age_cells": "high (reconciled, 2nd pass)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 864,
+    "total": 864,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 47,
@@ -4277,45 +4596,51 @@
    "demografia": {
     "var": 846,
     "hem": 877,
-    "global": null,
-    "casados": null,
-    "solteros": null,
+    "global": 1723,
+    "casados": {
+     "var": 370,
+     "hem": 370
+    },
+    "solteros": {
+     "var": 476,
+     "hem": 507
+    },
     "by_age": {
      "0-7": {
-      "sol_var": 147,
-      "sol_hem": 153,
       "cas_var": 0,
-      "cas_hem": 0
+      "cas_hem": 0,
+      "sol_var": 147,
+      "sol_hem": 153
      },
      "7-16": {
-      "sol_var": 152,
-      "sol_hem": 120,
       "cas_var": 0,
-      "cas_hem": 0
+      "cas_hem": 0,
+      "sol_var": 152,
+      "sol_hem": 120
      },
      "16-25": {
-      "sol_var": 104,
-      "sol_hem": 72,
       "cas_var": 35,
-      "cas_hem": 42
+      "cas_hem": 42,
+      "sol_var": 104,
+      "sol_hem": 72
      },
      "25-40": {
-      "sol_var": 32,
-      "sol_hem": 26,
       "cas_var": 188,
-      "cas_hem": 200
+      "cas_hem": 200,
+      "sol_var": 32,
+      "sol_hem": 26
      },
      "40-50": {
-      "sol_var": 15,
-      "sol_hem": 37,
       "cas_var": 83,
-      "cas_hem": 77
+      "cas_hem": 77,
+      "sol_var": 15,
+      "sol_hem": 37
      },
      "50+": {
-      "sol_var": 26,
-      "sol_hem": 99,
       "cas_var": 64,
-      "cas_hem": 51
+      "cas_hem": 51,
+      "sol_var": 26,
+      "sol_hem": 99
      }
     }
    },
@@ -4341,11 +4666,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "medium",
-    "total_animes": "high",
-    "by_age_cells": "medium",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 1723,
+    "total": 1723,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 48,
@@ -4367,45 +4697,51 @@
    "demografia": {
     "var": 661,
     "hem": 734,
-    "global": null,
-    "casados": null,
-    "solteros": null,
+    "global": 1395,
+    "casados": {
+     "var": 251,
+     "hem": 251
+    },
+    "solteros": {
+     "var": 410,
+     "hem": 483
+    },
     "by_age": {
      "0-7": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 136,
-      "sol_hem": 135,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 135
      },
      "7-16": {
+      "cas_var": 0,
+      "cas_hem": 0,
       "sol_var": 114,
-      "sol_hem": 105,
-      "cas_var": null,
-      "cas_hem": null
+      "sol_hem": 105
      },
      "16-25": {
-      "sol_var": 100,
-      "sol_hem": 115,
       "cas_var": 4,
-      "cas_hem": 28
+      "cas_hem": 28,
+      "sol_var": 100,
+      "sol_hem": 115
      },
      "25-40": {
-      "sol_var": 30,
-      "sol_hem": 32,
       "cas_var": 119,
-      "cas_hem": 114
+      "cas_hem": 114,
+      "sol_var": 30,
+      "sol_hem": 32
      },
      "40-50": {
-      "sol_var": 11,
-      "sol_hem": 35,
       "cas_var": 63,
-      "cas_hem": 67
+      "cas_hem": 67,
+      "sol_var": 11,
+      "sol_hem": 35
      },
      "50+": {
-      "sol_var": 19,
-      "sol_hem": 61,
       "cas_var": 65,
-      "cas_hem": 42
+      "cas_hem": 42,
+      "sol_var": 19,
+      "sol_hem": 61
      }
     }
    },
@@ -4431,11 +4767,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high",
-    "by_age_cells": "high (reconciled, user-corrected)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 1395,
+    "total": 1395,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 49,
@@ -4455,8 +4796,8 @@
    "parroquia": "Andreu Apostol",
    "total_animes": 2355,
    "demografia": {
-    "var": 1177,
-    "hem": 1178,
+    "var": 1157,
+    "hem": 1198,
     "global": 2355,
     "casados": {
      "var": 631,
@@ -4527,11 +4868,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high (reconciled)",
-    "by_age_cells": "high (reconciled, 2nd pass)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 2355,
+    "total": 2355,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 50,
@@ -4553,7 +4899,7 @@
    "demografia": {
     "var": 1298,
     "hem": 1323,
-    "global": null,
+    "global": 2621,
     "casados": {
      "var": 486,
      "hem": 486
@@ -4623,11 +4969,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high",
-    "by_age_cells": "high (reconciled, 2nd pass)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 2621,
+    "total": 2621,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 51,
@@ -4649,7 +5000,7 @@
    "demografia": {
     "var": 1618,
     "hem": 1664,
-    "global": null,
+    "global": 3282,
     "casados": {
      "var": 636,
      "hem": 636
@@ -4719,11 +5070,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high",
-    "by_age_cells": "high (reconciled, 2nd pass)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 3282,
+    "total": 3282,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 52,
@@ -4745,7 +5101,7 @@
    "demografia": {
     "var": 2248,
     "hem": 2315,
-    "global": null,
+    "global": 4563,
     "casados": {
      "var": 811,
      "hem": 811
@@ -4815,11 +5171,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high",
-    "by_age_cells": "high (reconciled, 2nd pass)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 4563,
+    "total": 4563,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 53,
@@ -4841,45 +5202,51 @@
    "demografia": {
     "var": 489,
     "hem": 492,
-    "global": null,
-    "casados": null,
-    "solteros": null,
+    "global": 981,
+    "casados": {
+     "var": 197,
+     "hem": 197
+    },
+    "solteros": {
+     "var": 292,
+     "hem": 295
+    },
     "by_age": {
      "0-7": {
-      "sol_var": 128,
-      "sol_hem": 112,
       "cas_var": 0,
-      "cas_hem": 0
+      "cas_hem": 0,
+      "sol_var": 128,
+      "sol_hem": 112
      },
      "7-16": {
-      "sol_var": 102,
-      "sol_hem": 76,
       "cas_var": 0,
-      "cas_hem": 0
+      "cas_hem": 0,
+      "sol_var": 102,
+      "sol_hem": 76
      },
      "16-25": {
-      "sol_var": 20,
-      "sol_hem": 33,
       "cas_var": 3,
-      "cas_hem": 13
+      "cas_hem": 13,
+      "sol_var": 20,
+      "sol_hem": 33
      },
      "25-40": {
-      "sol_var": 26,
-      "sol_hem": 16,
       "cas_var": 79,
-      "cas_hem": 81
+      "cas_hem": 81,
+      "sol_var": 26,
+      "sol_hem": 16
      },
      "40-50": {
-      "sol_var": 4,
-      "sol_hem": 11,
       "cas_var": 41,
-      "cas_hem": 50
+      "cas_hem": 50,
+      "sol_var": 4,
+      "sol_hem": 11
      },
      "50+": {
-      "sol_var": 12,
-      "sol_hem": 47,
       "cas_var": 74,
-      "cas_hem": 53
+      "cas_hem": 53,
+      "sol_var": 12,
+      "sol_hem": 47
      }
     }
    },
@@ -4905,11 +5272,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high",
-    "by_age_cells": "high (reconciled, user-corrected)",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 981,
+    "total": 981,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 54,
@@ -4931,45 +5303,51 @@
    "demografia": {
     "var": 654,
     "hem": 614,
-    "global": null,
-    "casados": null,
-    "solteros": null,
+    "global": 1268,
+    "casados": {
+     "var": 248,
+     "hem": 248
+    },
+    "solteros": {
+     "var": 406,
+     "hem": 366
+    },
     "by_age": {
      "0-7": {
-      "sol_var": 120,
-      "sol_hem": 125,
       "cas_var": 0,
-      "cas_hem": 0
+      "cas_hem": 0,
+      "sol_var": 120,
+      "sol_hem": 125
      },
      "7-16": {
-      "sol_var": 109,
-      "sol_hem": 84,
       "cas_var": 0,
-      "cas_hem": 0
+      "cas_hem": 0,
+      "sol_var": 109,
+      "sol_hem": 84
      },
      "16-25": {
-      "sol_var": 120,
-      "sol_hem": 76,
       "cas_var": 7,
-      "cas_hem": 16
+      "cas_hem": 16,
+      "sol_var": 120,
+      "sol_hem": 76
      },
      "25-40": {
-      "sol_var": 25,
-      "sol_hem": 15,
       "cas_var": 80,
-      "cas_hem": 92
+      "cas_hem": 92,
+      "sol_var": 25,
+      "sol_hem": 15
      },
      "40-50": {
-      "sol_var": 5,
-      "sol_hem": 11,
       "cas_var": 74,
-      "cas_hem": 78
+      "cas_hem": 78,
+      "sol_var": 5,
+      "sol_hem": 11
      },
      "50+": {
-      "sol_var": 27,
-      "sol_hem": 55,
       "cas_var": 87,
-      "cas_hem": 62
+      "cas_hem": 62,
+      "sol_var": 27,
+      "sol_hem": 55
      }
     }
    },
@@ -4995,11 +5373,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high",
-    "by_age_cells": "medium",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 1268,
+    "total": 1268,
+    "ok": true
+   }
   },
   {
    "pueblo_n": 55,
@@ -5021,45 +5404,51 @@
    "demografia": {
     "var": 294,
     "hem": 295,
-    "global": null,
-    "casados": null,
-    "solteros": null,
+    "global": 589,
+    "casados": {
+     "var": 109,
+     "hem": 109
+    },
+    "solteros": {
+     "var": 185,
+     "hem": 186
+    },
     "by_age": {
      "0-7": {
-      "sol_var": 70,
-      "sol_hem": 50,
       "cas_var": 0,
-      "cas_hem": 0
+      "cas_hem": 0,
+      "sol_var": 70,
+      "sol_hem": 50
      },
      "7-16": {
-      "sol_var": 52,
-      "sol_hem": 55,
       "cas_var": 0,
-      "cas_hem": 0
+      "cas_hem": 0,
+      "sol_var": 52,
+      "sol_hem": 55
      },
      "16-25": {
-      "sol_var": 46,
-      "sol_hem": 31,
       "cas_var": 4,
-      "cas_hem": 21
+      "cas_hem": 21,
+      "sol_var": 46,
+      "sol_hem": 31
      },
      "25-40": {
-      "sol_var": 13,
-      "sol_hem": 17,
       "cas_var": 65,
-      "cas_hem": 53
+      "cas_hem": 53,
+      "sol_var": 13,
+      "sol_hem": 17
      },
      "40-50": {
-      "sol_var": 0,
-      "sol_hem": 9,
       "cas_var": 9,
-      "cas_hem": 21
+      "cas_hem": 21,
+      "sol_var": 0,
+      "sol_hem": 9
      },
      "50+": {
-      "sol_var": 4,
-      "sol_hem": 24,
       "cas_var": 31,
-      "cas_hem": 14
+      "cas_hem": 14,
+      "sol_var": 4,
+      "sol_hem": 24
      }
     }
    },
@@ -5085,11 +5474,16 @@
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
-    "total_animes": "high",
-    "by_age_cells": "low",
+    "total_animes": "gold (IBESTAT)",
+    "by_age_cells": "gold (IBESTAT)",
     "text_blocks": "low"
    },
-   "sum_check": "ok"
+   "sum_check": {
+    "method": "ibestat",
+    "sum": 589,
+    "total": 589,
+    "ok": true
+   }
   }
  ]
 }

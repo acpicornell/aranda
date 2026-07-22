@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aranda · Revisió de notes manuscrites</title>
+<style>
+  :root{
+    --bg:#141a17; --panel:#1c2420; --line:#2c3a33; --ink:#eaf0ec; --muted:#95a89d;
+    --accent:#3fae74; --warn:#e0a53f; --danger:#e06d5f; --ok:#3fae74;
+    --changed:#2a3d4d;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+  header.top{position:sticky;top:0;z-index:20;background:#0f1412;border-bottom:1px solid var(--line);
+       padding:10px 16px;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+  header.top h1{font-size:15px;margin:0;font-weight:600}
+  header.top .sub{color:var(--muted);font-size:12px}
+  .spacer{flex:1}
+  button{font:inherit;background:var(--panel);color:var(--ink);border:1px solid var(--line);
+       border-radius:7px;padding:6px 11px;cursor:pointer}
+  button:hover{border-color:var(--accent)}
+  button.primary{background:var(--accent);color:#08120c;border-color:var(--accent);font-weight:600}
+  .progress{font-variant-numeric:tabular-nums;font-size:13px;color:var(--muted)}
+  .progress b{color:var(--ok)}
+  .filters{display:flex;gap:6px;align-items:center;font-size:12px;color:var(--muted)}
+  .filters select{background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:4px 6px}
+
+  .wrap{max-width:1500px;margin:0 auto;padding:16px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;margin:0 0 20px;
+        overflow:hidden;scroll-margin-top:64px}
+  .card.reviewed{border-color:var(--ok)}
+  .card.hidden{display:none}
+  .card-head{display:flex;gap:12px;align-items:center;padding:10px 14px;border-bottom:1px solid var(--line);
+        background:#182019;position:sticky;top:52px;z-index:10}
+  .card-head .n{color:var(--muted);font-variant-numeric:tabular-nums;font-size:13px}
+  .card-head h2{font-size:16px;margin:0;font-weight:600}
+  .badge{font-size:11px;padding:2px 7px;border-radius:20px;border:1px solid var(--line);color:var(--muted)}
+  .badge.stamp{color:var(--danger);border-color:var(--danger)}
+  .badge.agg{color:var(--warn);border-color:var(--warn)}
+  .card-head .spacer2{flex:1}
+
+  .body{display:grid;grid-template-columns:minmax(360px,46%) 1fr;gap:0}
+  @media(max-width:900px){.body{grid-template-columns:1fr}}
+  .imgpane{border-right:1px solid var(--line);background:#0c100e;position:sticky;top:104px;
+        align-self:start;max-height:calc(100vh - 120px);overflow:auto;padding:8px}
+  .imgpane img{width:100%;height:auto;display:block;border-radius:6px;cursor:zoom-in;
+        transition:none}
+  .imgpane img.zoomed{cursor:zoom-out;width:200%}
+  .imgpane .imgnote{color:var(--muted);font-size:11px;padding:4px 4px 8px}
+  .imgpane .imgnote a{color:var(--accent)}
+
+  .fields{padding:12px 14px}
+  .field{margin:0 0 12px}
+  .field label{display:flex;gap:8px;align-items:center;font-size:12px;color:var(--muted);
+        margin:0 0 3px;text-transform:uppercase;letter-spacing:.03em}
+  .field label .orig-flag{color:var(--warn);font-size:11px;text-transform:none;letter-spacing:0}
+  .field textarea{width:100%;background:#121815;color:var(--ink);border:1px solid var(--line);
+        border-radius:7px;padding:7px 9px;font:14px/1.45 ui-monospace,SFMono-Regular,Menlo,monospace;
+        resize:vertical;min-height:38px}
+  .field textarea:focus{outline:none;border-color:var(--accent)}
+  .field textarea.changed{border-color:var(--accent);background:#12201a}
+  .field.empty textarea{opacity:.6}
+  .fieldbar{display:flex;gap:6px;margin-top:3px}
+  .fieldbar button{font-size:11px;padding:2px 7px}
+  .card-foot{display:flex;gap:10px;align-items:center;padding:10px 14px;border-top:1px solid var(--line)}
+  .card-foot .rev{display:flex;gap:6px;align-items:center;font-size:13px}
+  .card-foot input[type=checkbox]{width:17px;height:17px;accent-color:var(--accent)}
+  .savednote{color:var(--muted);font-size:12px}
+  .toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#0f1412;
+        border:1px solid var(--accent);color:var(--ink);padding:9px 16px;border-radius:8px;
+        font-size:13px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:50}
+  .toast.show{opacity:1}
+  code{background:#0f1412;padding:1px 5px;border-radius:4px;font-size:12px}
+</style>
+</head>
+<body>
+<header class="top">
+  <h1>Aranda 1768 · Revisió de notes manuscrites</h1>
+  <span class="sub">taules numèriques ja verificades — aquí només la prosa</span>
+  <span class="spacer"></span>
+  <span class="filters">
+    Mostra:
+    <select id="filter">
+      <option value="all">tots</option>
+      <option value="pending">pendents</option>
+      <option value="reviewed">revisats</option>
+      <option value="changed">amb canvis</option>
+    </select>
+  </span>
+  <span class="progress" id="progress">–</span>
+  <button id="importBtn">Importa…</button>
+  <button class="primary" id="exportBtn">Exporta correccions</button>
+</header>
+
+<div class="wrap" id="wrap"></div>
+<input type="file" id="fileInput" accept="application/json" style="display:none">
+<div class="toast" id="toast"></div>
+
+<script>
+const STORE_KEY = "aranda-review-v1";
+// Fields we let the reviewer correct. text.* are nested under "text".
+const TEXT_FIELDS = ["eclesiasticos","conventos_religiosos","hospicios_expositos",
+  "juzgados","estudios","administraciones_rentas","hermitas","barrios_aldeas"];
+const TOP_FIELDS = ["name_1768","parroquia","cura_relacion_date"];
+const LABELS = {
+  name_1768:"Nom 1768 (manuscrit)", parroquia:"Parròquia", cura_relacion_date:"Data relació del cura",
+  eclesiasticos:"Eclesiàstics", conventos_religiosos:"Convents / religiosos",
+  hospicios_expositos:"Hospicis / expòsits", juzgados:"Jutjats / govern",
+  estudios:"Estudis", administraciones_rentas:"Administracions de rendes",
+  hermitas:"Ermites / santuaris", barrios_aldeas:"Barris / aldees / sufragànies", notes:"Notes al marge"
+};
+
+let DATA=null;          // original data.json
+let STATE=loadState();  // {corrections:{<n>:{reviewed,fields:{...},notes,changedFlags}}}
+
+function loadState(){
+  try{ const s=JSON.parse(localStorage.getItem(STORE_KEY)); if(s&&s.corrections) return s; }catch(e){}
+  return {corrections:{}};
+}
+function saveState(){ localStorage.setItem(STORE_KEY, JSON.stringify(STATE)); }
+
+function nm(p){ return p.name_catalan || p.name_modern || p.name_1768 || "?"; }
+function origVal(p, key){
+  if(key==="notes") return p.notes || "";
+  if(TEXT_FIELDS.includes(key)) return (p.text && p.text[key]) || "";
+  return p[key]==null ? "" : String(p[key]);
+}
+function curVal(n, p, key){
+  const c=STATE.corrections[n];
+  if(c && c.fields && key in c.fields) return c.fields[key];
+  return origVal(p, key);
+}
+
+function toast(msg){
+  const t=document.getElementById("toast"); t.textContent=msg; t.classList.add("show");
+  clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove("show"),1400);
+}
+
+function updateProgress(){
+  const total=DATA.pueblos.length;
+  let rev=0, chg=0;
+  DATA.pueblos.forEach(p=>{
+    const c=STATE.corrections[p.pueblo_n];
+    if(c&&c.reviewed) rev++;
+    if(c&&c.fields&&Object.keys(c.fields).length) chg++;
+  });
+  document.getElementById("progress").innerHTML=
+    `<b>${rev}</b>/${total} revisats · ${chg} amb canvis`;
+}
+
+function applyFilter(){
+  const f=document.getElementById("filter").value;
+  DATA.pueblos.forEach(p=>{
+    const card=document.getElementById("card-"+p.pueblo_n);
+    const c=STATE.corrections[p.pueblo_n];
+    const reviewed=!!(c&&c.reviewed);
+    const changed=!!(c&&c.fields&&Object.keys(c.fields).length);
+    let show=true;
+    if(f==="pending") show=!reviewed;
+    else if(f==="reviewed") show=reviewed;
+    else if(f==="changed") show=changed;
+    card.classList.toggle("hidden", !show);
+  });
+}
+
+function onFieldInput(n, p, key, ta){
+  const orig=origVal(p,key);
+  const val=ta.value;
+  let c=STATE.corrections[n] || (STATE.corrections[n]={reviewed:false,fields:{}});
+  if(!c.fields) c.fields={};
+  if(val!==orig){ c.fields[key]=val; ta.classList.add("changed"); }
+  else { delete c.fields[key]; ta.classList.remove("changed"); }
+  saveState(); updateProgress();
+}
+
+function makeField(n, p, key){
+  const wrap=document.createElement("div");
+  const orig=origVal(p,key);
+  wrap.className="field"+(orig?"":" empty");
+  const lab=document.createElement("label");
+  lab.textContent=LABELS[key]||key;
+  wrap.appendChild(lab);
+  const ta=document.createElement("textarea");
+  ta.value=curVal(n,p,key);
+  ta.rows=Math.min(6, Math.max(1, Math.ceil((ta.value.length||1)/55)));
+  if(ta.value!==orig) ta.classList.add("changed");
+  ta.addEventListener("input",()=>{
+    ta.style.height="auto"; ta.style.height=(ta.scrollHeight+2)+"px";
+    onFieldInput(n,p,key,ta);
+  });
+  wrap.appendChild(ta);
+  // quick buttons
+  const bar=document.createElement("div"); bar.className="fieldbar";
+  const bIl=document.createElement("button"); bIl.textContent="il·legible";
+  bIl.title="Marca el fragment com a il·legible";
+  bIl.onclick=()=>{ ta.value="[il·legible]"; ta.dispatchEvent(new Event("input")); };
+  const bReset=document.createElement("button"); bReset.textContent="original";
+  bReset.title="Restaura el valor transcrit originalment";
+  bReset.onclick=()=>{ ta.value=orig; ta.dispatchEvent(new Event("input")); };
+  const bClear=document.createElement("button"); bClear.textContent="buida";
+  bClear.onclick=()=>{ ta.value=""; ta.dispatchEvent(new Event("input")); };
+  bar.append(bIl,bReset,bClear);
+  wrap.appendChild(bar);
+  return wrap;
+}
+
+function makeCard(p){
+  const n=p.pueblo_n;
+  const c=STATE.corrections[n];
+  const card=document.createElement("section");
+  card.className="card"+((c&&c.reviewed)?" reviewed":"");
+  card.id="card-"+n;
+
+  // head
+  const head=document.createElement("div"); head.className="card-head";
+  head.innerHTML=`<span class="n">#${String(n).padStart(2,"0")}</span>
+    <h2>${nm(p)}</h2>
+    <span class="badge">${p.source_page}</span>`;
+  if(p.cifras_stamp){ const b=document.createElement("span"); b.className="badge stamp";
+    b.textContent="ERROR EN CIFRAS"; head.appendChild(b); }
+  if(p.is_aggregate){ const b=document.createElement("span"); b.className="badge agg";
+    b.textContent="agregat"; head.appendChild(b); }
+  head.insertAdjacentHTML("beforeend",`<span class="spacer2"></span>`);
+  card.appendChild(head);
+
+  // body
+  const body=document.createElement("div"); body.className="body";
+  // image
+  const imgpane=document.createElement("div"); imgpane.className="imgpane";
+  const img=document.createElement("img");
+  img.loading="lazy"; img.src="../data/pages/"+p.source_page;
+  img.alt=p.source_page;
+  img.onclick=()=>img.classList.toggle("zoomed");
+  const note=document.createElement("div"); note.className="imgnote";
+  note.innerHTML=`Clic per ampliar · <a href="../data/pages/${p.source_page}" target="_blank">obre a part</a>
+    · sovint hi ha <b>2 pobles per pàgina</b>: cerca «${(p.name_1768||nm(p))}»`;
+  imgpane.append(note,img);
+  body.appendChild(imgpane);
+
+  // fields
+  const fields=document.createElement("div"); fields.className="fields";
+  TOP_FIELDS.forEach(k=>fields.appendChild(makeField(n,p,k)));
+  TEXT_FIELDS.forEach(k=>fields.appendChild(makeField(n,p,k)));
+  fields.appendChild(makeField(n,p,"notes"));
+  body.appendChild(fields);
+  card.appendChild(body);
+
+  // foot
+  const foot=document.createElement("div"); foot.className="card-foot";
+  const revlab=document.createElement("label"); revlab.className="rev";
+  const cb=document.createElement("input"); cb.type="checkbox";
+  cb.checked=!!(c&&c.reviewed);
+  cb.onchange=()=>{
+    let cc=STATE.corrections[n]||(STATE.corrections[n]={fields:{}});
+    cc.reviewed=cb.checked;
+    card.classList.toggle("reviewed",cb.checked);
+    saveState(); updateProgress(); applyFilter();
+  };
+  revlab.append(cb, document.createTextNode("Revisat i cotejat contra la imatge"));
+  foot.appendChild(revlab);
+  card.appendChild(foot);
+  return card;
+}
+
+function render(){
+  const wrap=document.getElementById("wrap");
+  wrap.innerHTML="";
+  DATA.pueblos.forEach(p=>wrap.appendChild(makeCard(p)));
+  updateProgress(); applyFilter();
+}
+
+function exportCorrections(){
+  const out={
+    project:"aranda", schema:"aranda-review-corrections/1",
+    note:"Merge into web/data.json by pueblo_n. Only reviewed pueblos and/or changed fields are meaningful.",
+    corrections:{}
+  };
+  DATA.pueblos.forEach(p=>{
+    const n=p.pueblo_n;
+    const c=STATE.corrections[n];
+    if(!c) return;
+    const hasFields=c.fields&&Object.keys(c.fields).length;
+    if(!c.reviewed && !hasFields) return;
+    const rec={reviewed:!!c.reviewed};
+    if(hasFields){
+      rec.text={}; rec.top={};
+      for(const [k,v] of Object.entries(c.fields)){
+        if(k==="notes") rec.notes=v;
+        else if(TEXT_FIELDS.includes(k)) rec.text[k]=v;
+        else rec.top[k]=v;
+      }
+      if(!Object.keys(rec.text).length) delete rec.text;
+      if(!Object.keys(rec.top).length) delete rec.top;
+    }
+    out.corrections[n]=rec;
+  });
+  const blob=new Blob([JSON.stringify(out,null,2)],{type:"application/json"});
+  const a=document.createElement("a");
+  a.href=URL.createObjectURL(blob);
+  a.download="aranda-corrections.json";
+  a.click();
+  toast("Exportat aranda-corrections.json");
+}
+
+function importCorrections(file){
+  const r=new FileReader();
+  r.onload=()=>{
+    try{
+      const j=JSON.parse(r.result);
+      const cor=j.corrections||{};
+      for(const [n,rec] of Object.entries(cor)){
+        const c=STATE.corrections[n]||(STATE.corrections[n]={fields:{}});
+        c.reviewed=!!rec.reviewed; if(!c.fields)c.fields={};
+        if(rec.text) for(const [k,v] of Object.entries(rec.text)) c.fields[k]=v;
+        if(rec.top)  for(const [k,v] of Object.entries(rec.top))  c.fields[k]=v;
+        if("notes" in rec) c.fields.notes=rec.notes;
+      }
+      saveState(); render(); toast("Correccions importades");
+    }catch(e){ alert("JSON no vàlid: "+e.message); }
+  };
+  r.readAsText(file);
+}
+
+document.getElementById("filter").onchange=applyFilter;
+document.getElementById("exportBtn").onclick=exportCorrections;
+document.getElementById("importBtn").onclick=()=>document.getElementById("fileInput").click();
+document.getElementById("fileInput").onchange=e=>{ if(e.target.files[0]) importCorrections(e.target.files[0]); };
+
+fetch("../web/data.json").then(r=>r.json()).then(d=>{ DATA=d; render(); })
+  .catch(e=>{ document.getElementById("wrap").innerHTML=
+    "<p style='color:#e06d5f'>No he pogut carregar <code>../web/data.json</code>. "+
+    "Serveix aquesta carpeta amb un servidor local des de l'arrel del projecte aranda.</p>"; });
+</script>
+</body>
+</html>

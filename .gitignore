@@ -32,6 +32,11 @@ __pycache__/
 .venv/
 .pytest_cache/
 
+# Nix / direnv.
+.direnv/
+result
+result-*
+
 # Editor / OS.
 .vscode/
 .idea/
