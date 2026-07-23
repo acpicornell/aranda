@@ -392,14 +392,15 @@
     "inquisicion": 2
    },
    "text": {
-    "eclesiasticos": "1 Rector, 1 Beneficiado, sucesores beneficiales 2, sacristanes 2, etc.",
+    "eclesiasticos": "1 Rector y un Beneficiado; sacerdotes beneficiales; 2 sacristanes; [detall il·legible]. Dió el Cura en 20 de Nov.e de 1768.",
     "conventos_religiosos": null,
     "hospicios_expositos": null,
-    "juzgados": "Regidores della, Baile, Cura = 2 familiares del Sto. Oficio",
+    "juzgados": "Regidores de la Villa; Bayle; Alcaide de la Cruzada; 2 Familiares del Sto. Oficio.",
     "estudios": null,
     "administraciones_rentas": null,
     "hermitas": null,
-    "barrios_aldeas": null
+    "barrios_aldeas": null,
+    "altres": "[Nota al margen] Un Párroco, 2 Curas y 20 Soldados de Milicia; 350 Matriculados en la Marina."
    },
    "cura_relacion_date": "1768-11",
    "notes": "[al marge] soldados milicianos; 350 matriculados en la Marina.",
@@ -408,7 +409,7 @@
     "name_1768": "medium",
     "total_animes": "gold (IBESTAT)",
     "by_age_cells": "gold (IBESTAT)",
-    "text_blocks": "low"
+    "text_blocks": "medium (manual review, crop-verified)"
    },
    "sum_check": {
     "method": "ibestat",
@@ -495,12 +496,12 @@
    "text": {
     "eclesiasticos": "1 Vicario perpetuo, 10 Beneficiados, 2 sacerdotes acogidos, 2 tonsurados, 12 sacristanes. Dio la relación el Vicario en 29 de Nov. de 1768",
     "conventos_religiosos": "1 Real Convento llamado de San Antonio de Padua con 14 sacerdotes, 6 legos y 2 hermanos",
-    "hospicios_expositos": "Cita el Gobernador General Baile y los Regidores della y su hermandad = un subdelegado de la Cruzada, dicho de Marina que es Regidor de Cruzada y Amortización, Comisario de la Marina",
-    "juzgados": null,
+    "juzgados": "Está governada con un Bayle y 4 Regidores de la Villa y sus hermandades; un Subdelegado de la Intendencia; otro de Marina, que es Regidor de Cruzada y Amortización; Comisario de la Real Marina.",
     "estudios": null,
     "administraciones_rentas": "1 Empleado en el tabaco",
     "hermitas": "1 oratorio de San Salvador, común frecuentado",
-    "barrios_aldeas": "Esta Villa Matriz tiene por sufraganeas a Capdepera, Sina y Son Cervera"
+    "barrios_aldeas": "Esta Villa Matriz tiene por sufragáneas a Cap de Pera (Capdepera) y Son Cervera (Son Servera).",
+    "altres": "[Nota al margen] Artà y sus 2 sufragáneas: Capdepera y Son Cervera. «Ay 7 tonsurados.»"
    },
    "cura_relacion_date": "1768-11-29",
    "notes": "Nota: hay 7 oratorios",
@@ -509,7 +510,7 @@
     "name_1768": "high",
     "total_animes": "gold (IBESTAT)",
     "by_age_cells": "gold (IBESTAT)",
-    "text_blocks": "low"
+    "text_blocks": "medium (manual review, crop-verified)"
    },
    "sum_check": {
     "method": "ibestat",

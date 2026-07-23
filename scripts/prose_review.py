@@ -58,6 +58,26 @@ EDITS: dict[int, dict[str, str | None]] = {
         "altres": "[Nota al margen, parcialment il·legible] … 2 Curas y 22 Soldados "
             "Milicianos.",
     },
+    4: {  # Andratx — page-075
+        "eclesiasticos": "1 Rector y un Beneficiado; sacerdotes beneficiales; "
+            "2 sacristanes; [detall il·legible]. Dió el Cura en 20 de Nov.e de 1768.",
+        "juzgados": "Regidores de la Villa; Bayle; Alcaide de la Cruzada; 2 Familiares "
+            "del Sto. Oficio.",
+        "altres": "[Nota al margen] Un Párroco, 2 Curas y 20 Soldados de Milicia; "
+            "350 Matriculados en la Marina.",
+    },
+    5: {  # Artà — page-075. The "Hospicios y Casas de Expósitos" row actually carried
+        # the Juzgados (6) content (misfiled); Artà has no expósitos entry. The third
+        # "sufraganea" ("Sina") was spurious — the margin note lists only two.
+        "juzgados": "Está governada con un Bayle y 4 Regidores de la Villa y sus "
+            "hermandades; un Subdelegado de la Intendencia; otro de Marina, que es "
+            "Regidor de Cruzada y Amortización; Comisario de la Real Marina.",
+        "hospicios_expositos": None,
+        "barrios_aldeas": "Esta Villa Matriz tiene por sufragáneas a Cap de Pera "
+            "(Capdepera) y Son Cervera (Son Servera).",
+        "altres": "[Nota al margen] Artà y sus 2 sufragáneas: Capdepera y Son Cervera. "
+            "«Ay 7 tonsurados.»",
+    },
 }
 # ---------------------------------------------------------------------------
 

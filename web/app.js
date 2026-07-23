@@ -349,7 +349,7 @@ function textBlocks(t) {
       `<div class="text-field"><div class="lbl">${lbl}</div><div class="val">${esc(t[k])}</div></div>`);
   if (!items.length) return "";
   return `<div class="detail-section"><h3>Relació del rector (1768)</h3>` +
-    `<p style="font-size:.8em;color:var(--text-muted);margin:.1em 0 .6em">Transcripció de la cursiva del s. XVIII; els trams marcats <em>[il·legible]</em> no s'han pogut llegir amb seguretat.</p>` +
+    `<p style="font-size:.8em;color:var(--text-muted);margin:.1em 0 .6em"><strong>Transcripció aproximada, a prendre amb reserves.</strong> Lectura provisional de la cursiva del s. XVIII feta sobre una fotocòpia molt degradada (l'única font disponible): pot contenir errors de lectura. Els trams <em>[il·legible]</em> no s'han pogut llegir amb seguretat.</p>` +
     `${items.join("")}</div>`;
 }
 

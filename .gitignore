@@ -50,3 +50,6 @@ node_modules/
 
 # Claude Code local/runtime files.
 .claude/
+
+# local review crops (not tracked)
+_crops_tmp/
