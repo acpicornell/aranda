@@ -301,7 +301,7 @@ function renderTable() {
 function confBadge(level) {
   if (!level) return "";
   const base = String(level).split(" ")[0];
-  const cls = base === "high" ? "conf-high" : base === "medium" ? "conf-medium" : "conf-low";
+  const cls = (base === "high" || base === "gold") ? "conf-high" : base === "medium" ? "conf-medium" : "conf-low";
   return `<span class="conf-flag ${cls}">${esc(level)}</span>`;
 }
 
@@ -384,7 +384,7 @@ function openDetail(p) {
     exentosBlock(p.exentos) +
     proseOmitted() +
     (p.notes ? `<div class="detail-section"><h3>Nota editorial</h3><div class="val">${esc(p.notes)}</div></div>` : "") +
-    `<p class="detail-sub" style="margin-top:1.2rem">Font: facsímil INE 2013, ${esc(p.source_page || "")}, full R.A.H. ${esc(p.rah_page ?? "")}.</p>`;
+    `<p class="detail-sub" style="margin-top:1.2rem">Xifres: <strong>IBESTAT</strong> (tabulació del cens d'Aranda 1768) · Identificació i imatge: facsímil INE 2013, ${esc(p.source_page || "")}, full R.A.H. ${esc(p.rah_page ?? "")}.</p>`;
 
   $("#detail-content").innerHTML = html;
   $("#detail-overlay").classList.add("open");
