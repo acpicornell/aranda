@@ -354,13 +354,15 @@ function exentosBlock(ex) {
 function openDetail(p) {
   const dem = p.demografia || {};
   const conf = p.confidence || {};
-  const reconciled = (p.sum_check === "ok");
+  const sc = p.sum_check;
+  const reconciled = sc === "ok" || (sc && typeof sc === "object" && sc.ok === true);
+  const scDetail = (sc && typeof sc === "object") ? `Σ ${fmt(sc.sum)} ≠ total ${fmt(sc.total)}` : esc(sc);
   const checkLine = dem.by_age
     ? (reconciled
-        ? `<p class="warn-line" style="color:#2c5e2c">✓ Σ de cel·les = total d'ànimes (${fmt(p.total_animes)}): lectura reconciliada amb els totals manuscrits.</p>`
+        ? `<p class="warn-line" style="color:#2c5e2c">✓ Σ de cel·les per edat = total d'ànimes (${fmt(p.total_animes)}).</p>`
         : (p.cifras_stamp
-            ? `<p class="warn-line">⚠ El facsímil porta el segell <strong>«ERROR EN CIFRAS»</strong> de l'INE: ja el 1768 els números d'aquesta taula no quadraven entre ells. El <strong>total i el repartiment per sexe estan validats</strong>; la distribució per grups d'edat pot no sumar el total (${esc(p.sum_check)}).</p>`
-            : `<p class="warn-line">⚠ Millor lectura (2 passades de visió): les cel·les per edat no quadren amb el total (${esc(p.sum_check)}) — dígit ambigu o possible error aritmètic del manuscrit. El total i el repartiment per sexe sí estan validats.</p>`))
+            ? `<p class="warn-line">⚠ El facsímil porta el segell <strong>«ERROR EN CIFRAS»</strong> de l'INE: ja el 1768 els números d'aquesta taula no quadraven entre ells. El <strong>total i el repartiment per sexe estan validats</strong>; la distribució per grups d'edat pot no sumar el total (${scDetail}).</p>`
+            : `<p class="warn-line">⚠ Les cel·les per edat no sumen el total (${scDetail}) — possible error aritmètic del manuscrit original. El total i el repartiment per sexe sí estan validats.</p>`))
     : "";
 
   const html =
