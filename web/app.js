@@ -331,26 +331,12 @@ function ageStructure(dem) {
   return `<div class="detail-section"><h3>Estructura per edat i sexe</h3>${rows}</div>`;
 }
 
-function textBlocks(t) {
-  const labels = {
-    eclesiasticos: "Eclesiàstics i sirvents d'església",
-    conventos_religiosos: "Convents de religiosos",
-    hospicios_expositos: "Hospicis / Casa d'expòsits",
-    juzgados: "Jutjats",
-    estudios: "Estudis",
-    administraciones_rentas: "Administracions de rendes i estancs",
-    hermitas: "Ermites",
-    barrios_aldeas: "Barris o aldees",
-    altres: "Altres (edificis notables, pòsits, fires…)",
-  };
-  const items = Object.entries(labels)
-    .filter(([k]) => t && t[k])
-    .map(([k, lbl]) =>
-      `<div class="text-field"><div class="lbl">${lbl}</div><div class="val">${esc(t[k])}</div></div>`);
-  if (!items.length) return "";
+function proseOmitted() {
+  // The rectors' 1768 relations survive only in a badly degraded facsimile that
+  // cannot be transcribed reliably; we omit them rather than publish possibly
+  // wrong readings. Numbers and identity are unaffected.
   return `<div class="detail-section"><h3>Relació del rector (1768)</h3>` +
-    `<p style="font-size:.8em;color:var(--text-muted);margin:.1em 0 .6em"><strong>Transcripció aproximada, a prendre amb reserves.</strong> Lectura provisional de la cursiva del s. XVIII feta sobre una fotocòpia molt degradada (l'única font disponible): pot contenir errors de lectura. Els trams <em>[il·legible]</em> no s'han pogut llegir amb seguretat.</p>` +
-    `${items.join("")}</div>`;
+    `<p style="font-size:.85em;color:var(--text-muted);margin:.1em 0 .2em">El text lliure de la relació manuscrita (clergat, jutjats, hospitals, sufragànies…) <strong>s'ha omès deliberadament</strong>. L'única font disponible és una fotocòpia molt degradada que no es pot transcriure amb prou fiabilitat, i no volem difondre lectures possiblement errònies. Les <strong>dades numèriques</strong> (validades amb IBESTAT) i la <strong>identificació</strong> del municipi sí que són fiables.</p></div>`;
 }
 
 function exentosBlock(ex) {
@@ -394,9 +380,8 @@ function openDetail(p) {
     checkLine +
     ageStructure(dem) +
     exentosBlock(p.exentos) +
-    textBlocks(p.text) +
-    (p.cura_relacion_date ? `<div class="detail-section"><h3>Data de la relació</h3><div class="val">${esc(p.cura_relacion_date)}</div></div>` : "") +
-    (p.notes ? `<div class="detail-section"><h3>Notes al marge</h3><div class="val">${esc(p.notes)}</div></div>` : "") +
+    proseOmitted() +
+    (p.notes ? `<div class="detail-section"><h3>Nota editorial</h3><div class="val">${esc(p.notes)}</div></div>` : "") +
     `<p class="detail-sub" style="margin-top:1.2rem">Font: facsímil INE 2013, ${esc(p.source_page || "")}, full R.A.H. ${esc(p.rah_page ?? "")}.</p>`;
 
   $("#detail-content").innerHTML = html;
