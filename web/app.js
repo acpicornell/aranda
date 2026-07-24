@@ -161,6 +161,7 @@ function renderDemografia() {
   renderSexRatio();
   renderPopRank();
   renderPalma();
+  renderExentos();
   renderIndicators("pop", true);
 
   $("#ratio-topn").addEventListener("change", renderSexRatio);
@@ -243,6 +244,43 @@ function renderPalma() {
       `<span class="rt-val">${fmt(p.total_animes)} · ♂${sex}</span></div>`;
   }).join("");
   attachRowClicks("#demo-palma .pr-row");
+}
+
+// Exempts from ordinary jurisdiction: what the rectors recorded parish by parish
+// (our hand reading of the 1768 facsimile) vs the diocese totals in the official
+// Floridablanca 1787 resumen (IBESTAT/INE table I101001_7602). The gap between the
+// two bars is the under-registration of the 1768 parish returns. Category labels
+// match those used in the per-pueblo detail (exentosBlock), ordered by official total.
+const EXENTOS_CATS = [
+  { k: "real_servic", label: "Reial Servei", official: 4894 },
+  { k: "real_hacien", label: "Reial Hisenda", official: 194 },
+  { k: "inquisicion", label: "Inquisició", official: 100 },
+  { k: "hidalguia", label: "Hidalguia", official: 62 },
+  { k: "cruzada", label: "Croada", official: 51 },
+];
+function renderExentos() {
+  const counted = DATA.pueblos.filter((p) => !p.is_aggregate);
+  const rec = {};
+  EXENTOS_CATS.forEach((c) => (rec[c.k] = 0));
+  counted.forEach((p) => {
+    const ex = p.exentos || {};
+    EXENTOS_CATS.forEach((c) => (rec[c.k] += ex[c.k] || 0));
+  });
+  const maxV = Math.max(...EXENTOS_CATS.map((c) => c.official));
+  const totRec = EXENTOS_CATS.reduce((s, c) => s + rec[c.k], 0);
+  const totOff = EXENTOS_CATS.reduce((s, c) => s + c.official, 0);
+  const rows = EXENTOS_CATS.map((c) => {
+    const r = rec[c.k], o = c.official;
+    const recW = (100 * r / maxV).toFixed(1), offW = (100 * o / maxV).toFixed(1);
+    return `<div class="ex-row"><span class="ex-name" title="${esc(c.label)}">${esc(c.label)}</span>` +
+      `<span class="ex-scale"><span class="ex-bar off" style="width:${offW}%"></span>` +
+      `<span class="ex-bar rec" style="width:${recW}%"></span></span>` +
+      `<span class="ex-val">${fmt(r)} / ${fmt(o)}</span></div>`;
+  }).join("");
+  $("#demo-exentos").innerHTML = rows +
+    `<div class="ex-row ex-total"><span class="ex-name">Total</span>` +
+    `<span class="ex-scale"></span>` +
+    `<span class="ex-val">${fmt(totRec)} / ${fmt(totOff)}</span></div>`;
 }
 
 function renderIndicators(k, desc) {

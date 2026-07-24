@@ -191,6 +191,21 @@ table.pobles-table { width: 100%; border-collapse: collapse; background: var(--s
 .approx-mark { color: var(--accent); cursor: help; font-weight: 700; }
 .demo-kpis { display: flex; flex-wrap: wrap; gap: .7em; margin: 1em 0; }
 
+/* exempts: recorded (parish) vs official (Floridablanca 1787), same scale */
+.ex-legend { display: flex; gap: 1.4rem; flex-wrap: wrap; font-size: .82em; color: var(--text-muted); margin: 0 0 .8em; }
+.ex-legend .swatch { display: inline-block; width: 12px; height: 12px; border-radius: 2px; margin-right: .35em; vertical-align: middle; border: 1px solid var(--border); }
+.ex-legend .swatch.rec { background: var(--accent); }
+.ex-legend .swatch.off { background: #e6ddc9; }
+.ex-row { display: grid; grid-template-columns: 110px 1fr 96px; align-items: center; gap: 8px; margin: 4px 0; }
+.ex-name { font-size: .82em; text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ex-scale { position: relative; height: 16px; }
+.ex-bar { position: absolute; left: 0; top: 0; height: 100%; border-radius: 2px; }
+.ex-bar.off { background: #e6ddc9; border: 1px solid var(--border); }
+.ex-bar.rec { background: var(--accent); }
+.ex-val { font-size: .76em; color: var(--text-muted); font-variant-numeric: tabular-nums; text-align: right; }
+.ex-total { border-top: 1px solid var(--border); margin-top: 6px; padding-top: 4px; }
+.ex-total .ex-name, .ex-total .ex-val { font-weight: 700; color: var(--accent-dark); }
+
 .pyr-row { display: grid; grid-template-columns: 52px 1fr 64px 1fr 52px; align-items: center; gap: 4px; margin: 2px 0; }
 .pyr-bar-l { display: flex; justify-content: flex-end; }
 .pyr-bar-r { display: flex; justify-content: flex-start; }
