@@ -211,9 +211,10 @@ function renderPopRank() {
   const max = Math.max(...window._demoInd.map((x) => x.pop), 1);
   $("#demo-poprank").innerHTML = rows.map((x) => {
     const w = (100 * x.pop / max).toFixed(1);
+    const sex = x.sex != null ? Math.round(x.sex) : "—";
     return `<div class="pr-row" data-n="${x.n}"><span class="rt-name" title="${esc(x.name)}">${esc(x.name)}</span>` +
       `<span class="pr-track"><span class="pr-bar" style="width:${w}%"></span></span>` +
-      `<span class="rt-val">${fmt(x.pop)}</span></div>`;
+      `<span class="rt-val">${fmt(x.pop)} · ♂${sex}</span></div>`;
   }).join("");
   attachRowClicks("#demo-poprank .pr-row");
 }
