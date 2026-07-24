@@ -48,5 +48,10 @@ result-*
 !.dev.vars.example
 node_modules/
 
+# Manual exentos review (working files; result goes into web/data.json).
+exentos_review.csv
+exentos_review.numbers
+exentos_review_LLEGEIX.txt
+
 # Claude Code local/runtime files.
 .claude/
