@@ -403,9 +403,9 @@ function ageStructure(dem) {
     const wv = ((v / max) * 100).toFixed(1);
     const wh = ((h / max) * 100).toFixed(1);
     return `<div class="bar-wrap"><span class="bar-label">${AGE_LABELS[g]}</span>` +
-      `<span class="bar male" style="width:${wv}%"></span><span class="bar-val">${v} ♂</span></div>` +
+      `<span class="bar-track"><span class="bar male" style="width:${wv}%"></span></span><span class="bar-val">${v} ♂</span></div>` +
       `<div class="bar-wrap"><span class="bar-label"></span>` +
-      `<span class="bar female" style="width:${wh}%"></span><span class="bar-val">${h} ♀</span></div>`;
+      `<span class="bar-track"><span class="bar female" style="width:${wh}%"></span></span><span class="bar-val">${h} ♀</span></div>`;
   }).join("");
   return `<div class="detail-section"><h3>Estructura per edat i sexe</h3>${rows}</div>`;
 }

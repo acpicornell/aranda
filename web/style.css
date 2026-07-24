@@ -146,11 +146,12 @@ table.pobles-table { width: 100%; border-collapse: collapse; background: var(--s
 .text-field .val { color: var(--text); }
 
 .bar-wrap { display: flex; align-items: center; gap: 6px; margin: 3px 0; }
-.bar-label { width: 56px; font-size: .8em; color: var(--text-muted); }
-.bar { height: 14px; border-radius: 3px; }
+.bar-label { width: 56px; flex-shrink: 0; font-size: .8em; color: var(--text-muted); }
+.bar-track { flex: 1; min-width: 0; }
+.bar { display: block; height: 14px; border-radius: 3px; min-width: 2px; }
 .bar.male { background: var(--male); }
 .bar.female { background: var(--female); }
-.bar-val { font-size: .78em; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.bar-val { flex-shrink: 0; white-space: nowrap; font-size: .78em; color: var(--text-muted); font-variant-numeric: tabular-nums; }
 
 .conf-flag { display: inline-block; font-size: .72em; padding: .1em .45em; border-radius: 4px; margin-left: .4em; vertical-align: middle; }
 .conf-high { background: #d8ead8; color: #2c5e2c; }
