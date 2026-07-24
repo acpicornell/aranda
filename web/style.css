@@ -230,3 +230,16 @@ footer a { color: var(--accent); }
   .filters { position: static; }
   .home-prose.two-col { grid-template-columns: 1fr; }
 }
+
+/* ===== tomos table (Font tab) ===== */
+.tomos-table-wrap { margin: 0 0 1.6em; overflow-x: auto; border: 1px solid var(--border); border-radius: 6px; }
+.tomos-table { width: 100%; border-collapse: collapse; font-size: .9em; background: var(--surface); }
+.tomos-table th, .tomos-table td { text-align: left; padding: .5em .75em; border-bottom: 1px solid var(--border); vertical-align: top; }
+.tomos-table thead th { background: var(--num-bg); font-size: .8em; text-transform: uppercase; letter-spacing: .03em; color: var(--text-muted); font-weight: 600; }
+.tomos-table tbody tr:last-child td { border-bottom: 0; }
+.tomos-table tbody tr:hover { background: var(--accent-light); }
+.tomos-table .tom-num { font-family: Georgia, serif; font-weight: 700; color: var(--accent-dark); white-space: nowrap; }
+.tomos-table a { color: var(--accent); text-decoration: none; white-space: nowrap; }
+.tomos-table a:hover { text-decoration: underline; }
+.tomo-row-here td { background: var(--accent-light); }
+.tomo-row-here .tom-num { color: var(--accent); }
