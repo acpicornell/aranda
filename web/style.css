@@ -34,9 +34,9 @@ a:hover { text-decoration: underline; }
 header {
   border-bottom: 1px solid var(--border);
   background: linear-gradient(180deg, #efe3cd 0%, var(--bg) 100%);
-  padding: 1.8em 2em 1.3em;
+  padding: 1.8em 0 1.3em;
 }
-.header-content { max-width: 1320px; margin: 0 auto; }
+.header-content { max-width: 1320px; margin: 0 auto; padding: 0 2em; }
 header h1 {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.9em; margin: 0 0 .15em;
@@ -46,6 +46,7 @@ header h1 {
 
 nav.tabs {
   position: sticky; top: 0; z-index: 20;
+  max-width: 1320px; margin: 0 auto;
   display: flex; flex-wrap: wrap; gap: 0;
   padding: 0 2em; background: var(--bg);
   border-bottom: 1px solid var(--border);
