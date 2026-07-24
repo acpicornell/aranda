@@ -269,12 +269,6 @@ function renderIndicators(k, desc) {
 // ===== map =====
 let mapInstance = null;
 
-function spineVerified(p) {
-  const d = p.demografia || {};
-  return Number.isInteger(d.var) && Number.isInteger(d.hem) &&
-    d.var + d.hem === p.total_animes;
-}
-
 function renderMap() {
   if (typeof L === "undefined") return;
   if (mapInstance) { mapInstance.invalidateSize(); return; }
@@ -306,7 +300,7 @@ function renderMap() {
         lon += 0.015 * Math.sin(ang);
       }
       const r = 5 + 22 * Math.sqrt((p.total_animes || 0) / maxPop);
-      const verified = spineVerified(p);
+      const verified = reconciledSC(p);
       const m = L.circleMarker([lat, lon], {
         radius: r,
         color: verified ? "#7a2e22" : "#b08a2a",
