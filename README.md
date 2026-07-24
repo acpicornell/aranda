@@ -1,5 +1,7 @@
 # Censo de Aranda 1768 — Balears
 
+[![Deploy](https://github.com/acpicornell/aranda/actions/workflows/deploy.yml/badge.svg)](https://github.com/acpicornell/aranda/actions/workflows/deploy.yml)
+
 Digital edition of the Mallorca section of the **Censo del Conde de Aranda
 (1768)**, Spain's first modern population census. Sister project of the
 `nomenclators` family (`floridablanca`, `minano`, `madoz`, `nomenclator_1860`,
