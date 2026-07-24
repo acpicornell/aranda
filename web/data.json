@@ -13,8 +13,8 @@
     "pop": 12183
    }
   },
-  "numbers_source": "IBESTAT gold standard (2026-07-22) — per-parish figures adopted from I101001_7601; see data/ibestat/SOURCE.md. The manuscript free-text was omitted (see prose_note); only numbers and identity are published.",
-  "prose_note": "The manuscript free-text relations were omitted: the only source is a badly degraded facsimile that cannot be transcribed reliably, and we do not publish possibly erroneous readings. Numbers/identity are unaffected."
+  "numbers_source": "IBESTAT gold standard (2026-07-22) — per-parish figures adopted from I101001_7601; see data/ibestat/SOURCE.md. The rectors' free-text relations were omitted (see relations_note); only numbers and identity are published.",
+  "relations_note": "The rectors' free-text relations (the answers to the 28-question survey) were omitted: the only source is a badly degraded facsimile that cannot be transcribed reliably, and we do not publish possibly erroneous readings. Numbers/identity are unaffected."
  },
  "pueblos": [
   {

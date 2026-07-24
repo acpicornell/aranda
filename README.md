@@ -19,9 +19,9 @@ re-edition **2013**, NIPO 729-13-020-1 for Tomo VI).
 witnesses** of the same census: the **INE facsimile** (the manuscript image) and
 the **IBESTAT** tabulation (adopted as the gold standard; see
 `data/ibestat/SOURCE.md`), cross-checked parish by parish. The rectors'
-free-text prose was **discarded** — it survives only in an illegible degraded
-copy that cannot be transcribed reliably — so only the verifiable layers
-(figures + municipal identity) are published.
+free-text relations (their answers to the survey) were **discarded** — they
+survive only in an illegible degraded copy that cannot be transcribed reliably —
+so only the verifiable layers (figures + municipal identity) are published.
 
 - **Tomo VI** covers the dioceses of Málaga, **Mallorca**, Mondoñedo, Orihuela
   and Osma. Each diocese = cover + RESUMEN + maps + blank template, then the
@@ -72,12 +72,12 @@ normalize          ▶ data/normalized/aranda.jsonl     (+ joins data/geo/ for C
 verify_totals      ▶ data/reports/verify_totals.txt   (Σ age cells vs total)
 crosscheck         ▶ data/reports/crosscheck.txt      (internal arithmetic, self-contained)
 export_web_data    ▶ web/data.json
-clean_leftovers    ▶ drops the discarded prose; keeps only figures + identity
+clean_leftovers    ▶ drops the discarded relations; keeps only figures + identity
 ```
 
 The initial vision pass was only a scaffold: the **published figures come from
-the IBESTAT tabulation** (cross-checked against the facsimile), and the manuscript
-**prose was discarded** as unreadable. No figure is invented.
+the IBESTAT tabulation** (cross-checked against the facsimile), and the rectors'
+free-text relations were **discarded** as unreadable. No figure is invented.
 
 No DuckDB: the dataset is one flat record per pueblo, so the normalized JSONL
 is the single source of truth. The geo table (`data/geo/mallorca_municipis.json`,
