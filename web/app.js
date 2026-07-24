@@ -427,7 +427,8 @@ function exentosBlock(ex) {
     .map(([k, l]) => `${l}: <strong>${ex[k]}</strong>`);
   if (!parts.length) return "";
   return `<div class="detail-section"><h3>Exempts per</h3>` +
-    `<div class="val">${parts.join(" · ")}</div></div>`;
+    `<div class="val">${parts.join(" · ")}</div>` +
+    `<p style="font-size:.8em;color:var(--text-muted);margin:.25em 0 0">Persones exemptes de la jurisdicció ordinària, tal com consten a la taula parroquial de 1768 (lectura verificada a mà sobre el facsímil).</p></div>`;
 }
 
 function openDetail(p) {

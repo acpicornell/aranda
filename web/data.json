@@ -531,8 +531,8 @@
     }
    },
    "exentos": {
-    "hidalguia": 4,
-    "real_servic": null,
+    "hidalguia": null,
+    "real_servic": 4,
     "real_hacien": null,
     "cruzada": 1,
     "inquisicion": null
@@ -621,11 +621,11 @@
     }
    },
    "exentos": {
-    "hidalguia": 22,
-    "real_servic": 1,
+    "hidalguia": null,
+    "real_servic": 22,
     "real_hacien": 1,
-    "cruzada": null,
-    "inquisicion": null
+    "cruzada": 1,
+    "inquisicion": 1
    },
    "cura_relacion_date": null,
    "notes": null,
@@ -891,8 +891,8 @@
     }
    },
    "exentos": {
-    "hidalguia": 8,
-    "real_servic": null,
+    "hidalguia": null,
+    "real_servic": 8,
     "real_hacien": null,
     "cruzada": null,
     "inquisicion": null
@@ -981,8 +981,8 @@
     }
    },
    "exentos": {
-    "hidalguia": 13,
-    "real_servic": null,
+    "hidalguia": null,
+    "real_servic": 13,
     "real_hacien": null,
     "cruzada": 1,
     "inquisicion": null
@@ -1071,11 +1071,11 @@
     }
    },
    "exentos": {
-    "hidalguia": 3,
-    "real_servic": 1,
-    "real_hacien": 2,
-    "cruzada": null,
-    "inquisicion": null
+    "hidalguia": null,
+    "real_servic": null,
+    "real_hacien": 3,
+    "cruzada": 1,
+    "inquisicion": 2
    },
    "cura_relacion_date": null,
    "notes": null,
@@ -1426,8 +1426,8 @@
     }
    },
    "exentos": {
-    "hidalguia": 1,
-    "real_servic": null,
+    "hidalguia": null,
+    "real_servic": 1,
     "real_hacien": null,
     "cruzada": null,
     "inquisicion": null
@@ -1787,10 +1787,10 @@
    },
    "exentos": {
     "hidalguia": null,
-    "real_servic": null,
-    "real_hacien": 8,
-    "cruzada": null,
-    "inquisicion": 1
+    "real_servic": 8,
+    "real_hacien": null,
+    "cruzada": 1,
+    "inquisicion": null
    },
    "cura_relacion_date": null,
    "notes": null,
@@ -1879,8 +1879,8 @@
     "hidalguia": null,
     "real_servic": null,
     "real_hacien": 2,
-    "cruzada": null,
-    "inquisicion": 1
+    "cruzada": 1,
+    "inquisicion": null
    },
    "cura_relacion_date": null,
    "notes": null,
@@ -1966,10 +1966,10 @@
     }
    },
    "exentos": {
-    "hidalguia": 6,
-    "real_servic": 1,
+    "hidalguia": null,
+    "real_servic": 6,
     "real_hacien": 1,
-    "cruzada": null,
+    "cruzada": 1,
     "inquisicion": null
    },
    "cura_relacion_date": null,
@@ -2056,10 +2056,10 @@
     }
    },
    "exentos": {
-    "hidalguia": 10,
-    "real_servic": 2,
-    "real_hacien": 1,
-    "cruzada": null,
+    "hidalguia": null,
+    "real_servic": 10,
+    "real_hacien": 2,
+    "cruzada": 1,
     "inquisicion": null
    },
    "cura_relacion_date": null,
@@ -2237,10 +2237,10 @@
    },
    "exentos": {
     "hidalguia": null,
-    "real_servic": null,
-    "real_hacien": 3,
+    "real_servic": 9,
+    "real_hacien": 1,
     "cruzada": 1,
-    "inquisicion": 1
+    "inquisicion": null
    },
    "cura_relacion_date": null,
    "notes": null,
@@ -2326,11 +2326,11 @@
     }
    },
    "exentos": {
-    "hidalguia": 66,
-    "real_servic": 2,
-    "real_hacien": 1,
+    "hidalguia": null,
+    "real_servic": 66,
+    "real_hacien": 2,
     "cruzada": 1,
-    "inquisicion": null
+    "inquisicion": 1
    },
    "cura_relacion_date": null,
    "notes": null,
@@ -2416,8 +2416,8 @@
     }
    },
    "exentos": {
-    "hidalguia": 8,
-    "real_servic": null,
+    "hidalguia": null,
+    "real_servic": 8,
     "real_hacien": 2,
     "cruzada": null,
     "inquisicion": null
@@ -2506,8 +2506,8 @@
     }
    },
    "exentos": {
-    "hidalguia": 19,
-    "real_servic": null,
+    "hidalguia": null,
+    "real_servic": 19,
     "real_hacien": 2,
     "cruzada": null,
     "inquisicion": null
@@ -2596,10 +2596,10 @@
     }
    },
    "exentos": {
-    "hidalguia": 32,
-    "real_servic": 2,
-    "real_hacien": 1,
-    "cruzada": null,
+    "hidalguia": null,
+    "real_servic": 32,
+    "real_hacien": 2,
+    "cruzada": 1,
     "inquisicion": null
    },
    "cura_relacion_date": null,
@@ -2680,9 +2680,9 @@
     }
    },
    "exentos": {
-    "hidalguia": 0,
+    "hidalguia": null,
     "real_servic": 1745,
-    "real_hacien": 72,
+    "real_hacien": 73,
     "cruzada": 4,
     "inquisicion": 47
    },
@@ -2838,9 +2838,9 @@
     }
    },
    "exentos": {
-    "hidalguia": 85,
-    "real_servic": 18,
-    "real_hacien": null,
+    "hidalguia": null,
+    "real_servic": 85,
+    "real_hacien": 19,
     "cruzada": null,
     "inquisicion": 1
    },
@@ -2917,9 +2917,9 @@
     }
    },
    "exentos": {
-    "hidalguia": 129,
-    "real_servic": 18,
-    "real_hacien": null,
+    "hidalguia": null,
+    "real_servic": 129,
+    "real_hacien": 18,
     "cruzada": null,
     "inquisicion": null
    },
@@ -2996,9 +2996,9 @@
     }
    },
    "exentos": {
-    "hidalguia": 117,
-    "real_servic": 7,
-    "real_hacien": null,
+    "hidalguia": null,
+    "real_servic": 147,
+    "real_hacien": 7,
     "cruzada": null,
     "inquisicion": 10
    },
@@ -3075,11 +3075,11 @@
     }
    },
    "exentos": {
-    "hidalguia": 984,
-    "real_servic": 21,
-    "real_hacien": 4,
-    "cruzada": 6,
-    "inquisicion": null
+    "hidalguia": null,
+    "real_servic": 984,
+    "real_hacien": 21,
+    "cruzada": 4,
+    "inquisicion": 6
    },
    "cura_relacion_date": null,
    "notes": null,
@@ -3160,11 +3160,11 @@
     }
    },
    "exentos": {
-    "hidalguia": 400,
-    "real_servic": 8,
-    "real_hacien": null,
-    "cruzada": 30,
-    "inquisicion": null
+    "hidalguia": null,
+    "real_servic": 400,
+    "real_hacien": 8,
+    "cruzada": null,
+    "inquisicion": 30
    },
    "cura_relacion_date": null,
    "notes": null,
@@ -3245,10 +3245,10 @@
     }
    },
    "exentos": {
-    "hidalguia": 21,
-    "real_servic": 1,
-    "real_hacien": 1,
-    "cruzada": null,
+    "hidalguia": null,
+    "real_servic": 21,
+    "real_hacien": null,
+    "cruzada": 1,
     "inquisicion": null
    },
    "cura_relacion_date": null,
@@ -3335,10 +3335,10 @@
     }
    },
    "exentos": {
-    "hidalguia": 33,
-    "real_servic": 3,
-    "real_hacien": 1,
-    "cruzada": null,
+    "hidalguia": null,
+    "real_servic": 33,
+    "real_hacien": 3,
+    "cruzada": 1,
     "inquisicion": null
    },
    "cura_relacion_date": null,
@@ -3605,11 +3605,11 @@
     }
    },
    "exentos": {
-    "hidalguia": 5,
-    "real_servic": 2,
-    "real_hacien": 1,
+    "hidalguia": null,
+    "real_servic": 5,
+    "real_hacien": 2,
     "cruzada": 1,
-    "inquisicion": null
+    "inquisicion": 1
    },
    "cura_relacion_date": null,
    "notes": null,
@@ -3695,10 +3695,10 @@
     }
    },
    "exentos": {
-    "hidalguia": 15,
-    "real_servic": 1,
+    "hidalguia": null,
+    "real_servic": 15,
     "real_hacien": 1,
-    "cruzada": null,
+    "cruzada": 1,
     "inquisicion": null
    },
    "cura_relacion_date": null,
@@ -3966,8 +3966,8 @@
     }
    },
    "exentos": {
-    "hidalguia": 21,
-    "real_servic": null,
+    "hidalguia": null,
+    "real_servic": 21,
     "real_hacien": null,
     "cruzada": 1,
     "inquisicion": null
@@ -4147,7 +4147,7 @@
    },
    "exentos": {
     "hidalguia": null,
-    "real_servic": 12,
+    "real_servic": 19,
     "real_hacien": 5,
     "cruzada": null,
     "inquisicion": null
@@ -4237,7 +4237,7 @@
    },
    "exentos": {
     "hidalguia": null,
-    "real_servic": 10,
+    "real_servic": 16,
     "real_hacien": 2,
     "cruzada": null,
     "inquisicion": null
@@ -4596,9 +4596,9 @@
     }
    },
    "exentos": {
-    "hidalguia": 25,
-    "real_servic": null,
-    "real_hacien": 1,
+    "hidalguia": null,
+    "real_servic": 25,
+    "real_hacien": null,
     "cruzada": 1,
     "inquisicion": 1
    },
@@ -4686,8 +4686,8 @@
     }
    },
    "exentos": {
-    "hidalguia": 12,
-    "real_servic": null,
+    "hidalguia": null,
+    "real_servic": 12,
     "real_hacien": null,
     "cruzada": null,
     "inquisicion": null
@@ -4866,10 +4866,10 @@
     }
    },
    "exentos": {
-    "hidalguia": 4,
-    "real_servic": 1,
+    "hidalguia": null,
+    "real_servic": 4,
     "real_hacien": 1,
-    "cruzada": null,
+    "cruzada": 1,
     "inquisicion": null
    },
    "cura_relacion_date": null,
