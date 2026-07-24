@@ -83,6 +83,7 @@ nav.tabs {
    below (column-width), which falls back to one column when narrow. */
 .home-prose { max-width: none; margin: 0; line-height: 1.7; column-width: 30em; column-gap: 3em; column-fill: balance; }
 .home-prose.two-col { display: grid; grid-template-columns: 1fr 1fr; column-gap: 3em; align-items: start; }
+.home-prose.two-col .col { min-width: 0; }
 .home-prose h2 { font-family: Georgia, serif; font-size: 1.45em; color: var(--accent-dark); margin: 1.4em 0 .5em; border-bottom: 1px solid var(--border); padding-bottom: .3em; break-inside: avoid; break-after: avoid; }
 .home-prose > :first-child, .home-prose .col > :first-child { margin-top: 0; }
 .home-prose p { margin: 0 0 .9em; break-inside: avoid; }
