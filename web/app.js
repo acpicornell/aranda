@@ -35,20 +35,28 @@ function initTabs() {
 const AGE_MID = { "0-7": 3.5, "7-16": 11.5, "16-25": 20.5, "25-40": 32.5, "40-50": 45, "50+": 60 };
 let demoDone = false;
 
-function pueblosWithAge() {
-  return DATA.pueblos.filter((p) => !p.is_aggregate && p.sum_check === "ok" && p.demografia && p.demografia.by_age);
+function reconciledSC(p) {
+  const sc = p.sum_check;
+  return sc === "ok" || (sc && typeof sc === "object" && sc.ok === true);
+}
+// Aggregate distributions (pyramid, marital) need cells that sum to the total.
+function pueblosReconciled() {
+  return DATA.pueblos.filter((p) => !p.is_aggregate && reconciledSC(p) && p.demografia && p.demografia.by_age);
+}
+// Per-pueblo indicators: every pueblo with verified var/hem and an age table.
+function pueblosPerPueblo() {
+  return DATA.pueblos.filter((p) => !p.is_aggregate && p.demografia && p.demografia.by_age &&
+    Number.isInteger(p.demografia.var) && Number.isInteger(p.demografia.hem));
 }
 function cellN(c, k) { return Number.isInteger(c && c[k]) ? c[k] : 0; }
 
 function puebloIndicators(p) {
-  const ba = p.demografia.by_age;
-  let V = 0, H = 0, num = 0, u16 = 0, a1650 = 0, o50 = 0, casAd = 0, totAd = 0;
+  const dem = p.demografia, ba = dem.by_age;
+  let num = 0, u16 = 0, a1650 = 0, o50 = 0, casAd = 0, totAd = 0, N = 0;
   for (const g of AGE_GROUPS) {
     const c = ba[g];
-    const v = cellN(c, "cas_var") + cellN(c, "sol_var");
-    const h = cellN(c, "cas_hem") + cellN(c, "sol_hem");
-    const t = v + h;
-    V += v; H += h; num += AGE_MID[g] * t;
+    const t = cellN(c, "cas_var") + cellN(c, "sol_var") + cellN(c, "cas_hem") + cellN(c, "sol_hem");
+    N += t; num += AGE_MID[g] * t;
     if (g === "0-7" || g === "7-16") u16 += t;
     else if (g === "50+") o50 += t;
     else a1650 += t;
@@ -57,7 +65,8 @@ function puebloIndicators(p) {
       totAd += t;
     }
   }
-  const N = V + H;
+  // Sex ratio from the verified var/hem spine (exact for all pueblos), not the cells.
+  const V = dem.var, H = dem.hem;
   return {
     pop: p.total_animes, name: p.name_catalan || p.name_modern, n: p.pueblo_n,
     sex: H ? (100 * V / H) : null,
@@ -65,13 +74,14 @@ function puebloIndicators(p) {
     dep: a1650 ? (100 * (u16 + o50) / a1650) : null,
     aging: u16 ? (o50 / u16) : null,
     married: totAd ? (100 * casAd / totAd) : null,
+    reconciled: reconciledSC(p),
   };
 }
 
 function renderDemografia() {
   if (demoDone) return;
   demoDone = true;
-  const full = pueblosWithAge();
+  const full = pueblosReconciled();
   $("#demo-n").textContent = full.length;
   const counted = DATA.pueblos.filter((p) => !p.is_aggregate);
 
@@ -134,24 +144,18 @@ function renderDemografia() {
       bar(mv, tv, "♂") + bar(mh, th, "♀") + `</div>`;
   }).join("");
 
-  // sex ratio per pueblo
-  const ind = full.map(puebloIndicators).filter((x) => x.sex != null);
-  const ranked = ind.slice().sort((a, b) => a.sex - b.sex);
-  const maxDev = Math.max(...ranked.map((x) => Math.abs(x.sex - 100)), 20);
-  $("#demo-ratio").innerHTML = ranked.map((x) => {
-    const dev = x.sex - 100, w = (50 * Math.abs(dev) / maxDev).toFixed(1);
-    const side = dev >= 0 ? "right" : "left";
-    return `<div class="rt-row" data-n="${x.n}"><span class="rt-name">${esc(x.name)}</span>` +
-      `<span class="rt-track"><span class="rt-bar ${side}" style="width:${w}%"></span></span>` +
-      `<span class="rt-val">${x.sex.toFixed(0)}</span></div>`;
-  }).join("");
-  $$("#demo-ratio .rt-row").forEach((row) => row.addEventListener("click", () => {
-    const p = DATA.pueblos.find((x) => x.pueblo_n == row.dataset.n); if (p) openDetail(p);
-  }));
-
-  // indicators table
-  window._demoInd = ind;
+  // per-pueblo indicators — all 54 (sex ratio from the verified var/hem spine)
+  window._demoInd = pueblosPerPueblo().map(puebloIndicators);
+  renderSexRatio();
+  renderPopRank();
   renderIndicators("pop", true);
+
+  $("#ratio-topn").addEventListener("change", renderSexRatio);
+  $("#poprank-topn").addEventListener("change", renderPopRank);
+  $("#ind-topn").addEventListener("change", () => {
+    const s = window._demoSort || { k: "pop", desc: true };
+    renderIndicators(s.k, s.desc);
+  });
   $$("#tab-demografia .indicators-table th.sortable").forEach((th) => {
     th.addEventListener("click", () => {
       const k = th.dataset.k;
@@ -161,24 +165,65 @@ function renderDemografia() {
   });
 }
 
+function attachRowClicks(sel) {
+  $$(sel).forEach((row) => row.addEventListener("click", () => {
+    const p = DATA.pueblos.find((x) => x.pueblo_n == row.dataset.n); if (p) openDetail(p);
+  }));
+}
+
+function topN(id) { return parseInt($(id).value, 10) || 0; }
+
+function renderSexRatio() {
+  const n = topN("#ratio-topn");
+  const all = window._demoInd.filter((x) => x.sex != null);
+  // pick the N most imbalanced, then order by ratio for a readable diverging chart
+  let rows = all.slice().sort((a, b) => Math.abs(b.sex - 100) - Math.abs(a.sex - 100));
+  if (n > 0) rows = rows.slice(0, n);
+  rows.sort((a, b) => a.sex - b.sex);
+  const maxDev = Math.max(...all.map((x) => Math.abs(x.sex - 100)), 20);
+  $("#demo-ratio").innerHTML = rows.map((x) => {
+    const dev = x.sex - 100, w = (50 * Math.abs(dev) / maxDev).toFixed(1);
+    const side = dev >= 0 ? "right" : "left";
+    return `<div class="rt-row" data-n="${x.n}"><span class="rt-name">${esc(x.name)}</span>` +
+      `<span class="rt-track"><span class="rt-bar ${side}" style="width:${w}%"></span></span>` +
+      `<span class="rt-val">${x.sex.toFixed(0)}</span></div>`;
+  }).join("");
+  attachRowClicks("#demo-ratio .rt-row");
+}
+
+function renderPopRank() {
+  const n = topN("#poprank-topn");
+  let rows = window._demoInd.slice().sort((a, b) => b.pop - a.pop);
+  if (n > 0) rows = rows.slice(0, n);
+  const max = Math.max(...window._demoInd.map((x) => x.pop), 1);
+  $("#demo-poprank").innerHTML = rows.map((x) => {
+    const w = (100 * x.pop / max).toFixed(1);
+    return `<div class="pr-row" data-n="${x.n}"><span class="rt-name">${esc(x.name)}</span>` +
+      `<span class="pr-track"><span class="pr-bar" style="width:${w}%"></span></span>` +
+      `<span class="rt-val">${fmt(x.pop)}</span></div>`;
+  }).join("");
+  attachRowClicks("#demo-poprank .pr-row");
+}
+
 function renderIndicators(k, desc) {
   window._demoSort = { k, desc };
-  const ind = window._demoInd.slice().sort((a, b) => {
+  const n = topN("#ind-topn");
+  let ind = window._demoInd.slice().sort((a, b) => {
     const av = a[k], bv = b[k];
     if (typeof av === "string") return desc ? bv.localeCompare(av, "ca") : av.localeCompare(bv, "ca");
     return desc ? (bv - av) : (av - bv);
   });
+  if (n > 0) ind = ind.slice(0, n);
   const f1 = (x) => x == null ? "—" : x.toFixed(1);
   const f0 = (x) => x == null ? "—" : x.toFixed(0);
+  const mark = ' <span class="approx-mark" title="Les cel·les per edat no quadren; els indicadors d\'edat hi són aproximats">≈</span>';
   $("#demo-indicators").innerHTML = ind.map((x) =>
-    `<tr data-n="${x.n}"><td>${esc(x.name)}</td>` +
+    `<tr data-n="${x.n}"${x.reconciled ? "" : ' class="ind-approx"'}><td>${esc(x.name)}${x.reconciled ? "" : mark}</td>` +
     `<td class="num">${fmt(x.pop)}</td><td class="num">${f0(x.sex)}</td>` +
     `<td class="num">${f1(x.age)}</td><td class="num">${f0(x.dep)}</td>` +
     `<td class="num">${x.aging == null ? "—" : x.aging.toFixed(2)}</td>` +
     `<td class="num">${f0(x.married)}</td></tr>`).join("");
-  $$("#demo-indicators tr").forEach((tr) => tr.addEventListener("click", () => {
-    const p = DATA.pueblos.find((x) => x.pueblo_n == tr.dataset.n); if (p) openDetail(p);
-  }));
+  attachRowClicks("#demo-indicators tr");
 }
 
 // ===== map =====

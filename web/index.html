@@ -223,9 +223,11 @@
   <div class="home-hero">
     <h2>Demografia de Mallorca · 1768</h2>
     <p class="home-lead">
-      Indicadors calculats sobre els <span id="demo-n">…</span> pobles amb la
-      taula d'edat × sexe × estat civil reconciliada (Σ de cel·les = total del
-      marge). Les xifres de població total inclouen els 54 pobles.
+      Els indicadors <strong>per poble</strong> (població, masculinitat, edat…)
+      cobreixen els <strong>54</strong> pobles i parròquies. Les distribucions
+      <strong>agregades</strong> (piràmide i estat civil) es basen en els
+      <span id="demo-n">…</span> pobles amb el detall per edat reconciliat
+      (Σ de cel·les = total del marge).
     </p>
   </div>
 
@@ -253,15 +255,48 @@
   </div>
 
   <div class="chart-card">
-    <h3>Quocient de masculinitat per poble</h3>
-    <p class="chart-note">Homes per cada 100 dones. A l'esquerra del 100, majoria de dones; a la dreta, majoria d'homes. Clica una barra per obrir la fitxa.</p>
+    <div class="chart-head">
+      <h3>Rànquing de població</h3>
+      <label class="chart-topn">mostra
+        <select id="poprank-topn">
+          <option value="10">Top 10</option>
+          <option value="20" selected>Top 20</option>
+          <option value="0">tots (54)</option>
+        </select>
+      </label>
+    </div>
+    <p class="chart-note">Pobles i parròquies ordenats pel nombre d'ànimes (xifra validada, IBESTAT). Clica una barra per obrir la fitxa.</p>
+    <div class="ratio-chart" id="demo-poprank"></div>
+  </div>
+
+  <div class="chart-card">
+    <div class="chart-head">
+      <h3>Quocient de masculinitat per poble</h3>
+      <label class="chart-topn">mostra
+        <select id="ratio-topn">
+          <option value="10">10 més desiguals</option>
+          <option value="20" selected>20 més desiguals</option>
+          <option value="0">totes (54)</option>
+        </select>
+      </label>
+    </div>
+    <p class="chart-note">Homes per cada 100 dones, calculat a partir de varons/dones validats (tots 54 pobles). A l'esquerra del 100, majoria de dones; a la dreta, majoria d'homes. Clica una barra per obrir la fitxa.</p>
     <div class="ratio-axis"><span class="ax-left">← més dones</span><span class="ax-center">100</span><span class="ax-right">més homes →</span></div>
     <div class="ratio-chart" id="demo-ratio"></div>
   </div>
 
   <div class="chart-card">
-    <h3>Indicadors per poble</h3>
-    <p class="chart-note">Clica una capçalera per ordenar; clica una fila per obrir la fitxa. Edat mitjana amb midpoints (3,5 / 11,5 / 20,5 / 32,5 / 45 / 60).</p>
+    <div class="chart-head">
+      <h3>Indicadors per poble</h3>
+      <label class="chart-topn">mostra
+        <select id="ind-topn">
+          <option value="10">10 files</option>
+          <option value="20">20 files</option>
+          <option value="0" selected>totes (54)</option>
+        </select>
+      </label>
+    </div>
+    <p class="chart-note">Clica una capçalera per ordenar; clica una fila per obrir la fitxa. Edat mitjana amb midpoints (3,5 / 11,5 / 20,5 / 32,5 / 45 / 60). Les files amb «≈» tenen les cel·les per edat que no quadren (segell «ERROR EN CIFRAS» o soroll aritmètic): els indicadors d'edat hi són aproximats, però població i masculinitat sí que són exactes.</p>
     <table class="indicators-table">
       <thead><tr>
         <th class="sortable" data-k="name">Poble</th>
