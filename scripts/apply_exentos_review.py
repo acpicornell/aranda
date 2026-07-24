@@ -23,12 +23,15 @@ KEYS = ["hidalguia", "real_servic", "real_hacien", "cruzada", "inquisicion"]
 
 
 def parse_ref(ref):
+    """Return (values, uncertain_keys). A "?" in a cell flags a doubtful read."""
     parts = (ref.split("/") + ["", "", "", "", ""])[:5]
-    out = []
-    for x in parts:
+    vals, uncertain = [], []
+    for k, x in zip(KEYS, parts):
         num = re.sub(r"[^0-9]", "", x)
-        out.append(int(num) if num else None)
-    return out
+        vals.append(int(num) if num else None)
+        if "?" in x:
+            uncertain.append(k)
+    return vals, uncertain
 
 
 def main():
@@ -47,8 +50,12 @@ def main():
         if not r or not r[0].strip():
             continue
         n = int(r[0])
-        vals = parse_ref(r[ri])
+        vals, uncertain = parse_ref(r[ri])
         byn[n]["exentos"] = {k: v for k, v in zip(KEYS, vals)}
+        if uncertain:
+            byn[n]["exentos_uncertain"] = uncertain
+        else:
+            byn[n].pop("exentos_uncertain", None)
         applied += 1
 
     # Recompute the Palma "Resumen" aggregate from its six parishes.

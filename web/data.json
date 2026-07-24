@@ -1715,7 +1715,10 @@
     "sum": 6855,
     "total": 6855,
     "ok": true
-   }
+   },
+   "exentos_uncertain": [
+    "real_servic"
+   ]
   },
   {
    "pueblo_n": 20,
@@ -2852,7 +2855,10 @@
     "total_animes": "high",
     "by_age_cells": "high (reconciled, user-corrected)"
    },
-   "sum_check": "ok"
+   "sum_check": "ok",
+   "exentos_uncertain": [
+    "real_hacien"
+   ]
   },
   {
    "pueblo_n": 33,
@@ -3089,7 +3095,10 @@
     "total_animes": "high",
     "by_age_cells": "high (reconciled, user-corrected)"
    },
-   "sum_check": "ok"
+   "sum_check": "ok",
+   "exentos_uncertain": [
+    "real_hacien"
+   ]
   },
   {
    "pueblo_n": 36,
@@ -4255,7 +4264,10 @@
     "sum": 1395,
     "total": 1395,
     "ok": true
-   }
+   },
+   "exentos_uncertain": [
+    "real_servic"
+   ]
   },
   {
    "pueblo_n": 49,

@@ -418,17 +418,22 @@ function proseOmitted() {
     `<p style="font-size:.85em;color:var(--text-muted);margin:.1em 0 .2em">El text lliure de la relació manuscrita (clergat, jutjats, hospitals, sufragànies…) <strong>s'ha omès deliberadament</strong>. L'única font disponible és el facsímil escanejat de l'INE, de qualitat molt degradada, que no es pot transcriure amb prou fiabilitat, i no volem difondre lectures possiblement errònies. Les <strong>dades numèriques</strong> (facsímil INE + IBESTAT) i la <strong>identificació</strong> del municipi sí que són fiables.</p></div>`;
 }
 
-function exentosBlock(ex) {
+function exentosBlock(ex, uncertain) {
   if (!ex) return "";
+  const unc = new Set(uncertain || []);
   const labels = { hidalguia: "Hidalguia", real_servic: "Reial Servei",
     real_hacien: "Reial Hisenda", cruzada: "Croada", inquisicion: "Inquisició" };
+  const mark = ' <span class="approx-mark" title="dígit dubtós: no es llegeix amb prou claredat al facsímil">?</span>';
   const parts = Object.entries(labels)
     .filter(([k]) => ex[k] != null)
-    .map(([k, l]) => `${l}: <strong>${ex[k]}</strong>`);
+    .map(([k, l]) => `${l}: <strong>${ex[k]}</strong>${unc.has(k) ? mark : ""}`);
   if (!parts.length) return "";
+  const note = uncertain && uncertain.length
+    ? " Els valors amb «?» no es llegeixen amb prou claredat."
+    : "";
   return `<div class="detail-section"><h3>Exempts per</h3>` +
     `<div class="val">${parts.join(" · ")}</div>` +
-    `<p style="font-size:.8em;color:var(--text-muted);margin:.25em 0 0">Persones exemptes de la jurisdicció ordinària, tal com consten a la taula parroquial de 1768 (lectura verificada a mà sobre el facsímil).</p></div>`;
+    `<p style="font-size:.8em;color:var(--text-muted);margin:.25em 0 0">Persones exemptes de la jurisdicció ordinària, tal com consten a la taula parroquial de 1768 (lectura verificada a mà sobre el facsímil).${note}</p></div>`;
 }
 
 function openDetail(p) {
@@ -461,7 +466,7 @@ function openDetail(p) {
     `</div>` +
     checkLine +
     ageStructure(dem) +
-    exentosBlock(p.exentos) +
+    exentosBlock(p.exentos, p.exentos_uncertain) +
     proseOmitted() +
     (p.notes ? `<div class="detail-section"><h3>Nota editorial</h3><div class="val">${esc(p.notes)}</div></div>` : "") +
     `<p class="detail-sub" style="margin-top:1.2rem">Xifres: <strong>IBESTAT</strong> (tabulació del cens d'Aranda 1768) · Identificació i imatge: facsímil INE 2013, ${esc(p.source_page || "")}, full R.A.H. ${esc(p.rah_page ?? "")}.</p>`;
