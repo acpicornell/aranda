@@ -13,7 +13,7 @@
     "pop": 12183
    }
   },
-  "numbers_source": "IBESTAT gold standard (2026-07-22) — per-parish figures adopted from I101001_7601; see data/ibestat/SOURCE.md. Free-text notes remain as transcribed from the INE facsimile.",
+  "numbers_source": "IBESTAT gold standard (2026-07-22) — per-parish figures adopted from I101001_7601; see data/ibestat/SOURCE.md. The manuscript free-text was omitted (see prose_note); only numbers and identity are published.",
   "prose_note": "The manuscript free-text relations were omitted: the only source is a badly degraded facsimile that cannot be transcribed reliably, and we do not publish possibly erroneous readings. Numbers/identity are unaffected."
  },
  "pueblos": [
@@ -93,7 +93,7 @@
     "inquisicion": 1
    },
    "cura_relacion_date": null,
-   "notes": "2 Plazas: Plaza de Alaró y la de Sufragánea de Concell",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -183,7 +183,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "Nota: 1 Comisario de Marina con 82 Marineros matriculados y 5 Soldados Milicianos",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -268,7 +268,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "Nota: Hay un Hermano del Cl. Alcalde; un fijo 2 Cavos y 22 soldados milicianos",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -358,7 +358,7 @@
     "inquisicion": 2
    },
    "cura_relacion_date": null,
-   "notes": "[al marge] soldados milicianos; 350 matriculados en la Marina.",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "medium",
@@ -448,7 +448,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "Nota: hay 7 oratorios",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -538,7 +538,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "[nota al marge, en part il·legible]",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -567,7 +567,7 @@
    "lon": 2.84318,
    "obispado": "Mallorca",
    "provincia": null,
-   "parroquia": "Palma... (Massas?)",
+   "parroquia": null,
    "total_animes": 2318,
    "demografia": {
     "var": 1131,
@@ -628,7 +628,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "[al marge, il·legible]",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -808,7 +808,7 @@
     "inquisicion": 1
    },
    "cura_relacion_date": null,
-   "notes": "Nota: Ay 1 Cura con su Christiano",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -898,7 +898,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "Nota: Un Soldado del Real de Marina con los Marineros que actualmente no son [...]",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -988,7 +988,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "Nota: 2 Matriculados de Marina, ninguno de cuyos individuos... no han puesto en su respectiva casilla sino los 13 de Marina",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -1017,7 +1017,7 @@
    "lon": 3.01968,
    "obispado": "Mallorca",
    "provincia": null,
-   "parroquia": "Julian i Llarens",
+   "parroquia": "San Julián",
    "total_animes": 2152,
    "demografia": {
     "var": 1042,
@@ -1078,7 +1078,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "Nota. Independencia = 2 Cura y 20 Soldado de Milicianos. 8 torres y Guardas de la Costa.",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -1163,7 +1163,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "Nota. Hay subdelegado de Crusada. Tiene tres torres en ella; 77 toneros y 8 Milicianos los quales viven dentro de un Castillo que aquí en el pueblo y se llaman con el Gov.or Vecinos",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -1433,7 +1433,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "[al marge, il·legible]",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "medium",
@@ -1523,7 +1523,7 @@
     "inquisicion": 1
    },
    "cura_relacion_date": null,
-   "notes": "[al marge, il·legible]",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -1552,7 +1552,7 @@
    "lon": 2.48178,
    "obispado": "Mallorca",
    "provincia": null,
-   "parroquia": "San Juan Bautista de Espureñes",
+   "parroquia": "San Juan Bautista",
    "total_animes": 474,
    "demografia": {
     "var": 242,
@@ -1613,7 +1613,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "Nota: Ay 2 matriculados en la Marina",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -1703,7 +1703,7 @@
     "inquisicion": 3
    },
    "cura_relacion_date": null,
-   "notes": "Nota: Un Comisario de Marina y un habilitado con 72 Matriculados en Marina y 2 tornay. El Milicianos de el Regimiento de Dragones de Almansa que son los 61 milicianos componen 152",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -1883,7 +1883,7 @@
     "inquisicion": 1
    },
    "cura_relacion_date": null,
-   "notes": "Nota: Un oficial the Reglares; un Sargento; 2 Cabos y 22 Soldados",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -2153,7 +2153,7 @@
     "inquisicion": 1
    },
    "cura_relacion_date": null,
-   "notes": "[anotacions al marge, en gran part il·legibles]",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "medium",
@@ -2333,7 +2333,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "2 Llaves de las casas de Manacor y su sufragánea de Naumo. Nota: Un Subdelegado de Maxino y 7 ella vinculados a ella. Ay 5 torres con esta Marina.",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -2513,7 +2513,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "Santuarios 10: Oratorio de San Miguel: aiudante San Custodio",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "medium",
@@ -2603,7 +2603,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "2 Planos: 1 de Muro y su Sufragánea de Castell Llubí. Nota: además de los 32 de servicio hay 20 matriculados en la Marina, los quales le hacen el actual servicio de la Campaña; y el Subdelegado también de Marina.",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -2766,7 +2766,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "Nota: Con la Parroquia de S. Nicolás se halla unida... el Conde de Domingo... Aunque en otra Isla... le repute acontado... Nota: Se hallan en esta Parroquia el Comandante General, Regente: 30 vocales y Fiscal de la Real Audiencia, Comisario ordenador, Sargento mayor de Milicias: 2 Tenientes, y 1 Soldado de las Reales Milicias... con sus familias, y se han comprendido en los totales. Nota: Haviendose mandado por el Conde de Aranda... varias notas relativas... totales: 1635 / 1070 / 775 / 100. Total 3580 del cuerpo general.",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -2845,7 +2845,7 @@
     "inquisicion": 1
    },
    "cura_relacion_date": null,
-   "notes": "6 Cavalleros; 3 ecclesiasticos llamados de San Juan y de Calatrava. Ay 52 Maestranzas. Suena la Marina y con 33 soldados nacionales; 85 de servicio",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -2924,7 +2924,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "2 capitulares de la Real Audiencia del señor que de las libres 3 oficiales y 139 vecinos suenan los 18 quedan puestos en la Capilla. Ay tambien algunos. 123 de Marina 97 Marineros",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -3003,7 +3003,7 @@
     "inquisicion": 10
    },
    "cura_relacion_date": null,
-   "notes": "(1) Nota... (2) Un Sindico Capuchino... Otra Cueva...",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "medium",
@@ -3082,7 +3082,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "Nota: hay 946 cuarteles... 6 oficiales de la Plana Mayor... 5 Caballeros del Habito de San... otra Cueva...",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "medium",
@@ -3167,7 +3167,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "Nota: En el nuevo Cuño nuevo... Otra... En la Administración con limpieza... Otra... Nota... Los Criados de los Cavalleros van todos con tanto al total de las Almas. Otra: No se incluyen en la lista del Colegio o Casa de Montesión que fue de los Regulares de la Compañia de Jesus.",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -3252,7 +3252,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "2 Planas ó la 1ª de Petra que está pegada y aneja de Villafranca",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -3342,7 +3342,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "Nota: Hay 1º Governador de el Castillo que con su familia vive en Palma, y en el hay un Ayudante que reside allí con la tropa. Otra: hay un Quartel y Dragones en cuia guarnición el número se varía según las circunstancias. Hay lo tercero un Subdelegado de Marina y 32 marineros matriculados en ella.",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -3432,7 +3432,7 @@
     "inquisicion": 1
    },
    "cura_relacion_date": null,
-   "notes": "Nota: Un subdelegado de Marina",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -3551,7 +3551,7 @@
    "lon": 2.52718,
    "obispado": "Mallorca",
    "provincia": null,
-   "parroquia": "Nra. Sra. Olla Asumpcion de Maria",
+   "parroquia": "Nuestra Señora de la Asunción",
    "total_animes": 851,
    "demografia": {
     "var": 416,
@@ -3612,7 +3612,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "2 Planos de las de Puigpuñent y su sufragánea de Estellenchs",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -3792,7 +3792,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "Deià. INE titles this entry by its parish, 'SAN JUAN BAUTISTA', and prints Cód.Mun. 07050 / Cl.Mapa 07062 for it (the sufragània of Sant Joan Baptista de Deià, then dependent on Valldemossa). The modern municipality is Deià (INE 07018); do not confuse it with the Pla village of Sant Joan (RAH 42, INE 07049).",
+   "notes": "Deià. L'INE encapçala aquesta entrada amb el nom de la seva parròquia, «SAN JUAN BAUTISTA», i li assigna Cód.Mun. 07050 / Cl.Mapa 07062 (la sufragània de Sant Joan Baptista de Deià, aleshores dependent de Valldemossa). El municipi actual és Deià (INE 07018); no s'ha de confondre amb el poble de Sant Joan del Pla (RAH 42, INE 07049).",
    "confidence": {
     "metadata": "high",
     "name_1768": "medium",
@@ -3912,7 +3912,7 @@
    "lon": 2.89815,
    "obispado": "Mallorca",
    "provincia": null,
-   "parroquia": "S. Pere Apostol Macia",
+   "parroquia": "San Pedro Apóstol",
    "total_animes": 2002,
    "demografia": {
     "var": 964,
@@ -3973,7 +3973,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "2 Planu dela de Sancellas y de Custios",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "medium",
@@ -4002,7 +4002,7 @@
    "lon": 2.83671,
    "obispado": "Mallorca",
    "provincia": null,
-   "parroquia": "Sta Eugenia anexos",
+   "parroquia": "Santa Eugenia",
    "total_animes": 864,
    "demografia": {
     "var": 423,
@@ -4063,7 +4063,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "42",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "medium",
@@ -4092,7 +4092,7 @@
    "lon": 3.10342,
    "obispado": "Mallorca",
    "provincia": null,
-   "parroquia": "Sta Margarita Macuy",
+   "parroquia": "Santa Margarita",
    "total_animes": 1723,
    "demografia": {
     "var": 846,
@@ -4153,7 +4153,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "2 Plazas dichas de Margarita y subdelegano de Murta. Nota: 1 subdelegado de Murta, y 2 Margarita además de ella",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "medium",
@@ -4243,7 +4243,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "2 lugares de la villa de Sta Maria y su sufragania de Sta Eugenia",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -4333,7 +4333,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "Nota: V'a y su anexa y 16 alquerias. Aqui mismo se hallan empleados en la Mar... criadas en la Tierra... escuelas",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -4513,7 +4513,7 @@
     "inquisicion": 2
    },
    "cura_relacion_date": null,
-   "notes": "[al marge, il·legible]",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -4603,7 +4603,7 @@
     "inquisicion": 1
    },
    "cura_relacion_date": null,
-   "notes": "2 Planes de mas: Soller y su Sufragania de Fornalutx. Nota: Un Juzgado: 2 de Marina, y 82 Matriculados en ella.",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -4693,7 +4693,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "51",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -4783,7 +4783,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "[al marge, il·legible]",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",
@@ -4873,7 +4873,7 @@
     "inquisicion": null
    },
    "cura_relacion_date": null,
-   "notes": "Nota: Esta Villa es sufraganea y anejo Espiritual a la de Petra; en lo temporal concierne, en lo a los Criminales, y en lo Civil y Alodial aun a Bayle y Regidores que nombra el Pueblo de la Villa franca",
+   "notes": null,
    "confidence": {
     "metadata": "high",
     "name_1768": "high",

@@ -336,7 +336,7 @@ function proseOmitted() {
   // cannot be transcribed reliably; we omit them rather than publish possibly
   // wrong readings. Numbers and identity are unaffected.
   return `<div class="detail-section"><h3>Relació del rector (1768)</h3>` +
-    `<p style="font-size:.85em;color:var(--text-muted);margin:.1em 0 .2em">El text lliure de la relació manuscrita (clergat, jutjats, hospitals, sufragànies…) <strong>s'ha omès deliberadament</strong>. L'única font disponible és una fotocòpia molt degradada que no es pot transcriure amb prou fiabilitat, i no volem difondre lectures possiblement errònies. Les <strong>dades numèriques</strong> (validades amb IBESTAT) i la <strong>identificació</strong> del municipi sí que són fiables.</p></div>`;
+    `<p style="font-size:.85em;color:var(--text-muted);margin:.1em 0 .2em">El text lliure de la relació manuscrita (clergat, jutjats, hospitals, sufragànies…) <strong>s'ha omès deliberadament</strong>. L'única font disponible és una fotocòpia molt degradada que no es pot transcriure amb prou fiabilitat, i no volem difondre lectures possiblement errònies. Les <strong>dades numèriques</strong> (facsímil INE + IBESTAT) i la <strong>identificació</strong> del municipi sí que són fiables.</p></div>`;
 }
 
 function exentosBlock(ex) {

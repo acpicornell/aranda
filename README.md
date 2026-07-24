@@ -12,8 +12,16 @@ verified; static site live (Inici · Pobles · Mapa · Demografia · Font).
 
 The original 1768–69 parish returns were lost; the surviving copy is a **1773
 transcription** kept at the **Real Academia de la Historia (Madrid)**. The INE
-published a facsimile edition in **2013** (11 volumes; NIPO 729-13-020-1 for
-Tomo VI).
+published a facsimile edition in **1999** (ed. Eduardo García España; digital
+re-edition **2013**, NIPO 729-13-020-1 for Tomo VI).
+
+**Provenance of what we publish.** The numbers rest on **two independent
+witnesses** of the same census: the **INE facsimile** (the manuscript image) and
+the **IBESTAT** tabulation (adopted as the gold standard; see
+`data/ibestat/SOURCE.md`), cross-checked parish by parish. The rectors'
+free-text prose was **discarded** — it survives only in an illegible degraded
+copy that cannot be transcribed reliably — so only the verifiable layers
+(figures + municipal identity) are published.
 
 - **Tomo VI** covers the dioceses of Málaga, **Mallorca**, Mondoñedo, Orihuela
   and Osma. Each diocese = cover + RESUMEN + maps + blank template, then the
@@ -49,21 +57,27 @@ contains **only Mallorca**. Per INE's own editorial note (facsimile **p. 65**):
 So the dataset is **49 municipalities / 54 parishes** (Palma is recorded as 6
 parishes plus a "Resumen" aggregate row, which is excluded from totals to avoid
 double-counting). The official diocese RESUMEN (facsimile p. 67) gives
-**126,588 souls**; our pueblo-by-pueblo reconstruction sums **123,102** (~2.8%
-gap, mostly the 3 "ERROR EN CIFRAS" pueblos).
+**126,588 souls**; the pueblo-by-pueblo IBESTAT figures sum **122,969** (~2.9%
+gap, mostly the "ERROR EN CIFRAS" pueblos).
 
 ## Pipeline (built)
 
 ```
 fetch_sources      ▶ data/sources/tomo6.pdf (on disk)
 extract_pages      ▶ data/pages/page-NNN.jpg          (pdftoppm, one JPG per page)
-extract_vision     ▶ data/extracted/pueblo-NNN.json   (Claude Opus vision → JSON array per page)
+extract_vision     ▶ data/extracted/pueblo-NNN.json   (initial vision pass — a scaffold, later superseded)
 refine_age_cells   ▶ second focused pass on pueblos whose cells don't reconcile
+ibestat_apply      ▶ overwrites the figures with the IBESTAT gold standard (see data/ibestat/)
 normalize          ▶ data/normalized/aranda.jsonl     (+ joins data/geo/ for Catalan name & lat/lon)
 verify_totals      ▶ data/reports/verify_totals.txt   (Σ age cells vs total)
 crosscheck         ▶ data/reports/crosscheck.txt      (internal arithmetic, self-contained)
 export_web_data    ▶ web/data.json
+clean_leftovers    ▶ drops the discarded prose; keeps only figures + identity
 ```
+
+The initial vision pass was only a scaffold: the **published figures come from
+the IBESTAT tabulation** (cross-checked against the facsimile), and the manuscript
+**prose was discarded** as unreadable. No figure is invented.
 
 No DuckDB: the dataset is one flat record per pueblo, so the normalized JSONL
 is the single source of truth. The geo table (`data/geo/mallorca_municipis.json`,
@@ -75,12 +89,13 @@ local `.env`).
 
 ## Results
 
-- **51 of 54** pueblos reconcile the full age × sex × marital detail
-  (Σ cells = margin total), after automated checks + manual page-by-page
-  verification. The only 3 that don't (Inca, Porreres, Sant Llorenç des
-  Cardassar) carry the INE **«ERROR EN CIFRAS»** stamp — the 1768 manuscript
-  itself doesn't add up there; we keep the cura's figures as written.
-- Reconstructed Mallorca population 1768: **123,102** (V 57,628 · H 60,113).
+- All **54** pueblos have their total confirmed (*varones + hembras = ánimas*);
+  **48 of 54** also reconcile the full age × sex × marital detail (Σ cells =
+  margin total). The other 6 don't: 3 (Inca, Porreres, Sant Llorenç des
+  Cardassar) carry the INE **«ERROR EN CIFRAS»** stamp and the rest are
+  arithmetic noise — the 1768 manuscript itself doesn't add up there; we keep the
+  cura's figures as written.
+- Mallorca population 1768 (IBESTAT figures): **122,969** (V 59,702 · H 63,267).
 
 ## Web
 
