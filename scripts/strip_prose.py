@@ -2,8 +2,8 @@
 """Remove the manuscript free-text prose from the Aranda edition.
 
 The rectors' 1768 relations (clergy, courts, hospitals, sufragànies, notable
-buildings, etc.) survive only in a badly degraded photocopy (INE 2013 facsimile
-of the RAH 1773 copy). Neither a fluent native reader nor an LLM vision pass can
+buildings, etc.) survive only in a badly degraded scanned facsimile (INE 2013
+edition of the RAH 1773 copy). Neither a fluent native reader nor an LLM vision pass can
 transcribe that cursive reliably: a model produces plausible, confident text that
 mixes the few legible words with pattern-completion, i.e. it can silently invent.
 Rather than publish possibly wrong readings to the community, we DISCARD the whole
