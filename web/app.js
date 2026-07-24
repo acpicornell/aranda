@@ -35,6 +35,18 @@ function initTabs() {
 const AGE_MID = { "0-7": 3.5, "7-16": 11.5, "16-25": 20.5, "25-40": 32.5, "40-50": 45, "50+": 60 };
 let demoDone = false;
 
+// Palma was censused as its 6 historic parishes; label them so they're distinct.
+const PALMA_PARR = {
+  "Santa Eulalia": "Santa Eulàlia", "Santa Cruz": "Santa Creu",
+  "San Jaime": "Sant Jaume", "San Miguel": "Sant Miquel",
+  "San Nicolás": "Sant Nicolau", "Nuestra Señora de la Asunción": "l'Assumpció",
+};
+function palmaParrLabel(s) { return PALMA_PARR[s] || s || "—"; }
+function displayName(p) {
+  const base = p.name_catalan || p.name_modern;
+  return (base === "Palma" && p.parroquia) ? "Palma · " + palmaParrLabel(p.parroquia) : base;
+}
+
 function reconciledSC(p) {
   const sc = p.sum_check;
   return sc === "ok" || (sc && typeof sc === "object" && sc.ok === true);
@@ -68,7 +80,7 @@ function puebloIndicators(p) {
   // Sex ratio from the verified var/hem spine (exact for all pueblos), not the cells.
   const V = dem.var, H = dem.hem;
   return {
-    pop: p.total_animes, name: p.name_catalan || p.name_modern, n: p.pueblo_n,
+    pop: p.total_animes, name: displayName(p), n: p.pueblo_n,
     sex: H ? (100 * V / H) : null,
     age: N ? (num / N) : null,
     dep: a1650 ? (100 * (u16 + o50) / a1650) : null,
@@ -148,6 +160,7 @@ function renderDemografia() {
   window._demoInd = pueblosPerPueblo().map(puebloIndicators);
   renderSexRatio();
   renderPopRank();
+  renderPalma();
   renderIndicators("pop", true);
 
   $("#ratio-topn").addEventListener("change", renderSexRatio);
@@ -184,7 +197,7 @@ function renderSexRatio() {
   $("#demo-ratio").innerHTML = rows.map((x) => {
     const dev = x.sex - 100, w = (50 * Math.abs(dev) / maxDev).toFixed(1);
     const side = dev >= 0 ? "right" : "left";
-    return `<div class="rt-row" data-n="${x.n}"><span class="rt-name">${esc(x.name)}</span>` +
+    return `<div class="rt-row" data-n="${x.n}"><span class="rt-name" title="${esc(x.name)}">${esc(x.name)}</span>` +
       `<span class="rt-track"><span class="rt-bar ${side}" style="width:${w}%"></span></span>` +
       `<span class="rt-val">${x.sex.toFixed(0)}</span></div>`;
   }).join("");
@@ -198,11 +211,37 @@ function renderPopRank() {
   const max = Math.max(...window._demoInd.map((x) => x.pop), 1);
   $("#demo-poprank").innerHTML = rows.map((x) => {
     const w = (100 * x.pop / max).toFixed(1);
-    return `<div class="pr-row" data-n="${x.n}"><span class="rt-name">${esc(x.name)}</span>` +
+    return `<div class="pr-row" data-n="${x.n}"><span class="rt-name" title="${esc(x.name)}">${esc(x.name)}</span>` +
       `<span class="pr-track"><span class="pr-bar" style="width:${w}%"></span></span>` +
       `<span class="rt-val">${fmt(x.pop)}</span></div>`;
   }).join("");
   attachRowClicks("#demo-poprank .pr-row");
+}
+
+// The city of Palma, broken down into its 6 historic parishes.
+function renderPalma() {
+  const par = DATA.pueblos.filter((p) => !p.is_aggregate &&
+    (p.name_catalan || p.name_modern) === "Palma" && p.demografia &&
+    Number.isInteger(p.total_animes));
+  if (!par.length) return;
+  const rows = par.slice().sort((a, b) => b.total_animes - a.total_animes);
+  const total = rows.reduce((s, p) => s + p.total_animes, 0);
+  const totMallorca = DATA.pueblos
+    .filter((p) => !p.is_aggregate)
+    .reduce((s, p) => s + (p.total_animes || 0), 0);
+  const max = Math.max(...rows.map((p) => p.total_animes), 1);
+  $("#palma-total").textContent = fmt(total);
+  $("#palma-share").textContent = (100 * total / totMallorca).toFixed(0);
+  $("#demo-palma").innerHTML = rows.map((p) => {
+    const w = (100 * p.total_animes / max).toFixed(1);
+    const dem = p.demografia;
+    const sex = dem.hem ? Math.round(100 * dem.var / dem.hem) : "—";
+    const lbl = palmaParrLabel(p.parroquia);
+    return `<div class="pr-row" data-n="${p.pueblo_n}"><span class="rt-name" title="${esc(p.parroquia || lbl)}">${esc(lbl)}</span>` +
+      `<span class="pr-track"><span class="pr-bar" style="width:${w}%"></span></span>` +
+      `<span class="rt-val">${fmt(p.total_animes)} · ♂${sex}</span></div>`;
+  }).join("");
+  attachRowClicks("#demo-palma .pr-row");
 }
 
 function renderIndicators(k, desc) {
@@ -218,7 +257,7 @@ function renderIndicators(k, desc) {
   const f0 = (x) => x == null ? "—" : x.toFixed(0);
   const mark = ' <span class="approx-mark" title="Les cel·les per edat no quadren; els indicadors d\'edat hi són aproximats">≈</span>';
   $("#demo-indicators").innerHTML = ind.map((x) =>
-    `<tr data-n="${x.n}"${x.reconciled ? "" : ' class="ind-approx"'}><td>${esc(x.name)}${x.reconciled ? "" : mark}</td>` +
+    `<tr data-n="${x.n}"${x.reconciled ? "" : ' class="ind-approx"'}><td title="${esc(x.name)}">${esc(x.name)}${x.reconciled ? "" : mark}</td>` +
     `<td class="num">${fmt(x.pop)}</td><td class="num">${f0(x.sex)}</td>` +
     `<td class="num">${f1(x.age)}</td><td class="num">${f0(x.dep)}</td>` +
     `<td class="num">${x.aging == null ? "—" : x.aging.toFixed(2)}</td>` +

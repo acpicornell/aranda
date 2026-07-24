@@ -183,6 +183,7 @@ table.pobles-table { width: 100%; border-collapse: collapse; background: var(--s
 .pr-row:hover { background: var(--accent-light); }
 .pr-track { position: relative; height: 13px; background: var(--num-bg); border-radius: 2px; }
 .pr-bar { position: absolute; left: 0; top: 0; height: 100%; background: var(--accent); border-radius: 2px; }
+#demo-palma .pr-row { grid-template-columns: 130px 1fr 82px; }
 .ind-approx td { color: var(--text-muted); }
 .approx-mark { color: var(--accent); cursor: help; font-weight: 700; }
 .demo-kpis { display: flex; flex-wrap: wrap; gap: .7em; margin: 1em 0; }
