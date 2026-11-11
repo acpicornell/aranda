@@ -40,7 +40,8 @@ The census was organised **by dioceses, not islands**. The Obispado de
 Mallorca held jurisdiction over the whole archipelago in 1768, yet this volume
 contains **only Mallorca**. Per INE's own editorial note (facsimile **p. 65**):
 
-- **Menorca** was under British rule (Treaty of Utrecht, 1708) and outside the
+- **Menorca** was under British rule (British since 1708, ceded by the Treaty
+  of Utrecht, 1713) and outside the
   diocese, so it correctly **does not appear**.
 - **Eivissa and Formentera** (the Pitiüses) *did* belong to the Mallorca
   diocese in 1768 (the Eivissa diocese was created only in 1782) and **should

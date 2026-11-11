@@ -52,5 +52,5 @@ npx wrangler deploy          # the site in web/ has no build step (worker aranda
 
 ## License
 
-Code: AGPL-3.0-or-later. Source data: INE 2013 facsimile, public domain (1768
-manuscript copy).
+Code: AGPL-3.0-or-later. Source data: the 1768 census (1773 manuscript copy) is public domain; the
+edition used is INE's facsimile (1999, digital re-edition 2013).
