@@ -15,7 +15,89 @@
   --male: #3a5e8c;
   --female: #a8845b;
   --ok: #2c5e2c;
+  --header-top: #efe3cd;
+  --hero-end: #f5ecd9;
+  --conf-high-bg: #d8ead8; --conf-high: #2c5e2c;
+  --conf-medium-bg: #f3ead0; --conf-medium: #7a5e16;
+  --conf-low-bg: #f0d8d2;
+  --map-bg: #dfe6ea;
+  --dot-t: #c9a23a;
+  --off: #e6ddc9;
+  --ms-sol: #d8cdb8;
 }
+
+/* Dark theme, as on the sibling sites: defined once for "the system is dark
+   and the reader has not chosen light" and once for "the reader chose dark"
+   (theme.js sets data-theme on <html> before the first paint). */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #15120f;
+    --surface: #1e1a16;
+    --border: #3a3229;
+    --text: #ece5da;
+    --text-muted: #ada290;
+    --accent: #e0907f;
+    --accent-dark: #f0b4a6;
+    --accent-light: #36201b;
+    --num-bg: #24201a;
+    --pill-bg: #2f2920;
+    --male: #7fa3d1;
+    --female: #cfa77c;
+    --ok: #79c47a;
+    --header-top: #221c15;
+    --hero-end: #24201a;
+    --conf-high-bg: #1f3220; --conf-high: #9fd49f;
+    --conf-medium-bg: #352c16; --conf-medium: #e3c879;
+    --conf-low-bg: #3a2220;
+    --map-bg: #1d2226;
+    --dot-t: #d9b44c;
+    --off: #3a3229;
+    --ms-sol: #6b6150;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #15120f;
+  --surface: #1e1a16;
+  --border: #3a3229;
+  --text: #ece5da;
+  --text-muted: #ada290;
+  --accent: #e0907f;
+  --accent-dark: #f0b4a6;
+  --accent-light: #36201b;
+  --num-bg: #24201a;
+  --pill-bg: #2f2920;
+  --male: #7fa3d1;
+  --female: #cfa77c;
+  --ok: #79c47a;
+  --header-top: #221c15;
+  --hero-end: #24201a;
+  --conf-high-bg: #1f3220; --conf-high: #9fd49f;
+  --conf-medium-bg: #352c16; --conf-medium: #e3c879;
+  --conf-low-bg: #3a2220;
+  --map-bg: #1d2226;
+  --dot-t: #d9b44c;
+  --off: #3a3229;
+  --ms-sol: #6b6150;
+  color-scheme: dark;
+}
+:root[data-theme="light"] { color-scheme: light; }
+
+/* Light/dark toggle (theme.js). */
+.theme {
+  float: right;
+  margin-left: 12px;
+  display: grid;
+  place-items: center;
+  background: none;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px;
+  color: var(--text-muted);
+}
+.theme:hover { color: var(--accent); border-color: var(--accent); }
+.theme:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
 * { box-sizing: border-box; }
 
@@ -33,7 +115,7 @@ a:hover { text-decoration: underline; }
 /* === HEADER + NAV === */
 header {
   border-bottom: 1px solid var(--border);
-  background: linear-gradient(180deg, #efe3cd 0%, var(--bg) 100%);
+  background: linear-gradient(180deg, var(--header-top) 0%, var(--bg) 100%);
   padding: 1.8em 0 1.3em;
 }
 .header-content { max-width: 1320px; margin: 0 auto; padding: 0 2em; }
@@ -64,7 +146,7 @@ nav.tabs {
 
 /* === HOME === */
 .home-hero {
-  background: linear-gradient(135deg, var(--accent-light) 0%, #f5ecd9 100%);
+  background: linear-gradient(135deg, var(--accent-light) 0%, var(--hero-end) 100%);
   border: 1px solid var(--border); border-radius: 8px;
   padding: 2.4em 2em 2em; text-align: center; margin-bottom: 1.8em;
 }
@@ -156,18 +238,18 @@ table.pobles-table { width: 100%; border-collapse: collapse; background: var(--s
 .bar-val { flex-shrink: 0; white-space: nowrap; font-size: .78em; color: var(--text-muted); font-variant-numeric: tabular-nums; }
 
 .conf-flag { display: inline-block; font-size: .72em; padding: .1em .45em; border-radius: 4px; margin-left: .4em; vertical-align: middle; }
-.conf-high { background: #d8ead8; color: #2c5e2c; }
-.conf-medium { background: #f3ead0; color: #7a5e16; }
-.conf-low { background: #f0d8d2; color: var(--accent); }
+.conf-high { background: var(--conf-high-bg); color: var(--conf-high); }
+.conf-medium { background: var(--conf-medium-bg); color: var(--conf-medium); }
+.conf-low { background: var(--conf-low-bg); color: var(--accent); }
 .warn-line { font-size: .85em; margin: .3em 0 0; color: var(--accent); }
 
 /* === MAP === */
-.map-canvas { height: 600px; max-width: 1320px; border: 1px solid var(--border); border-radius: 8px; background: #dfe6ea; }
+.map-canvas { height: 600px; max-width: 1320px; border: 1px solid var(--border); border-radius: 8px; background: var(--map-bg); }
 .map-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; margin: 0 0 1rem; font-size: .88em; color: var(--text-muted); }
 .map-legend-item { display: inline-flex; align-items: center; gap: .4em; }
 .map-dot { width: 14px; height: 14px; border-radius: 50%; display: inline-block; }
 .map-dot.dot-v { background: var(--accent); }
-.map-dot.dot-t { background: #c9a23a; }
+.map-dot.dot-t { background: var(--dot-t); }
 .map-note { color: var(--text-muted); font-size: .82em; }
 .map-popup b { color: var(--accent-dark); }
 .map-popup .pp-1768 { font-style: italic; color: var(--accent); }
@@ -195,12 +277,12 @@ table.pobles-table { width: 100%; border-collapse: collapse; background: var(--s
 .ex-legend { display: flex; gap: 1.4rem; flex-wrap: wrap; font-size: .82em; color: var(--text-muted); margin: 0 0 .8em; }
 .ex-legend .swatch { display: inline-block; width: 12px; height: 12px; border-radius: 2px; margin-right: .35em; vertical-align: middle; border: 1px solid var(--border); }
 .ex-legend .swatch.rec { background: var(--accent); }
-.ex-legend .swatch.off { background: #e6ddc9; }
+.ex-legend .swatch.off { background: var(--off); }
 .ex-row { display: grid; grid-template-columns: 110px 1fr 96px; align-items: center; gap: 8px; margin: 4px 0; }
 .ex-name { font-size: .82em; text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .ex-scale { position: relative; height: 16px; }
 .ex-bar { position: absolute; left: 0; top: 0; height: 100%; border-radius: 2px; }
-.ex-bar.off { background: #e6ddc9; border: 1px solid var(--border); }
+.ex-bar.off { background: var(--off); border: 1px solid var(--border); }
 .ex-bar.rec { background: var(--accent); }
 .ex-val { font-size: .76em; color: var(--text-muted); font-variant-numeric: tabular-nums; text-align: right; }
 .ex-total { border-top: 1px solid var(--border); margin-top: 6px; padding-top: 4px; }
@@ -221,7 +303,7 @@ table.pobles-table { width: 100%; border-collapse: collapse; background: var(--s
 .ms-legend { display: flex; gap: 1.2rem; font-size: .85em; margin-bottom: .7em; }
 .ms-legend .swatch { display: inline-block; width: 12px; height: 12px; border-radius: 2px; margin-right: .3em; vertical-align: middle; }
 .swatch.ms-cas, .ms-cas { background: var(--accent); }
-.swatch.ms-sol, .ms-sol { background: #d8cdb8; }
+.swatch.ms-sol, .ms-sol { background: var(--ms-sol); }
 .ms-group { margin: .5em 0; }
 .ms-g-title { font-size: .82em; color: var(--accent-dark); font-family: Georgia, serif; margin-bottom: 2px; }
 .ms-row { display: grid; grid-template-columns: 28px 1fr 64px; align-items: center; gap: 6px; margin: 2px 0; }
@@ -285,3 +367,32 @@ footer p { margin: .5em 0 0; }
 figure.facsimile { margin: 1.3em 0; }
 figure.facsimile img { display: block; width: 100%; max-width: 820px; border: 1px solid var(--border); border-radius: 4px; background: #fff; }
 figure.facsimile figcaption { font-size: .84em; color: var(--text-muted); margin-top: .55em; max-width: 820px; line-height: 1.5; }
+
+/* The map in the dark theme. OpenStreetMap publishes no dark tiles, so the
+   light ones are inverted and dimmed -- the usual treatment, as on minano, riera
+   and the nomenclators aggregator; the markers keep their colours. Leaflet's own
+   controls and popups are white by default and follow the theme here. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .leaflet-tile-pane {
+    filter: invert(1) hue-rotate(180deg) brightness(.92) contrast(.9) saturate(.7);
+  }
+  :root:not([data-theme="light"]) .leaflet-container { background: var(--map-bg); }
+  :root:not([data-theme="light"]) .leaflet-bar a,
+  :root:not([data-theme="light"]) .leaflet-popup-content-wrapper,
+  :root:not([data-theme="light"]) .leaflet-popup-tip,
+  :root:not([data-theme="light"]) .leaflet-control-attribution {
+    background: var(--surface); color: var(--text); border-color: var(--border);
+  }
+  :root:not([data-theme="light"]) .leaflet-control-attribution a { color: var(--accent); }
+}
+:root[data-theme="dark"] .leaflet-tile-pane {
+  filter: invert(1) hue-rotate(180deg) brightness(.92) contrast(.9) saturate(.7);
+}
+:root[data-theme="dark"] .leaflet-container { background: var(--map-bg); }
+:root[data-theme="dark"] .leaflet-bar a,
+:root[data-theme="dark"] .leaflet-popup-content-wrapper,
+:root[data-theme="dark"] .leaflet-popup-tip,
+:root[data-theme="dark"] .leaflet-control-attribution {
+  background: var(--surface); color: var(--text); border-color: var(--border);
+}
+:root[data-theme="dark"] .leaflet-control-attribution a { color: var(--accent); }
