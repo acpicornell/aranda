@@ -106,7 +106,7 @@ Leaflet vendored under `web/vendor/`. Tabs: **Inici** (history of the census &
 the count of Aranda, the Menorca/Eivissa note, cross-check), **Pobles**
 (searchable table + per-pueblo detail), **Mapa** (Leaflet, one marker per
 pueblo), **Demografia** (pyramid, sex ratio, marital structure, indicators),
-**Font** (method & references). Strict CSP in `web/_headers` (CARTO tiles
+**Font** (method & references). Strict CSP in `web/_headers` (OpenStreetMap tiles
 allowed for the map).
 
 Deploy: `npx wrangler deploy` (worker `aranda-balears`).

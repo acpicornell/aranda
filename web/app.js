@@ -313,8 +313,10 @@ function renderMap() {
 
   mapInstance = L.map("map", { scrollWheelZoom: true })
     .setView([39.62, 2.95], 10);
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
-    attribution: "&copy; OpenStreetMap &copy; CARTO",
+  // OpenStreetMap's standard tiles. CARTO's basemaps, used until 2026, now
+  // answer "API KEY REQUIRED" without a key.
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     maxZoom: 18,
   }).addTo(mapInstance);
 
