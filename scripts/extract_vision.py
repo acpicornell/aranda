@@ -12,8 +12,7 @@ guess, and the over-determined table arithmetic flags anything that
 doesn't reconcile so it can be re-read.
 
 Authentication: ANTHROPIC_API_KEY from the environment, or a .env at
-the project root, or — as a fallback — the sibling Madoz project's
-.env (the family shares one key).
+the project root.
 
 Usage:
     uv run scripts/extract_vision.py --first 73 --last 104

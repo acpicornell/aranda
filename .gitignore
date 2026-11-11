@@ -13,13 +13,8 @@ data/normalized/
 # Audit reports.
 data/reports/
 
-# DuckDB binary.
-db/*.duckdb
-db/*.duckdb.wal
-
 # Generated web data — committed (deployed via wrangler).
 # web/data.json
-# web/data-blobs.json
 
 # Secrets.
 .env

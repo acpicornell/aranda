@@ -65,7 +65,7 @@ gap, mostly the "ERROR EN CIFRAS" pueblos).
 ## Pipeline (built)
 
 ```
-fetch_sources      ▶ data/sources/tomo6.pdf (on disk)
+fetch_sources      ▶ data/sources/tomo6_malaga_mallorca_mondoneo_orihuela_osma.pdf (on disk)
 extract_pages      ▶ data/pages/page-NNN.jpg          (pdftoppm, one JPG per page)
 extract_vision     ▶ data/extracted/pueblo-NNN.json   (initial vision pass — a scaffold, later superseded)
 refine_age_cells   ▶ second focused pass on pueblos whose cells don't reconcile

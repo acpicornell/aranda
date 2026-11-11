@@ -15,7 +15,7 @@
       # .xls tables IBESTAT exports (see scripts/ibestat_crosscheck.py); the rest
       # of the cross-check uses only the Python standard library.
       #
-      # The heavy extraction pipeline (duckdb, anthropic, pillow, …) still runs
+      # The heavy extraction pipeline (anthropic, pillow, …) still runs
       # via `uv` against pyproject.toml — that is vision/LLM work that needs API
       # keys and is not reproduced here. This shell covers the offline analysis.
       devShells = forAllSystems (pkgs: {

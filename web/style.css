@@ -11,7 +11,6 @@
   --accent-dark: #571c14;
   --accent-light: #f0e1d8;
   --num-bg: #f6f0e6;
-  --pill-bg: #ece1cc;
   --male: #3a5e8c;
   --female: #a8845b;
   --ok: #2c5e2c;
@@ -40,7 +39,6 @@
     --accent-dark: #f0b4a6;
     --accent-light: #36201b;
     --num-bg: #24201a;
-    --pill-bg: #2f2920;
     --male: #7fa3d1;
     --female: #cfa77c;
     --ok: #79c47a;
@@ -66,7 +64,6 @@
   --accent-dark: #f0b4a6;
   --accent-light: #36201b;
   --num-bg: #24201a;
-  --pill-bg: #2f2920;
   --male: #7fa3d1;
   --female: #cfa77c;
   --ok: #79c47a;
@@ -183,12 +180,6 @@ nav.tabs {
 }
 .note-box strong { color: var(--accent-dark); }
 
-.sources-grid { column-span: all; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1em; margin: 1.2em 0; }
-.source-card { background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 4px; padding: .9em 1.1em; }
-.source-card h3 { margin: 0 0 .4em; font-family: Georgia, serif; font-size: 1.05em; color: var(--accent-dark); }
-.source-card p { margin: 0; font-size: .92em; }
-.source-card .num { font-family: Georgia, serif; font-weight: 700; color: var(--accent-dark); }
-
 /* === POBLES === */
 .pobles-layout { display: grid; grid-template-columns: 250px 1fr; gap: 1.5em; }
 .filters { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 1em 1.1em; align-self: start; position: sticky; top: 3.6em; }
@@ -225,9 +216,6 @@ table.pobles-table { width: 100%; border-collapse: collapse; background: var(--s
 
 .detail-section { margin: 1.1em 0; }
 .detail-section h3 { font-family: Georgia, serif; font-size: 1.1em; margin: 0 0 .5em; color: var(--accent-dark); border-bottom: 1px solid var(--border); padding-bottom: .25em; }
-.text-field { margin: .4em 0; }
-.text-field .lbl { font-size: .78em; color: var(--text-muted); text-transform: uppercase; letter-spacing: .03em; }
-.text-field .val { color: var(--text); }
 
 .bar-wrap { display: flex; align-items: center; gap: 6px; margin: 3px 0; }
 .bar-label { width: 56px; flex-shrink: 0; font-size: .8em; color: var(--text-muted); }

@@ -5,7 +5,7 @@ By converting pages to JPGs upfront we (a) make the subsequent
 LLM-vision extraction trivially batchable and (b) allow re-runs to
 hit a cache (skip pages already extracted).
 
-Requires ``pdftoppm`` (poppler). On macOS: ``brew install poppler``.
+Requires ``pdftoppm`` (poppler). With Nix: ``nix shell nixpkgs#poppler_utils``.
 
 Usage:
     uv run scripts/extract_pages.py [--first N] [--last N] [--dpi 250]
@@ -25,7 +25,7 @@ PAGES_DIR = ROOT / "data" / "pages"
 
 def main() -> None:
     if shutil.which("pdftoppm") is None:
-        sys.exit("pdftoppm not found — install poppler (brew install poppler)")
+        sys.exit("pdftoppm not found — install poppler (nix shell nixpkgs#poppler_utils)")
     if not SOURCE_PDF.exists():
         sys.exit(f"source PDF missing: {SOURCE_PDF}")
 
